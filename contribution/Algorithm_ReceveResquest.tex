@@ -1,0 +1,22 @@
+\SetKwFunction{printlcs}{$Receive\_ Request$}
+\begin{algorithm}
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{states :List of State,MG:State}}\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Procedure}{}{}
+  \myalg{\algo{}}{ 	
+  		\If{$size(states)\ne 0$}{\label{prline1}
+  			add(states) in  Sj \;\label{prline2}
+  		}
+  		\If{$MG\ne null)$}{\label{prline3}
+  			$send(element(MG),null)  to MG.id$\;\label{prline4}
+  		}
+  		algorithm \ref{alg6}()\;\label{prline6}
+}{}
+\end{algorithm}
+
+Les instructions décrivant la procédure ($Receive\_ Request$) sont expliquées comme suit:
+\begin{description}
+\item[ligne \ref{pline1} :] L'instruction de cette ligne vérifie que des états ont été  envoyés. La vérification de cette condition permet d'exécuter l'instruction de la ligne \ref{prline2}, elle permet de rajouter les états reçus à la structure de Kripke(ligne \ref{pline2}). 
+\item[ligne \ref{pline3} :] L'instruction de cette ligne vérifie qu'une demande concernant un ensemble des états a été envoyé. La vérification de cette condition permet d'envoyer l'ensemble des états concernant la demande (ligne \ref{pline4}). 
+\item[ligne \ref{pline5} :] L'instruction sur cette ligne permet de relancer le protocole de redistribution afin de rechercher un ensemble des états à déplacer.   
+\end{description}

@@ -1,0 +1,123 @@
+
+\SetKwFunction{printlcs}{Envoi de:}
+\begin{algorithm}[H]
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{$id,\parametretwo{},\parametretree{},\parametrefour{},f$} par la la machine i}\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Procedure}{}{}
+  \myalg{\algo{}}{
+  \nl\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
+  \nl		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
+  \nl			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}
+  \nl 		 	\ForEach{$m \in e.site $}{\label{linesend4}
+  \nl				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)  to m.id )$\;
+  \nl			}\label{linesend5}
+  \nl 		}
+  \nl 	}
+  \nl 	
+}{}
+\end{algorithm}
+L'envoi des valeurs concernent les états appartenant aux machines distantes sur lesquels la formule n'est pas vérifiée, et les états locale la formule n'est pas vérifiée qui possèdent des prédécesseurs directs sur d'autres machines. Le parcours de ces états est fait par l'instruction de la ligne \ref{linesend1} de la procédure d'envoi. L'envoi des valeurs concerne les états de l'itération courante, car les valeurs sont échangées après chaque itération. La vérification de la présence de l'itération courante est effectuée à la ligne \ref{linesend2}. Lorsqu'elle est pressente, les valeurs calculées sont envoyées à toutes les machines concernées par cet état. Cela est fait de la ligne \ref{linesend3} jusqu'à la ligne \ref{linesend5}.
+
+\begin{Exemple}\label{ea4}
+	Le processus d'envoi des valeurs obtenues dans l'exemple(\ref{ea3}), celui-ci montre que les valeurs de certains états ne sont pas envoyées car ces états ne disposent pas de prédécesseurs directs sur des machines distantes.  Les valeurs envoyées pour chaque état sont décrites comme suit:
+	\begin{description}
+	\item[Itération 1]
+		\begin{itemize}
+		\item La \mtwo{} envoie les informations: id =s9 ;$\parametretwo{}$=0 ;$\parametretree{}$=1 ;$\parametrefour{}$=0 ;f =\{S9\} ;i=2(le paramètre i désigne l'identité de la machine)  à la \mone{}.
+		\item La \mtwo{} envoie les informations: id =s10;$\parametretwo{}$=2 ;$\parametretree{}$=1 ;$\parametrefour{}$=1 ;f =\{S10\} ;i=2	 à la \mone{}.
+		\item La \mtree{} envoie les informations: id =s15;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\{s19\}$ ;i=3	 à la \mtwo{}.
+		\end{itemize}
+	\item[Itération 2]
+		\begin{itemize}
+			\item La \mone{} envoie les informations: id =s9 ;$\parametretwo{}$ =6 ;$\parametretree{}$ =0 ;$\parametrefour{}$=0 ;f =Ø, i=1à la \mtwo{}.
+			\item  La \mone{} envoie les informations: id =s10 ;$\parametretwo{}$=5 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\emptyset$ ;i=1 à la \mtwo{}.
+			\item  La \mone{} envoie les informations: id =s7 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s9\}$ ;i=1 à la \mtwo{}.
+			\item  La \mone{} envoie les informations: id =s2 ;$\parametretwo{}$=5 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s9,s10\}$ ;i=1 à la \mtree{}.
+			\item  La \mtwo{} envoie les informations: id =s15 ;$\parametretwo{}$=1 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\emptyset$ ;i=2 à la \mtree{}.
+			\end{itemize}	
+\item[Itération 3]
+		\begin{itemize}
+			\item  La \mtwo{} envoie les informations: id =s7 ;$\parametretwo{}$=1 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\emptyset$ ;i=1 à la \mone{}.
+			\item  La \mtree{} envoie les informations: id =s2 ;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\emptyset$ ;i=3 à la \mone{}.
+			\item  La \mtree{} envoie les informations: id =s22 ;$\parametretwo{}$=1 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s2\}$ ;i=3 à la \mtwo{}.
+			\end{itemize}
+		\item[Itération 4]
+		\begin{itemize}
+			\item  La \mtwo{} envoie les informations: id =s11 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s22\}$ ;i=2 à la \mone{}.
+			\item  La \mtwo{} envoie les informations: id =s11 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s22\}$ ;i=2 à la \mtree{}.
+			\item  La \mtwo{} envoie les informations: id =s22 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\emptyset$ ;i=2 à la \mtwo{}.
+			\end{itemize}
+			\item[Itération 5]
+		\begin{itemize}
+		\item  La \mone{} envoie les informations: id =s2 ;$\parametretwo{}$=5 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s9,s10,s11\}$ ;i=1 à la \mtree{}.
+			\item  La \mone{} envoie les informations: id =s11 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\emptyset$ ;i=1 à la \mtwo{}.
+			\item  La \mtree{} envoie les informations: id =s11 ;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s22\}$ ;i=2 à la \mtwo{}.
+			\item La \mtree{} envoie les informations: id =s15;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\{s19,s11\}$ ;i=3	 à la \mtwo{}.
+			\end{itemize}	
+	\end{description}
+
+\end{Exemple}
+
+
+\SetKwFunction{printlcs}{Reception de:}
+\begin{algorithm}
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{$id,\parametretwo{},\parametretree{},\parametrefour{},f,i$} par la machine j}\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Procedure}{}{}
+  \myalg{\algo{}}{
+  \nl\ForEach{$e\in \; S$}{ \label{linereceve1}
+  \nl		\uIf{$(e.id==id )$ }{\label{linereceve2}
+  \nl			$x.site[i].\parametretwo{} \longleftarrow \parametretwo{}$\;
+  \nl			$x.site[i].\parametretree{} \longleftarrow \parametretree{}$ \;
+  \nl			$x.site[i].\parametrefour{} \longleftarrow \parametrefour{}$\;
+  \nl			$x.site[i].f\longleftarrow f$\;
+  \nl			}
+  \nl 		} 	
+  \nl 	
+}{}
+\end{algorithm}
+
+Les instructions décrivant la procédure de réception des valeurs, permettent de stocker les valeurs reçues sur l'état concerné. lorsque la machine reçoit les valeurs, l'état consterné est recherché (la ligne \ref{linereceve1} présente l'instruction du parcours des états). Une fois l'état trouvé, les valeurs reçues sont stockées sur l'état dans l'ensemble \s{site}, il contient les informations des machines sur cet état, l'indice de cet liste représente la clé de la machine. 
+
+\begin{Exemple}\label{ea4}
+	En appliquant le processus de réception les valeurs reçues sont stockées sur l'état concerné. Ainsi, nous remarquerons que les valeurs de certains états sont mises à jours avec les itérations.  Les valeurs reçues pour chacun des états sont les suivantes:
+	
+	\begin{description}
+	\item[Itération 1]
+		\begin{itemize}
+		\item A la réception des valeurs: id =s9 ;$\parametretwo{}=0$ ;$\parametretree{}$=1 ;$\parametrefour{}$=0 ;f =\{S9\} ;i=2 par la \mone{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S9}.
+		
+		\item A la réception des valeurs: id =s10;$\parametretwo{}$=2 ;$\parametretree{}$=1 ;$\parametrefour{}$=1 ;f =\{S10\} ;i=2	 par la \mone{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S10}.
+		
+		\item A la réception des valeurs: id =s15;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\{s19\}$ ;i=3	 par  la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S15}.
+		\end{itemize}
+	\item[Itération 2]
+		\begin{itemize}
+			\item A la réception des valeurs: id =s9 ;$\parametretwo{}$ =6 ;$\parametretree{}$ =0 ;$\parametrefour{}$=0 ;f =Ø, i=1 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S9}.
+			
+			\item  A la réception des valeurs: id =s10 ;$\parametretwo{}$=5 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\emptyset$ ;i=1 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S10}.
+			\item  A la réception des valeurs: id =s7 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s9\}$ ;i=1 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S7}.
+			\item  A la réception des valeurs: id =s2 ;$\parametretwo{}$=5 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s9,s10\}$ ;i=1 par la \mtree{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S2}.
+			\item  A la réception des valeurs: id =s15 ;$\parametretwo{}$=1 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\emptyset$ ;i=2 par la \mtree{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S15}.
+			\end{itemize}	
+\item[Itération 3]
+		\begin{itemize}
+			\item  A la réception des valeurs: id =s7 ;$\parametretwo{}$=1 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\emptyset$ ;i=1 par la \mone{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S7}.
+			\item  A la réception des valeurs: id =s2 ;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\emptyset$ ;i=3 par la \mone{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S2}.
+			\item  A la réception des valeurs: id =s22 ;$\parametretwo{}$=1 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s2\}$ ;i=3 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S22}.
+			\end{itemize}
+		\item[Itération 4]
+		\begin{itemize}
+			\item  A la réception des valeurs: id =s11 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s22\}$ ;i=2 par la \mone{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S11}.
+			\item  A la réception des valeurs: id =s11 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s22\}$ ;i=2 par la \mtree{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S11}.
+			\item  A la réception des valeurs: id =s22 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\emptyset$ ;i=2 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S22}.
+			\end{itemize}
+			\item[Itération 5]
+		\begin{itemize}
+		\item  A la réception des valeurs: id =s2 ;$\parametretwo{}$=5 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s9,s10,s11\}$ ;i=1 par la \mtree{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S2}.
+			\item  A la réception des valeurs: id =s11 ;$\parametretwo{}$=2 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\emptyset$ ;i=1 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S11}.
+			\item  A la réception des valeurs: id =s11 ;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=0 ;f =$\{s22\}$ ;i=2 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S11}.
+			\item A la réception des valeurs: id =s15;$\parametretwo{}$=3 ;$\parametretree{}$=0 ;$\parametrefour{}$=1 ;f =$\{s19,s11\}$ ;i=3	 par la \mtwo{}. Ces dernières sont stockées à l'indice \s{i} de la variable  \s{site} de l'état \s{S15}.
+			\end{itemize}	
+	\end{description}
+\end{Exemple}

@@ -1,0 +1,28 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									Chapitre Contribution											%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Algorithme de distribution d’espace d’états basée sur le comportement des systèmes}
+%	\citationChap{
+%	...
+%	}{...}
+	\minitoc
+	\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Introduction}
+Dans les travaux \citep{Saidouni2012}, \citep{TabibSaidouni2016}, \citep{BENSETIRA2017}, nous avons constaté que les méthodes de génération des espaces d’états pour le model checking consiste  qu’un grand espace d'états non structuré soit divisé en parties de tailles équilibrées, de telle sorte que peu de transitions traversent les différentes  parties, car chaque transition externe peut entraîner une surcharge de communication.
+
+Après une étude des espaces états générés, nous avons constaté que la diminution de transitions traversant les différentes parties peut entraîner un mauvais équilibrage de charge entre les machines du réseau. Outre l’équilibrage de charge, il peut entraîner une mauvaise qualité distribution de l'espace d'états car lorsqu'une formule du model checking n'est pas vérifiée sur un état la diminution de transitions externes n'empêche pas une surcharge de communication. La qualité de distribution est estimée en fonction de la quantité de communication requise pour l’exécution des tâches distribuées \citep{EzekielLuttgen2008}. Ainsi La réalisation de ces objectifs nécessiterait des informations supplémentaires sur l’espace d’états considéré. 
+
+Ces raisons nous ont amené à proposer une nouvelle politique de distribution qui vise à analyser le comportement d’un système donné en générant son espace d’état et en extrayant les informations pertinentes sur les états et leurs connexions (transitions internes et externes). Ensuite, redistribué les états pertinents selon une certaines heuristiques afin d’optimiser les performances du système. Cela se fait en définissant une bonne localité d’un état comme celle qui optimise à la fois l’équilibre de la charge et la quantité de communication entre les machines engendrés par l’exécution de l’application opérant sur l’espace d’états distribué.
+ 
+Dans ce qui suit nous présentons la nouvelle politique de distribution de l’espace d’états basée sur le comportement du système ainsi que les résultats obtenus. 
+ 
+\input{contribution/Politiquedistribution} 
+\input{contribution/Section1}
+\input{contribution/Section2}
+\input{contribution/Section3}
+\input{contribution/Section4}
+\input{contribution/Section5}
+
+\section{Conclusion}

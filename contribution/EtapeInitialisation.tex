@@ -1,0 +1,49 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									sub section Initialisation de $\beta ,\gamma $				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Calcul des valeurs des parametres $\parametretwo{} \; et\;\parametretree{} $ }
+ 
+{L'initialisation des paramètres s'effectue lors de l'exécution du \mc{}. Tel que nous l'avons souligné, ces paramètres  sont initialisés à partir des états sur lesquels la formule n'est pas vérifiée. Par la suite, les états liés sont marqués par chaque état dont ils dépendent (dans l'algorithme c'est la variable \textbf{f} qui stocke cet ensemble d'états). Enfin, les états liés sont énumérés. Un état est dit lié, lorsque la formule n'est pas vérifiée sur ses successeurs directs ou indirects. Certains prédécesseurs directs ou indirects ne sont pas liés aux successeurs directs ou indirects sur lesquels la formule n'est pas vérifiée car celle-ci n'est pas vérifiée sur ces prédécesseurs. Cela motive la duplication de ces états prédécesseurs. A titre d'exemple, l'exécution de la formule  \textit{$AG(a)$} sur la structure de Kripke de la Figure(\ref{skd2}), l'état \sneuf{} est un prédécesseur indirect de l'état \s{S14}, celui-ci peut être dupliqué sur une autre machine car la vérification de la formule sur cet état est indépendante des autres états. 
+
+Dans ce qui suit nous proposons la démarche d'initialisation des paramètres, le marquage des états liés, l'énumération des états liés et des états à dupliquer. Cette démarche est ajoutée à l'algorithme de model checking définit ci-dessus.
+}
+	\mysubsection{Initialisation des paramètres $\parametretwo{}$  et $\parametretree{} $ }{
+Les paramètres $\parametretwo{}$ et $\parametretree{}$ sont initialisés à zéro au niveau des états qui ne comportent pas la formule à vérifier. Lorsque l'état appartient à la machine, le paramètre $\parametretree{}$ sera initialisé à $1$, cela signifie que cet état peut être dupliqué dans les machines qui le référencent. Par exemple, l'exécution de la formule  \textit{$AG(a)$} sur la structure de Kripke distribuée de la Figure(\ref{skd2}) fait qu'à l'état \sneuf{}, le paramètre $\parametretree{}$ est initialisé à 1 pour marquer la duplication de cet état. On remarque que la duplication de l'état \sneuf{}  sur la \mone{}, permet de réduire le temps de vérification de la formule, car la valeur logique de la formule sur à l'état \sneuf{} est connue, la \mtwo{} n'envoie pas alors de message concernant la valeur logique de la formule sur cet état. Le principe d'initialisation est formalisé sur l'équation (\ref{eqn3}). On obtient alors:
+
+\input{contribution/Algorithm1}
+}
+\mysubsection{Marquage des états liés}{
+Pendant l'exécution de l'algorithme de vérification, la valeur logique de la formule sur certains états peut dépendre des successeurs directs ou indirects, ces états sont alors liés. La formule peut être vérifiée sur les successeurs, ils peuvent appartenir à d'autres machines. Lorsque la formule n'est pas vérifiée sur un état successeur, les états liés sont alors marqués par cet état. Le principe de marquage est implémenté sur les deux algorithmes de base du model checker. Ils sont définis comme suit : 
+\begin{description}
+\item[Premier algorithme :] Il est défini par l'équation (\ref{eqn15}), il est utilisé lorsque la vérification concerne tous les successeurs. Ainsi Lorsque la formule n'est pas vérifiée au niveau d'un successeur, deux cas se présentent : 
+	\begin{itemize}
+		\item La propriété est vérifiée sur l'état, l'état est alors lié à un successeur. Les successeurs sur lesquels la formule n'est pas vérifiée sont marqués sur l'état.
+		\item Lorsque la propriété n'est pas vérifiée sur un état, celui-ci peut être dupliqué soit sur la machine réalisant le traitement soit sur des machines distantes. Les états successeurs sur lesquels la formule n'est pas vérifiée sont enregistrés dans l'ensemble \s{limit}, cela signifie que cet état est indépendant de ses successeurs et peut donc être dupliqué sur des machines distantes. Sur l'exemple (\ref{ea1}) de l'Algorithme(\ref{alg1}), la valeur logique de la formule à l'état \s{S9} est indépendante des états \s{S14} et \s{S7}. L'état \s{S9} peut alors être dupliqué sur les machines qui possèdent ses prédécesseurs.
+	\end{itemize}  
+   
+\item[Deuxième algorithme :] Il est défini par l'équation(\ref{eqn16}). Il se différencie du premier algorithme par la vérification de la formule sur les successeurs. Il vérifie l'existence de la propriété sur un successeur. 
+\end{description}
+En plus des conditions des algorithmes, l'existence de l'itération courante est vérifiée. Cette condition permet de marquer les états de cette itération. Ce principe est formalisé comme suit:\\
+\input{contribution/Algorithm2}\break
+} 
+\mysubsection{Énumération des états liés}{
+Après le marquage des états, on obtient sur les états liés les états dont ils dépendent. Ainsi pour chaque état dépendant, les états qui lui sont liés sont énumérés, cela permet d'attribuer des valeurs aux paramètres $(\parametretwo{}$ et $\parametretree{})$. L'attribution des valeurs peut concerner les états appartenant à la machine locale ou appartenant aux machines distantes. Ces valeurs permettent d'effectuer un redéploiement des états sur la bonne machine. Selon le type de chaque état la technique d'énumération est la suivante:
+\begin{description}
+\item[\ee{} :] Les états externes(\s{border}) sont des états appartenant aux machines distantes. Lorsque la formule n'est pas vérifiée sur ces états, le nombre d'états liés sont recensés. La valeur calculée est attribuée au paramètre $\parametretwo{}$ de l'état \s{border}. 
+Dans l'exemple(\ref{ea2}), la valeur du paramètre $\parametretwo{}$ est égale à $2$ à l'état \s{S22} de la \mtwo{}.
+ Ainsi la valeur du paramètre $\parametretree{}$ correspond au nombre d'états pour lesquels l'état \s{border} a été inséré dans leurs ensembles respectifs \s{limit}. Dans le cas des états externes, la duplication de ces états sur une machine donne une structure de Kripke incohérente (la structure obtenue présente des états dupliqués sans aucuns prédécesseurs sur la machine elle même, ce modèle est alors incohérent vis à vis d'une structure de Kripke). Pour obtenir une structure cohérente il est envisageable de déplacer ces états sur d'autres machines tout en laissant les duplicatas sur la machine local. Pour ce faire le paramètre$\parametrefour{}$ est utilisé pour stocker le nombres de ces états à la place du paramètre $\parametretree{}$. La valeur de ce paramètre est calculée similairement  à celle du paramètre $\parametretree{}$.
+ L'application de ce principe sur l'exemple(\ref{ea2}) permet d'attribuer la valeur $1$ au paramètre $\parametrefour{}$ à l'état \s{S22} de la \mtwo{}, car cet état est stocké dans l'ensemble \s{limit} de l'état \s{S14}.  
+ 
+\item[\ei{} :]  Les états internes sont des états appartenant à la machine locale. Lorsque ces états disposent des prédécesseurs directs sur d'autres machines distantes, les valeurs des paramètres sont alors calculés. La valeur du paramètre $\parametretwo{}$ correspond aux nombres des successeurs directs et indirects présents entre les état marqués sur l'ensemble de dépendance (la variable \s{\textbf{f}}) de l'état, ce nombre est incrémenté de $1$ car l'état dépend de ces états l'à. Par contre la valeur du paramètre $\parametretree{}$  correspond aux nombre des états internes présents sur l'ensemble de dépendance.
+  L'application de ce principe sur l'exemple(\ref{ea2}) permet d'obtenir la valeur $2$ pour le paramètre $\parametretwo{}$ et $0$ pour le paramètre $\parametretwo{}$ à l'état \s{S7} de la \mtwo{}.  
+\end{description}
+
+Ces principes sont formalisés comme suit:
+\input{contribution/Algorithm3}
+}
+
+\mysubsection{Échange des valeurs des paramètres}{
+Après le calcul des valeurs des paramètres, ces valeurs sont envoyées aux machines concernées par l'état. A la réception des valeurs, ces dernières sont stockées sur l'état concerné. Ce prince est formalisé comme suit:
+\input{contribution/Algorithm4}
+}

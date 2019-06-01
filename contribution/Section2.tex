@@ -1,0 +1,15 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									section .	2.	Param\`{e}tre d’optimisation									%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Param\`{e}tre d’optimisation}
+ 
+Apr\`{e}s l'analyse du principe pr\'{e}c\`{e}dent on constate que la distribution des \'{e}tats li\'{e}s entrainent un nombre de calculs assez élevé pour déterminer la valeur logique de ces états. Le regroupement de ces états am\'{e}liore le temps de traitement. Ainsi pour minimiser la distribution des \'{e}tats li\'{e}s un certain nombre d'objectifs sont à prendre en consid\'{e}ration pour assurer  que l'espace des \'{e}tats est distribuée car la centralisation de ces états résous entièrement le probl\`{e}me. Les objectifs sont:
+
+\begin{itemize}[leftmargin=*,labelindent=1em]
+	\item Le temps de traitement à minimiser autant que possible ;
+	\item Assurer l’\'{e}quilibrage de charge entre les machines ;
+	\item Un nombre de dupliquâts réduit sur les machines.
+\end{itemize}
+
+Pour atteindre ces objectifs les paramètres $\parametreone{}$, $\parametretwo{}$ et $\parametretree{}$ sont utilisés. La prise en compte simultanée des trois param\`{e}tres permet de minimiser à la fois le temps de traitement et garantir l’\'{e}quilibrage de charge avec un nombre de dupliquâts réduit. La r\'{e}solution de ce problème entraine l'utilisation de fonctions objectives pour trouver l'espace de solution possible car il peut existé une infinit\'{e} de configurations respectant ces contraintes. Ainsi, diff\'{e}rente techniques sont offertes pour l'obtention de l'espace des solutions, dans ce contexte la technique d’\'{e}quilibre de Nash combin\'{e}e aux fonctions objectives est envisageable.

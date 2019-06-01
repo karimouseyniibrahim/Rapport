@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									subsection Algorithmes	de Redistribution						%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Algorithme de Redistribution }
+ 
+Après l'envoi des valeurs calculées, les états \emph{Border et Notifier} disposent des valeurs calculées aux paramètres $\parametretwo{}$ et $\parametretree{}$ par chacune des machines. Ces valeurs permettent d'appliquer une stratégie de redistribution des états. La stratégie adoptée est celle d'un jeux coopératif. Les machines coopèrent ensembles pour réduire le temps de calcul de la vérification. Ainsi, grâce à ces valeurs, chaque machine calcule l'ensemble minimal des états à envoyer sur une machine distante ainsi que l'ensemble minimal des états à recevoir par cette machine distante. L'envoi des états nécessite la prise en compte de l'équilibrage de charge.  
+Dans ce qui suit nous proposons une stratégie de recherche de ces ensembles minimaux d'états à déplacer, dans un sens ou dans l'autre, suivi d'une technique d'envoi de ces ensembles d'états.
+
+\mysubsection{Recherche de l'ensemble minimal des états à importer}{
+Dans cette partie l'algorithme permet de chercher sur les valeurs des paramètres $\parametretwo{}$ et $\parametretree{}$  calculées par les machines distantes le couple minimal. Le nombres des états associés à ce couple doit être inférieur au nombre des états associés au couple calculé par la machine locale. Le déplacement de ces états sur une machine distante permet de diminuer le temps de la vérification car l'algorithme détecte la valeur logique de ces états sans qu'une notification ne soit envoyée. Ainsi, le couple minimal est recherché sur les valeurs envoyées par les machines distantes au niveau des états \bn{}, comparées aux valeurs  calculées par la machine sur cet état.  Le couple minimal est celui qui dispose des plus petites valeurs des paramètres calculées  par la machine local sur ces états. Cette recherche est faite en premier temps sur les états ayant une dépendance mutuelle (c'est-à-dire les états distants dépendant l'un de l'autre) car le regroupement de ces états sur une machine diminue le nombre d'itérations de deux. Ainsi, lorsqu'il n'existe pas une dépendance mutuelle entre les états le couple minimum est recherché sur les valeurs envoyées par les machines distantes au niveau des états \bn{}. La formalisation de ce principe est la suivante: 
+\input{contribution/Algorithm_Search_StatesToImport}
+\nopagebreak
+}
+
+\mysubsection{Recherche de l'ensemble minimal des états à déplacer}{
+L'ensemble minimal des états à déplacer d'une machine distante correspond au couple minimum des couples($\parametretwo{}$ et $\parametretree{}$) calculés par la machine locale sur les états(\bn{}). Le couple minimum représente la plus petite valeur obtenue au paramètre $\parametretwo{}$ avec une valeur minimale au paramètre $\parametretree{}$. Les états associés à ce couple entrainent un léger déséquilibre qui pourrait être accepté avec l'écart calculé. La recherche de ce couple ($\parametretwo{}$ et $\parametretree{}$) est formalisée comme suit:
+
+\input{contribution/Algorithm_Search_StatesToMove}
+\nopagebreak
+}
+
+\mysubsection{Envoi d'une requête}{
+Après la recherche de l'ensemble minimal des états à déplacer, ces états sont ensuite envoyés à la machine concernée sous forme de requête. La requête peut contenir des états à insérer sur la machine distante ou une demande de l'ensemble des états à déplacer sur la machine distante. Ainsi, l’envoi de la requête est fonction de l'équilibrage de charge.
+
+\begin{itemize}
+ \item  Lorsque le résultat de la différence entre le nombre des états à déplacer et le nombre des états à importer  est inférieur ou égale à l'écart calculé la requête envoyée comporte alors les états migrants de la machine locale et une demande des états de la machine distante.
+ \item Sinon, si le nombre des états à déplacer est inférieur ou égale à l'écart calculé la requête comporte les états à insérer sur la machine distante.
+ \item Sinon, s'il s'agit des états de la machine distante, la requête concerne ces états afin que la machine distante puisse les envoyer à la machine.
+ \end{itemize}  
+Ce principe est formalisé comme suit:
+\include{contribution/Algorithm_SendResquest}
+\nopagebreak\nopagebreak\nopagebreak
+}
+\mysubsection{Réception d'une requête}{
+A la réception d'une requête les états à insérer sont insérés et les ensemble des états demandés sont envoyés. Lorsque des états sont insérés à la structure de Kripke d'une machine, les valeurs calculées par la machine distante sont alors mises à jour par celles correspondantes à la machine locale pour le bon fonctionnement du protocole. Après ce processus  l'Algorithme \ref{alg6} est relancé. 
+Ce principe est formalisé comme suit:
+\input{contribution/Algorithm_ReceveResquest}
+\nopagebreak
+}
+\begin{Exemple}\label{ea5}
+L'exécution du protocole de redistribution sur les résultats générés dans les exemples précédents permet d'obtenir  les résultats suivants:
+
+\begin{description}
+\item[Itération 1 :] Pendant la première itération du protocole sur la \mone{}, l'algorithme détecte que les état \s{S7} et \s{S9} sont mutuellement dépendants. Ainsi, les valeurs envoyées par la \mtwo{} sur l'état \s{S7} sont minimales, les états concernant ces valeurs sont à déplacer de la \mtwo{}. Ainsi les états à déplacer de la \mone{} vers la \mtwo{} sont recherchés, l'algorithme détecte que les états liés à l'état \s{S11} sont minimaux. Les états de cet ensemble sont à envoyer sur la \mtwo{}. Après ces deux processus de recherche, les valeurs sont évaluées afin de ressortir la requête à envoyer. L'évaluation montre qu'il est possible d'importer les prédécesseurs de l'état \s{S7} et les prédécesseurs de  l'état \s{S11}.
+L'état \s{s2} ne sera pas envoyé parmi les états à déplacer car la \mtree{} possède des prédécesseurs directs de cet état. Après l'envoi des états à déplacer, la \mone{} possède l'état \s{S9}, quant à l'état \s{S1} il est possédé par la \mtwo{}.
+
+
+Sur la \mtree{} l'algorithme détecte qu'il est possible de déplacer l'état \s{S22} sur la \mtwo{}.
+
+
+   Après ces redistributions d'états, le protocole détecte qu'il est impossible de redistribuer les états car il risque d'avoir un déséquilibre de charge sur les machines.
+   
+\end{description}
+\centering
+	\includegraphics[height=5in]{img/Rskd.png}
+	
+	\captionof{figure}{Structure de kripke Redistribu\'{e}} 
+\end{Exemple}

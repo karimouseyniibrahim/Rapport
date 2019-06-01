@@ -1,0 +1,24 @@
+\BOOKMARK [0][-]{chapter*.2}{Table des mati\350res}{}% 1
+\BOOKMARK [0][-]{chapter*.3}{Liste des figures}{}% 2
+\BOOKMARK [0][-]{chapter*.4}{Liste des tableaux}{}% 3
+\BOOKMARK [0][-]{chapter.1}{Approche de partitionnement et de distribution des graphes}{}% 4
+\BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Notions math\351matiques}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.3}{Optimisation combinatoire}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.4}{Graphes}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.5}{Partitionnement de graphe}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.6}{Approches de partitionnement}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.7}{Distribution de graphes}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.8}{Conclusion}{chapter.1}% 12
+\BOOKMARK [0][-]{chapter.2}{ Model Checking}{}% 13
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.2}{R\351seaux de Petri}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Logique temporelle arborescente \(CTL\)}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.4}{Model checking}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 18
+\BOOKMARK [0][-]{chapter.3}{Algorithme de distribution d\220espace d\220\351tats bas\351e sur le comportement des syst\350mes}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Principe Model Checking Distribu\351}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.2}{Param\350tre d\220optimisation}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.3}{Principe de l\220\351quilibre de Nash}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.4}{Principe d'Optimisation de , \040et }{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.5}{Algorithme de redistribution }{chapter.3}% 24

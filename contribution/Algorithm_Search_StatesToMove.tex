@@ -1,0 +1,42 @@
+\SetKwFunction{printlcs}{$Search\_ States\_ To\_ Move$}
+\begin{algorithm}
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{MG:State}: State}\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Function}{}{}
+  \myalg{\algo{}}{
+  \nl $MF\longleftarrow null$\;\label{linerD0}
+  \nl\ForEach{$e\in \; \{Border(S)\cup Notifier(S)\}-\{MG\}$}{ \label{linerD1}
+  \nl		\uIf{$(MG==null )$ }{\label{linerD2}
+  \nl				\ForEach{$site \in x.site$}{\label{linerD3}
+  \nl					\If{$((x.\parametretwo{}<site.\parametretwo{} )or (x.\parametretwo{}==site.\parametretwo{}\; and\; (x.\parametretree{}<site.\parametretree{} )) and(MF ==null \;or\; ((MF.\parametretwo{}>x.\parametretwo{} )\;or (MF.\parametretwo{}==x.\parametretwo{} \; and\; MF.\parametretree{}>x.\parametretree{} )))$}{\label{linerD4}
+  \nl						$MF\longleftarrow x$\;\label{linerD5}
+  					}	
+  				}\label{linerD7}
+  			}
+  			 \Else{\label{linerD6}
+  			 	$site\longleftarrow findById(MG.id,x.site)$\;\label{linerD7}
+  			 	\If{$((site \ne null) and((MF==null) or (MF.\parametretwo{}>x.\parametretwo{}) or (MF.\parametretwo{}==x.\parametretwo{} and MF.\parametretree{}>x.\parametretree{})) and ((x.\parametretwo{}<site.\parametretwo{}) or (x.\parametretwo{}==site.\parametretwo{} and x.\parametretree{}<site.\parametretree{})) $}{\label{linerD8}
+  			 	$MF\longleftarrow x$\;\label{linerD9}
+  			 	}			  			 
+  			 }\label{endD}
+   		} 	
+  \nl \Return MF\label{linerD10} 	
+}{}
+\end{algorithm}
+Les instructions décrivant la fonction précédente sont expliquées comme suit:
+\begin{description}
+	\item[ligne \ref{linerD0} :] L'instruction de cette ligne sert à initialiser la variable stockant les informations du couple minimum.
+	
+	\item[ligne \ref{linerD1} :] L'instruction de cette ligne permet de parcourir les états \s{\bn{}} sur lesquels la formule n'es pas vérifiée. L'état dont il est possible d'importer ses successeurs ou prédécesseurs à partir d'une machine distante est exclu du parcours.
+	\item[ligne \ref{linerD2} :]  L'instruction de cette ligne vérifie qu'il n'existe pas des états à importer. La vérification de cette condition entraine l'exécution des instructions de la ligne \ref{linerD3} jusqu'à la ligne \ref{linerD7}.
+	
+	\item[ligne \ref{linerD3} :] L'instruction de cette ligne permet de parcourir les valeurs calculées par les machines distantes, ainsi les comparer avec les valeurs calculées par la machine locale, la comparaison est effectuée à la  ligne \ref{linerD4}. Lorsque les valeurs de la machine locale sont minimales l'instruction de la ligne \ref{linerD5}  est exécutée, elle permet de mettre à jours le couple minimal.
+	
+	\item[ligne \ref{linerD6} :] Lorsqu'il existe des états à déplacer sur une machine distante, un ensemble des états est alors recherché sur la machine locale pour l'envoyer sur la machine distante. La recherche de ce couple minimal est faite de la ligne \ref{linerD7} jusqu'à la ligne \ref{endD}.
+	
+	\item[ligne \ref{linerD7} :] L'instruction de cette ligne permet de récupérer sur l'état les valeurs envoyées par la machine distante. Les valeurs sont récupérées lorsque l'identité de la machine existe sur l'ensemble des machines de l'état.
+	
+	\item[ligne \ref{linerD8} :]  L'instruction de cette ligne vérifie l'existence des valeurs de la machine distante et leurs supérioritées à celle calculées par la machine locale sur cet état. Lorsqu'elles sont inférieurs au minimum  courant, l'instruction de la ligne \ref{linerD9} met à jour le contenu de la variable \s{MF} par ce couple.
+	
+	\item[ligne \ref{linerD10} :] L'instruction écrite sur cette ligne permet de retourner les informations du couple recherché.
+\end{description}

@@ -1,0 +1,132 @@
+
+\SetKwFunction{printlcs}{getSucc}
+\begin{algorithm}[H]
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{$e:State$}: List of State}\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Fuction}{}{}
+  \myalg{\algo{}}{
+  \nl$ElementSucc	\longleftarrow\emptyset$\;
+  \nl\ForEach{$e'\in succ(e)$}{ \label{linef1}
+  \nl		\If{$((e'\nexists e.f)and((e'.f\cap e.f)\ne\emptyset)$ }{\label{linef2}
+  \nl 		 	$ElementSucc\longleftarrow ElementSucc\cup\{e'\}\cup \printlcs{e'}$\;\label{linef3}
+  \nl 		}
+  \nl 	}
+  \nl 	
+  \nl \KwRet ElementSucc \;\label{linef4}}{}
+\end{algorithm}
+
+Les instructions  de la fonction \s{getSucc} permettent de récupérer les successeurs directs et indirects entre un état et les états dont-il dépend. La ligne \ref{linef1} permet de parcourir les successeurs directs de l'état afin de vérifier leur dépendance avec lui. Cela est faite à la ligne \ref{linef2}.  Lorsque le successeur est en dépendance avec l'état encours, il est ajouté à l'ensemble des successeurs suivi de l'appel de la fonction \s{getSucc} pour le traitement transitif de ses successeurs. Le résultat retourné par cette fonction  est ajouté  à l'ensemble des successeurs. Ces instructions sont exécutées à la ligne \ref{linef3}. Ainsi, la fonction retournera touts les successeurs de l'état en cours à la fin de son exécution.  
+\\
+
+\begin{algorithm}[H]\label{alg4}
+\SetAlgoLined
+\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+\ForEach{$e$ in $S$}{\label{line42}
+	\uIf{$\left((e  \in border(M))and (e\in F) and (e.i==\curenti{})\right)$}{\label{line43}
+		\ForEach{$e'$ in $S-\{ e\}$}{\label{line44}
+			\uIf{$\left((e  \in e.f)\right)$}{\label{line45}
+				$e.\parametretwo{} \longleftarrow e.\parametretwo{} +1$\;\label{line46}
+			}
+			\uElseIf{$(e \in e'.limit )$}{
+				$e.\parametretwo{} \longleftarrow e.\parametretwo{} +1$\;\label{line47}
+				$e.\parametrefour{} \longleftarrow e.\parametrefour{} +1$\;\label{line48}				
+			}				
+		}
+	}
+	\uElseIf{$\left((e  \in Notifier(M))and (e\in T) and (\curenti{}\in e.i)\right)$}{\label{line49}
+		$e.\parametretwo{} \longleftarrow getSucc(Count\parametretwo{}(e))+1$\;\label{line410}
+		\ForEach{$e" \in e.f$}{\label{line411}
+					\If{$\left( (Type(e") \ne Border\right)$}{\label{line415}
+						$e.\parametretree{} \longleftarrow e.\parametretree{} +1$\;
+					}
+		}\label{line416}
+	}	
+} 
+ \caption{Set parameters values}
+\end{algorithm}
+
+Les instructions décrivant l'Algorithme \ref{alg4} sont expliquées comme suit:
+
+\begin{description}
+	\item[ligne \ref{line42} :]  Cette ligne présente une instruction de parcours des états stockés sur la \mi{}.
+	\item[ligne \ref{line43} :]  L'instruction de cette ligne vérifie que l'état est \s{externe}, la formule n'est pas vérifiée à cet état, et l'itération courante est marquée sur l'état. La dernière condition permet de calculer les valeurs des paramètres d'un état de l'itération courante vérifiant les deux premières conditions. Lorsque ces conditions sont vérifiées, l'espace d'états est alors parcouru par l'instruction de la ligne \ref{line44}, et calcule les valeurs des paramètres. Pour chaque état est vérifiée:
+	
+	\begin{itemize}
+	\item Si l'état externe est présent dans l'ensemble de dépendance de l'état encours, le paramètre $\parametretwo{}$ de l'état externe est alors incrémenté (ligne \ref{line46}) car cet état est lié à l'état externe.
+	\item Sinon, si l'état externe est présent dans l'ensemble \s{limit} de cet état, les paramètres $\parametretwo{}$ et $  \parametrefour{}$ sont alors incrémentés (ligne \ref{line47} et ligne \ref{line48}) car cet état peut être déplacer en laissant un dupliquât sur la machine effectuant le traitement.  
+	\end{itemize}
+	
+	\item[ligne \ref{line49} :] L'instruction de cette ligne vérifie sur l'état l'existence des prédécesseurs directs sur des autres machines distantes, la dépendance des successeurs et la présence de l'itération courante. Lorsque ces conditions sont vérifiées, les successeurs  entre les états liés sont alors calculés, car la valeur du paramètre $\parametretwo{}$ correspond au nombre des successeurs entre l'état et les états dont-il dépend (ligne \ref{line41}). Par contre la valeur du paramètre $\parametretree{}$ correspond au nombre des états dont-il dépend appartenant à la machine locale, les instructions sont de la ligne \ref{line411} jusqu'à la ligne \ref{line416}.
+\end{description}
+
+\begin{Exemple}\label{ea3}
+	L'application de l'Algorithme(\ref{alg4}) permet de déterminer pour chacun des états de l'exemple(\ref{ea1}), les valeurs des paramètres à travers les résultats de l'exemple(\ref{ea2}). Les valeurs calculées sont: 
+	
+\begin{description}
+	\item[Itération 1] La première itération comptabilise pour chaque état \s{Border} ou \s{Notifer} de l'exemple(\ref{ea1}) à l'itération 1 le nombre des états  qui lui sont liés. Ce nombre est affecté au paramètre  $\parametretwo{}$, par exemple dans l'exemple(\ref{ea2}) aucun état dépend de l'état \s{S9} sur la \mtwo{}. Cependant, il peut-être dupliqué sur la \mone{} car la formule n'est pas vérifiée sur cet état, la valeur du paramètre $\parametretree{}$  est alors égale à $1$. Ainsi, les valeurs des paramètres de l'état \s{S14} ne sont pas calculés car il ne possède pas de prédécesseurs sur chacune des autres machines.
+Le Tableau (\ref{tie1}) représente les valeurs des paramètres  des états.	
+\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&$\parametretwo{}$&	$\parametretree{}$	&$\parametrefour{}$ &	I&	M&	T\\ \hline
+		S9&		0&	1	&0&	1&	M2&	Notifier\\ \hline
+		S10&	2&	1	&0&	1&	M2&	Notifier\\ \hline
+		S15&	3&	1	&0&	1&	M3&	Notifier\\ \hline		
+	\end{tabular}
+	\caption{Calcul des valeurs des parametres: itération 1}\label{tie1}
+\end{tableth}
+\item[Itération 2] Dans cette itération les valeurs de l'état \s{S15} sont expliquées car le calcul des paramètres des autres états est similaire à l'itération précédente. Ainsi, dans l'exemple(\ref{ea2}) il n'existe pas d'état dépendant de l'état \s{S15} sur la \mtwo{}, par contre sur l'état \s{S14} il est inséré dans l'ensemble \s{limit}. Ainsi les valeurs des paramètres $\parametretwo{}$ et $\parametrefour{}$  sont égales à $1$ car l'état \s{S14} peut être déplacé sur la \mtwo{}. Cet état est donc dupliqué sur la machine locale. 
+Le Tableau (\ref{tie2}) représente les valeurs des paramètres  des états.
+\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&$\parametretwo{}$&	$\parametretree{}$	&$\parametrefour{}$ &	I&	M&	T\\ \hline
+		S2&		6&	0&	&	2&	M1&	Notifier\\ \hline
+		S7&		2&	0&	&	2&	M1&	Notifier\\ \hline
+		S9&		6&	0&	&	2&	M1&	Border\\ \hline
+		S15&	1&	0&	1&	2&	M2&	Border\\ \hline		
+	\end{tabular}
+	\caption{Calcul des valeurs des parametres: itération 2}\label{tie2}
+\end{tableth}
+\item[Itération 3] Dans cette itération, la démarche pour l'état \s{S2} est similaire à celle de l'état \s{S15} auquel est associé la démarche de l'itération 1 pour calculer les états liés à cet état. Par contre les autres états sont similaires à l'itération 1. Le Tableau (\ref{tie3}) représente les valeurs des paramètres  des états. 
+\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&$\parametretwo{}$&	$\parametretree{}$	&$\parametrefour{}$ &	I&	M&	T\\ \hline
+		S2&		3&	0&	1&	3&	M3&	Border\\ \hline
+		S7&		1&	0&	&	3&	M2&	Border\\ \hline
+		S22&	1&	0&	&	3&	M3&	Notifier\\ \hline	
+	\end{tabular}
+	\caption{Calcul des valeurs des parametres: itération 3}\label{tie3}
+\end{tableth}
+
+\item[Itération 4] La démarche de cette itération est similaire à l'itération précédente. Le Tableau (\ref{tie3}) représente les valeurs des paramètres  des états.  
+\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&$\parametretwo{}$&	$\parametretree{}$	&$\parametrefour{}$ &	I&	M&	T\\ \hline
+		S11&	2&	0&	0&	4&	M2&	Notifier\\ \hline
+		S2&		3&	0&	1&	4&	M2&	Border\\ \hline
+	\end{tabular}
+	\caption{Calcul des valeurs des parametres: itération 4}\label{tie4}
+\end{tableth}
+
+\item[Itération 5] La démarche de cette itération est similaire à l'itération 3. Le Tableau (\ref{tie3}) représente les valeurs des paramètres  des états.
+\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&$\parametretwo{}$&	$\parametretree{}$	&$\parametrefour{}$ &	I&	M&	T\\ \hline
+		S11&	2&	0&	0&	5&	M1&	Border\\ \hline
+		S11&	3&	0&	0&	5&	M3&	Border\\ \hline
+		S15&	4&	1&	0&	5&	M3&	Notifier\\ \hline
+	\end{tabular}
+	\caption{Calcul des valeurs des parametres: itération 5}\label{tie5}
+\end{tableth}
+
+\end{description}	
+\end{Exemple}

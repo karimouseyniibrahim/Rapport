@@ -1,0 +1,514 @@
+\begin{thebibliography}{104}
+\ProvideTextCommand{\guillemotleft}{OT1}{%
+  \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\ll$}}
+\ProvideTextCommand{\guillemotright}{OT1}{%
+  \leavevmode\raise .27ex\hbox{$\scriptscriptstyle\gg$}}
+\newcommand{\enquote}[1]{\guillemotleft#1\guillemotright}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\input{francaisbst.tex}
+\newcommand{\Capitalize}[1]{\uppercase{#1}}
+\newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
+
+\bibitem[{\textsc{Abidine}(2011)}]{depriester2011bouneb}
+\textsc{Abidine, B.~Z.} 2011, \emph{Split of Territories in Concurrent
+  Optimization}, \bblphdthesis{}, Contantine 1.
+
+\bibitem[{\textsc{ALLMAIER}(1997)}]{Allmaier1997}
+\textsc{ALLMAIER, K. M. e. H.~G., S.~C.} 1997, \enquote{State space
+  construction and steady-state solution of gspns on a shared-memory
+  multiprocessor}, \emph{In Petri Nets and Performance Models, 1997.,
+  Proceedings of the Seventh International Workshop on}.
+
+\bibitem[{\textsc{AREIBI}(2004)}]{AreibiYang2004}
+\textsc{AREIBI, Z., S. et~YANG}. 2004, \enquote{Effective memetic algorithms
+  for design= genetic algorithms+ local search+ multi-level clustering},
+  \emph{Evolutionary Computation}.
+
+\bibitem[{\textsc{ARMBRUSTER}(2008)}]{Armbruster2008}
+\textsc{ARMBRUSTER, F. M. H. C. e.~M., M.} 2008, \enquote{A comparative study
+  of linear and semidefinite branch-and-cut methods for solving the minimum
+  graph bisection problem}, \emph{In IPCO}.
+
+\bibitem[{\textsc{AURORA}(2007)}]{Aurora2007}
+\textsc{AURORA, P.~K.} 2007, \emph{Multi-level graph partitioning},
+  \bblphdthesis{}, Thèse de doctorat,University of Florida.
+
+\bibitem[{\textsc{BARAT}(2016)}]{BARAT2016}
+\textsc{BARAT, C. C. e. P.~F., R.} 2016, \enquote{Partitionnement
+  multi-critères de graphes pour l'équilibrage de charge de simulations
+  multi-physiques}, \emph{In Conférence d'informatique en Parallélisme,
+  Architecture et Système (COMPAS)}.
+
+\bibitem[{\textsc{BARNARD}(1994)}]{BarnardSimon1994}
+\textsc{BARNARD, H.~D., S. T. et~SIMON}. 1994, \enquote{Fast multilevel
+  implementation of recursive spectral bisection for partitioning unstructured
+  problems}, \emph{Concurrency and computation : Practice and Experience}.
+
+\bibitem[{\textsc{BATTITI}(1999)}]{BattitiBertossi1999}
+\textsc{BATTITI, A.~A., R. et~BERTOSSI}. 1999, \enquote{Greedy, prohibition,
+  and reactive heuristics for graph partitioning}, \emph{IEEE Transactions on
+  Computers}.
+
+\bibitem[{\textsc{BENSETIRA}(2017)}]{BENSETIRA2017}
+\textsc{BENSETIRA, I.} 2017, \emph{Proposition d'algorithmes de distribution
+  des espaces d'états en vue d’une vérification basée model checking:
+  Application aux automates temporisés avec durées d'actions},
+  \bblphdthesis{}, Université Abdelhamid Mehri - Constantine 2.
+
+\bibitem[{\textsc{BICHOT}(2004)}]{Bichot2004}
+\textsc{BICHOT, A. J.-M. D. N. e. B.~P., C.-E.} 2004, \enquote{Optimisation par
+  fusion et fission, application au probleme du découpage aérien européen},
+  \emph{Journal Européen des Systèmes Automatisés (JESA)}.
+
+\bibitem[{\textsc{BICHOT}(2007)}]{BICHOT2007}
+\textsc{BICHOT, C.-E.} 2007, \emph{Élaboration d’une nouvelle méta
+  heuristique pour le partitionnement de graphe : la méthode de
+  fusion-fission. Application au découpage de l’espace aérien},
+  \bblphdthesis{}, TOULOUSE.
+
+\bibitem[{\textsc{BICHOT}(2013)}]{BichotSiarry2013}
+\textsc{BICHOT, C. e.~S.} 2013, \enquote{Graph partitioning}, .
+
+\bibitem[{\textsc{BLOM}(2005)}]{BlomOrzan2005}
+\textsc{BLOM, S., S. et~ORZAN}. 2005, \enquote{A distributed algorithm for
+  strong bisimulation reduction of state spaces}, \emph{International Journal
+  on Software Tools for Technology Transfer (STTT)}.
+
+\bibitem[{\textsc{BONAMI}(2012)}]{Bonami2012}
+\textsc{BONAMI, N. V. H.-K. M. e. M.~M., P.} 2012, \enquote{On the solution of
+  a graph partitioning problem under capacity constraints}, \emph{ISCO}.
+
+\bibitem[{\textsc{BOPPANA}(1987)}]{Boppana1987}
+\textsc{BOPPANA, R.~B.} 1987, \enquote{Eigenvalues and graph bisection : An
+  average-case analysis}, \emph{In Foundations of Computer Science, 1987., 28th
+  Annual Symposium on}.
+
+\bibitem[{\textsc{BOUZENADA}(2012)}]{Bouzenada2012}
+\textsc{BOUZENADA, B. M. G.-N. R. A. e. S. D.~E., M.} 2012, \enquote{A
+  generalized graph strict strong coloring algorithm}, \emph{International
+  Journal of Applied Metaheuristic Computing}.
+
+\bibitem[{\textsc{BUI}(1996)}]{BuiMoon1996}
+\textsc{BUI, B.~R., T. N. et~MOON}. 1996, \enquote{Genetic algorithm and graph
+  partitioning}, \emph{IEEE Transactions on Computers}.
+
+\bibitem[{\textsc{BULUç}(2016)}]{BULU2016}
+\textsc{BULUç, M. H. S. I. S. P. e. S.~C., A.} 2016, \enquote{Recent advances
+  in graph partitioning}, \emph{In Algorithm Engineering}.
+
+\bibitem[{\textsc{CHAN}(2016)}]{Chan2016}
+\textsc{CHAN, M. Y. L. Y. Y. T. P. e. T. R.~K., J. J.~M.} 2016,
+  \enquote{Parallel ant brood graph partitioning in julia}, \emph{In Parallel
+  Processing and Applied Mathematics}.
+
+\bibitem[{\textsc{CHEVALIER}(2006)}]{ChevalierPellegrini2006}
+\textsc{CHEVALIER, F., C. et~PELLEGRINI}. 2006, \enquote{Improvement of the
+  efficiency of genetic algorithms for scalable parallel graph partitioning in
+  a multi-level framework}, \emph{Euro-Par 2006 Parallel Processing}.
+
+\bibitem[{\textsc{CHEVALIER}(2008)}]{ChevalierPellegrini2008}
+\textsc{CHEVALIER, F., C. et~PELLEGRINI}. 2008, \enquote{Pt-scotch : A tool for
+  efficient parallel graph ordering}, \emph{Parallel computing}.
+
+\bibitem[{\textsc{CHEVALIER}(2009)}]{ChevalierSafro2009}
+\textsc{CHEVALIER, I., C. et~SAFRO}. 2009, \enquote{Comparison of coarsening
+  schemes for multilevel graph partitioning}, \emph{Learning and Intelligent
+  Optimization}.
+
+\bibitem[{\textsc{CHOCKALINGAM}(1992)}]{ChockalingamArunkumar1992}
+\textsc{CHOCKALINGAM, S., T. et~ARUNKUMAR}. 1992, \enquote{A randomized
+  heuristics for the mapping problem : The genetic approach}, \emph{Parallel
+  computing}.
+
+\bibitem[{\textsc{CIARDO}(1998)}]{Ciardo1998}
+\textsc{CIARDO, G. J. e. N.~D., G.} 1998, \enquote{Distributed state space
+  generation of discrete-state stochastic models}, \emph{INFORMS Journal on
+  Computing}.
+
+\bibitem[{\textsc{CONG}(2003)}]{CONG2003}
+\textsc{CONG, R. M. e. X.~M., J.} 2003, \enquote{Optimality, scalability and
+  stability study of partitioning and placement algorithms}, \emph{In
+  Proceedings of the 2003 international symposium on Physical design}.
+
+\bibitem[{\textsc{DELLING}(2012)}]{Delling2012}
+\textsc{DELLING, G. A. V. R. I. e. W. R.~F., D.} 2012, \enquote{Exact
+  combinatorial branch-and-bound for graph bisection}, \emph{In 2012
+  Proceedings of the Fourteenth Workshop on Algorithm Engineering and
+  Experiments (ALENEX)}.
+
+\bibitem[{\textsc{DEO}(2017)}]{DEO2017}
+\textsc{DEO, N.} 2017, \emph{Graph theory with applications to engineering and
+  computer science}, Courier Dover Publications.
+
+\bibitem[{\textsc{Desider}(2007)}]{depriester2007jeanantoine}
+\textsc{Desider, J.-A.} 2007, \enquote{Split of territories in concurrent
+  optimization}, \emph{inria}, \bblvol{}~32, \bblno{}~1, \bblp{} 286–295.
+
+\bibitem[{\textsc{DHILLON}(2007)}]{DHILLON2007}
+\textsc{DHILLON, G. Y. e. K.~B., I.~S.} 2007, \enquote{Weighted graph cuts
+  without eigenvectors a multilevel approach}, \emph{IEEE transactions on
+  pattern analysis and machine intelligence}.
+
+\bibitem[{\textsc{DONATH}(1972)}]{DonathHoffman1972}
+\textsc{DONATH, A., W. et~HOFFMAN}. 1972, \enquote{Algorithms for partitioning
+  of graphs and computer logic based on eigenvectors of connections matrices},
+  \emph{IBM Technical Disclosure Bulletin}.
+
+\bibitem[{\textsc{E.~A.~Emerson}(1983)}]{Emerson1983}
+\textsc{E.~A.~Emerson, J. Y.~H.} 1983, \enquote{‘sometimes’ and hot
+  never’ revesited on branching versus linear time}, \emph{11th Symposium on
+  Principles Of Programnling Languages, Austin,Texas}.
+
+\bibitem[{\textsc{E.~M.~Clarke}(1981)}]{Clarke1981}
+\textsc{E.~M.~Clarke, E. A.~E.} 1981, \enquote{Design and synthesis of
+  synchronizatioll skdctons using branching time temporal logic}, \emph{Proc.
+  of an IBM Workshop on Logic of Programs, LNCS}.
+
+\bibitem[{\textsc{Edmund M.~Clarke}(1999)}]{Edmund1999}
+\textsc{Edmund M.~Clarke, O. G. e. D. A.~P.} 1999, \enquote{Model checking},
+  \emph{Cambridge, MIT Press}.
+
+\bibitem[{\textsc{EULER}(1736)}]{EULER1736}
+\textsc{EULER}. 1736, \enquote{“solutio problematis ad geometriam situs
+  pertinentis”. commentarii academiae scientarum imperialis petropolitanae},
+  \emph{•}.
+
+\bibitem[{\textsc{FELDMANN}(2015)}]{FeldmannWidmayer2015}
+\textsc{FELDMANN, A. E. e.~W.} 2015, \enquote{An o($nˆ4$) time algorithm to
+  compute the bisection width of solid grid graphs}, \emph{Algorithmica}.
+
+\bibitem[{\textsc{FERREIRA}(1998)}]{Ferreira1998}
+\textsc{FERREIRA, M. A. d. S. C. C. W. R. e. W. L.~A., C.~E.} 1998,
+  \enquote{The node capacitated graph partitioning problem : a computational
+  study}, \emph{Mathematical Programming}.
+
+\bibitem[{\textsc{FIDUCCIA}(1988)}]{FiducciaMattheyses1988}
+\textsc{FIDUCCIA, R.~M., C. M. et~MATTHEYSES}. 1988, \enquote{A linear-time
+  heuristic for improving network partitions}, \emph{In Papers on Twenty-five
+  years of electronic design automation}.
+
+\bibitem[{\textsc{FIEDLER}(1973)}]{Fiedler1973}
+\textsc{FIEDLER, M.} 1973, \enquote{Algebraic connectivity of graphs},
+  \emph{Czechoslovak mathematical journal. Institute of Mathematics, Academy of
+  Sciences of the Czech Republic}.
+
+\bibitem[{\textsc{FIEDLER}(1975)}]{Fiedler1975}
+\textsc{FIEDLER, M.} 1975, \enquote{A property of eigenvectors of nonnegative
+  symmetric matrices and its application to graph theory}, \emph{Czechoslovak
+  mathematical journal. Institute of Mathematics, Academy of Sciences of the
+  Czech Republic}.
+
+\bibitem[{\textsc{GARAVEL}(2013)}]{Garavel2013}
+\textsc{GARAVEL, M. R. e. S.~W., H.} 2013, \enquote{Large-scale distributed
+  verification using cadp : Beyond clusters to grids}, \emph{Electronic Notes
+  in Theoretical Computer Science}.
+
+\bibitem[{\textsc{GAREY}(1976)}]{GAREY1976}
+\textsc{GAREY}. 1976, \enquote{Some simplified np-complete graph problems},
+  \emph{Theoretical computer science}.
+
+\bibitem[{\textsc{GRADY}(2006)}]{GRADY2006}
+\textsc{GRADY, E.~L., L. et~SCHWARTZ}. 2006, \enquote{Isoperimetric graph
+  partitioning for image segmentation.}, \emph{IEEE transactions on pattern
+  analysis and machine intelligence}.
+
+\bibitem[{\textsc{GUIDOUM}(2013)}]{Guidoum2013}
+\textsc{GUIDOUM, B. M. e. S. D.~E., N.} 2013, \enquote{The strict strong
+  coloring based graph distribution algorithm}, \emph{International Journal of
+  Applied Metaheuristic Computing}.
+
+\bibitem[{\textsc{HAGEN}(1997)}]{Hagen1997}
+\textsc{HAGEN, H. D.-H. e. K. A.~B., L.~W.} 1997, \enquote{On implementation
+  choices for iterative improvement partitioning algorithms}, \emph{IEEE
+  Transactions on Computer-Aided Design of Integrated Circuits and Systems}.
+
+\bibitem[{\textsc{HAGER}(2013)}]{Hager2013}
+\textsc{HAGER, P. D. T. e. Z.~H., W.~W.} 2013, \enquote{An exact algorithm for
+  graph partitioning}, \emph{Mathematical Programming}.
+
+\bibitem[{\textsc{HENDRICKSON}(1995a)}]{HendricksonLeland1995a}
+\textsc{HENDRICKSON, R., B. et~LELAND}. 1995a, \enquote{An improved spectral
+  graph partitioning algorithm for mapping parallel computations}, \emph{SIAM
+  Journal on Scientific Computing}.
+
+\bibitem[{\textsc{HENDRICKSON}(1995b)}]{HendricksonLeland1995b}
+\textsc{HENDRICKSON, R., B. et~LELAND}. 1995b, \enquote{A multi-level algorithm
+  for partitioning graphs}, \emph{Supercomputing}.
+
+\bibitem[{\textsc{HOLYER}(1981))}]{HOLYER1981}
+\textsc{HOLYER, I.} 1981), \enquote{The np-completeness of some edge-partition
+  problems}, \emph{SIAM Journal on Computing}.
+
+\bibitem[{\textsc{HYAFIL}(1973)}]{HYAFIL1973}
+\textsc{HYAFIL, R.~L., L. et~RIVEST}. 1973, \enquote{Graph partitioning and
+  constructing optimal decision trees are polynomial complete problems},
+  \emph{Technical Report. IRIA. Laboratoire de Recherche en Informatique et
+  Automatique}.
+
+\bibitem[{\textsc{J.~W.~Bakker}(1983)}]{Bakker1983}
+\textsc{J.~W.~Bakker, J. J. C.~K., J. A.~Bergstra}. 1983, \enquote{Linear the
+  and branching time semantics for recursion with merg}, \emph{Proc. ICALP 83,
+  LNCS}.
+
+\bibitem[{\textsc{JOHNSON}(1989)}]{Johnson1989}
+\textsc{JOHNSON, A. C. R. M. L. A. e. S.~C., D.~S.} 1989, \enquote{Optimization
+  by simulated annealing : an experimental evaluation; parti, graph
+  partitioning}, \emph{Operations research}.
+
+\bibitem[{\textsc{JOVANOVIC}(2016)}]{Jovanovic2016}
+\textsc{JOVANOVIC, T. M. e. V.~S., R.} 2016, \enquote{An ant colony
+  optimization algorithm for partitioning graphs with supply and demand},
+  \emph{Applied Soft Computings}.
+
+\bibitem[{\textsc{KABELÍKOVÁ}(2006)}]{Kabelikova2006}
+\textsc{KABELÍKOVÁ, P.} 2006, \emph{Graph partitioning using spectral
+  methods}, \bblphdthesis{}, VSB - Technical University of Ostrava, Czech
+  Republic.
+
+\bibitem[{\textsc{KAIBEL}(2011)}]{Kaibel2011}
+\textsc{KAIBEL, P. M. e. P. M.~E., V.} 2011, \enquote{Orbitopal fixing},
+  \emph{Discrete Optimization}.
+
+\bibitem[{\textsc{KALAYCI}(2018)}]{KalayciBattiti2018}
+\textsc{KALAYCI, R., T. E. et~BATTITI}. 2018, \enquote{A reactive self-tuning
+  scheme for multilevel graph partitioning}, \emph{Applied Mathematics and
+  Computation}.
+
+\bibitem[{\textsc{KARYPIS}(2003)}]{Karypis2003}
+\textsc{KARYPIS, G.} 2003, \enquote{Multilevel hypergraph partitioning},
+  \emph{In Multilevel Optimization in VLSICAD}.
+
+\bibitem[{\textsc{KARYPIS}(2011)}]{Karypis2011}
+\textsc{KARYPIS, G.} 2011, \enquote{Metis and parmetis}, \emph{In Encyclopedia
+  of parallel computing}.
+
+\bibitem[{\textsc{KARYPIS}(1998)}]{KarypisKumar1998}
+\textsc{KARYPIS, V., G. et~KUMAR}. 1998, \enquote{A parallel algorithm for
+  multilevel graph partitioning and sparse matrix ordering}, \emph{Journal of
+  Parallel and Distributed Computing}.
+
+\bibitem[{\textsc{KERNIGHAN}(1970)}]{KernighanLin1970}
+\textsc{KERNIGHAN, S., B. W. et~LIN}. 1970, \enquote{An efficient heuristic
+  procedure for partitioning graphs}, \emph{The Bell system technical journal.
+  Alcatel-Lucent}.
+
+\bibitem[{\textsc{KIM}(2011)}]{Kim2011}
+\textsc{KIM, H. I. K. Y.-H. e. M. B.-R., J.} 2011, \enquote{Genetic approaches
+  for graph partitioning : a survey}, \emph{In Proceedings of the 13th annual
+  conference on Genetic and evolutionary computation}.
+
+\bibitem[{\textsc{KOROŠEC}(2004)}]{Korosec2004}
+\textsc{KOROŠEC, I. J. e. R. C.~B., P.} 2004, \enquote{Solving the
+  mesh-partitioning problem with an ant-colony algorithm}, \emph{Parallel
+  computing}.
+
+\bibitem[{\textsc{Kripke}(1963)}]{Kripke1963}
+\textsc{Kripke, S.~A.} 1963, \enquote{Semantical considerations on modal
+  logic}, \emph{Acta Philosophica Fennica Fasc}.
+
+\bibitem[{\textsc{KRISHNAMURTHY}(1984)}]{Krishnamurthy1984}
+\textsc{KRISHNAMURTHY, B.} 1984, \enquote{An improved min-cut algonthm for
+  partitioning vlsi networks}, \emph{IEEE Transactions on Computers}.
+
+\bibitem[{\textsc{L}(1989)}]{Norman1989}
+\textsc{L, N.} 1989, \emph{Discrete Mathematics}, Oxford University Press.
+
+\bibitem[{\textsc{LAND}(2010)}]{Land2010}
+\textsc{LAND, A.~G., A. H. et~DOIG}. 2010, \enquote{An automatic method for
+  solving discrete programming problems}, \emph{50 Years of Integer Programming
+  1958-2008}.
+
+\bibitem[{\textsc{LANGHAM}(1999)}]{LanghamGrant1999}
+\textsc{LANGHAM, P., A. E. et~GRANT}. 1999, \enquote{A parallel genetic
+  algorithm for the graph partitioning problem}, \emph{In Proceedings of the
+  5th international conference on Supercomputing}.
+
+\bibitem[{\textsc{LASALLE}(2013)}]{LaSalleKarypis2013}
+\textsc{LASALLE, G., D. et~KARYPIS}. 2013, \enquote{Multi-threaded graph
+  partitioning}, \emph{In Parallel and Distributed Processing (IPDPS), 2013
+  IEEE 27th International Symposium on}.
+
+\bibitem[{\textsc{LASALLE}(2015)}]{LaSalleKarypis2015}
+\textsc{LASALLE, G., D. et~KARYPIS}. 2015, \enquote{Multi-threaded modularity
+  based graph clustering using the multilevel paradigm}, \emph{Journal of
+  Parallel and Distributed Computing}.
+
+\bibitem[{\textsc{LENG}(2007)}]{LengYu2007}
+\textsc{LENG, S., M. et~YU}. 2007, \enquote{An effective multi-level algorithm
+  based on ant colony optimization for bisecting graph}, \emph{In Pacific-Asia
+  Conference on Knowledge Discovery and Data Mining}.
+
+\bibitem[{\textsc{MEYERHENKE}(2006)}]{MeyerhenkeSchamberger2006}
+\textsc{MEYERHENKE, S., H. et~SCHAMBERGER}. 2006, \enquote{A parallel shape
+  optimizing load balancer}, \emph{Euro-Par 2006 Parallel Processing}.
+
+\bibitem[{\textsc{MONIEN}(2000)}]{Monien2000}
+\textsc{MONIEN, P. R. e. D.~R., B.} 2000, \enquote{Quality matching and local
+  improvement for multilevel graph-partitioning}, \emph{Parallel Computing}.
+
+\bibitem[{\textsc{Nash}(1950)}]{depriester1950johnnash}
+\textsc{Nash, J.} 1950, \enquote{The bargaining problem}, \emph{Econometrica},
+  \bblvol{}~18, \bblno{}~1, \bblpp{} 155--162.
+
+\bibitem[{\textsc{PELLEGRINI}(1995)}]{Pellegrini1995}
+\textsc{PELLEGRINI, F.} 1995, \emph{Application de méthodes de partition à la
+  résolution de problèmes de graphes issus du parallélisme},
+  \bblphdthesis{}, Bordeaux 1.
+
+\bibitem[{\textsc{PELLEGRINI}(2007)}]{Pellegrini2007}
+\textsc{PELLEGRINI, F.} 2007, \enquote{A parallelisable multi-level banded
+  diffusion scheme for computing balanced partitions with smooth boundaries},
+  \emph{Euro-Par 2007 Parallel Processing}.
+
+\bibitem[{\textsc{Petri}(1962)}]{Carl1962}
+\textsc{Petri, C.~A.} 1962, \emph{Communication avec des Automates},
+  \bblphdthesis{}, Allemagne à Bonn en.
+
+\bibitem[{\textsc{POPE}(2000)}]{Pope2016}
+\textsc{POPE, T. D. R. e. K. A.~D., A.~S.} 2000, \enquote{Evolving multi-level
+  graph partitioning algorithms}, \emph{In Computational Intelligence (SSCI)}.
+
+\bibitem[{\textsc{POTHEN}(1990)}]{Pothen1990}
+\textsc{POTHEN, S. H. D. e. L. K.-P., A.} 1990, \enquote{Partitioning sparse
+  matrices with eigenvectors of graphs}, \emph{SIAM journal on matrix analysis
+  and applications}.
+
+\bibitem[{\textsc{PREDARI}(2017)}]{Predari2017}
+\textsc{PREDARI, E. A. e. R.~J., M.} 2017, \enquote{Comparison of initial
+  partitioning methods for multilevel direct k-way graph partitioning with
+  fixed vertices}, \emph{Parallel Computing}.
+
+\bibitem[{\textsc{Queyroi}(2013)}]{Francois2013}
+\textsc{Queyroi, F.} 2013, \emph{Partitionnement de grands graphes : mesures,
+  algorithmes et visualisation}, \bblphdthesis{}, Université Sciences et
+  Technologies - Bordeaux I.
+
+\bibitem[{\textsc{RAHIMIAN}(2013)}]{Rahimian2013}
+\textsc{RAHIMIAN, P. A. H. G. S. J.-M. H.-S., F.} 2013, \enquote{Ja-be-ja : A
+  distributed algorithm for balanced graph partitioning}, \emph{In
+  Self-Adaptive and Self-Organizing Systems (SASO), 2013 IEEE 7th International
+  Conference on}.
+
+\bibitem[{\textsc{RODRIGUES}(2006)}]{Rodrigues2006}
+\textsc{RODRIGUES, B. P. E. C. J. M. d. F. J. C. e. G. D.~D., C.~L.} 2006,
+  \enquote{A bag-of-tasks approach for state space exploration using
+  computational grids}, \emph{In Software Engineering and Formal Methods, 2006.
+  SEFM 2006. Fourth IEEE International Conference on}.
+
+\bibitem[{\textsc{SAFRO}(2015)}]{Safro2015}
+\textsc{SAFRO, S. P. e. S.~C., I.} 2015, \enquote{Advanced coarsening schemes
+  for graph partitioning}, \emph{Journal of Experimental Algorithmics}.
+
+\bibitem[{\textsc{SAIDOUNI}(2012)}]{Saidouni2012}
+\textsc{SAIDOUNI, C. A. C. e. I. J.-M., D.~E.} 2012, \enquote{On the fly pso
+  inspired algorithm for graph distribution}, \emph{In 2nd International
+  Symposium on Modelling and Implementation of Complex Systems}.
+
+\bibitem[{\textsc{SANDERS}(2011)}]{SandersSchulz2011}
+\textsc{SANDERS, P. e.~S.} 2011, \enquote{Engineering multilevel graph
+  partitioning algorithms}, \emph{In ESA}.
+
+\bibitem[{\textsc{SANDERS}(2012)}]{SandersSchulz2012}
+\textsc{SANDERS, P. e.~S.} 2012, \enquote{Distributed evolutionary graph
+  partitioning}, \emph{In 2012 Proceedings of the Fourteenth Workshop on
+  Algorithm Engineering and Experiments (ALENEX)}.
+
+\bibitem[{\textsc{SCHLOEGEL}(2000)}]{SCHLOEGEL2000}
+\textsc{SCHLOEGEL, K. G. e.~K., K.} 2000, \enquote{Graph partitioning for high
+  performance scientific simulations}, \emph{Army High Performance Computing
+  Research Center}.
+
+\bibitem[{\textsc{Schneider}(2004)}]{Klaus2004}
+\textsc{Schneider, K.} 2004, \enquote{Verification of reactive systems: Formal
+  methods and algorithms}, \emph{Springer-Verlag, coll. « Texts in Theoretical
+  Computer Science. An EATCS Series »}.
+
+\bibitem[{\textsc{SELLMANN}(2003)}]{Sellmann2003}
+\textsc{SELLMANN, S. N. e. T.~L., M.} 2003, \enquote{Multicommodity flow
+  approximation used for exact graph partitioning}, \emph{In ESA}.
+
+\bibitem[{\textsc{SIMON}(1991)}]{Simon1991}
+\textsc{SIMON, H.~D.} 1991, \enquote{Partitioning of unstructured problems for
+  parallel processing}, \emph{Computing systems in engineering}.
+
+\bibitem[{\textsc{SOPER}(2004)}]{Soper2004}
+\textsc{SOPER, W. C. e. C.~M., A.~J.} 2004, \enquote{A combined evolutionary
+  search and multilevel optimisation approach to graph-partitioning},
+  \emph{Journal of Global Optimization}.
+
+\bibitem[{\textsc{SØRENSEN}(2003)}]{Sorensen2007}
+\textsc{SØRENSEN, M.~M.} 2003, \enquote{Facet-defining inequalities for the
+  simple graph partitioning polytope}, \emph{Discrete Optimization}.
+
+\bibitem[{\textsc{T}(1989)}]{Murata1989}
+\textsc{T, M.} 1989, \enquote{Petri nets: Properties, analysis and
+  applications}, \emph{Proceedings of the IEEE}.
+
+\bibitem[{\textsc{TABIB}(2016)}]{TabibSaidouni2016}
+\textsc{TABIB, D.~E., N. et~SAIDOUNI}. 2016, \enquote{Newton’s law of
+  universal gravitation based genetic algorithm for graph distribution},
+  \emph{International Journal of Computational Intelligence and Applications.
+  World Scientific}.
+
+\bibitem[{\textsc{TABIB}(2017)}]{Tabib2017}
+\textsc{TABIB, N.} 2017, \emph{Construction distribuée d’espace d’états
+  en vue d’une vérification efficace des systèmes atemporels},
+  \bblphdthesis{}, Thèse de doctorat, Université Abdelhamid Mehri -
+  Constantine 2, Algeria.
+
+\bibitem[{\textsc{TALBI}(1991)}]{TalbiBessiere1991}
+\textsc{TALBI, P., E.-G. et~BESSIERE}. 1991, \enquote{A parallel genetic
+  algorithm for the graph partitioning problem}, \emph{In Proceedings of the
+  5th international conference on Supercomputing}.
+
+\bibitem[{\textsc{TALU}(2017)}]{Talu2017}
+\textsc{TALU, M.~F.} 2017, \enquote{Multi-level spectral graph partitioning
+  method}, \emph{Journal of Statistical Mechanics : Theory and Experiment}.
+
+\bibitem[{\textsc{TAO}(1993)}]{TaoZhao1993}
+\textsc{TAO, Y., L. et~ZHAO}. 1993, \enquote{Multi-way graph partition by
+  stochastic probe}, \emph{Computers and operations research}.
+
+\bibitem[{\textsc{TASHKOVA}(2011)}]{Tashkova2011}
+\textsc{TASHKOVA, K. P. e. I.~J., K.} 2011, \enquote{A distributed multilevel
+  ant-colony algorithm for the multi-way graph partitioning},
+  \emph{International Journal of Bio-Inspired Computation}.
+
+\bibitem[{\textsc{TRIFUNOVIC}(2015)}]{TrifunovicKnottenbelt2004}
+\textsc{TRIFUNOVIC, W.~J., A. et~KNOTTENBELT}. 2015, \enquote{Parkway 2.0 : A
+  parallel multilevel hypergraph partitioning tool}, \emph{Lecture notes in
+  computer science}.
+
+\bibitem[{\textsc{Valette}(9novembre 2007)}]{Robert2007}
+\textsc{Valette, R.} 9novembre 2007, \enquote{Genèse de la théorie des
+  réseaux de petri}, \emph{LAAS-CNRS Toulouse}.
+
+\bibitem[{\textsc{VAN~DRIESSCHE}(1994)}]{VanDriesscheRoose1994}
+\textsc{VAN~DRIESSCHE, D., R. et~ROOSE}. 1994, \emph{A graph contraction
+  algorithm for the calculation of eigenvectors of the laplacian matrix of
+  agraph with a multilevel method}, \bblphdthesis{}, Rapport technique TW 209,
+  Department of Computer Science, KU Leuven, Leuven, Belgium.
+
+\bibitem[{\textsc{WALSHAW}()}]{Walshaw2012}
+\textsc{WALSHAW, C.} \enquote{Jostle-graph partitioning software},
+  \urlprefix\url{http://staffweb.cms.gre.ac.uk/wc06/jostle/}.
+
+\bibitem[{\textsc{WAN}(2005)}]{Wan2005}
+\textsc{WAN, R. S. S. A. e. L.~B., Y.} 2005, \enquote{A stochastic
+  automaton-based algorithm for flexible and distributed network partitioning},
+  \emph{In Swarm Intelligence Symposium, 2005. SIS 2005. Proceedings 2005
+  IEEE}.
+
+\bibitem[{\textsc{WILLIAMS}(1991)}]{Williams1991}
+\textsc{WILLIAMS, R.~D.} 1991, \enquote{Performance of dynamic load balancing
+  algorithms for unstructured mesh calculations}, \emph{Concurrency and
+  Computation : Practice and Experience. Wiley Online Library}.
+
+\end{thebibliography}

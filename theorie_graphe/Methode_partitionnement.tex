@@ -1,0 +1,20 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									section.	Partitionnement de graphe											%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Partitionnement de graphe}
+Le partitionnement de graphe est un problème NP-Complet \citep{GAREY1976}, utilisé pour résoudre un grand nombre de problèmes d'ingénierie : La conception de circuits intégrés électroniques \citep{CONG2003}, la répartition de charge pour les machines parallèles \citep{BARAT2016}, la dynamique des fluides, le calcul matriciel, la segmentation d'images \citep{GRADY2006} ou la classification d'objets \citep{DHILLON2007}.
+
+Etant donné un graphe non-orienté $G = (S, A)$ où $S$ est l'ensemble des sommets et $A$ est l'ensemble des arêtes. Les sommets et les arêtes peuvent être pondérés. Le problème du partitionnement d'un graphe $G$ consiste à le diviser en $k$ parties disjointes. Du point de vue mathématique, on peut partitionner les sommets ou bien les arêtes. Cependant, bien que certains problèmes cherchent à partitionner les arêtes d'un graphe \citep{HOLYER1981}, on entend le plus souvent par partition d'un graphe, le partitionnement des sommets de ce graphe.
+
+\begin{definition}[Partition des sommets d'un graphe] \citep{BichotSiarry2013}
+\\Soient un graphe $G = (S,A)$ et un ensemble de $k$ sous-ensembles de $S$, noté $P_k = \{S_1, S_2, . . . ,S_n\}$. En d'autres termes, $P_k$ est dite une partition de $G$ si :
+\begin{itemize}
+	\item Aucun sous-ensemble de $A$ qui est élément de $P_k$ n'est vide : $\forall i\; \in \; \{1, ..., k\},\; S_i \ne \emptyset$
+	\item Les sous-ensembles de $S$ qui sont éléments de $P_k$ sont disjoins deux à deux : $\forall(i, j) \in{1, ..., K}, i \ne j, S_i \cap S_j = \emptyset$
+	\item L'union de tous les éléments de $P_k$  est $S$ : $U^{k}_{i=1} S_k = S$
+\end{itemize}
+Les éléments $S_i$ de $P_k$ sont appelés les parties de la partition.\\
+Le nombre $k$ est appelé le cardinal de la partition, ou encore le nombre de parties de la partition.
+Dans le cas $k = 2$, on a le problème de bissection.
+\end{definition}

@@ -1,0 +1,184 @@
+\begin{algorithm}[H]\label{alg2}
+\SetAlgoLined
+\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+$AXf \longleftarrow \emptyset$\; \label{line21}
+\ForEach{$e$ in $S$}{\label{line22}
+	\uIf{$\left( (\forall e' \; in\; succ(e) \subseteq \left(T^+(f)\cup U^+(f)\right))and(e \in \{T^+(f)\cup U^+(f)\}  )\right)$}{\label{line23}
+		$AXf\longleftarrow AXf\cup \left\{e\right\}$\;\label{line24} 
+	}
+	\Else{\label{line25}
+		\uIf{$\left( e\ \;\;in\;\; T \right)$}{\label{line26}
+			\ForEach{$e'$ in $succ(e)$}{\label{line27}
+				\If{$\left( \curenti{}\;\; in \;\; e'.i \right)$}{\label{line28}
+					$e.f\longleftarrow e.f\cup e'.f$\;\label{line29}
+					$e.i\longleftarrow e.i\cup \{  \curenti{}\}$\;\label{line210}			
+				}			
+	   		}\label{endfor27}
+   		}\label{line2111}
+   		\Else{\label{line211}
+   			\ForEach{$e'$ in $succ(e)$}{\label{line212}
+				\If{$\left( \curenti{}\;\;in \;\; e'.i \right)$}{\label{line213}
+					$e.limit\longleftarrow e.limit\cup e'.f$\;\label{line214}
+					$e.fn \longleftarrow e.fn\cup \left\{  \curenti{} \right\}$\; \label{line215}				
+				}			
+	   		}   		
+   		}
+	}	
+} 
+ \caption{Mark linked states formula AX}
+\end{algorithm}
+
+Les instructions décrivant l'Algorithme(\ref{alg2}) sont expliquées comme suit:
+\begin{description}
+	\item[ligne \ref{line21} :] L'ensemble \s{AXf} contient les états sur lesquels la formule est vérifiée ou peut être vérifiée. Cet ensemble est initialisé par l'instruction de cette ligne.
+	\item[ligne \ref{line22} :] L'instruction de cette ligne permet de parcourir les états stockés sur la \mi{}
+	\item[ligne \ref{line23} :] L'instruction de cette ligne vérifie la formule sur les successeurs, si elle est vérifiée, alors l'instruction de la ligne(\ref{line24}) est exécutée. 
+	\item[ligne \ref{line24} :] L'instruction de cette ligne stocke l'état dans l'ensemble \s{AXf}.
+	\item[ligne \ref{line25} :] Lorsque la formule n'est pas vérifiée sur l'état ou ses successeurs, les instructions  des lignes suivantes sont alors exécutées. 
+	\item[ligne \ref{line26} :] L'instruction de cette ligne vérifie la formule sur l'état. Lorsqu'elle est vérifiée, les instruction des lignes( \ref{line27} à \ref{endfor27}) sont alors exécutées. La ligne \ref{line27} permet de parcourir les successeurs de l'état pour vérifier  l'itération courante grâce à l'instruction de la ligne \ref{line28}. Une fois qu'elle est présente, les instructions suivantes sont exécutées:
+	\begin{description}
+	\item[ligne \ref{line29} :] L'instruction de cette ligne permet de récupérer les états dont ils dépendent. 
+	\item[ligne \ref{line210} :] L'instruction de cette ligne enregistre l'itération courante sur l'état, car un état peut dépendre de plusieurs états de différentes itérations. 
+	\end{description}
+	\item[ligne \ref{line211} :] Lorsque la formule n'est pas vérifiée sur l'état,ses successeurs sont parcourus grâce à l'instruction de la ligne \ref{line212}. Lors de ce parcours, l'itération courante est vérifiée par l'instruction de la ligne \ref{line213}.\\ Lorsque l'itération courante est présente, les états successeurs sur lesquels la formule n'est pas vérifiée sont enregistrés dans la variable \s{limit} de l'état grâce à l'instruction de la ligne \ref{line214}. La sauvegarde de ces états permet d'éviter le déplacement de cet état, étant donné que sa duplication permet à l'algorithme de connaitre la valeur logique de ces prédécesseurs sans que la machine concernée ne soit notifiée.
+	
+\end{description}
+
+\begin{algorithm}[H]\label{alg3}
+\SetAlgoLined
+\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+$EXf \longleftarrow \emptyset$\; \label{line31}
+\ForEach{$e$ in $S$}{\label{line32}
+	\uIf{$\left( \exists e'  in succ(e) \subseteq \left(T^+(f)\cup U^+(f)\right)\right)$}{\label{line33}
+		$EXf\longleftarrow EXf\cup \left\{e\right\}$\; \label{line34}
+	}
+	\Else{\label{line35}
+		\uIf{$\left( e\ \;\;in\;\; T \right)$}{\label{line36}
+			\ForEach{$e'$ in $succ(e)$}{\label{line37}
+				\If{$\left( \curenti{}\;\;in\;\; e'.i \right)$}{\label{line38}
+					$e.f\longleftarrow e.f\cup e'.f$\;\label{line39}
+					$e.i\longleftarrow e.i\cup \{  \curenti{}\}$\;\label{line310}				
+				}			
+	   		}
+   		}
+   		\Else{\label{line311}
+   			\ForEach{$e'$ in $succ(e)$}{\label{line312}
+				\If{$\left( \curenti{}\;\; in\;\; e'.i \right)$}{\label{line313}
+					$e.limit\longleftarrow e.limit\cup e'.f$\;\label{line314}
+					$e.fn \longleftarrow e.fn\cup \left\{  \curenti{} \right\}$\; \label{line315}				
+				}			
+	   		}   		
+   		}
+	}\label{line320}	
+} 
+ \caption{Mark linked states formula EX}
+\end{algorithm}
+
+Les instructions décrivant l'Algorithme(\ref{alg3}) sont similaires à celle de l'Algorithme(\ref{alg2}), la différence se trouve au niveau de la vérification de la formule sur les successeurs. Pour l'Algorithme(\ref{alg3}), lorsque la formule est vérifiée ou peut être vérifiée sur un successeur, l'instruction de la ligne \ref{line34} est alors exécutée, sinon les instructions de la ligne \ref{line35} à la ligne \ref{line320} sont exécutées en fonction de la vérification de la formule comme expliqué au niveau de  l'Algorithme(\ref{alg2}).
+
+\begin{Exemple}\label{ea2}
+	L'application de l'algorithme de model checker de la formule \textit{$AG(a)$} sur la structure de Kripke de la Figure (\ref{skd2}) donne les états marqués à chaque itération comme suit:
+\begin{description}
+	\item[Itération 1] Dans la première itération, les états initialisés dans l'exemple(\ref{ea1}) sont utilisés pour déterminer les états liés. Le model checker utilise l'Algorithme(\ref{alg2}) pour vérifier la formule \textit{$AG(a)$}, cet algorithme détecte sur les états(\s{S12},\s{S10}) qu'ils sont liés à l'état \s{S14}, car la formule n'est pas vérifiée sur l'état \s{S14}, par contre la formule est vérifiée sur ces états. La vérification de la formule sur les successeurs directs de l'état \s{S14}, ce dernier est un successeur direct de \s{S12}, ou indirect	s de l'état \s{S14}, ce dernier est un successeur indirect de l'état \s{S10}, cela montre qu'elle n'est pas vérifiée sur chacun de ces états. l'état \s{S14} est marqué dans l'ensemble de dépendance des états liés. L'état \s{S9} est un prédécesseur indirect de l'état \s{S14}, ce dernier est marqué sur l'ensemble \s{limit} de l'état \s{S9} car la formule n'est pas vérifiée sur état \s{S9}. Le Tableau (\ref{tim1}) représente les différents états marqués par chacune des machines pendant cette itération.   
+\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&		T&			F&	I&	limit&	fn&		M\\
+		\hline
+		S9&		I&$\emptyset$&$\{	1\}$&	$\{S14\}$&	$\{S14\}$&	M2\\
+		\hline
+		S10&	I&	$\{S14\}$&$\{	1\}$&$\emptyset$& $\emptyset$ &M2\\
+		\hline
+		S12&	I&	$\{S14\}$&$\{	1\}$&$\emptyset$&$\emptyset$ &	M2\\
+		\hline
+		S15&	I&	$\{S19\}$&$\{	1\}$&$\emptyset$&$\emptyset$ &	M3\\
+		\hline
+		S16&	I&	$\{S19\}$&$\{	1\}$&$\emptyset$&$\emptyset$ &	M3\\
+		\hline
+		S17&	I&	$\{S19\}$&$\{	1\}$&$\emptyset$&$\emptyset$ &	M3\\
+		\hline
+		S18&	I&	$\{S19\}$&$\{	1\}$&$\emptyset$&$\emptyset$ &	M3\\		
+		\hline
+	\end{tabular}
+	\caption{Étape de marquage: itération 1}\label{tim1}
+\end{tableth}
+\\\\	
+	\item[Itération 2] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 2 sont utilisés pour déterminer les états liés aux états notifiés(dans l'exemple(\ref{ea1}) une notification provoque l'itération 2 sur la \mone{}, cette notification concerne l'état \s{S9}). Pendant la vérification de la formule, l'algorithme détecte la valeur logique de la formule au niveau des états(\s{S1}, \s{S2}, \s{S3}, \s{S4},\s{S5}, \s{S6}) sur la \mone{}. La valeur logique de cette formule sur ces états dépend de la valeur logique de la formule  sur l'état \s{S9}. Ces états sont des prédécesseurs directs ou indirects de l'état  \s{S9}. Cet état est rajouté à l'ensemble  de dépendance, l'itération courante est ainsi marquée. 
+Le Tableau (\ref{tim2}) représente les différents états marqués pendant l'itération 2 de chacune des machines.  
+	\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&		T&			F&	I&	limit&	fn&		M\\
+		\hline
+		S1&	I&	$\{S9,S10\}$&	$\{1,2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S2&	I&	$\{S9,S10\}$&	$\{1,2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S3&	I&	$\{S9,S10\}$&	$\{1,2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S5&	I&	$\{S9,S10\}$&	$\{1,2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S6&	I&	$\{S9\}$	   &	$\{2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S7&	I&	$\{S9\}$    &	$\{2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S8&	I&	$\{S10\}$   &	$\{2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S9&	E&	$\emptyset$&	$\{2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S10&E&	$\emptyset$&	$\{2\}$&	$\emptyset$& $\emptyset$&		M1\\ \hline
+		S14&I&	$\emptyset$&	$\{1\}$&	$\{S15\}$   & $\{S15\}$&			M2\\ \hline
+		S15&E&	$\emptyset$&	$\{2\}$&	$\emptyset$& $\emptyset$&		M2\\				
+		\hline
+	\end{tabular}
+	\caption{Étape de marquage: itération 2}\label{tim2}
+\end{tableth}
+	\item[Itération 3] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 3 sont utilisés pour déterminer les états liés aux états notifiés de l'exemple(\ref{ea1}. Une notification provoque l'itération 3 sur la \mtree{}, cette notification concerne l'état \s{S2}). Pendant la vérification, l'algorithme détecte la valeur logique de l'état(\s{S20}) sur la \mtree{}, elle dépend de l'état \s{S2}. Ce dernier est ajouté à l'ensemble  de dépendance de l'état \s{S20}. Par contre l'état \s{S19} est un prédécesseur indirect de l'état \s{S2}, il est ajouté à l'ensemble \s{limit} de l'état (\s{S19}, car la formule n'est pas vérifiée sur cet état l'à. Toute fois l'itération courante est marquée sur l'état \s{S19}. 
+le Tableau (\ref{tim3}) représente les différents états marqués pendant l'itération 3 de chacune des machines. 
+	\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&		T&			F&	I&	limit&	fn&		M\\
+		\hline
+		S9&	I&	$\emptyset$&	$\{1\}$&	$\{S7\}$   &	$\{S7\}$&	M2\\ \hline
+		S7&	E&	$\emptyset$&	$\{3\}$&	$\emptyset$& $\emptyset$&	M2\\ \hline
+		S2&	E&	$\emptyset$&	$\{3\}$&$\emptyset$& $\emptyset$	&	M3\\ \hline
+		S19&I&	$\{S19\}$&	$\{1\}$&$\{S2\}$   & $\{S2\}$	&	M3\\ \hline
+		S20&I&	$\{S2\}$&	$\{3\}$&$\emptyset$& $\emptyset$&	M3\\ \hline
+		S22&I&	$\{S2\}$&	$\{3\}$&$\emptyset$& $\emptyset$&	M3\\ \hline
+		
+	\end{tabular}
+	\caption{Étape de marquage: itération 3}\label{tim3}
+\end{tableth}
+\\\\\\\\\\
+	\item[Itération 4] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 4 sont utilisés pour déterminer les états liés aux états notifiés dans l'exemple(\ref{ea1}. Une notification provoque l'itération 4 sur la \mtwo{}, la notification concerne l'état \s{S22}). Le principe de marquage est similaire à l'itération précédente, le Tableau (\ref{tim4}) représente alors les différents états marqués pendant l'itération 4 de chacune des machines. 
+	\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&		T&			F&	I&	limit&	fn&		M\\
+		\hline
+		S11&	I&	$\{S22\}$	&	$\{4\}$			&$\emptyset$	&$\emptyset$	&M2\\ \hline
+		S13&	I&	$\{S22\}$	&	$\{4\}$			&$\emptyset$	&$\emptyset$	&M2\\ \hline
+		S14&	I&	$\emptyset$	&$\emptyset$	&	$\{S15,S22\}$	&$\{S15,S22\}$	&M2\\ \hline
+		S22&	E&	$\emptyset$	&	$\{4\}$			&$\emptyset$	&$\emptyset$	&M2\\ \hline
+		
+	\end{tabular}
+	\caption{Étape de marquage: itération 4}\label{tim4}
+\end{tableth}\\
+
+	\item[Itération 5] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 5 sont utilisés pour déterminer les états liés aux états notifiés de l'exemple(\ref{ea1}. Une notification provoque l'itération 5 sur la \mtree{}, la notification concerne l'état \s{11}). Ainsi l'algorithme détecte la valeur logique des états(\s{S15}, \s{S16}, \s{S18}) sur la \mtree{}, elle dépend de l'état \s{S11}. Le principe de marquage est similaire à l'itération 2, on remarque sur ces états l'effet de plusieurs itérations, cela s'explique par le fait que ces états dépendent de plusieurs autres états. Le Tableau (\ref{tim5}) représente les différents états marqués pendant l'itération 5 de chacune des machines.
+	\begin{tableth}
+	\centering
+	\begin{tabular}{|*{7}{c|}}
+		\hline
+		Id&		T&			F&	I&	limit&	fn&		M\\
+		\hline
+		S1&		I&$\emptyset$&		$\{1 ,5\}$&	$\{S7\}$&	$\{S7\}$&		M2\\ \hline
+		S2&		I&$\emptyset$&		$\{1 ,5\}$&$\emptyset$&$\emptyset$&		M2\\ \hline
+		S11&	I&$\emptyset$&		$\{5\}$	&$\emptyset$&$\emptyset$&		M2\\ \hline
+		S11& 	E&$\emptyset$&		$\{5\}$&$\emptyset$&$\emptyset$&		M3\\ \hline
+		S15&	I&	$\{S19,s11\}$&	$\{1 ,5\}$&$\emptyset$&$\emptyset$&		M3\\ \hline
+		S16&	I&	$\{S19,s11\}$&	$\{1 ,5\}$&$\emptyset$&$\emptyset$&		M3\\ \hline
+		S18&	I&	$\{S19,s11\}$&	$\{1 ,5\}$&$\emptyset$&$\emptyset$&		M3\\ \hline
+	\end{tabular}
+	\caption{Étape de marquage: itération 5}\label{tim5}
+\end{tableth}\\
+
+\end{description}	
+\end{Exemple}

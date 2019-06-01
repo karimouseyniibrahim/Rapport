@@ -1,0 +1,58 @@
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%           Fichier maitre				%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[a4paper, 12pt, twoside,openright]{report}
+\input{Preambule}		% Liste des packages et de leurs options
+\input{CommandesPerso}	% Commandes et environnements perso
+\input{PageDeGarde}
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%   			Liste des fichiers à compiler					%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	\includeonly{Chapitre1,Chapitre2,Annexes}
+
+\input{Expression}
+
+% Méta-données du PDF
+\hypersetup{
+    pdfauthor={\@author},
+    pdfsubject={Manuscrit de thèse de Master},
+    pdftitle={\@title},
+    pdfkeywords={space d'états, distribution, modèle checker}
+}
+
+\begin{document}
+% Préambule	
+	\pagedegarde	
+	\pagenumbering{roman}
+		% Table des matières
+			\setcounter{tocdepth}{1}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
+			\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
+			\tableofcontents
+		% Liste des figures
+			\renewcommand*\listfigurename{Liste des figures}
+			\listoffigures
+		% Liste des tableaux
+		\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
+%        Contenu du document        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
+	\pagenumbering{arabic}
+	\input{theorie_graphe/Theorie_graphe}
+	\input{r2p_sk_mc/R2p_SK_MC}
+	\input{Contribution}	
+	% Annexes
+	\begin{appendix}
+		\pagenumbering{Roman}	
+		\bibliographystyle{francaissc}
+		\bibliography{Biblio}	
+	\end{appendix}
+	
+\end{document}

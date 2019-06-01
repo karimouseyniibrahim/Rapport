@@ -1,0 +1,63 @@
+\SetKwFunction{printlcs}{$Send\_ Request$}
+\begin{algorithm}
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{MG:State,MF:State} }\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Procedure}{}{}
+  \myalg{\algo{}}{  	
+  		\uIf{$\mid MG.site.\parametretwo{} -MF.\parametretwo{} \mid \leq \parametrefive{}$}{\label{pline1}
+  			$send(element(MF),MG) to  MG.id$\;\label{pline2}
+  		}
+  		\uElseIf{$MG.site.\parametretwo{} \leq \parametrefive{}$}{\label{pline3}
+  			$send(null,MG)  to MG.id$\;\label{pline4}
+  		}
+  		\ElseIf{$MF.\parametretwo{} \leq \parametrefive{}$}{\label{pline5}
+  			$send(element(MF),null)  to  MF.id$\;\label{pline6}
+  		}
+}{}
+\end{algorithm}
+Les instructions décrivant la procédure ($Send\_ Request$) sont expliquées comme suit:
+\begin{description}
+\item[ligne \ref{pline1} :] L'instruction de cette ligne permet de vérifier qu'il est possible de déplacer des états locaux et états distants. La vérification de cette condition permet d'exécuter l'instruction de la ligne \ref{pline2}, elle permet d'envoyer les états à déplacer et la référence des états à importer. 
+\item[ligne \ref{pline3} :] L'instruction de cette ligne permet de vérifier qu'il est possible de déplacer des états distants. La vérification de cette condition permet d'exécuter l'instruction de la ligne \ref{pline4}, elle permet d'envoyer la référence des états à déplacer à la machine distante. 
+\item[ligne \ref{pline1} :] L'instruction de cette ligne permet de vérifier qu'il est possible de déplacer des états locaux. La vérification de cette condition permet d'exécuter l'instruction de la ligne \ref{pline2}, elle permet d'envoyer l'ensemble des états à la machine distante. 
+\end{description}
+\SetKwFunction{printlcs}{$element$}
+\begin{algorithm}
+ \SetAlgoLined\DontPrintSemicolon
+  \SetKwFunction{algo}{\printlcs{s:State} }\SetKwFunction{proc}{proc}
+  \SetKwProg{myalg}{Function}{}{}
+  \myalg{\algo{}}{  
+  		$states\leftarrow \emptyset$\;	
+  		\uIf{$ type(s) ==border$}{
+  			\ForEach {$e' \in S$}{
+  				\If{$s.f\in e'.f \;and\; size(e.site)==1$}{
+  					$states\leftarrow states \cup \{ e'\}$\;	
+  				}
+  				\ElseIf{$s.f\in e'.limit$}{
+  					$states\leftarrow states \cup \{ e'\}$\;	
+  					duplicate(e') in this machine\;	
+  				}
+  			}
+  		}
+  		\ElseIf{$e \; \in notifier(S)$}{
+  			$states\leftarrow getSucc(s)$\;
+  			\ForEach {$e' \in e.f$}{
+  				\uIf{$type(e) \ne border$}{
+  					$states\leftarrow states \cup \{ duplicate(e)\}$\;
+  				}
+  				\Else{
+  					$states\leftarrow states \cup \{ e\}$\;
+  				}
+  			}
+  		} 		  		
+}{}
+\end{algorithm}
+
+Le protocole de redistribution de l'espace d'états est décrit par l'algorithme \ref{alg6}. Il exécute en premier la fonction \s{Search\_ States\_ To\_ Import}, ensuite la fonction \s{Search\_ States\_ To\_ Move}, enfin les résultat des deux fonctions utilisées pour procéder à l'envoi des états à déplacer avec la procédure \s{Send\_ Request} \\
+\begin{algorithm}[H]
+\SetAlgoLined
+	$MG\longleftarrow Search\_ States\_ To\_ Import()$\;
+	$MF\longleftarrow Search\_ States\_ To\_ Move(MG)$\;
+	$Send\_ Request(MG,MF)$\;
+	\caption{Distribute State}\label{alg6}
+\end{algorithm}

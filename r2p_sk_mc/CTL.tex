@@ -1,0 +1,65 @@
+\section{Logique temporelle arborescente (CTL)}
+Logique temporelle définie des opérateurs permettant de \s{lier} des variables propositionnelles \emph{p} aux instants \emph{t}. Par exemple, une assertion liée au comportement d'un programme telle que \s{après exécution d'une instruction i, le système se bloque}, les actions de cette assertion s'exécutent suivant un axe de temps : à l'instant \emph{t}, exécution de l'instruction \emph{i}, et à \emph{$t + 1$} blocage du système. La logique du temps arborescent permet de modéliser les expressions du passé et du futur \citep{Bakker1983}, \citep{Clarke1981}, \citep{Emerson1983}.\\
+
+La logique du temps arborescent (CTL) « Computation Tree Logic (en aglais) » permet d'exprimer des propriétés portant sur les arbres d'exécution (issus de l'état initial) du programme. Elle modélise des expressions du passé et du futur à partir d'un état du système. Une expressions CTL exprime des propriétés relatives à l'arbre d'exécution grâce une syntaxe et une sémantique.
+
+\subsection{Syntaxe de CTL}
+Le langage des formules de CTL sont les formules d'état définies inductivement par:
+\begin{itemize}
+	\item  $ \forall p \in AP$, p est une formule d'état;
+	\item  Si p, q sont des formules d'état, alors $p \vee q$ et $\neg p$ sont des formules d'état;
+	\item Si p est une formule de chemin, alors \emph{$E_p$} et \emph{Ap} sont des formules de chemin;
+	\item Si p et q sont des formules d'état, alors \emph{$X_p$} et \emph{pUq} sont des formules d'état.
+\end{itemize}
+
+\subsection{Sémantique de CTL}
+La sémantique de CTL est interprétée dans une structure de Kripke. Les états sont décorés par les propositions atomiques ${\displaystyle p}$.\\
+Soit $q_0$ un état de S. La sémantique de CTL est définie inductivement par:
+\begin{itemize}
+	\item  $p \in AP$, $q_0 \models p \Leftrightarrow p \in L(q_0 )$
+	\item $q_0 \models p\vee q \Leftrightarrow q_0 \models p\; ou\; q_0 \models q$
+	\item $q_0 \models \neg p \Leftrightarrow not(q_0 \models p)$
+	\item  $q_0 \models Ep \Leftrightarrow  \exists \delta =q_0 …q_n$ telle que $\delta \models p$ (p formules de chemins)
+	\item $q_0 \models Ap \Leftrightarrow \forall \delta =q_0 …q_n$ on a $\delta \models p$ (p formules de chemins)
+	\item$ \delta \models Xp \Leftrightarrow \delta _1 \models p$ (p formules d'état)
+	\item $ \delta \models pUq \Leftrightarrow \exists j \geq 0, \delta _j \models q\; et (\forall k <j, \delta _k \models p)$ (p et q formules d'état)
+\end{itemize}
+les opérateurs temporels sont définies par:
+\begin{itemize}
+	\item A (All), E (Exist): quantifications sur toutes les exécutions possibles à partir de l'état courant
+	\item X (next), F (eventually), G (always),U précédent directement  A, E
+	\item $\neg , \vee, \wedge$
+\end{itemize}
+
+Pour illustrer l'utilisation de la logique temporelle arborescence dans la formalisation des problèmes pratiques, nous donnons l'exemple du publiphone qui consiste à modéliser les actions qu'un utilisateur exécute pendant l'opération de tentative de téléphoner jusqu'à la fin de la communication. La procédure téléphonée est la suivante :
+\begin{itemize}
+	\item L'utilisateur doit décrocher le téléphone;
+	\item Le système affiche insérer une carte;
+	\item L'utilisateur insère une carte;
+	\item Le système affiche le nombre d'unités restantes;
+	\item L'utilisateur compose son numéro de téléphone avec la possibilité de le corriger pour obtenir le   bon numéro dans un délai de 2 secondes;
+	\item L'utilisateur communique avec son correspondant, tant qu'il lui reste des unités. – Si la carte est épuisée, l'utilisateur a 10 secondes pour la changer;
+	\item Lorsque la communication est terminée, l'utilisateur raccroche le téléphone;
+	\item Le système affiche retirer la carte. – L'utilisateur retire sa carte;
+\end{itemize}
+Ensuite, formalisons les propositions atomiques :
+\begin{itemize}
+	\item u\_décrocher : l'utilisateur décroche le téléphone
+	\item sys\_affiche(message) : le système affiche le message
+	\item u\_insérer\_carte : l'utilisateur insère une carte
+	\item u\_compser\_no : l'utilisateur compose le numéros
+	\item u\_correction\_no : l'utilisateur corrige le numéros
+	\item numéros\_correct : le numéros est correct
+	\item u\_communiquer : l'utilisateur communique avec son correspondant
+	\item u\_changer\_carte\_vide : l'utilisateur change sa carte qui est épuisée
+	\item u\_raccrocher : l'utilisateur raccroche le téléphone
+	\item u\_retirer\_carte : l'utilisateur retire sa carte
+	\item ctl\_téléphoner : établit la clause de l'activité téléphoner
+\end{itemize}
+
+Enfin, on obtient la formalisation en CTL:\\
+
+$u\_decrocher \; \wedge\; u\_inserer\_carte \wedge 	\\
+AX [(u\_composer\_no\; \wedge\; EF (u\_reprise\_sur\_erreur)) \wedge \\
+AX ((u\_communiquer \;\wedge\; EF (changer\_carte\_vide)) U \\
+(u\_raccrocher \;\wedge \; u\_retirer\_carte))] \Rightarrow \; ctl\_telephoner$

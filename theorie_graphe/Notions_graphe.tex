@@ -1,0 +1,72 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									section.	Graphes											%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Graphes}
+Cette section rappelle quelques définitions de la théorie des graphes \citep{Francois2013}.
+
+\begin{definition}[Graphe]
+	Un graphe est un couple $G= (S, A)$, formé d'un ensemble $S$ de sommets (ou nœuds ou points) et d'un ensemble $A$ d'arêtes, d'arcs (ou lignes) qui sont associés à des sous-ensembles à deux éléments de $S$. Les sommets appartenant à une arête sont ses extrémités. Un sommet d'un graphe n'est pas nécessairement extrémité d'une arête : c'est alors un sommet isolé. La taille d'un graphe est, selon le cas, le nombre de ses sommets $\mid S \mid$ ou le nombre de ses arêtes $\mid A \mid $. Selon la nature de l'ensemble $A$, le graphe peut être orienté ou non orienté.
+\end{definition}
+
+\begin{definition}[Graphe orienté, non orienté]
+	Soit un graphe $G = (S, A)$. Si $\forall (x, y) \;\in\; A$, $(y, x) \;\in\; A$, alors le graphe est dit non orienté et les éléments de $A$ sont appelés arêtes du graphe. Dans ce cas, on note indifféremment une arête : $a \;\in\; A$, $(s, s’) \;\in\; A$ avec $s$ et $s’$ dans $S$, ou encore $(s’, s)$. Dans le cas contraire, le graphe est dit orienté et les éléments de $A$ sont appelés arcs du graphe.
+\end{definition}
+
+\begin{definition}[Adjacence]
+Soient un graphe $G = (S, A)$ et une arête $a = (s, s’) \;\in\; A$. On dit que les sommets $s$ et $s'$ sont les sommets adjacents (voisins) à l'arête $a$. De même, on dit que $a$ est l'arête adjacente aux sommets $s$ et $s'$.
+
+\end{definition}
+
+\begin{definition}[Degré d'un sommet]
+Dans un graphe non orienté $G = (S, A)$, le degré d'un sommet $s \;\in\; S$ est le nombre d'arêtes auxquelles ce sommet appartient :
+\begin{center}
+	$deg(s) = card({(s, s') \in\; A, s' \in S})$
+\end{center}
+\end{definition}
+
+\begin{definition}[Graphe Complet]
+Un graphe est complet si tous ses sommets sont adjacents entre eux. Deux sommets non adjacents peuvent malgré tout avoir une certaine connections. Dans ce cas, nous parlerons de chemin.
+\end{definition}
+
+\begin{definition}[Chemin]
+Un chemin dans $G = (S, A)$ de longueur $n$ est une suite de sommets $a_{1}a_{2} . . . a_{n}a_{n+1}$ reliés entre eux par des arêtes, c'est-à-dire $a_{i}a_{i+1} \;\in A$, pour $i = 1,\; 2, \; . . .,\; n$. Un cycle est un chemin fermé, C'est-à-dire que $a_{1} = a_{n+1}$.
+\end{definition}
+
+\begin{definition}[Graphe connexe]
+Soit un graphe $G = (S, A)$. On dit que ce graphe est connexe si, quels que soient les sommets $s$ et $s'$ de $S$, il existe un chemin de $s$ vers $s'$. 
+\end{definition}
+
+\begin{definition}[Boucle et arête multiple]
+Une arête est appelée une boucle si ses deux extrémités sont identiques. Si deux arêtes possèdent les mêmes extrémités, alors on dit que l'arête est multiple et que ces deux arêtes sont parallèles. Dans ce cas, la multiplicité d'une arête est le nombre total de ses arêtes parallèles, y compris elle-même.
+\end{definition}
+
+\begin{definition}[Graphe value ou pondéré]
+Un graphe pondéré est un graphe étiqueté où chaque arêtes (arcs) est affectée d'un nombre réel positif, appelé poids de cette arête (arc).
+\end{definition}
+
+\begin{definition}[Sous-graphe]
+Un sous-graphe $H = (S_H, A_H)$ d'un graphe $G = (S, A)$ est le graphe $G$ auquel des sommets et/ou des arêtes ont été enlevés, c'est-à-dire   
+\begin{center}
+$S_H \subseteq S$ et $A_H \subseteq A$.
+\end{center}
+\end{definition}
+
+\begin{definition}[Chaîne]
+	Une chaîne est une suite d'arcs partant d'un sommet $s_1$ et se terminant à un sommet $s_{n}$. Nous pouvons la définir comme suit :\begin{flushleft}
+	$ G = (S, A) | S = \{s_1, s_2, ..., s_n\} \wedge A=\{a_1, a_2, ..., a_{n-1}\}\; où\; a_i = (s_i, s_i+1)\; i=1..n-1 $.
+	\end{flushleft}
+\end{definition}
+
+\begin{definition}[Circuit]
+Un circuit est une suite d'arcs partant et finissant au même sommet. Nous pouvons le définir comme suit: \begin{center}
+$G = (S, A) | S = \{s_1, s_2, ..., s_n\} \wedge  A=\{(s_1, s_2), (s_2, s_3), ..., (s_{n-1}, s_n), (s_n, s_1)\}$
+\end{center}
+\end{definition}
+
+\begin{definition}[Appariement]
+Soit un graphe $G = (S, A)$. L'appariement $M$ du graphe $G$ est un ensemble d'arêtes non-adjacentes deux à deux. On dit que l'appariement est maximum lorsqu'il contient le plus grand nombre possible d'arêtes. On dit que l'appariement $M$ est maximal lorsque toute arête du graphe possède une intersection non vide avec au moins une arête de $M$.
+\end{definition}
+
+\paragraph{Remarque}
+Tout appariement maximal est aussi un appariement maximum. Soit un appariement maximal $M$, si une arête quelconque de $A$ qui n'est pas dans $M$ est ajoutée à $M$, alors $M$ n'est plus un appariement de $G$. La réciproque n'est pas nécessairement exacte: soit un graphe linéaire de $4$ sommets, l'appariement composé de l'arête formée des deux sommets centraux est maximal mais pas maximum. Un graphe peut posséder plusieurs appariements maximal (et a fortiori plusieurs appariements maximum).

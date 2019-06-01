@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									Chapitre Approche de partitionnement et de distribution des graphes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{  Model Checking}
+	\minitoc
+	\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction} 
+De nos jours, la vie des êtres humains dépend largement des systèmes informatiques qui remplissent des fonctions de plus en plus critiques. Ceci à augmenter la difficulté d'assurer le bon fonctionnement de ces systèmes afin d'éviter des conséquences qui peuvent s'avérer fatales, coûteuses et dramatiques \citep{Huckle2015}, \citep{Kanaracus2012}. Dès lors, il faut fournir des techniques de vérification et de validation efficaces et performantes qui garantissent la sûreté de fonctionnement de ces systèmes critiques et qui prennent en charge leurs complexités croissantes \citep{Ferrari1978}.
+
+Les méthodes formelles apportent une solution à ce problème, car elles permettent de définir des modèles mathématiques décrivant  rigoureusement le comportement des systèmes. Elles les décrivent principalement à l'aide de langages formels adaptés et définis avec précision au niveau de la syntaxe et de la sémantique. Une fois décrit, elles peuvent prouver la correction du modèle en utilisant des méthodes de vérification formelle. La vérification consiste alors à s'assurer que l'ensemble des fonctionnements du système développé satisfait tous les besoins \citep{ClarkeWing1996}, \citep{Dsilva2008}.
+ 
+Le model checking est une forme de vérification formelle des systèmes \citep{Cheng2006}, \citep{Wang2004}. Son principe est de vérifier que le modèle représentant le système, respecte bien les propriétés que l'on attend de lui, d'où le terme model checking. Les systèmes sont spécifiés par des formalismes tels que les automates temporisés \citep{AlurDill1994}, et les propriétés sont exprimées par des assertions dans une logique, par exemple la logique temporelle \citep{BenAri1983}. Bien que cette technique soit restreinte à des systèmes ayant un nombre fini d'états, elle permet une détection rapide et économique des erreurs dans des systèmes complexes. Parmi les outils les plus connus, on peut citer UPPAAL, DiVine, CADP, Murphi, Roméo, SPIN \citep{Behrmann2004}, \citep{Barnat2010}, \citep{Garavel2013}, \citep{Dill1996}, \citep{Lime2009}, \citep{Holzmann2003}.
+
+Les réseaux de Petri sont des outils à la fois graphiques et mathématiques permettant de modéliser le comportement dynamique des systèmes à  évènements discrets. Leur représentation graphique permet de visualiser d'une manière naturelle le parallélisme, la synchronisation, le partage de ressources, les choix (conflits), etc. Leur représentation mathématique permet d'analyser le modèle pour étudier ses propriétés    et de les comparer avec le comportement du système réel. L'une des approches de vérification d'un réseau Petri consiste à générer son graphe de marquage dont les sommets représentent les états dans lesquels le système peut se trouver, et dont les arcs représentent les transitions faisant passer le système d'un état à un autre. Après la génération, le graphe de marquage peut être vu comme un système de transitions étiquetées \citep{Arn92}. Le système de transitions étiquetées, ainsi généré, est utilisé pour la vérification des propriétés du système spécifié par le réseau (model checking, bissimilarité, test de conformité, etc. \citep{CES86}, \citep{FM}, \citep{CH93}). Cependant, le modèle des systèmes de transitions étiquetées fait abstraction quant à l'exécution parallèle des transitions.
+
+
+Nous nous intéressons dans ce chapitre, au réseaux de Petri et au model checking distribuée. Nous présentons dans un premier lieu  les réseaux de Petri, puis les systèmes de transitions étiquetées et aussi la structure de Kripke. Enfin, on termine avec le model checking distribué.
+
+\input{r2p_sk_mc/Rdp}
+\input{r2p_sk_mc/CTL}
+\input{r2p_sk_mc/Modelchecking}
+\section{Conclusion}{
+Dans ce chapitre, nous avons présenté les réseaux de Petri ainsi que les systèmes de transitions étiquetées et aussi la structure de Kripke. Ensuite nous avons présenté  la logique temporelle arborescente et le model cheching distribué qui exploite l'information au niveau des états du graph ainsi qu'il permet la vérification malgré l'insuffisance d'information résultante de la distribution de l'espace d'états sur plusieurs nœuds.

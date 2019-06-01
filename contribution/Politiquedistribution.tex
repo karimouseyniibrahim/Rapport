@@ -1,0 +1,27 @@
+
+\section{Politique de distribution de l’espace d’états basée sur le	comportement du système}
+ 
+La politique proposée \emph{\BbSSD{}}, vise à optimiser la distribution de l’espace d’états ainsi le temps de vérification du model checking. Pour un système donné spécifier a partir d'un réseau de Petri, nous utilisons un algorithme de génération parallèle pour construire la structure de Kripke distribuée, en utilisant la fonction \emph{MD5} pour le partitionnement de l’espace d’états entre les machines du réseau. Après cela, lors de l'exécution du model checking, chaque machine analyse son fragment (structure de Kripke partiale) et élabore certaines statistiques sur les états par rapport a la vérification. Les statistiques  générer sur chaque état mesure la dépendance de l'état par rapport aux états de la machine local ou aux états des machines distantes. Une fois le processus de vérification du model checking est terminé, Le protocole de redistribution peut être lancer afin de calculer pour chaque état \emph{Externe} et \emph{soliciter} sur lesquels la formule n'est pas vérifiée l'ensembles des états à déplacer et à dupliquer. Après le calcul des ensembles on décide, sur la base de l'écart minimum et maximum des états a stocké sur la machine, si l'ensemble peut être déplacer ou rester dans une machine afin de minimiser la quantité de communication entre les machines avec une bonne distribution, ainsi les transitions externes peut être réduit.
+L’algorithme général est l'Algorithme \ref{bbssd} :\\
+\begin{algorithm}[H]\label{bbssd}
+	\SetAlgoLined
+	\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+	 Générer la structure de Kripke distribuée à partir de la spécification d'un réseau de Petri\;
+	 Exécution du Model Checking et Élaboration des statistiques sur chaque état\;
+	 Redistribuer des états, en optimisant les performances du système\;	  
+	\caption{\BbSSD{}}
+\end{algorithm}
+
+Dans les sections suivantes, nous détaillons les phases de cet algorithme.
+
+\subsection{Génération de l’espace d’états distribuée à partir de la spécification d'un réseau de Petri}
+La spécification du réseau de Petri est faite à partir d'une machine choisie aléatoirement. Le processus de génération de l'espace d'états distribuée est fait par l’exploration de l’état initial en générant tous ses états successeurs. Par la suite, toutes les machines disponibles sur le réseau contribuent à la construction des fragments de l’espace d’états distribué. Pour chaque nouvel état généré appartenant à une machine $M_i$, tous ses états successeurs sont générés. Un état successeur peut être dans la même machine ou dans une machine distante. Chaque machine $M_i$ envoie tous ses états externes aux machines déterminées par la fonction de partition. La fonction de partition est basée sur la fonction de hachage cryptographique \emph{MD5} qui renvoie un index $j\;(j \in 0, N-1)$. La fonction de hachage adoptée réalise un bon équilibrage de charge entre les $N$ machines du réseau.  La génération distribuée se termine lorsqu'il n'y a aucun états en attente d'être exploré dans toutes les listes $NT_config$ i et que toutes les requêtes ont été traitées.\\
+L’algorithme de génération de l’espace d’états distribuée est l'Algorithme \ref{gendistribuer} :\\
+\begin{algorithm}[H]\label{gendistribuer}
+	\SetAlgoLined
+	\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+	Générer la structure de Kripke distribuée à partir de la spécification d'un réseau de Petri\;
+	Exécution du Model Checking et Élaboration des statistiques sur chaque état\;
+	Redistribuer des états, en optimisant les performances du système\;	  
+	\caption{Génération Initiale Distribuée}
+\end{algorithm}
