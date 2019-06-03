@@ -3,7 +3,8 @@
  \SetAlgoLined\DontPrintSemicolon
   \SetKwFunction{algo}{\printlcs{MG:State,MF:State} }\SetKwFunction{proc}{proc}
   \SetKwProg{myalg}{Procedure}{}{}
-  \myalg{\algo{}}{  	
+  \myalg{\algo{}}{  
+  	\Begin{	
   		\uIf{$\mid MG.site.\parametretwo{} -MF.\parametretwo{} \mid \leq \parametrefive{}$}{\label{pline1}
   			$send(element(MF),MG) to  MG.id$\;\label{pline2}
   		}
@@ -13,6 +14,7 @@
   		\ElseIf{$MF.\parametretwo{} \leq \parametrefive{}$}{\label{pline5}
   			$send(element(MF),null)  to  MF.id$\;\label{pline6}
   		}
+  	}
 }{}
 \end{algorithm}
 Les instructions décrivant la procédure ($Send\_ Request$) sont expliquées comme suit:
@@ -22,7 +24,7 @@ Les instructions décrivant la procédure ($Send\_ Request$) sont expliquées co
 \item[ligne \ref{pline1} :] L'instruction de cette ligne permet de vérifier qu'il est possible de déplacer des états locaux. La vérification de cette condition permet d'exécuter l'instruction de la ligne \ref{pline2}, elle permet d'envoyer l'ensemble des états à la machine distante. 
 \end{description}
 \SetKwFunction{printlcs}{$element$}
-\begin{algorithm}
+\begin{algorithm}[H]
  \SetAlgoLined\DontPrintSemicolon
   \SetKwFunction{algo}{\printlcs{s:State} }\SetKwFunction{proc}{proc}
   \SetKwProg{myalg}{Function}{}{}

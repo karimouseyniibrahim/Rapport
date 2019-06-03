@@ -7,21 +7,125 @@ L’algorithme général est l'Algorithme \ref{bbssd} :\\
 	\SetAlgoLined
 	\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
 	 Générer la structure de Kripke distribuée à partir de la spécification d'un réseau de Petri\;
-	 Exécution du Model Checking et Élaboration des statistiques sur chaque état\;
+	 Exécution du model checking et élaboration des statistiques sur chaque état\;
 	 Redistribuer des états, en optimisant les performances du système\;	  
 	\caption{\BbSSD{}}
 \end{algorithm}
 
 Dans les sections suivantes, nous détaillons les phases de cet algorithme.
 
-\subsection{Génération de l’espace d’états distribuée à partir de la spécification d'un réseau de Petri}
-La spécification du réseau de Petri est faite à partir d'une machine choisie aléatoirement. Le processus de génération de l'espace d'états distribuée est fait par l’exploration de l’état initial en générant tous ses états successeurs. Par la suite, toutes les machines disponibles sur le réseau contribuent à la construction des fragments de l’espace d’états distribué. Pour chaque nouvel état généré appartenant à une machine $M_i$, tous ses états successeurs sont générés. Un état successeur peut être dans la même machine ou dans une machine distante. Chaque machine $M_i$ envoie tous ses états externes aux machines déterminées par la fonction de partition. La fonction de partition est basée sur la fonction de hachage cryptographique \emph{MD5} qui renvoie un index $j\;(j \in 0, N-1)$. La fonction de hachage adoptée réalise un bon équilibrage de charge entre les $N$ machines du réseau.  La génération distribuée se termine lorsqu'il n'y a aucun états en attente d'être exploré dans toutes les listes $NT_config$ i et que toutes les requêtes ont été traitées.\\
+\subsection{Génération de l’espace d’états distribuée à partir de la spécification d'un réseau de Petri}{
+La spécification du réseau de Petri est faite à partir d'une machine choisie aléatoirement. Le processus de génération de l'espace d'états distribuée est fait par l’exploration de l’état initial en générant tous ses états successeurs. Par la suite, toutes les machines disponibles sur le réseau contribuent à la construction des fragments de l’espace d’états distribué. Pour chaque nouvel état généré appartenant à une machine $M_i$, tous ses états successeurs sont générés. Un état successeur peut être dans la même machine ou dans une machine distante. Chaque machine $M_i$ envoie tous ses états externes aux machines déterminées par la fonction de partition. La fonction de partition est basée sur la fonction de hachage cryptographique \emph{MD5} qui renvoie un index $j\;(j \in 0, N-1)$. La fonction de hachage adoptée réalise un bon équilibrage de charge entre les $N$ machines du réseau.  La génération distribuée se termine lorsqu'il n'y a aucun états en attente d'être exploré.\\
 L’algorithme de génération de l’espace d’états distribuée est l'Algorithme \ref{gendistribuer} :\\
-\begin{algorithm}[H]\label{gendistribuer}
+\SetKwFunction{printlcs}{}
+\begin{algorithm}
 	\SetAlgoLined
 	\SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
-	Générer la structure de Kripke distribuée à partir de la spécification d'un réseau de Petri\;
-	Exécution du Model Checking et Élaboration des statistiques sur chaque état\;
-	Redistribuer des états, en optimisant les performances du système\;	  
-	\caption{Génération Initiale Distribuée}
+	\SetAlgoLined	
+	\SetKwInOut{Mi}{$M_i$}
+	\SetKwInOut{Mj}{$M_j$}
+	\SetKwInOut{etati}{$Etat_i$}
+	\SetKwInOut{ei}{$E_i$}
+	\SetKwInOut{si}{$S_i$}
+	\SetKwInOut{t}{$t$}
+	\SetKwInOut{T}{$T$}
+	\SetKwInOut{smm}{$s,m,m'$}
+	\SetKwInOut{tb}{$t_b$}
+	\SetKwInOut{sm}{$s.m$}
+	\SetKwInOut{sprp}{$s.L$}
+	\SetKwInOut{te}{$TExplore$}
+	\SetKwInOut{tr}{$TR_i$}
+	\SetKwInOut{Pres}{$Pres$} 
+	\SetKwInOut{Post}{$Post$}
+	\SetKwInOut{pps}{$Prop\_Pres$}
+	\SetKwInOut{ppt}{$Prop\_Post$}
+	\AlgoDontDisplayBlockMarkers\SetAlgoNoEnd\SetAlgoNoLine%
+	\Mi{la machine i}
+	\Mj{la machine j}
+	\etati{\{dehors,dedans\}}
+	\ei{init à $\emptyset$, pile des états non encore explorés appartenant à la machine i}
+	\si{init à $\emptyset$, la liste des états déjà explorés appartenant à la machine i }
+	\smm{un états}
+	\sm{marquage d'un états}
+	\sprp{liste des propriétés d'un états}
+	\tr{la liste des relations de transitions de la machine i}
+	\T{a liste de transitions}
+	\tb{transition bloquant}
+	\te{liste transition admissible}
+	\t{Une transition}
+	\Pres{la matrice pres du réseau de Petri}
+	\Post{la matrice post du réseau de Petri}
+	\pps{la matrice pres des propriétés}
+	\ppt{la matrice post des propriétés}
+
+	 \caption{Génération Initiale Distribuée}\label{gendistribuer}
 \end{algorithm}
+
+\begin{algorithm}
+	\LinesNumbered
+	% This is to restore vline mode if you did not take the package as \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
+	\SetAlgoVlined 
+	\SetKwFunction{algo}{}\SetKwFunction{proc}{proc}
+	\Begin{	 
+	 \SetKwProg{myalg}{Reception Etat}{}{}
+	 
+	 \myalg{\algo{m:etat}envoyé par $M_j$}{  
+	 	$s\leftarrow findByMarquage(m,S_i)$\;	
+	 	\uIf{($ s ==null$)}{
+	 		$m.sub\leftarrow\{ M_j \}$\;
+	 		Empiler(m,$E_i$)\;	 		
+	 		\If{($Etat_i$!= dedans)}{
+	 			GenerationDistribue$_i$()\;
+ 			}
+	 	}
+ 		\Else{
+ 		   ajouter $M_i$ à la liste des machines de l'etat portant identifiant \emph{m} \;			
+ 		}	 		  		
+	 }{} 	  	
+   	\SetKwProg{myalgone}{GenerationDistribue$_i$}{}{}   
+  	 \myalgone{\algo{}}{  
+	  	$Etat_i\leftarrow dedans$\;	
+	  	\While{($ E_i !=\emptyset$)}{
+	  		$m\leftarrow depiler(E_i)$\;
+	  		$TExplore \leftarrow \{t\in T\mid m.m[t>\}$\;
+	  		$S_i\leftarrow S_i \cup \{m\}$\;
+	  		\ForEach{($t \in TExplore$)}{
+	  			$m'.m\leftarrow m.m + Post(t)-Pres(t)$\; 
+	  			$m'.L\leftarrow m.L + Prop\_Post(t)-Prop\_Pres(t)$\; 
+	  			$M_j \leftarrow MD5(m'.m)$\;
+	  			\uIf{$M_j = =M_i$}{
+	  				$s\leftarrow findByMarquage(m,S_i)$\;
+	  				\If{(findByMarquage(m'.m,$S_i$)==null and findByMarquage(m'.m,$E_i$)==null)}{
+	  					Empiler(m',$E_i$)\;
+	  				}
+  				}\Else{  				
+  					Envoyer (m') à $M_j$\;
+  				}
+  				$TR_i\leftarrow TR_i\cup \{(m,t,m')\}$	\;
+  			}	
+	  			
+	  		\If{(TExplore== $\emptyset$)  }{
+	  		 	$TR_i\leftarrow TR_i\cup \{(m,t_b,m)\}$\;
+	  		}
+  		}
+	  	$Etat_i\leftarrow dehors$\;
+	  }{}
+  }
+ 	 \SetKwProg{myalgone}{Initialisation}{}{ }
+  	 \myalgone{\algo{}}{  
+  	 $T\leftarrow init$\;
+  	 $Pres\leftarrow init$\;
+  	 $Post\leftarrow init$\;
+  	 $Prop\_Pres\leftarrow init$\;
+  	 $Prop\_Post\leftarrow init$\;
+  	 $m.m\leftarrow init$\;
+  	 $m.prop\leftarrow init$\;
+  	 $M_i \leftarrow MD5(m.m)$\;
+  	 Envoyer (m) à $M_j$\;
+  
+  }
+	
+\end{algorithm} 
+}
+\pagebreak
+\input{contribution/ModelCheckingStatistique}

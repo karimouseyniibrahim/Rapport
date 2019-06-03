@@ -5,15 +5,15 @@
   \SetKwFunction{algo}{\printlcs{$id,\parametretwo{},\parametretree{},\parametrefour{},f$} par la la machine i}\SetKwFunction{proc}{proc}
   \SetKwProg{myalg}{Procedure}{}{}
   \myalg{\algo{}}{
-  \nl\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
-  \nl		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
-  \nl			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}
-  \nl 		 	\ForEach{$m \in e.site $}{\label{linesend4}
-  \nl				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)  to m.id )$\;
-  \nl			}\label{linesend5}
-  \nl 		}
-  \nl 	}
-  \nl 	
+  	\Begin{  \nl\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
+   		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
+   			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}
+    		 	\ForEach{$m \in e.site $}{\label{linesend4}
+   				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)  to m.id )$\;
+   			}\label{linesend5}
+    		}
+    	}  
+   }  	
 }{}
 \end{algorithm}
 L'envoi des valeurs concernent les états appartenant aux machines distantes sur lesquels la formule n'est pas vérifiée, et les états locale la formule n'est pas vérifiée qui possèdent des prédécesseurs directs sur d'autres machines. Le parcours de ces états est fait par l'instruction de la ligne \ref{linesend1} de la procédure d'envoi. L'envoi des valeurs concerne les états de l'itération courante, car les valeurs sont échangées après chaque itération. La vérification de la présence de l'itération courante est effectuée à la ligne \ref{linesend2}. Lorsqu'elle est pressente, les valeurs calculées sont envoyées à toutes les machines concernées par cet état. Cela est fait de la ligne \ref{linesend3} jusqu'à la ligne \ref{linesend5}.
@@ -65,15 +65,16 @@ L'envoi des valeurs concernent les états appartenant aux machines distantes sur
   \SetKwFunction{algo}{\printlcs{$id,\parametretwo{},\parametretree{},\parametrefour{},f,i$} par la machine j}\SetKwFunction{proc}{proc}
   \SetKwProg{myalg}{Procedure}{}{}
   \myalg{\algo{}}{
+  	\Begin{
   \nl\ForEach{$e\in \; S$}{ \label{linereceve1}
-  \nl		\uIf{$(e.id==id )$ }{\label{linereceve2}
-  \nl			$x.site[i].\parametretwo{} \longleftarrow \parametretwo{}$\;
-  \nl			$x.site[i].\parametretree{} \longleftarrow \parametretree{}$ \;
-  \nl			$x.site[i].\parametrefour{} \longleftarrow \parametrefour{}$\;
-  \nl			$x.site[i].f\longleftarrow f$\;
-  \nl			}
-  \nl 		} 	
-  \nl 	
+   		\If{$(e.id==id )$ }{\label{linereceve2}
+   			$x.site[i].\parametretwo{} \longleftarrow \parametretwo{}$\;
+   			$x.site[i].\parametretree{} \longleftarrow \parametretree{}$ \;
+   			$x.site[i].\parametrefour{} \longleftarrow \parametrefour{}$\;
+   			$x.site[i].f\longleftarrow f$\;
+   			}
+    		} 	
+    	}
 }{}
 \end{algorithm}
 

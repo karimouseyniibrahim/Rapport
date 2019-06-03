@@ -38,6 +38,8 @@
 			\listoffigures
 		% Liste des tableaux
 		\listoftables
+		%Liste des algorithme
+		\listofalgorithms
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 %        Contenu du document        %
@@ -45,6 +47,7 @@
  
 	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
 	\pagenumbering{arabic}
+		\input{introduction/Introduction}
 	\input{theorie_graphe/Theorie_graphe}
 	\input{r2p_sk_mc/R2p_SK_MC}
 	\input{Contribution}	
