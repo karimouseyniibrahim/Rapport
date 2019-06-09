@@ -1,13 +1,29 @@
 \begin{algorithm}[H]\label{alg1}
 \SetAlgoLined
 \SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+\SetKwInOut{S}{$S$}
+\SetKwInOut{e}{$e$}
+\SetKwInOut{p}{$p$}
+\SetKwInOut{ei}{$e.i$}
+\SetKwInOut{lep}{$L(e,p)$}
+\SetKwInOut{te}{$(type(e)$}
+\SetKwInOut{ci}{$\curenti{}$}
+\S{Liste des états}
+\e{Un état}
+\p{Une propriété}
+\ei{Liste des itérations d'un état}
+\lep{Liste des propriétés d'un états}
+\te{Type d'un état: Border pour un état externe}
+\ci{Itération courant}
+\Begin{	
 \ForEach{$e$ in $S$}{\label{line11}
 	\If{$(\ L(e,p)=false)\  and\ (e.i=null)\ )$}{\label{line12}
 			$e.\parametretwo{}=0$ \;\label{line13}
-			$e.\parametretree{}=(type(x)\ne \border{})? \ 0 \ :\ 1 $\; \label{line14}
-			$e.i={\curenti{} }$\;\label{line15}
+			$e.\parametretree{}=(type(e)\ne \border{})? \ 0 \ :\ 1 $\; \label{line14}
+			$e.i=\{\curenti{} \}$\;\label{line15}
    }
 } 
+}
  \caption{Initialize Parameters}
 \end{algorithm}
 Les instructions décrivant l'algorithme(\ref{alg1}) sont expliquées comme suit:

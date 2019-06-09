@@ -1,7 +1,7 @@
 
 \section{Politique de distribution de l’espace d’états basée sur le	comportement du système}
  
-La politique proposée \emph{\BbSSD{}}, vise à optimiser la distribution de l’espace d’états ainsi le temps de vérification du model checking. Pour un système donné spécifier a partir d'un réseau de Petri, nous utilisons un algorithme de génération parallèle pour construire la structure de Kripke distribuée, en utilisant la fonction \emph{MD5} pour le partitionnement de l’espace d’états entre les machines du réseau. Après cela, lors de l'exécution du model checking, chaque machine analyse son fragment (structure de Kripke partiale) et élabore certaines statistiques sur les états par rapport a la vérification. Les statistiques  générer sur chaque état mesure la dépendance de l'état par rapport aux états de la machine local ou aux états des machines distantes. Une fois le processus de vérification du model checking est terminé, Le protocole de redistribution peut être lancer afin de calculer pour chaque état \emph{Externe} et \emph{soliciter} sur lesquels la formule n'est pas vérifiée l'ensembles des états à déplacer et à dupliquer. Après le calcul des ensembles on décide, sur la base de l'écart minimum et maximum des états a stocké sur la machine, si l'ensemble peut être déplacer ou rester dans une machine afin de minimiser la quantité de communication entre les machines avec une bonne distribution, ainsi les transitions externes peut être réduit.
+La politique proposée \emph{CDS{}:\CDSDef{}}, vise à optimiser la distribution de l’espace d’états ainsi le temps de vérification du model checking. Pour un système donné spécifier à partir d'un réseau de Petri, nous utilisons un algorithme de génération parallèle pour construire la structure de Kripke distribuée, en utilisant la fonction \emph{MD5} pour le partitionnement de l’espace d’états entre les machines du réseau. Après cela, lors de l'exécution du model checking, chaque machine analyse son fragment (structure de Kripke partiale) et élabore certaines statistiques sur les états par rapport a la vérification. Les statistiques  générés sur chaque état mesure la dépendance de l'état par rapport aux états de la machine local ou aux états des machines distantes. Une fois le processus de vérification du model checking est terminé, Le protocole de redistribution peut être lancer afin de calculer pour chaque état \emph{Externe} et \emph{soliciter} sur lesquels la formule n'est pas vérifiée l'ensembles des états à déplacer et à dupliquer. Après le calcul des ensembles on décide, sur la base de l'écart minimum et maximum des états a stocké sur la machine, si l'ensemble peut être déplacer ou rester dans une machine afin de minimiser la quantité de communication entre les machines avec une bonne distribution, ainsi les transitions externes peut être réduit.
 L’algorithme général est l'Algorithme \ref{bbssd} :\\
 \begin{algorithm}[H]\label{bbssd}
 	\SetAlgoLined
@@ -9,7 +9,7 @@ L’algorithme général est l'Algorithme \ref{bbssd} :\\
 	 Générer la structure de Kripke distribuée à partir de la spécification d'un réseau de Petri\;
 	 Exécution du model checking et élaboration des statistiques sur chaque état\;
 	 Redistribuer des états, en optimisant les performances du système\;	  
-	\caption{\BbSSD{}}
+	\caption{\CDS{}}
 \end{algorithm}
 
 Dans les sections suivantes, nous détaillons les phases de cet algorithme.
@@ -40,23 +40,23 @@ L’algorithme de génération de l’espace d’états distribuée est l'Algori
 	\SetKwInOut{pps}{$Prop\_Pres$}
 	\SetKwInOut{ppt}{$Prop\_Post$}
 	\AlgoDontDisplayBlockMarkers\SetAlgoNoEnd\SetAlgoNoLine%
-	\Mi{la machine i}
-	\Mj{la machine j}
+	\Mi{machine i}
+	\Mj{machine j}
 	\etati{\{dehors,dedans\}}
 	\ei{init à $\emptyset$, pile des états non encore explorés appartenant à la machine i}
 	\si{init à $\emptyset$, la liste des états déjà explorés appartenant à la machine i }
-	\smm{un états}
+	\smm{un état}
 	\sm{marquage d'un états}
 	\sprp{liste des propriétés d'un états}
 	\tr{la liste des relations de transitions de la machine i}
 	\T{a liste de transitions}
 	\tb{transition bloquant}
 	\te{liste transition admissible}
-	\t{Une transition}
-	\Pres{la matrice pres du réseau de Petri}
-	\Post{la matrice post du réseau de Petri}
-	\pps{la matrice pres des propriétés}
-	\ppt{la matrice post des propriétés}
+	\t{une transition}
+	\Pres{matrice pres du réseau de Petri}
+	\Post{matrice post du réseau de Petri}
+	\pps{matrice pres des propriétés}
+	\ppt{matrice post des propriétés}
 
 	 \caption{Génération Initiale Distribuée}\label{gendistribuer}
 \end{algorithm}

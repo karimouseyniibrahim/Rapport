@@ -1,27 +1,29 @@
 \babel@toc {french}{}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Introduction G\IeC {\'e}n\IeC {\'e}rale}{1}{chapter.1}
+\contentsline {xchapter}{Introduction G\IeC {\'e}n\IeC {\'e}rale}{1}{chapter.1}% 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Approche de partitionnement et de distribution des graphes}{3}{chapter.2}
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Paysage \IeC {\'e}nerg\IeC {\'e}tique dans le cadre continu d\IeC {\textquoteright }une fonction de co\IeC {\^u}t pour un espace des solutions \IeC {\`a} une dimension \citep {BICHOT2007}\relax }}{7}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces L'approche multi-niveau du partitionnement de graphe, \citep {SandersSchulz2011}\relax }}{12}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Un espace d\IeC {\textquoteright }\IeC {\'e}tat et sa distribution sur un cluster de 3 machines, \citep {BENSETIRA2017}\relax }}{13}{figure.2.3}
+\contentsline {xchapter}{Approche de partitionnement et de distribution des graphes}{5}{chapter.2}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Paysage \IeC {\'e}nerg\IeC {\'e}tique dans le cadre continu d\IeC {\textquoteright }une fonction de co\IeC {\^u}t pour un espace des solutions \IeC {\`a} une dimension \citep {BICHOT2007}\relax }}{9}{figure.2.1}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces L'approche multi-niveau du partitionnement de graphe, \citep {SandersSchulz2011}\relax }}{14}{figure.2.2}% 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Un espace d\IeC {\textquoteright }\IeC {\'e}tat et sa distribution sur un cluster de 3 machines, \citep {BENSETIRA2017}\relax }}{15}{figure.2.3}% 
 \addvspace {10\p@ }
-\contentsline {xchapter}{ Model Checking}{17}{chapter.3}
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Repr\IeC {\'e}sentation graphique des \IeC {\'e}l\IeC {\'e}ments de RdP\relax }}{19}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Marquage d\IeC {\textquoteright }une place \relax }}{19}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces RdP ordinaire\relax }}{19}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces RdP g\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}\relax }}{20}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces R\IeC {\'e}seaux de Petri de quatre saisons\relax }}{20}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces La composition d'eau $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$ sous forme d'un RdP\relax }}{21}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Graphe de marquage de $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$\relax }}{22}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces STE de $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$\relax }}{22}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Une structure de Kripke \IeC {\`a} trois \IeC {\'e}tats, avec deux propositions\relax }}{23}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Une structure de Kripke \IeC {\`a} trois \IeC {\'e}tats, avec deux propositions\relax }}{24}{figure.3.10}
+\contentsline {xchapter}{ Model Checking}{19}{chapter.3}% 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Repr\IeC {\'e}sentation graphique des \IeC {\'e}l\IeC {\'e}ments de RdP\relax }}{21}{figure.3.1}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Marquage d\IeC {\textquoteright }une place \relax }}{21}{figure.3.2}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces RdP ordinaire\relax }}{21}{figure.3.3}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces RdP g\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}\relax }}{22}{figure.3.4}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces R\IeC {\'e}seaux de Petri de quatre saisons\relax }}{22}{figure.3.5}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces La composition d'eau $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$ sous forme d'un RdP\relax }}{23}{figure.3.6}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Graphe de marquage de $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$\relax }}{24}{figure.3.7}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces STE de $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$\relax }}{24}{figure.3.8}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Une structure de Kripke \IeC {\`a} trois \IeC {\'e}tats, avec deux propositions\relax }}{25}{figure.3.9}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Une structure de Kripke \IeC {\`a} trois \IeC {\'e}tats, avec deux propositions\relax }}{26}{figure.3.10}% 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Algorithme de distribution d\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement des syst\IeC {\`e}mes}{29}{chapter.4}
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure de kripke distribu\'{e}\relax }}{33}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure de kripke distribu\'{e}\relax }}{36}{figure.4.2}
+\contentsline {xchapter}{Algorithme de distribution d\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement des syst\IeC {\`e}mes}{31}{chapter.4}% 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Structure de kripke distribu\'{e}\relax }}{35}{figure.4.1}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Structure de kripke distribu\'{e}\relax }}{38}{figure.4.2}% 
 \gdef \the@ipfilectr {@-1}
 \gdef \the@ipfilectr {}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Structure de kripke Redistribu\'{e}\relax }}{57}{figure.4.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Structure de kripke Redistribu\'{e}\relax }}{58}{figure.4.3}% 
+\addvspace {10\p@ }
+\contentsline {xchapter}{Conclusion et Perspectives}{59}{chapter.5}% 
