@@ -2,14 +2,14 @@
 \SetKwFunction{printlcs}{Envoi de:}
 \begin{algorithm}[H]
  \SetAlgoLined\DontPrintSemicolon
-  \SetKwFunction{algo}{\printlcs{$id,\parametretwo{},\parametretree{},\parametrefour{},f$} par la la machine i}\SetKwFunction{proc}{proc}
+  \SetKwFunction{algo}{Envoi de: }\SetKwFunction{proc}{proc}
   \SetKwProg{myalg}{Procedure}{}{}
-  \myalg{\algo{}}{
+  \myalg{\algo{$id,\parametretwo{},\parametretree{},\parametrefour{},f$}par la la machine i}{
   	\Begin{  \nl\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
    		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
    			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}
     		 	\ForEach{$m \in e.site $}{\label{linesend4}
-   				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)  to m.id )$\;
+   				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)\;\;  to \;\;m.id )$\;
    			}\label{linesend5}
     		}
     	}  

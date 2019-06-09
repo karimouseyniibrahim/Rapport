@@ -2,17 +2,29 @@
 \SetKwFunction{printlcs}{getSucc}
 \begin{algorithm}[H]
  \SetAlgoLined\DontPrintSemicolon
-  \SetKwFunction{algo}{\printlcs{$e:State$}: List of State}\SetKwFunction{proc}{proc}
+  \SetKwFunction{algo}{}\SetKwFunction{proc}{proc}
+  
+  \SetKwInOut{S}{$ElementSucc$}
+  \SetKwInOut{e}{$e$}
+  \SetKwInOut{ei}{$e.f$}
+  \SetKwInOut{te}{$succ(e)$}
+  \S{Liste des états Successeur}
+  \e{Un état}
+  \ei{Liste que dépendant un état}
+  \te{Successeur d'un état: Border pour un état externe}
+  
+  
   \SetKwProg{myalg}{Fuction}{}{}
-  \myalg{\algo{}}{
-  \nl$ElementSucc	\longleftarrow\emptyset$\;
-  \nl\ForEach{$e'\in succ(e)$}{ \label{linef1}
-  \nl		\If{$((e'\nexists e.f)and((e'.f\cap e.f)\ne\emptyset)$ }{\label{linef2}
-  \nl 		 	$ElementSucc\longleftarrow ElementSucc\cup\{e'\}\cup \printlcs{e'}$\;\label{linef3}
-  \nl 		}
-  \nl 	}
-  \nl 	
-  \nl \KwRet ElementSucc \;\label{linef4}}{}
+  \myalg{\algo{$e:state$}: List of State}{
+  	\Begin{
+  $ElementSucc	\longleftarrow\emptyset$\;
+  \ForEach{$e'\in succ(e)$}{ \label{linef1}
+   		\If{$((e'\nexists e.f)and((e'.f\cap e.f)\ne\emptyset)$ }{\label{linef2}
+    		 	$ElementSucc\longleftarrow ElementSucc\cup\{e'\}\cup \printlcs{e'}$\;\label{linef3}
+    		}
+    	}
+    	
+    \KwRet ElementSucc \;\label{linef4}}}{}
 \end{algorithm}
 
 Les instructions  de la fonction \s{getSucc} permettent de récupérer les successeurs directs et indirects entre un état et les états dont-il dépend. La ligne \ref{linef1} permet de parcourir les successeurs directs de l'état afin de vérifier leur dépendance avec lui. Cela est faite à la ligne \ref{linef2}.  Lorsque le successeur est en dépendance avec l'état encours, il est ajouté à l'ensemble des successeurs suivi de l'appel de la fonction \s{getSucc} pour le traitement transitif de ses successeurs. Le résultat retourné par cette fonction  est ajouté  à l'ensemble des successeurs. Ces instructions sont exécutées à la ligne \ref{linef3}. Ainsi, la fonction retournera touts les successeurs de l'état en cours à la fin de son exécution.  
@@ -21,6 +33,8 @@ Les instructions  de la fonction \s{getSucc} permettent de récupérer les succe
 \begin{algorithm}[H]\label{alg4}
 \SetAlgoLined
 \SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
+
+\Begin{
 \ForEach{$e$ in $S$}{\label{line42}
 	\uIf{$\left((e  \in border(M))and (e\in F) and (e.i==\curenti{})\right)$}{\label{line43}
 		\ForEach{$e'$ in $S-\{ e\}$}{\label{line44}
@@ -34,15 +48,15 @@ Les instructions  de la fonction \s{getSucc} permettent de récupérer les succe
 		}
 	}
 	\uElseIf{$\left((e  \in Notifier(M))and (e\in T) and (\curenti{}\in e.i)\right)$}{\label{line49}
-		$e.\parametretwo{} \longleftarrow getSucc(Count\parametretwo{}(e))+1$\;\label{line410}
+		$e.\parametretwo{} \longleftarrow Count(getSucc(e))+1$\;\label{line410}
 		\ForEach{$e" \in e.f$}{\label{line411}
-					\If{$\left( (Type(e") \ne Border\right)$}{\label{line415}
+					\If{$\left( (Type(e") \ne Border AND  e"!=e\right)$}{\label{line415}
 						$e.\parametretree{} \longleftarrow e.\parametretree{} +1$\;
 					}
 		}\label{line416}
-	}	
+	}	}
 } 
- \caption{Set parameters values}
+ \caption{Count parameters values}
 \end{algorithm}
 
 Les instructions décrivant l'Algorithme \ref{alg4} sont expliquées comme suit:

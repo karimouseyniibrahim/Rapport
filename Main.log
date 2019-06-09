@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  3 JUN 2019 01:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  8 JUN 2019 23:14
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -2429,7 +2429,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/uc2.png, id=118, 139.27031pt x 135.50626pt>
+<img/uc2.png, id=134, 139.27031pt x 135.50626pt>
 File: img/uc2.png Graphic file (type png)
 <use img/uc2.png>
 Package pdftex.def Info: img/uc2.png  used on input line 30.
@@ -2484,6 +2484,10 @@ Package minitoc Info: I0033
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc7.
 \openout3 = `Main.mtc7'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing Main.mtc8.
+\openout3 = `Main.mtc8'.
 
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 35.
@@ -2552,13 +2556,25 @@ Overfull \hbox (4.51515pt too wide) in paragraph at lines 25--28
 o-sÈes dans la lit-tÈ-ra-ture tra-vaillent
  []
 
-) (theorie_graphe/Theorie_graphe.texpdfTeX warning (ext4): destination with the
- same identifier (name{page.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.4 \chapter
-            {Approche de partitionnement et de distribution des graphes}
+l.36 	\item [Le deuxi√®me chapitre ]
+                                     est consacr√© √† la pr√©sentation du co...
 [2]
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+
+ []
+
+) (theorie_graphe/Theorie_graphe.tex [3] [4
+
+]
 Chapitre 2.
 \openout3 = `Main.mtc'.
 
@@ -2579,9 +2595,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Main.mtc5
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
-) [3
-
-] (theorie_graphe/Notions_math√©matiques.tex)
+) [5] (theorie_graphe/Notions_math√©matiques.tex)
 (theorie_graphe/Optimisation_combinatoire.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -2589,7 +2603,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[6]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 22.
 
@@ -2607,12 +2621,12 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[7]
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-<img/Optimum_global_optimum_local.png, id=338, 865.73438pt x 462.97969pt>
+<img/Optimum_global_optimum_local.png, id=367, 865.73438pt x 462.97969pt>
 File: img/Optimum_global_optimum_local.png Graphic file (type png)
 <use img/Optimum_global_optimum_local.png>
 Package pdftex.def Info: img/Optimum_global_optimum_local.png  used on input li
@@ -2629,7 +2643,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]) (theorie_graphe/Notions_graphe.tex
+[8]) (theorie_graphe/Notions_graphe.tex
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 13.
 
@@ -2670,7 +2684,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7 <./img/Optimum_global_optimum_local.png>]
+[9 <./img/Optimum_global_optimum_local.png>]
 
 LaTeX Warning: Command \` invalid in math mode on input line 57.
 
@@ -2689,23 +2703,23 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]) (theorie_graphe/Approches_partitionnement.tex
+[10]) (theorie_graphe/Approches_partitionnement.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.66203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[11]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.66203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[12]
 
-Package natbib Warning: Citation `Bichot2007' on page 11 undefined on input lin
+Package natbib Warning: Citation `Bichot2007' on page 13 undefined on input lin
 e 50.
 
 
@@ -2715,7 +2729,7 @@ Overfull \hbox (13.82463pt too wide) in paragraph at lines 55--59
 -DRICK-SON[][]\T1/futs/m/n/12 , [][]1995b[][]],
  []
 
-<img/multiniveaupartitionnement.png, id=544, 850.67813pt x 459.21562pt>
+<img/multiniveaupartitionnement.png, id=573, 850.67813pt x 459.21562pt>
 File: img/multiniveaupartitionnement.png Graphic file (type png)
 <use img/multiniveaupartitionnement.png>
 Package pdftex.def Info: img/multiniveaupartitionnement.png  used on input line
@@ -2736,7 +2750,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[13]
 Overfull \hbox (4.03635pt too wide) in paragraph at lines 68--69
 \T1/futs/m/n/12 DÈs lors, plu-sieurs amÈ-lio-ra-tions ont ÈtÈ pro-po-sÈes [[][]
 []\T1/futs/m/sc/12 AU-RORA[][]\T1/futs/m/n/12 , [][]2007[][]], [[][][]\T1/futs/
@@ -2750,8 +2764,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12 <./img/multiniveaupartitionnement.png>]
-<img/eed.png, id=652, 840.13875pt x 565.36218pt>
+[14 <./img/multiniveaupartitionnement.png>]
+<img/eed.png, id=681, 840.13875pt x 565.36218pt>
 File: img/eed.png Graphic file (type png)
 <use img/eed.png>
 Package pdftex.def Info: img/eed.png  used on input line 47.
@@ -2768,7 +2782,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13 <./img/eed.png>])
+[15 <./img/eed.png>])
 Underfull \hbox (badness 10000) in paragraph at lines 58--22
 
  []
@@ -2793,21 +2807,21 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]
+[16]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.66203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[17]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 26.66203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16
+[18
 
 ]
 Chapitre 3.
@@ -2815,83 +2829,83 @@ Chapitre 3.
 
 \openout3 = `Main.mtc'.
 
-(Main.mtc6) [17]
+(Main.mtc6) [19]
 
-Package natbib Warning: Citation `Huckle2015' on page 18 undefined on input lin
+Package natbib Warning: Citation `Huckle2015' on page 20 undefined on input lin
 e 10.
 
 
-Package natbib Warning: Citation `Kanaracus2012' on page 18 undefined on input 
+Package natbib Warning: Citation `Kanaracus2012' on page 20 undefined on input 
 line 10.
 
 
-Package natbib Warning: Citation `Ferrari1978' on page 18 undefined on input li
+Package natbib Warning: Citation `Ferrari1978' on page 20 undefined on input li
 ne 10.
 
 
-Package natbib Warning: Citation `ClarkeWing1996' on page 18 undefined on input
+Package natbib Warning: Citation `ClarkeWing1996' on page 20 undefined on input
  line 12.
 
 
-Package natbib Warning: Citation `Dsilva2008' on page 18 undefined on input lin
+Package natbib Warning: Citation `Dsilva2008' on page 20 undefined on input lin
 e 12.
 
 
-Package natbib Warning: Citation `Cheng2006' on page 18 undefined on input line
+Package natbib Warning: Citation `Cheng2006' on page 20 undefined on input line
  14.
 
 
-Package natbib Warning: Citation `Wang2004' on page 18 undefined on input line 
+Package natbib Warning: Citation `Wang2004' on page 20 undefined on input line 
 14.
 
 
-Package natbib Warning: Citation `AlurDill1994' on page 18 undefined on input l
+Package natbib Warning: Citation `AlurDill1994' on page 20 undefined on input l
 ine 14.
 
 
-Package natbib Warning: Citation `BenAri1983' on page 18 undefined on input lin
+Package natbib Warning: Citation `BenAri1983' on page 20 undefined on input lin
 e 14.
 
 
-Package natbib Warning: Citation `Behrmann2004' on page 18 undefined on input l
+Package natbib Warning: Citation `Behrmann2004' on page 20 undefined on input l
 ine 14.
 
 
-Package natbib Warning: Citation `Barnat2010' on page 18 undefined on input lin
+Package natbib Warning: Citation `Barnat2010' on page 20 undefined on input lin
 e 14.
 
 
-Package natbib Warning: Citation `Dill1996' on page 18 undefined on input line 
+Package natbib Warning: Citation `Dill1996' on page 20 undefined on input line 
 14.
 
 
-Package natbib Warning: Citation `Lime2009' on page 18 undefined on input line 
+Package natbib Warning: Citation `Lime2009' on page 20 undefined on input line 
 14.
 
 
-Package natbib Warning: Citation `Holzmann2003' on page 18 undefined on input l
+Package natbib Warning: Citation `Holzmann2003' on page 20 undefined on input l
 ine 14.
 
 
-Package natbib Warning: Citation `Arn92' on page 18 undefined on input line 16.
+Package natbib Warning: Citation `Arn92' on page 20 undefined on input line 16.
 
 
 
-Package natbib Warning: Citation `CES86' on page 18 undefined on input line 16.
+Package natbib Warning: Citation `CES86' on page 20 undefined on input line 16.
 
 
 
-Package natbib Warning: Citation `FM' on page 18 undefined on input line 16.
+Package natbib Warning: Citation `FM' on page 20 undefined on input line 16.
 
 
-Package natbib Warning: Citation `CH93' on page 18 undefined on input line 16.
+Package natbib Warning: Citation `CH93' on page 20 undefined on input line 16.
 
-(r2p_sk_mc/Rdp.tex [18]
+(r2p_sk_mc/Rdp.tex [20]
 
-Package natbib Warning: Citation `SaidounicoursRdp2017' on page 19 undefined on
+Package natbib Warning: Citation `SaidounicoursRdp2017' on page 21 undefined on
  input line 9.
 
-<img/rdp.PNG, id=744, 469.755pt x 74.52844pt>
+<img/rdp.PNG, id=773, 469.755pt x 74.52844pt>
 File: img/rdp.PNG Graphic file (type png)
 <use img/rdp.PNG>
 Package pdftex.def Info: img/rdp.PNG  used on input line 12.
@@ -2901,7 +2915,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-<img/place.PNG, id=746, 320.69812pt x 75.28125pt>
+<img/place.PNG, id=775, 320.69812pt x 75.28125pt>
 File: img/place.PNG Graphic file (type png)
 <use img/place.PNG>
 Package pdftex.def Info: img/place.PNG  used on input line 20.
@@ -2911,7 +2925,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 21.
 See the caption package documentation for explanation.
 
-<img/rdp1.PNG, id=749, 283.0575pt x 203.25937pt>
+<img/rdp1.PNG, id=778, 283.0575pt x 203.25937pt>
 File: img/rdp1.PNG Graphic file (type png)
 <use img/rdp1.PNG>
 Package pdftex.def Info: img/rdp1.PNG  used on input line 27.
@@ -2921,7 +2935,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
-<img/rdpg.PNG, id=750, 283.2984pt x 203.3196pt>
+<img/rdpg.PNG, id=779, 283.2984pt x 203.3196pt>
 File: img/rdpg.PNG Graphic file (type png)
 <use img/rdpg.PNG>
 Package pdftex.def Info: img/rdpg.PNG  used on input line 32.
@@ -2931,7 +2945,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 33.
 See the caption package documentation for explanation.
 
-[19 <./img/rdp.PNG> <./img/place.PNG> <./img/rdp1.PNG>]
+[21 <./img/rdp.PNG> <./img/place.PNG> <./img/rdp1.PNG>]
 LaTeX Font Info:    Try loading font information for TS1+futs on input line 51.
 
 
@@ -2949,12 +2963,12 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Package natbib Warning: Citation `SaidounicoursRdp2017' on page 20 undefined on
+Package natbib Warning: Citation `SaidounicoursRdp2017' on page 22 undefined on
  input line 90.
 
-[20 <./img/rdpg.PNG>]
+[22 <./img/rdpg.PNG>]
 
-Package natbib Warning: Citation `SaidounicoursRdp2017' on page 21 undefined on
+Package natbib Warning: Citation `SaidounicoursRdp2017' on page 23 undefined on
  input line 95.
 
 
@@ -2963,7 +2977,7 @@ Overfull \hbox (8.35286pt too wide) in paragraph at lines 95--96
 $ \T1/futs/m/it/12 sen-
  []
 
-<img/H2O.PNG, id=773, 598.48593pt x 165.61874pt>
+<img/H2O.PNG, id=803, 598.48593pt x 165.61874pt>
 File: img/H2O.PNG Graphic file (type png)
 <use img/H2O.PNG>
 Package pdftex.def Info: img/H2O.PNG  used on input line 101.
@@ -2974,13 +2988,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Package natbib Warning: Citation `SaidounicoursRdp2017' on page 21 undefined on
+Package natbib Warning: Citation `SaidounicoursRdp2017' on page 23 undefined on
  input line 113.
 
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 116.
 
-<img/gm1.PNG, id=776, 200.75pt x 278.03876pt>
+<img/gm1.PNG, id=806, 200.75pt x 278.03876pt>
 File: img/gm1.PNG Graphic file (type png)
 <use img/gm1.PNG>
 Package pdftex.def Info: img/gm1.PNG  used on input line 122.
@@ -2990,7 +3004,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 123.
 See the caption package documentation for explanation.
 
-[21 <./img/H2O.PNG>]
+[23 <./img/H2O.PNG>]
 Overfull \hbox (6.2649pt too wide) in paragraph at lines 128--129
 []\T1/futs/m/it/12 Un sys-tËme de tran-si-tions Èti-que-tÈes ap-
  []
@@ -3004,7 +3018,7 @@ n qua-dru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12 Å \T1/futs/m/n/12 (\FML
 
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 133.
-<img/ste.PNG, id=790, 83.31125pt x 177.66376pt>
+<img/ste.PNG, id=819, 83.31125pt x 177.66376pt>
 File: img/ste.PNG Graphic file (type png)
 <use img/ste.PNG>
 Package pdftex.def Info: img/ste.PNG  used on input line 141.
@@ -3026,8 +3040,8 @@ Overfull \hbox (7.14516pt too wide) in paragraph at lines 155--156
 ‡-dire des ex-pres-sions boo-lÈennes
  []
 
-[22 <./img/gm1.PNG> <./img/ste.PNG>]
-<img/stk.PNG, id=809, 539.01375pt x 153.57375pt>
+[24 <./img/gm1.PNG> <./img/ste.PNG>]
+<img/stk.PNG, id=838, 539.01375pt x 153.57375pt>
 File: img/stk.PNG Graphic file (type png)
 <use img/stk.PNG>
 Package pdftex.def Info: img/stk.PNG  used on input line 170.
@@ -3038,7 +3052,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 171.
 See the caption package documentation for explanation.
 
-<img/stkd.PNG, id=813, 575.751pt x 190.311pt>
+<img/stkd.PNG, id=842, 575.751pt x 190.311pt>
 File: img/stkd.PNG Graphic file (type png)
 <use img/stkd.PNG>
 Package pdftex.def Info: img/stkd.PNG  used on input line 193.
@@ -3048,7 +3062,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 194.
 See the caption package documentation for explanation.
 
-[23 <./img/stk.PNG>]) (r2p_sk_mc/CTL.tex
+[25 <./img/stk.PNG>]) (r2p_sk_mc/CTL.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -3059,18 +3073,18 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 22.
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 23.
 
-[24 <./img/stkd.PNG>]
+[26 <./img/stkd.PNG>]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-) (r2p_sk_mc/Modelchecking.tex [25]
+) (r2p_sk_mc/Modelchecking.tex [27]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 53.
 
-[26]
+[28]
 Overfull \hbox (0.65485pt too wide) in paragraph at lines 55--56
 []\T1/futs/m/n/12 AprËs l'ap-pli-ca-tion de l'al-go-rithme rÈ-cur-sif ci-dessus
 , nous avons $\FMS/futm/m/n/12 8\FML/futm/m/it/12 s \FMS/futm/m/n/12 õ \FML/fut
@@ -3094,7 +3108,7 @@ A\T1/futs/m/n/12 (\FML/futm/m/it/12 fUg\T1/futs/m/n/12 )\FML/futm/m/it/12 ; E\T
 ts/m/n/12 peut-Ítre vÈ-ri-fiÈe dans les Ètats bor-der et aussi
  []
 
-)) (Contribution.tex [27] [28
+)) (Contribution.tex [29] [30
 
 ]
 Chapitre 4.
@@ -3102,9 +3116,9 @@ Chapitre 4.
 
 \openout3 = `Main.mtc'.
 
-(Main.mtc7) [29]
+(Main.mtc7) [31]
 
-Package natbib Warning: Citation `EzekielLuttgen2008' on page 30 undefined on i
+Package natbib Warning: Citation `EzekielLuttgen2008' on page 32 undefined on i
 nput line 15.
 
 (contribution/Politiquedistribution.tex
@@ -3117,7 +3131,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]
+[32]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 40.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
@@ -3136,15 +3150,15 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[33]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 28.73203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32] (contribution/ModelCheckingStatistique.tex (contribution/Section1.tex
-<img/skd1.png, id=986, 423.984pt x 142.6128pt>
+[34] (contribution/ModelCheckingStatistique.tex (contribution/Section1.tex
+<img/skd1.png, id=1015, 423.984pt x 142.6128pt>
 File: img/skd1.png Graphic file (type png)
 <use img/skd1.png>
 Package pdftex.def Info: img/skd1.png  used on input line 25.
@@ -3165,14 +3179,14 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 <./img/skd1.png>]) (contribution/Section3.tex
+[35 <./img/skd1.png>]) (contribution/Section3.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 28.73203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]) (contribution/Section4.tex
+[36]) (contribution/Section4.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 5.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -3190,7 +3204,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<img/skd2.png, id=1005, 341.5962pt x 414.348pt>
+<img/skd2.png, id=1033, 341.5962pt x 414.348pt>
 File: img/skd2.png Graphic file (type png)
 <use img/skd2.png>
 Package pdftex.def Info: img/skd2.png  used on input line 24.
@@ -3206,36 +3220,16 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]))) (contribution/Section5.tex (contribution/EtapeInitialisation.tex
+[37]))) (contribution/Section5.tex (contribution/EtapeInitialisation.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 28.73203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./img/skd2.png>] (contribution/Algorithm1.tex
+[38 <./img/skd2.png>] (contribution/Algorithm1.tex
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37]
-Overfull \hbox (25.98837pt too wide) in paragraph at lines 79--91
-\T1/futs/m/it/12 Ètat, dÈ-clenche une vÈ-ri-fi-ca-tion de la for-mule sur la  
-ma-chine 2 . Ainsi les paramËtres$\T1/futs/m/n/12 (\FML/futm/m/it/12 []; []\
-T1/futs/m/n/12 )$
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38]) (contribution/Algorithm2.tex
-Underfull \vbox (badness 4779) has occurred while \output is active []
-
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -3244,6 +3238,29 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [39]
+Overfull \hbox (25.98837pt too wide) in paragraph at lines 95--107
+\T1/futs/m/it/12 Ètat, dÈ-clenche une vÈ-ri-fi-ca-tion de la for-mule sur la  
+ma-chine 2 . Ainsi les paramËtres$\T1/futs/m/n/12 (\FML/futm/m/it/12 []; []\
+T1/futs/m/n/12 )$
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 28.73203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[40]) (contribution/Algorithm2.tex
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 28.73203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41]
 Overfull \hbox (5.65147pt too wide) in paragraph at lines 40--41
 []\T1/futs/m/n/12 L'instruction de cette ligne per-met de rÈ-cu-pÈ-rer les Ètat
 s dont ils dÈ-pendent. 
@@ -3255,7 +3272,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 82--107
 
  []
@@ -3271,7 +3288,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[43]
 Overfull \hbox (21.8054pt too wide) in paragraph at lines 130--149
 \T1/futs/m/it/12 l'Ètat  S2 ). Pen-dant la vÈ-ri-fi-ca-tion, l'al-go-rithme d
 È-tecte la va-leur lo-gique de l'Ètat( S20 )
@@ -3308,7 +3325,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 149--164
 
  []
@@ -3331,7 +3348,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43] (contribution/Algorithm3.tex
+[45] (contribution/Algorithm3.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -3341,40 +3358,11 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[45]
-
-LaTeX Warning: Reference `line41' on page 46 undefined on input line 59.
-
-
-Overfull \hbox (3.62471pt too wide) in paragraph at lines 63--64
-[]\T1/futs/m/it/12 L'application de l'Al-go-rithme([][]8[][]) per-met de dÈ-ter
--mi-ner pour cha-cun des Ètats
- []
-
-
-Overfull \hbox (29.92455pt too wide) in paragraph at lines 79--93
-\T1/futs/m/it/12 pa-ra-mËtres des autres Ètats est si-mi-laire ‡ l'itÈ-ra-tion 
-prÈ-cÈ-dente. Ainsi, dans l'exemple([][]4.2.3[][])
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[46]) (contribution/Algorithm4.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 28.73203pt.
@@ -3382,6 +3370,45 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [47]
+
+LaTeX Warning: Reference `line41' on page 48 undefined on input line 72.
+
+
+Overfull \hbox (3.62471pt too wide) in paragraph at lines 76--77
+[]\T1/futs/m/it/12 L'application de l'Al-go-rithme([][]8[][]) per-met de dÈ-ter
+-mi-ner pour cha-cun des Ètats
+ []
+
+
+Overfull \hbox (29.92455pt too wide) in paragraph at lines 92--106
+\T1/futs/m/it/12 pa-ra-mËtres des autres Ètats est si-mi-laire ‡ l'itÈ-ra-tion 
+prÈ-cÈ-dente. Ainsi, dans l'exemple([][]4.2.3[][])
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 28.73203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[48]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (contribution/Algorithm4.tex
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 28.73203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[49]
 Overfull \hbox (19.52458pt too wide) in paragraph at lines 26--27
 []\T1/futs/m/it/12 La  ma-chine 2  en-voie les in-for-ma-tions : id =s9 ;$\FM
 L/futm/m/it/12 []$\T1/futs/m/it/12 =0 ;$\FML/futm/m/it/12 []$\T1/futs/m/it/12
@@ -3406,6 +3433,12 @@ tm/m/it/12 s\T1/futs/m/n/12 9\FML/futm/m/it/12 ; s\T1/futs/m/n/12 10\FML/futm/m
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 28.73203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
 Overfull \hbox (8.65369pt too wide) in paragraph at lines 55--56
 []\T1/futs/m/it/12 La  ma-chine 3  en-voie les in-for-ma-tions : id =s15 ;$\F
 ML/futm/m/it/12 []$\T1/futs/m/it/12 =3 ;$\FML/futm/m/it/12 []$\T1/futs/m/it/1
@@ -3415,12 +3448,6 @@ utm/m/it/12 s\T1/futs/m/n/12 19\FML/futm/m/it/12 ; s\T1/futs/m/n/12 11\FMS/futm
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48]
 Overfull \hbox (0.48734pt too wide) in paragraph at lines 89--90
 []\T1/futs/m/it/12 A la rÈ-cep-tion des va-leurs : id =s9 ;$\FML/futm/m/it/12 
 [] \FMS/futm/m/n/12 Å \T1/futs/m/n/12 0$ \T1/futs/m/it/12 ;$\FML/futm/m/it/12 
@@ -3434,7 +3461,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49])) (contribution/EtapeRedistribution.tex
+[51])) (contribution/EtapeRedistribution.tex
 (contribution/Algorithm_Search_StatesToImport.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
@@ -3442,17 +3469,18 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
-
-LaTeX Warning: Reference `liner16' on page 51 undefined on input line 37.
-
+[52]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 28.73203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
+[53]
+
+LaTeX Warning: Reference `liner16' on page 54 undefined on input line 37.
+
+
 Overfull \hbox (10.1527pt too wide) in paragraph at lines 40--41
 []\T1/futs/m/n/12 L'instruction Ècrite sur cette ligne per-met de re-tour-ner l
 es in-for-ma-tions du couple
@@ -3471,7 +3499,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[54]
 Overfull \hbox (10.1527pt too wide) in paragraph at lines 41--42
 []\T1/futs/m/n/12 L'instruction Ècrite sur cette ligne per-met de re-tour-ner l
 es in-for-ma-tions du couple
@@ -3484,7 +3512,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[55]
 \openout2 = `contribution/Algorithm_SendResquest.aux'.
 
  (contribution/Algorithm_SendResquest.tex
@@ -3494,7 +3522,7 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54
+[56
 
 
 ])
@@ -3504,8 +3532,8 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55] (contribution/Algorithm_ReceveResquest.tex)
-<img/Rskd.png, id=1466, 314.1336pt x 349.305pt>
+[57] (contribution/Algorithm_ReceveResquest.tex)
+<img/Rskd.png, id=1489, 314.1336pt x 349.305pt>
 File: img/Rskd.png Graphic file (type png)
 <use img/Rskd.png>
 Package pdftex.def Info: img/Rskd.png  used on input line 55.
@@ -3522,79 +3550,42 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56
+[58
 
 ])) (contribution/Etudeexperimentale.tex
 
-LaTeX Warning: Reference `apppetrinet' on page 57 undefined on input line 5.
+LaTeX Warning: Reference `apppetrinet' on page 59 undefined on input line 5.
 
-))
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[57 <./img/Rskd.png>]
+)) (conclusion/conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 28.73203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58
+[59 <./img/Rskd.png>]
+
+Package Fancyhdr Warning: \headheight is too small (15.0pt): 
+ Make it at least 28.73203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60
+
+]
+Chapitre 5.
+) [61] [62
 
 ] (Main.bbl (Main.brf)
 \tf@brf=\write14
 \openout14 = `Main.brf'.
 
- (francaisbst.tex)
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
+ (francaisbst.tex) [1] [2]
 
 LaTeX Warning: Command \textasciicircum invalid in math mode on input line 186.
 
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[3]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[5]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[6])
+[3] [4] [5] [6])
 
 Package natbib Warning: There were undefined citations.
 
@@ -3608,29 +3599,17 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
  (Main.aux (contribution/Algorithm_SendResquest.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 61.
-
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: CB6C28DEE13C64F83050002C94D628A4;1964
-(rerunfilecheck)             After:  BBA9DF9599FF8169E7E521B2C8708547;2031.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 062CE09E19AEF6BCD175234E4FE5C4D3;2212.
 Package rerunfilecheck Info: File `Main.brf' has not changed.
-(rerunfilecheck)             Checksum: 3E4BFA963BEE5657C28C0816C3C609A8;6266.
+(rerunfilecheck)             Checksum: DBB852B5BEF82794FA38152F9C263781;6298.
+
 
 LaTeX Warning: There were undefined references.
 
@@ -3643,13 +3622,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 24 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 56194 strings out of 492973
- 1210020 string characters out of 3135470
- 1553788 words of memory out of 3000000
- 58106 multiletter control sequences out of 15000+200000
+ 56211 strings out of 492973
+ 1210253 string characters out of 3135470
+ 1553787 words of memory out of 3000000
+ 58112 multiletter control sequences out of 15000+200000
  735796 words of font info for 212 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,28n,96p,2126b,1341s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,28n,96p,2126b,1344s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Master1 RSD/Memoire/latex/fonts/enc/dvips/base/8r.enc}<E:/M
 aster1 RSD/Memoire/latex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><E:/Master1 
 RSD/Memoire/latex/fonts/type1/public/fourier/fourier-mex.pfb><E:/Master1 RSD/Me
@@ -3660,9 +3639,9 @@ s/type1/adobe/utopia/putb8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe
 /utopia/putbi8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr
 8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr8a.pfb><E:/Ma
 ster1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Main.pdf (75 pages, 1633556 bytes).
+Output written on Main.pdf (79 pages, 1640698 bytes).
 PDF statistics:
- 1807 PDF objects out of 2073 (max. 8388607)
- 629 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1839 PDF objects out of 2073 (max. 8388607)
+ 632 named destinations out of 1000 (max. 500000)
+ 349 words of extra memory for PDF output out of 10000 (max. 10000000)
 
