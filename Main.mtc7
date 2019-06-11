@@ -16,5 +16,8 @@
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {c}}{\reset@font\mtcSSSfont 55}{subsubsection.4.2.7.3}}
 {\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {d}}{\reset@font\mtcSSSfont 57}{subsubsection.4.2.7.4}}
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.3}\IeC {\'E}tude exp\IeC {\'e}rimentale}{\reset@font\mtcSfont 58}{section.4.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Configuration de la mise en \IeC {\oe }uvre}{\reset@font\mtcSSfont 58}{subsection.4.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Conclusion}{\reset@font\mtcSfont 58}{section.4.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.1}Outils de d\IeC {\'e}veloppement}{\reset@font\mtcSSfont 58}{subsection.4.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.2}Architecture de l'application}{\reset@font\mtcSSfont 59}{subsection.4.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.3}Configuration de la mise en \IeC {\oe }uvre}{\reset@font\mtcSSfont 59}{subsection.4.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {4.3.4}Exp\IeC {\'e}rimentation}{\reset@font\mtcSSfont 60}{subsection.4.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {4.4}Conclusion}{\reset@font\mtcSfont 60}{section.4.4}}

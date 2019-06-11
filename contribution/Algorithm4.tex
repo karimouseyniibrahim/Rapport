@@ -1,21 +1,20 @@
 
-\SetKwFunction{printlcs}{Envoi de:}
-\begin{algorithm}[H]
- \SetAlgoLined\DontPrintSemicolon
-  \SetKwFunction{algo}{Envoi de: }\SetKwFunction{proc}{proc}
-  \SetKwProg{myalg}{Procedure}{}{}
-  \myalg{\algo{$id,\parametretwo{},\parametretree{},\parametrefour{},f$}par la la machine i}{
-  	\Begin{  \nl\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
-   		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
-   			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}
-    		 	\ForEach{$m \in e.site $}{\label{linesend4}
-   				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)\;\;  to \;\;m.id )$\;
-   			}\label{linesend5}
+\begin{procedure} 
+	\setcounter{AlgoLine}{0}	
+\caption{SendValueCalculate ($id,\parametretwo{},\parametretree{},\parametrefour{},f$)}
+
+  	\Begin{  
+\nl  		\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
+\nl   		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
+\nl   			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}\\
+\nl    		 	\ForEach{$m \in e.site $}{\label{linesend4}
+\nl   				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)\;\;  to \;\;m.id )$\;
+\nl   			}\label{linesend5}
     		}
     	}  
    }  	
-}{}
-\end{algorithm}
+
+\end{procedure}
 L'envoi des valeurs concernent les états appartenant aux machines distantes sur lesquels la formule n'est pas vérifiée, et les états locale la formule n'est pas vérifiée qui possèdent des prédécesseurs directs sur d'autres machines. Le parcours de ces états est fait par l'instruction de la ligne \ref{linesend1} de la procédure d'envoi. L'envoi des valeurs concerne les états de l'itération courante, car les valeurs sont échangées après chaque itération. La vérification de la présence de l'itération courante est effectuée à la ligne \ref{linesend2}. Lorsqu'elle est pressente, les valeurs calculées sont envoyées à toutes les machines concernées par cet état. Cela est fait de la ligne \ref{linesend3} jusqu'à la ligne \ref{linesend5}.
 
 \begin{Exemple}\label{ea4}
