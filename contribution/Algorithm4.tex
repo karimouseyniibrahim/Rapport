@@ -58,25 +58,22 @@ L'envoi des valeurs concernent les états appartenant aux machines distantes sur
 
 \end{Exemple}
 
-
-\SetKwFunction{printlcs}{Reception de:}
-\begin{algorithm}
- \SetAlgoLined\DontPrintSemicolon
-  \SetKwFunction{algo}{\printlcs{$id,\parametretwo{},\parametretree{},\parametrefour{},f,i$} par la machine j}\SetKwFunction{proc}{proc}
-  \SetKwProg{myalg}{Procedure}{}{}
-  \myalg{\algo{}}{
+\begin{procedure}
+\setcounter{AlgoLine}{0}	
+\SetAlgoLined
+\LinesNumbered
+  \caption{Reception de: $(id,\parametretwo{},\parametretree{},\parametrefour{},f,i)$ par la machine j}
   	\Begin{
   \nl\ForEach{$e\in \; S$}{ \label{linereceve1}
-   		\If{$(e.id==id )$ }{\label{linereceve2}
-   			$x.site[i].\parametretwo{} \longleftarrow \parametretwo{}$\;
-   			$x.site[i].\parametretree{} \longleftarrow \parametretree{}$ \;
-   			$x.site[i].\parametrefour{} \longleftarrow \parametrefour{}$\;
-   			$x.site[i].f\longleftarrow f$\;
+  \nl 		\If{$(e.id==id )$ }{\label{linereceve2}
+  \nl 			$x.site[i].\parametretwo{} \longleftarrow \parametretwo{}$\;\\
+  \nl 			$x.site[i].\parametretree{} \longleftarrow \parametretree{}$ \;\\
+  \nl 			$x.site[i].\parametrefour{} \longleftarrow \parametrefour{}$\;\\
+  \nl 			$x.site[i].f\longleftarrow f$\;
    			}
     		} 	
     	}
-}{}
-\end{algorithm}
+\end{procedure}
 
 Les instructions décrivant la procédure de réception des valeurs, permettent de stocker les valeurs reçues sur l'état concerné. lorsque la machine reçoit les valeurs, l'état consterné est recherché (la ligne \ref{linereceve1} présente l'instruction du parcours des états). Une fois l'état trouvé, les valeurs reçues sont stockées sur l'état dans l'ensemble \s{site}, il contient les informations des machines sur cet état, l'indice de cet liste représente la clé de la machine. 
 

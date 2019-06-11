@@ -67,7 +67,8 @@
 \newcommand{\bn}{\emph{\border{} et \notifier{}}}
 
 \newcommand{\ei}{Etat Interne}
-\newcommand{\BbSSD}{RSC}
+\newcommand{\CDS}{CDS}
+\newcommand{\CDSDef}{Comportemental Distribution States}
 \newcommand{\ee}{Etat Externe}
 \newcommand{\deplacer}{déplacer}
 \newcommand{\dupliquer}{dupliquer}
@@ -117,3 +118,12 @@
 \let\oldnl\nl% Store \nl in \oldnl
 \newcommand\nonl{%
   \renewcommand{\nl}{\let\nl\oldnl}}% Remove line number for one line
+
+
+\usepackage{float}
+
+\floatstyle{ruled}
+\newfloat{function}{thp}{lop}
+\floatname{function}{Function}
+\newfloat{procedure}{thp}{lop}
+\floatname{procedure}{Procedure}

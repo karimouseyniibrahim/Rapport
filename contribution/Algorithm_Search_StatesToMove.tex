@@ -1,10 +1,9 @@
-\SetKwFunction{printlcs}{$Search\_ States\_ To\_ Move$}
-\begin{algorithm}
- \SetAlgoLined\DontPrintSemicolon
-  \SetKwFunction{algo}{\printlcs{MG:State}: State}\SetKwFunction{proc}{proc}
-  \SetKwProg{myalg}{Function}{}{}
-  \myalg{\algo{}}{
-  \nl $MF\longleftarrow null$\;\label{linerD0}
+
+\begin{function}
+\setcounter{AlgoLine}{0}
+
+\Begin{
+  \nl $MF \longleftarrow null$\;\label{linerD0}\\
   \nl\ForEach{$e\in \; \{Border(S)\cup Notifier(S)\}-\{MG\}$}{ \label{linerD1}
   \nl		\uIf{$(MG==null )$ }{\label{linerD2}
   \nl				\ForEach{$site \in x.site$}{\label{linerD3}
@@ -13,16 +12,17 @@
   					}	
   				}\label{linerD7}
   			}
-  			 \Else{\label{linerD6}
-  			 	$site\longleftarrow findById(MG.id,x.site)$\;\label{linerD7}
-  			 	\If{$((site \ne null) and((MF==null) or (MF.\parametretwo{}>x.\parametretwo{}) or (MF.\parametretwo{}==x.\parametretwo{} and MF.\parametretree{}>x.\parametretree{})) and ((x.\parametretwo{}<site.\parametretwo{}) or (x.\parametretwo{}==site.\parametretwo{} and x.\parametretree{}<site.\parametretree{})) $}{\label{linerD8}
-  			 	$MF\longleftarrow x$\;\label{linerD9}
+\nl  			 \Else{\label{linerD6}
+ \nl 			 	$site\longleftarrow findById(MG.id,x.site)$\;\label{linerD7}\\
+  \nl			 	\If{$((site \ne null) and((MF==null) or (MF.\parametretwo{}>x.\parametretwo{}) or (MF.\parametretwo{}==x.\parametretwo{} and MF.\parametretree{}>x.\parametretree{})) and ((x.\parametretwo{}<site.\parametretwo{}) or (x.\parametretwo{}==site.\parametretwo{} and x.\parametretree{}<site.\parametretree{})) $}{\label{linerD8}
+\nl  			 	$MF\longleftarrow x$\;\label{linerD9}
   			 	}			  			 
-  			 }\label{endD}
+ \nl 			 }\label{endD}
    		} 	
-  \nl \Return MF\label{linerD10} 	
-}{}
-\end{algorithm}
+   \nl\Return MF\label{linerD10} 	
+}
+\caption{$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): State$}
+\end{function}
 Les instructions décrivant la fonction précédente sont expliquées comme suit:
 \begin{description}
 	\item[ligne \ref{linerD0} :] L'instruction de cette ligne sert à initialiser la variable stockant les informations du couple minimum.
