@@ -86,8 +86,12 @@
 \newcommand{\mtwo}{\og machine 2 \fg{}}
 \newcommand{\mtree}{\og machine 3 \fg{}}
 \newcommand{\curenti}{curent_{iteration}}
+\usepackage{amsmath,amsthm}
+\usepackage{thmtools}
+\theoremstyle{remark}
 \newtheorem{Exemple}{Exemple}[section]
 \newtheorem{theorem}{Theorem}
+\theoremstyle{definition}
 \newtheorem{definition}[theorem]{Définition}
 \newtheorem{etape}[theorem]{Étape}
 
@@ -127,3 +131,55 @@
 \floatname{function}{Function}
 \newfloat{procedure}{thp}{lop}
 \floatname{procedure}{Procedure}
+
+\newcommand{\frenchAbstract}[1]{\gdef\@frenchAbstract{#1}} 
+\newcommand{\frenchAbstractKeywords}[1]{\gdef\@frenchAbstractKeywords{#1}} 
+
+\newcommand{\englishAbstract}[1]{\gdef\@englishAbstract{#1}} 
+
+\newcommand{\englishAbstractKeywords}[1]{\gdef\@englishAbstractKeywords{#1}} 
+
+
+ %================= configuring minitoc ==================%
+
+%% disabling chapter numbers
+\newcommand{\filterminitoc}[1]{#1}
+\renewcommand{\thesection}{\csname filterminitoc \endcsname{\arabic{chapter}.}\arabic{section}}
+\newcommand{\minitocsection}{\begingroup\renewcommand{\filterminitoc}[1]{}\minitoc\endgroup}
+%=============== Customizing Chapters Names ===============%
+%@author: Stoufa
+%Package pstcol Warning:
+%************************************
+%(pstcol) The package `pstcol' is obsolet!
+%(pstcol) You should use `pstricks' directly:
+%(pstcol) \usepackage{pstricks}
+%(pstcol) ************************************
+%\usepackage{pstcol}
+\usepackage{pstricks}
+\makeatletter
+\def\thickhrulefill{\leavevmode \leaders \hrule height 1.2ex \hfill \kern \z@}
+
+\def\@makechapterhead#1{
+	\vspace*{30\p@}%
+	{\parindent \z@ \centering \reset@font
+		\thickhrulefill\quad 
+		\scshape\bfseries\textit{\@chapapp{}  \thechapter}  
+		\quad \thickhrulefill
+		\par\nobreak
+		\vspace*{10\p@}%
+		\interlinepenalty\@M
+		\hrule
+		\vspace*{10\p@}%
+		\Huge \bfseries #1 \par\nobreak
+		\par
+		\vspace*{10\p@}%
+		\hrule
+		\vskip 50\p@
+	}
+	\minitocsection
+	\thispagestyle{empty}%
+	\newpage
+}
+\def\@makeschapterhead#1{\hbox{%
+		\huge\hbox{\textbf{#1}}%
+	}\par\vskip 1cm}

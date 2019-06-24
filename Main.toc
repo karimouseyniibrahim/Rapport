@@ -1,67 +1,63 @@
 \babel@toc {french}{}
 \contentsline {chapter}{Table des mati\`eres}{i}{chapter*.2}
-\contentsline {chapter}{Liste des figures}{iii}{chapter*.3}
-\contentsline {chapter}{Liste des tableaux}{v}{chapter*.4}
-\contentsline {chapter}{\numberline {1}Introduction G\IeC {\'e}n\IeC {\'e}rale}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Probl\IeC {\'e}matique}{2}{section.1.2}
-\contentsline {section}{\numberline {1.3}Contributions}{2}{section.1.3}
-\contentsline {section}{\numberline {1.4}Plan du document}{2}{section.1.4}
-\contentsline {paragraph}{La premi\IeC {\`e}re partie}{3}{section*.6}
-\contentsline {paragraph}{La seconde partie}{3}{section*.7}
-\contentsline {chapter}{\numberline {2}Approche de partitionnement et de distribution des graphes}{5}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}Notions math\IeC {\'e}matiques}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Optimisation combinatoire}{7}{section.2.3}
-\contentsline {section}{\numberline {2.4}Graphes}{9}{section.2.4}
-\contentsline {paragraph}{Remarque}{10}{section*.8}
-\contentsline {section}{\numberline {2.5}Partitionnement de graphe}{10}{section.2.5}
-\contentsline {section}{\numberline {2.6}Approches de partitionnement}{11}{section.2.6}
-\contentsline {section}{\numberline {2.7}Distribution de graphes}{14}{section.2.7}
-\contentsline {paragraph}{Distribution bas\IeC {\'e}e sur des fonctions}{16}{section*.18}
-\contentsline {paragraph}{Distribution bas\IeC {\'e}e sur la coloration}{16}{section*.19}
-\contentsline {paragraph}{Distribution bas\IeC {\'e} sur les m\IeC {\'e}taheuristiques}{16}{section*.20}
-\contentsline {section}{\numberline {2.8}Conclusion}{17}{section.2.8}
-\contentsline {chapter}{\numberline {3} Model Checking}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{20}{section.3.1}
-\contentsline {section}{\numberline {3.2}R\IeC {\'e}seaux de Petri}{20}{section.3.2}
-\contentsline {paragraph}{Notation}{22}{section*.21}
-\contentsline {paragraph}{Remarque }{23}{section*.22}
-\contentsline {paragraph}{Remarque}{25}{section*.23}
-\contentsline {section}{\numberline {3.3}Logique temporelle arborescente (CTL)}{26}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Syntaxe de CTL}{26}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}S\IeC {\'e}mantique de CTL}{26}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Model checking}{28}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Model checking CTL sur les fargments}{28}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Model checking CTL distribu\IeC {\'e}}{29}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}Conclusion}{29}{section.3.5}
-\contentsline {chapter}{\numberline {4}Algorithme de distribution d\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement des syst\IeC {\`e}mes}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}Politique de distribution de l\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement du syst\IeC {\`e}me}{32}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}G\IeC {\'e}n\IeC {\'e}ration de l\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats distribu\IeC {\'e}e \IeC {\`a} partir de la sp\IeC {\'e}cification d'un r\IeC {\'e}seau de Petri}{33}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Principe Model Checking Distribu\'{e}}{35}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Param\IeC {\`e}tre d\IeC {\textquoteright }optimisation}{36}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Principe de l\IeC {\textquoteright }\'{e}quilibre de Nash}{36}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Principe d'Optimisation de $\alpha , \beta \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em} \gamma $}{37}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Calcul des valeurs des parametres $\beta {} \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em}\gamma {} $ }{38}{subsection.4.2.6}
-\contentsline {subsubsection}{\numberline {a}}{38}{subsubsection.4.2.6.1}
-\contentsline {subsubsection}{\numberline {b}}{41}{subsubsection.4.2.6.2}
-\contentsline {subsubsection}{\numberline {c}}{46}{subsubsection.4.2.6.3}
-\contentsline {subsubsection}{\numberline {d}}{49}{subsubsection.4.2.6.4}
-\contentsline {subsection}{\numberline {4.2.7}Algorithme de Redistribution }{52}{subsection.4.2.7}
-\contentsline {subsubsection}{\numberline {a}}{52}{subsubsection.4.2.7.1}
-\contentsline {subsubsection}{\numberline {b}}{54}{subsubsection.4.2.7.2}
-\contentsline {subsubsection}{\numberline {c}}{55}{subsubsection.4.2.7.3}
-\gdef \the@ipfilectr {@-1}
-\gdef \the@ipfilectr {}
-\contentsline {subsubsection}{\numberline {d}}{57}{subsubsection.4.2.7.4}
-\contentsline {section}{\numberline {4.3}\IeC {\'E}tude exp\IeC {\'e}rimentale}{58}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Outils de d\IeC {\'e}veloppement}{58}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Architecture de l'application}{60}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Configuration de la mise en \IeC {\oe }uvre}{60}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Exp\IeC {\'e}rimentation}{60}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Conclusion}{60}{section.4.4}
-\contentsline {chapter}{\numberline {5}Conclusion et Perspectives}{61}{chapter.5}
-\contentsline {section}{\numberline {5.1}Conclusion}{61}{section.5.1}
-\contentsline {section}{\numberline {5.2}Perspectives}{61}{section.5.2}
-\contentsline {section}{\numberline {.1}R\IeC {\'e}f\IeC {\'e}rences}{I}{section.Alph0.1}
+\contentsline {chapter}{Liste des figures}{ii}{chapter*.3}
+\contentsline {chapter}{Liste des tableaux}{iii}{chapter*.4}
+\contentsline {part}{Introduction G\IeC {\'e}n\IeC {\'e}rale}{1}{chapter*.6}
+\contentsline {paragraph}{La premi\IeC {\`e}re partie}{2}{section*.12}
+\contentsline {paragraph}{La seconde partie}{3}{section*.13}
+\contentsline {part}{I\hspace {1em}Contexte de travail}{4}{part.1}
+\contentsline {xpart}{Contexte de travail}{6}{part.1}
+\contentsline {chapter}{\numberline {1}Approche de partitionnement et de distribution des graphes}{6}{chapter.1}
+\contentsline {section}{\numberline {\filterminitoc {1.}1}Introduction}{7}{section.1.1}
+\contentsline {section}{\numberline {\filterminitoc {1.}2}Notions math\IeC {\'e}matiques}{7}{section.1.2}
+\contentsline {section}{\numberline {\filterminitoc {1.}3}Optimisation combinatoire}{8}{section.1.3}
+\contentsline {section}{\numberline {\filterminitoc {1.}4}Graphes}{10}{section.1.4}
+\contentsline {paragraph}{Remarque}{11}{section*.14}
+\contentsline {section}{\numberline {\filterminitoc {1.}5}Partitionnement de graphe}{11}{section.1.5}
+\contentsline {section}{\numberline {\filterminitoc {1.}6}Approches de partitionnement}{12}{section.1.6}
+\contentsline {section}{\numberline {\filterminitoc {1.}7}Distribution de graphes}{15}{section.1.7}
+\contentsline {paragraph}{Distribution bas\IeC {\'e}e sur des fonctions}{17}{section*.24}
+\contentsline {paragraph}{Distribution bas\IeC {\'e}e sur la coloration}{17}{section*.25}
+\contentsline {paragraph}{Distribution bas\IeC {\'e} sur les m\IeC {\'e}taheuristiques}{17}{section*.26}
+\contentsline {section}{\numberline {\filterminitoc {1.}8}Conclusion}{18}{section.1.8}
+\contentsline {chapter}{\numberline {2}Model Checking}{19}{chapter.2}
+\contentsline {section}{\numberline {\filterminitoc {2.}1}Introduction}{20}{section.2.1}
+\contentsline {section}{\numberline {\filterminitoc {2.}2}R\IeC {\'e}seaux de Petri}{20}{section.2.2}
+\contentsline {paragraph}{Notation}{22}{section*.27}
+\contentsline {paragraph}{Remarque }{23}{section*.28}
+\contentsline {paragraph}{Remarque}{25}{section*.29}
+\contentsline {section}{\numberline {\filterminitoc {2.}3}Logique temporelle arborescente (CTL)}{26}{section.2.3}
+\contentsline {subsection}{\numberline {\filterminitoc {2.}3.1}Syntaxe de CTL}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {\filterminitoc {2.}3.2}S\IeC {\'e}mantique de CTL}{26}{subsection.2.3.2}
+\contentsline {section}{\numberline {\filterminitoc {2.}4}Model checking}{28}{section.2.4}
+\contentsline {subsection}{\numberline {\filterminitoc {2.}4.1}Model checking CTL sur les fargments}{28}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {\filterminitoc {2.}4.2}Model checking CTL distribu\IeC {\'e}}{29}{subsection.2.4.2}
+\contentsline {section}{\numberline {\filterminitoc {2.}5}Conclusion}{29}{section.2.5}
+\contentsline {part}{II\hspace {1em}Contribution}{30}{part.2}
+\contentsline {xpart}{Contribution}{32}{part.2}
+\contentsline {chapter}{\numberline {3}Algorithme de distribution d\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement des syst\IeC {\`e}mes}{32}{chapter.3}
+\contentsline {section}{\numberline {\filterminitoc {3.}1}Introduction}{33}{section.3.1}
+\contentsline {section}{\numberline {\filterminitoc {3.}2}Politique de distribution de l\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement du syst\IeC {\`e}me}{33}{section.3.2}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.1}G\IeC {\'e}n\IeC {\'e}ration de l\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats distribu\IeC {\'e}e \IeC {\`a} partir de la sp\IeC {\'e}cification d'un r\IeC {\'e}seau de Petri}{34}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.2}Principe Model Checking Distribu\'{e}}{36}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.3}Param\IeC {\`e}tre d\IeC {\textquoteright }optimisation}{37}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.4}Principe de l\IeC {\textquoteright }\'{e}quilibre de Nash}{38}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.5}Principe d'Optimisation de $\alpha , \beta \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em} \gamma $}{38}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.6}Calcul des valeurs des parametres $\beta {} \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em}\gamma {} $ }{39}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {a}}{40}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {b}}{42}{subsubsection.3.2.6.2}
+\contentsline {subsubsection}{\numberline {c}}{47}{subsubsection.3.2.6.3}
+\contentsline {subsubsection}{\numberline {d}}{50}{subsubsection.3.2.6.4}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.7}Algorithme de Redistribution }{53}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {a}}{54}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {b}}{55}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {c}}{56}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {d}}{58}{subsubsection.3.2.7.4}
+\contentsline {section}{\numberline {\filterminitoc {3.}3}\IeC {\'E}tude exp\IeC {\'e}rimentale}{59}{section.3.3}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}3.1}Outils de d\IeC {\'e}veloppement}{59}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}3.2}Mise en \IeC {\oe }uvre}{61}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}3.3}Exp\IeC {\'e}rimentation}{63}{subsection.3.3.3}
+\contentsline {section}{\numberline {\filterminitoc {3.}4}Discussion}{64}{section.3.4}
+\contentsline {section}{\numberline {\filterminitoc {3.}5}Conclusion}{64}{section.3.5}
+\contentsline {part}{Conclusion et Perspectives}{65}{chapter*.69}
+\contentsline {part}{R\IeC {\'e}f\IeC {\'e}rences Bibliographies}{65}{section*.71}

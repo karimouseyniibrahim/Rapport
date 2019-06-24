@@ -25,7 +25,7 @@ Pendant l'exécution de l'algorithme de vérification, la valeur logique de la f
 \item[Deuxième algorithme :] Il est défini par l'équation(\ref{eqn16}). Il se différencie du premier algorithme par la vérification de la formule sur les successeurs. Il vérifie l'existence de la propriété sur un successeur. 
 \end{description}
 En plus des conditions des algorithmes, l'existence de l'itération courante est vérifiée. Cette condition permet de marquer les états de cette itération. Ce principe est formalisé comme suit:\\
-\input{contribution/Algorithm2}\break
+\input{contribution/Algorithm2}
 } 
 \mysubsection{Énumération des états liés}{
 Après le marquage des états, on obtient sur les états liés les états dont ils dépendent. Ainsi pour chaque état dépendant, les états qui lui sont liés sont énumérés, cela permet d'attribuer des valeurs aux paramètres $(\parametretwo{}$ et $\parametretree{})$. L'attribution des valeurs peut concerner les états appartenant à la machine locale ou appartenant aux machines distantes. Ces valeurs permettent d'effectuer un redéploiement des états sur la bonne machine. Selon le type de chaque état la technique d'énumération est la suivante:

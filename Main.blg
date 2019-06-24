@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 Case mismatch error between cite keys Bichot2007 and BICHOT2007
----line 135 of file Main.aux
+---line 188 of file Main.aux
  : \citation{Bichot2007
  :                     }
 I'm skipping whatever remains of this command
@@ -34,6 +34,11 @@ Warning--I didn't find a database entry for "FM"
 Warning--I didn't find a database entry for "CH93"
 Warning--I didn't find a database entry for "SaidounicoursRdp2017"
 Warning--I didn't find a database entry for "EzekielLuttgen2008"
+Warning--I didn't find a database entry for "java"
+Warning--I didn't find a database entry for "jade"
+Warning--I didn't find a database entry for "docker"
+Warning--I didn't find a database entry for "neo4j"
+Warning--I didn't find a database entry for "graphviz"
 Too many commas in name 1 of "CONG, J., ROMESIS, M. et XIE, M" for entry CONG2003
 while executing---line 1646 of file francaissc.bst
 Too many commas in name 1 of "CONG, J., ROMESIS, M. et XIE, M" for entry CONG2003

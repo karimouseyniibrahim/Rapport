@@ -1,12 +1,12 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.1}Introduction}{\reset@font\mtcSfont 6}{section.2.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.2}Notions math\IeC {\'e}matiques}{\reset@font\mtcSfont 6}{section.2.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.3}Optimisation combinatoire}{\reset@font\mtcSfont 7}{section.2.3}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.4}Graphes}{\reset@font\mtcSfont 9}{section.2.4}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Remarque}{\reset@font\mtcPfont 10}{section*.8}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.5}Partitionnement de graphe}{\reset@font\mtcSfont 10}{section.2.5}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.6}Approches de partitionnement}{\reset@font\mtcSfont 11}{section.2.6}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.7}Distribution de graphes}{\reset@font\mtcSfont 14}{section.2.7}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Distribution bas\IeC {\'e}e sur des fonctions}{\reset@font\mtcPfont 16}{section*.18}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Distribution bas\IeC {\'e}e sur la coloration}{\reset@font\mtcPfont 16}{section*.19}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Distribution bas\IeC {\'e} sur les m\IeC {\'e}taheuristiques}{\reset@font\mtcPfont 16}{section*.20}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {2.8}Conclusion}{\reset@font\mtcSfont 17}{section.2.8}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}1}Introduction}{\reset@font\mtcSfont 20}{section.2.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}2}R\IeC {\'e}seaux de Petri}{\reset@font\mtcSfont 20}{section.2.2}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Notation}{\reset@font\mtcPfont 22}{section*.27}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Remarque }{\reset@font\mtcPfont 23}{section*.28}}
+{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Remarque}{\reset@font\mtcPfont 25}{section*.29}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}3}Logique temporelle arborescente (CTL)}{\reset@font\mtcSfont 26}{section.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {2.}3.1}Syntaxe de CTL}{\reset@font\mtcSSfont 26}{subsection.2.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {2.}3.2}S\IeC {\'e}mantique de CTL}{\reset@font\mtcSSfont 26}{subsection.2.3.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}4}Model checking}{\reset@font\mtcSfont 28}{section.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {2.}4.1}Model checking CTL sur les fargments}{\reset@font\mtcSSfont 28}{subsection.2.4.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {2.}4.2}Model checking CTL distribu\IeC {\'e}}{\reset@font\mtcSSfont 29}{subsection.2.4.2}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {2.}5}Conclusion}{\reset@font\mtcSfont 29}{section.2.5}}

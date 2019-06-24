@@ -9,15 +9,15 @@ Dans ce qui suit nous proposons une stratégie de recherche de ces ensembles min
 L'algorithme de redistribution de l'espace d'états est décrit par l'algorithme \ref{alg6}.\\
 \begin{algorithm}[H]
 	\SetAlgoLined
-	Recherche de l'ensemble minimal des états à deplacer sur une machine distante\; 
-	Recherche de l'ensemble minimal des états à deplacer sur la machine locale\; 
-	Appliquée une heristique de redistribution sur les deux ensembles\;
-	\caption{Distribute State}\label{alg6}
+	Recherche de l'ensemble minimal des états à déplacer sur une machine distante\; 
+	Recherche de l'ensemble minimal des états à déplacer sur la machine locale\; 
+	Appliquée une heuristique de redistribution sur les deux ensembles\;
+	\caption{Redistribution of States}\label{alg6}
 \end{algorithm}
 Dans les sections suivantes, nous détaillons les phases de cet algorithme.
 
-\mysubsection{Recherche de l'ensemble minimal des états à deplacer sur une machine distante}{
-Dans cette partie l'algorithme cherche parmis les valeurs des paramètres $\parametretwo{}$ et $\parametretree{}$  calculées par les machines distantes le couple minimal. Le nombres des états associés à ce couple doit être inférieur au nombre des états associés au couple calculé par la machine locale. Le déplacement de ces états sur une machine distante permet de diminuer le temps de la vérification car l'algorithme pourra détecter la valeur logique de la formule sur ces états sans qu'une notification ne soit envoyée. Ainsi, le couple minimal est recherché sur les valeurs envoyées par les machines distantes au niveau des états \bn{}, comparées aux valeurs  calculées par la machine locale sur cet état. La recherche du couple minimal est faite en premier temps sur les états ayant une dépendance mutuelle (c'est-à-dire les états distants dépendant l'un de l'autre) car le regroupement de ces états sur une machine diminue le nombre d'itérations de deux. Ainsi, lorsqu'il n'existe pas une dépendance mutuelle entre les états le couple minimum est recherché parmis les valeurs envoyées par les machines distantes au niveau des états \bn{}. La formalisation de ce principe est la suivante: 
+\mysubsection{Recherche de l'ensemble minimal des états à déplacer sur une machine distante}{
+Dans cette partie l'algorithme cherche parmi les valeurs des paramètres $\parametretwo{}$ et $\parametretree{}$  calculées par les machines distantes le couple minimal. Le nombres des états associés à ce couple doit être inférieur au nombre des états associés au couple calculé par la machine locale. Le déplacement de ces états sur une machine distante permet de diminuer le temps de la vérification car l'algorithme pourra détecter la valeur logique de la formule sur ces états sans qu'une notification ne soit envoyée. Ainsi, le couple minimal est recherché sur les valeurs envoyées par les machines distantes au niveau des états \bn{}, comparées aux valeurs  calculées par la machine locale sur cet état. La recherche du couple minimal est faite en premier temps sur les états ayant une dépendance mutuelle (c'est-à-dire les états distants dépendant l'un de l'autre) car le regroupement de ces états sur une machine diminue le nombre d'itérations de deux. Ainsi, lorsqu'il n'existe pas une dépendance mutuelle entre les états le couple minimum est recherché parmi les valeurs envoyées par les machines distantes au niveau des états \bn{}. La formalisation de ce principe est la suivante: 
 \input{contribution/Algorithm_Search_StatesToImport}
 \nopagebreak
 }
@@ -27,29 +27,29 @@ L'ensemble minimal des états à déplacer dans une machine locale correspond au
 
 \input{contribution/Algorithm_Search_StatesToMove}
 \nopagebreak
-}
-
-\mysubsection{Heristique de redistribution de l'espace d'états}{
-Après la recherche de l'ensemble minimal des états à déplacer, l'ensemble d'etats peut être déplacer lorsque l'équilibre peut être assurer entre les machines avec une faible duplication des états. Ainsi, le processus de vérification de l'équilibrage de charge est décris comme suit.
+} 
+\mysubsection{Heuristique de redistribution de l'espace d'états}{
+Après la recherche de l'ensemble minimal des états à déplacer, l'ensemble d'états peut être déplacer lorsque l'équilibre peut être assurer entre les machines avec une faible duplication des états. Ainsi, le processus de vérification de l'équilibrage de charge est décris comme suit.
 
 \begin{itemize}
- \item  Lorsque le résultat de la différence entre le nombre des états à déplacer et le nombre des états à importer  est inférieur ou égale à l'écart calculé la requête envoyée comporte alors les états migrants de la machine locale et une demande des états de la machine distante.
- \item Sinon, si le nombre des états à déplacer est inférieur ou égale à l'écart calculé la requête comporte les états à insérer sur la machine distante.
- \item Sinon, s'il s'agit des états de la machine distante, la requête concerne ces états afin que la machine distante puisse les envoyer à la machine.
- \end{itemize}  
-Ce principe est formalisé comme suit:
-\include{contribution/Algorithm_SendResquest}
-\nopagebreak\nopagebreak\nopagebreak
-}
-\mysubsection{Réception des états ou la demande des états à deplacer}{
+	\item  Lorsque le résultat de la différence entre le nombre des états à déplacer sur machine locale et sur la machine distante est inférieur ou égale à l'écart calculé un message est alors envoyé pour demander les états a migré  de la machine distante, comporte aussi les états provenant de cette machine locale.
+	\item Sinon, si le nombre des états à déplacer est inférieur ou égale à l'écart  alors la machine locale envoie ces états à déplacer à la machine distante.
+	\item Sinon, s'il s'agit des états de la machine distante, la  machine locale envoie une demande de ces états.	\nopagebreak\nopagebreak\nopagebreak
+\end{itemize}
+ 
+Ce principe est formalisé comme suit: 
+	\include{contribution/Algorithm_SendResquest}
+
+}               
+\mysubsection{Réception des états ou la demande des états à déplacer}{
 A la réception d'une requête les états à insérer sont insérés et les ensemble des états demandés sont envoyés. Lorsque des états sont insérés à la structure de Kripke d'une machine, les valeurs calculées par la machine distante sont alors mises à jour par celles correspondantes à la machine locale pour le bon fonctionnement du protocole. Après ce processus  l'Algorithme \ref{alg6} est relancé. 
 Ce principe est formalisé comme suit:
 \input{contribution/Algorithm_ReceveResquest}
-\nopagebreak
 }
 \begin{Exemple}\label{ea5}
 L'exécution du protocole de redistribution sur les résultats générés dans les exemples précédents permet d'obtenir  les résultats suivants:
 
+\nopagebreak
 \begin{description}
 \item[Itération 1 :] Pendant la première itération du protocole sur la \mone{}, l'algorithme détecte que les état \s{S7} et \s{S9} sont mutuellement dépendants. Ainsi, les valeurs envoyées par la \mtwo{} sur l'état \s{S7} sont minimales, les états concernant ces valeurs sont à déplacer de la \mtwo{}. Ainsi les états à déplacer de la \mone{} vers la \mtwo{} sont recherchés, l'algorithme détecte que les états liés à l'état \s{S11} sont minimaux. Les états de cet ensemble sont à envoyer sur la \mtwo{}. Après ces deux processus de recherche, les valeurs sont évaluées afin de ressortir la requête à envoyer. L'évaluation montre qu'il est possible d'importer les prédécesseurs de l'état \s{S7} et les prédécesseurs de  l'état \s{S11}.
 L'état \s{s2} ne sera pas envoyé parmi les états à déplacer car la \mtree{} possède des prédécesseurs directs de cet état. Après l'envoi des états à déplacer, la \mone{} possède l'état \s{S9}, quant à l'état \s{S1} il est possédé par la \mtwo{}.

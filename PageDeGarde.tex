@@ -57,13 +57,13 @@
 }
 \makeatother 
 \newcommand\EtiquetteThese{%
-	\put(0,0){%
+	\put(-10,10){%
 		\parbox[t][\paperheight]{\paperwidth}{%
 			\hfill
-			\colorbox{green}{		
+			\colorbox{black}{		
 				\begin{minipage}[b]{3em}
 					\centering\Huge\textcolor{white}{M\\A\\S\\T\\E\\R\\}
-					\vspace{0.2cm}
+					\vspace{0.3cm}
 				\end{minipage}
 			}
 		}
@@ -105,27 +105,44 @@
 		\end{minipage}	
  
     \vspace{0.5cm}
-    	{\Large{\bfseries \@specialite}}\\
-    \vspace{2cm}
-    	\textit{présentée et soutenue publiquement par}\\
+      
+    	{\Large{\textbf{M\'EMOIRE}}}\\
+    	\vspace{0.5cm}
+    	\textit{pour obtenir le diplôme}\\
+    	\vspace{0.5cm}
+    	{\Large{\textbf{MASTER en Informatique}}}\\
+    	\vspace{0.5cm}
+    	 {\textbf{Option :} Réseaux et Systèmes Distribués}\\
+    \vspace{0.5cm}
+    \begin{tcolorbox}[colback=white,boxrule=0pt,toprule=3pt,bottomrule=3pt,arc=0pt,top=0mm,right=0mm,left=0mm,bottom=0mm,boxsep=0.5mm]{
+    		\begin{tcolorbox}[colback=white, boxrule=0pt,toprule=1pt,bottomrule=1pt,arc=0pt,enlarge bottom by=-0.9mm, auto outer arc]
+    			\centering
+    			{\huge\textbf{\@title}}
+    		\end{tcolorbox}
+    	}
+    \end{tcolorbox}
+    \vspace{0.5cm}
+    	\textit{ Présenté et soutenu publiquement par}\\
     \vspace{0.5cm}
     	{\Large {\bfseries \@author}} \\
     \vspace{0.5cm}
-    	le \@date \\
-    \vfill
-       {\LARGE \color[rgb]{0,0,1} \bfseries{\@title}} \\
-    \vfill
-        Directeur de thèse : {\bfseries \@directeur}\\
-        Co-encadrant de thèse : {\bfseries \@encadrant}\\
-    \vfill
+    	le \@date \\   
+    
+    \vspace{1cm}
 	\begin{tabular}{>{\bfseries}llr}
 		\large Jury\\
+		%Directeur de mémoire : {\bfseries \@directeur}\\
+		%Co-encadrant de mémoire : {\bfseries \@encadrant}\\
 		\@jurya
 		\@juryb
+		\@juryc
+		\@juryd
 	\end{tabular}
 	\vfill 
   \end{titlepage}
-\restoregeometry    
+\nopagebreak
+\restoregeometry  
+\nopagebreak  
 }
 \makeatother
 \nopagebreak

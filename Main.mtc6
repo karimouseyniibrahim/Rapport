@@ -1,12 +1,23 @@
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.1}Introduction}{\reset@font\mtcSfont 20}{section.3.1}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.2}R\IeC {\'e}seaux de Petri}{\reset@font\mtcSfont 20}{section.3.2}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Notation}{\reset@font\mtcPfont 22}{section*.21}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Remarque }{\reset@font\mtcPfont 23}{section*.22}}
-{\reset@font\mtcPfont\mtc@string\contentsline{paragraph}{\noexpand \leavevmode Remarque}{\reset@font\mtcPfont 25}{section*.23}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.3}Logique temporelle arborescente (CTL)}{\reset@font\mtcSfont 26}{section.3.3}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.1}Syntaxe de CTL}{\reset@font\mtcSSfont 26}{subsection.3.3.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.3.2}S\IeC {\'e}mantique de CTL}{\reset@font\mtcSSfont 26}{subsection.3.3.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.4}Model checking}{\reset@font\mtcSfont 28}{section.3.4}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.1}Model checking CTL sur les fargments}{\reset@font\mtcSSfont 28}{subsection.3.4.1}}
-{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {3.4.2}Model checking CTL distribu\IeC {\'e}}{\reset@font\mtcSSfont 29}{subsection.3.4.2}}
-{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {3.5}Conclusion}{\reset@font\mtcSfont 29}{section.3.5}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {3.}1}Introduction}{\reset@font\mtcSfont 33}{section.3.1}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2}Politique de distribution de l\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement du syst\IeC {\`e}me}{\reset@font\mtcSfont 33}{section.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.1}G\IeC {\'e}n\IeC {\'e}ration de l\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats distribu\IeC {\'e}e \IeC {\`a} partir de la sp\IeC {\'e}cification d'un r\IeC {\'e}seau de Petri}{\reset@font\mtcSSfont 34}{subsection.3.2.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.2}Principe Model Checking Distribu\'{e}}{\reset@font\mtcSSfont 36}{subsection.3.2.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.3}Param\IeC {\`e}tre d\IeC {\textquoteright }optimisation}{\reset@font\mtcSSfont 37}{subsection.3.2.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.4}Principe de l\IeC {\textquoteright }\'{e}quilibre de Nash}{\reset@font\mtcSSfont 38}{subsection.3.2.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.5}Principe d'Optimisation de $\alpha , \beta \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em} \gamma $}{\reset@font\mtcSSfont 38}{subsection.3.2.5}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.6}Calcul des valeurs des parametres $\beta {} \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em}\gamma {} $ }{\reset@font\mtcSSfont 39}{subsection.3.2.6}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {a}}{\reset@font\mtcSSSfont 40}{subsubsection.3.2.6.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {b}}{\reset@font\mtcSSSfont 42}{subsubsection.3.2.6.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {c}}{\reset@font\mtcSSSfont 47}{subsubsection.3.2.6.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {d}}{\reset@font\mtcSSSfont 50}{subsubsection.3.2.6.4}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}2.7}Algorithme de Redistribution }{\reset@font\mtcSSfont 53}{subsection.3.2.7}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {a}}{\reset@font\mtcSSSfont 54}{subsubsection.3.2.7.1}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {b}}{\reset@font\mtcSSSfont 55}{subsubsection.3.2.7.2}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {c}}{\reset@font\mtcSSSfont 56}{subsubsection.3.2.7.3}}
+{\reset@font\mtcSSSfont\mtc@string\contentsline{subsubsection}{\noexpand \leavevmode \numberline {d}}{\reset@font\mtcSSSfont 58}{subsubsection.3.2.7.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {3.}3}\IeC {\'E}tude exp\IeC {\'e}rimentale}{\reset@font\mtcSfont 59}{section.3.3}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}3.1}Outils de d\IeC {\'e}veloppement}{\reset@font\mtcSSfont 59}{subsection.3.3.1}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}3.2}Mise en \IeC {\oe }uvre}{\reset@font\mtcSSfont 61}{subsection.3.3.2}}
+{\reset@font\mtcSSfont\mtc@string\contentsline{subsection}{\noexpand \leavevmode \numberline {\filterminitoc {3.}3.3}Exp\IeC {\'e}rimentation}{\reset@font\mtcSSfont 63}{subsection.3.3.3}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {3.}4}Discussion}{\reset@font\mtcSfont 64}{section.3.4}}
+{\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \numberline {\filterminitoc {3.}5}Conclusion}{\reset@font\mtcSfont 64}{section.3.5}}

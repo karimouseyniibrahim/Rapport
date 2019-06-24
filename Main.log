@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  11 JUN 2019 22:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  24 JUN 2019 01:07
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -65,10 +65,6 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count107
 )
-("E:\Master1 RSD\Memoire\latex\tex\latex\cite\chapterbib.sty"
-\c@inputfile=\count108
-Package: chapterbib 2010/09/18  v 1.17
-)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.sty"
 Package: babel 2018/06/05 3.22 The Babel package
 
@@ -95,27 +91,27 @@ Language: french 2018/04/12 v3.4d French support from the babel system
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.def"
 File: babel.def 2018/06/05 3.22 Babel common definitions
-\babel@savecnt=\count109
+\babel@savecnt=\count108
 \U@D=\dimen103
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\txtbabel.def")
-\bbl@dirlevel=\count110
+\bbl@dirlevel=\count109
 )
 \l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count111
+\FB@nonchar=\count110
 Package babel Info: Making : an active character on input line 415.
 Package babel Info: Making ; an active character on input line 416.
 Package babel Info: Making ! an active character on input line 417.
 Package babel Info: Making ? an active character on input line 418.
-\FBguill@level=\count112
+\FBguill@level=\count111
 \FB@everypar=\toks16
 \FB@Mht=\dimen104
-\mc@charclass=\count113
-\mc@charfam=\count114
-\mc@charslot=\count115
-\std@mcc=\count116
-\dec@mcc=\count117
-\c@FBcaption@count=\count118
+\mc@charclass=\count112
+\mc@charfam=\count113
+\mc@charslot=\count114
+\std@mcc=\count115
+\dec@mcc=\count116
+\c@FBcaption@count=\count117
 \listindentFB=\skip45
 \descindentFB=\skip46
 \labelwidthFB=\skip47
@@ -183,14 +179,14 @@ Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\multicol.sty"
 Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count119
+\c@tracingmulticols=\count118
 \mult@box=\box26
 \multicol@leftmargin=\dimen106
-\c@unbalance=\count120
-\c@collectmore=\count121
-\doublecol@number=\count122
-\multicoltolerance=\count123
-\multicolpretolerance=\count124
+\c@unbalance=\count119
+\c@collectmore=\count120
+\doublecol@number=\count121
+\multicoltolerance=\count122
+\multicolpretolerance=\count123
 \full@width=\dimen107
 \page@free=\dimen108
 \premulticols=\dimen109
@@ -221,14 +217,14 @@ Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count125
-\c@finalcolumnbadness=\count126
+\c@columnbadness=\count124
+\c@finalcolumnbadness=\count125
 \last@try=\dimen112
 \multicolovershoot=\dimen113
 \multicolundershoot=\dimen114
 \mult@nat@firstbox=\box50
 \colbreak@box=\box51
-\mc@col@check@num=\count127
+\mc@col@check@num=\count126
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fourier.sty"
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
@@ -504,12 +500,12 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count128
+\c@lips@count=\count127
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen115
 \WF@size=\dimen116
-\c@WF@wrappedlines=\count129
+\c@WF@wrappedlines=\count128
 \WF@box=\box52
 \WF@everypar=\toks18
 Package: wrapfig 2003/01/31  v 3.6
@@ -524,10 +520,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen117
 \enit@toks=\toks20
 \enit@inbox=\box53
-\enitdp@description=\count130
-)
-("E:\Master1 RSD\Memoire\latex\tex\latex\placeins\placeins.sty"
-Package: placeins 2005/04/18  v 2.2
+\enitdp@description=\count129
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\epigraph\epigraph.sty"
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
@@ -550,7 +543,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen123
 \caption@hangindent=\dimen124
 )
-\c@ContinuedFloat=\count131
+\c@ContinuedFloat=\count130
 Package caption Info: wrapfig package is loaded.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\minitoc\minitoc.sty"
@@ -589,10 +582,10 @@ Package minitoc Info: I0031
 
 \openout3 = `Main.mtc0'.
 
-\c@mtc=\count132
-\c@minitocdepth=\count133
-\c@ptc=\count134
-\c@parttocdepth=\count135
+\c@mtc=\count131
+\c@minitocdepth=\count132
+\c@ptc=\count133
+\c@parttocdepth=\count134
 \ptcindent=\skip59
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
@@ -644,13 +637,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count136
+\inf@bad=\count135
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count137
-\leftroot@=\count138
+\uproot@=\count136
+\leftroot@=\count137
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count139
-\DOTSCASE@=\count140
+\classnum@=\count138
+\DOTSCASE@=\count139
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -659,15 +652,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen127
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count141
-\c@MaxMatrixCols=\count142
+\macc@depth=\count140
+\c@MaxMatrixCols=\count141
 \dotsspace@=\muskip10
-\c@parentequation=\count143
-\dspbrk@lvl=\count144
+\c@parentequation=\count142
+\dspbrk@lvl=\count143
 \tag@help=\toks23
-\row@=\count145
-\column@=\count146
-\maxfields@=\count147
+\row@=\count144
+\column@=\count145
+\maxfields@=\count146
 \andhelp@=\toks24
 \eqnshift@=\dimen128
 \alignsep@=\dimen129
@@ -740,7 +733,7 @@ Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 ("E:\Master1 RSD\Memoire\latex\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip66
-\multirow@cntb=\count148
+\multirow@cntb=\count147
 \multirow@dima=\skip67
 \bigstrutjot=\dimen135
 )
@@ -756,12 +749,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen143
 \cmidrulekern=\dimen144
 \defaultaddspace=\dimen145
-\@cmidla=\count149
-\@cmidlb=\count150
+\@cmidla=\count148
+\@cmidlb=\count149
 \@aboverulesep=\dimen146
 \@belowrulesep=\dimen147
-\@thisruleclass=\count151
-\@lastruleclass=\count152
+\@thisruleclass=\count150
+\@lastruleclass=\count151
 \@thisrulewidth=\dimen148
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\colortbl\colortbl.sty"
@@ -798,7 +791,7 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@old@col=\dimen153
 \TX@target=\dimen154
 \TX@delta=\dimen155
-\TX@cols=\count153
+\TX@cols=\count152
 \TX@ftn=\toks29
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\threeparttable\threeparttable.sty"
@@ -807,7 +800,7 @@ Package: threeparttable 2003/06/13  v 3.0
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count154
+\etb@tempcnta=\count153
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -828,23 +821,23 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\caption\subcaption.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count155
-\c@subtable=\count156
+\c@subfigure=\count154
+\c@subtable=\count155
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count157
-\calc@Bcount=\count158
+\calc@Acount=\count156
+\calc@Bcount=\count157
 \calc@Adimen=\dimen158
 \calc@Bdimen=\dimen159
 \calc@Askip=\skip71
 \calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count159
+\calc@Ccount=\count158
 \calc@Cskip=\skip73
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\eso-pic\eso-pic.sty"
@@ -871,12 +864,12 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box61
 \AM@global@opts=\toks30
 \AM@toc@title=\toks31
-\c@AM@survey=\count160
+\c@AM@survey=\count159
 \AM@templatesizebox=\box62
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count161
+\c@r@tfl@t=\count160
 \rotFPtop=\skip74
 \rotFPbot=\skip75
 \rot@float@box=\box63
@@ -929,10 +922,10 @@ ex"
 \pgf@yc=\dimen171
 \w@pgf@writea=\write4
 \r@pgf@reada=\read1
-\c@pgf@counta=\count162
-\c@pgf@countb=\count163
-\c@pgf@countc=\count164
-\c@pgf@countd=\count165
+\c@pgf@counta=\count161
+\c@pgf@countb=\count162
+\c@pgf@countc=\count163
+\c@pgf@countd=\count164
 \t@pgf@toka=\toks37
 \t@pgf@tokb=\toks38
 \t@pgf@tokc=\toks39
@@ -951,8 +944,8 @@ File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.
 tex"
 File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count166
-\pgfsyssoftpath@bigbuffer@items=\count167
+\pgfsyssoftpath@smallbuffer@items=\count165
+\pgfsyssoftpath@bigbuffer@items=\count166
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.
 tex"
@@ -983,7 +976,7 @@ Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathutil.code.tex")
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathparser.code.tex"
 \pgfmath@dimen=\dimen172
-\pgfmath@count=\count168
+\pgfmath@count=\count167
 \pgfmath@box=\box65
 \pgfmath@toks=\toks40
 \pgfmath@stack@operand=\toks41
@@ -1007,7 +1000,7 @@ tex")
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.integerari
 thmetics.code.tex")))
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count169
+\c@pgfmathroundto@lastzeros=\count168
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepoints.code.te
 x"
@@ -1045,7 +1038,7 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box66
 \pgf@hbox=\box67
 \pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count170
+\pgf@picture@serial@count=\count169
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.c
 ode.tex"
@@ -1080,7 +1073,7 @@ File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 "
 File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 \pgf@max=\dimen196
-\pgf@sys@shading@range@num=\count171
+\pgf@sys@shading@range@num=\count170
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
 "
@@ -1141,7 +1134,7 @@ Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryplothandlers
 .code.tex"
 File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count172
+\pgf@plot@mark@count=\count171
 \pgfplotmarksize=\dimen257
 )
 \tikz@lastx=\dimen258
@@ -1154,19 +1147,19 @@ File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
 \tikz@figbox@bg=\box72
 \tikz@tempbox=\box73
 \tikz@tempbox@bg=\box74
-\tikztreelevel=\count173
-\tikznumberofchildren=\count174
-\tikznumberofcurrentchild=\count175
-\tikz@fig@count=\count176
+\tikztreelevel=\count172
+\tikznumberofchildren=\count173
+\tikznumberofcurrentchild=\count174
+\tikz@fig@count=\count175
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 "
 File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count177
-\pgfmatrixcurrentcolumn=\count178
-\pgf@matrix@numberofcolumns=\count179
+\pgfmatrixcurrentrow=\count176
+\pgfmatrixcurrentcolumn=\count177
+\pgf@matrix@numberofcolumns=\count178
 )
-\tikz@expandcount=\count180
+\tikz@expandcount=\count179
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
 zlibrarytopaths.code.tex"
@@ -1178,8 +1171,8 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \t@pgfplots@tokb=\toks46
 \t@pgfplots@tokc=\toks47
 \pgfplots@tmpa=\dimen264
-\c@pgfplots@coordindex=\count181
-\c@pgfplots@scanlineindex=\count182
+\c@pgfplots@coordindex=\count180
+\c@pgfplots@scanlineindex=\count181
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\sys\pgfplotssysgeneric.code
 .tex"))
@@ -1195,7 +1188,7 @@ Package pgfplots: loading complementary arithmetics for your pgf version...
 gfsupp_pgflibraryfpu.code.tex")
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
 gfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count183
+\c@pgfmathroundto@lastzeros=\count182
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
 gfsupp_leq.code.tex"))
@@ -1207,13 +1200,13 @@ tructure.code.tex")
 tructureext.code.tex")
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsarray
 .code.tex"
-\c@pgfplotsarray@tmp=\count184
+\c@pgfplotsarray@tmp=\count183
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsmatri
 x.code.tex")
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\numtable\pgfplotstableshare
 d.code.tex"
-\c@pgfplotstable@counta=\count185
+\c@pgfplotstable@counta=\count184
 \t@pgfplotstable@a=\toks48
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsdeque
@@ -1226,7 +1219,7 @@ de.tex"))
 .tex")
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\pgflibrarypgfplots.sur
 fshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count186
+\c@pgfplotslibrarysurf@no=\count185
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\sys\pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def")))
@@ -1260,7 +1253,7 @@ e.tex"
 \pgfdecoratedinputsegmentcompleteddistance=\dimen267
 \pgfdecoratedinputsegmentremainingdistance=\dimen268
 \pgf@decorate@distancetomove=\dimen269
-\pgf@decorate@repeatstate=\count187
+\pgf@decorate@repeatstate=\count186
 \pgfdecorationsegmentamplitude=\dimen270
 \pgfdecorationsegmentlength=\dimen271
 )
@@ -1274,7 +1267,7 @@ decorations.pathmorphing.code.tex"))
 zlibrarydecorations.pathreplacing.code.tex"
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\decorations\pgflibrary
 decorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count188
+\pgfplots@numplots=\count187
 \pgfplots@xmin@reg=\dimen272
 \pgfplots@xmax@reg=\dimen273
 \pgfplots@ymin@reg=\dimen274
@@ -1292,9 +1285,9 @@ File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
 )))
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\tikzlibrarypgfplots.gr
 oupplots.code.tex"
-\pgfplots@group@current@plot=\count189
-\pgfplots@group@current@row=\count190
-\pgfplots@group@current@column=\count191
+\pgfplots@group@current@plot=\count188
+\pgfplots@group@current@row=\count189
+\pgfplots@group@current@column=\count190
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
 zlibrarycalc.code.tex"
@@ -1349,17 +1342,17 @@ Package: expl3 2018-06-14 L3 programming layer (loader)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2018-06-14 L3 programming layer (code)
-\c_max_int=\count192
-\l_tmpa_int=\count193
-\l_tmpb_int=\count194
-\g_tmpa_int=\count195
-\g_tmpb_int=\count196
-\g__kernel_prg_map_int=\count197
-\c_log_iow=\count198
-\l_iow_line_count_int=\count199
-\l__iow_line_target_int=\count266
-\l__iow_one_indent_int=\count267
-\l__iow_indent_int=\count268
+\c_max_int=\count191
+\l_tmpa_int=\count192
+\l_tmpb_int=\count193
+\g_tmpa_int=\count194
+\g_tmpb_int=\count195
+\g__kernel_prg_map_int=\count196
+\c_log_iow=\count197
+\l_iow_line_count_int=\count198
+\l__iow_line_target_int=\count199
+\l__iow_one_indent_int=\count266
+\l__iow_indent_int=\count267
 \c_zero_dim=\dimen278
 \c_max_dim=\dimen279
 \l_tmpa_dim=\dimen280
@@ -1378,78 +1371,78 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count269
-\l__intarray_loop_int=\count270
+\l_keys_choice_int=\count268
+\l__intarray_loop_int=\count269
 \c__intarray_sp_dim=\dimen284
-\g__intarray_font_int=\count271
-\c__fp_leading_shift_int=\count272
-\c__fp_middle_shift_int=\count273
-\c__fp_trailing_shift_int=\count274
-\c__fp_big_leading_shift_int=\count275
-\c__fp_big_middle_shift_int=\count276
-\c__fp_big_trailing_shift_int=\count277
-\c__fp_Bigg_leading_shift_int=\count278
-\c__fp_Bigg_middle_shift_int=\count279
-\c__fp_Bigg_trailing_shift_int=\count280
-\c__kernel_randint_max_int=\count281
-\g__fp_array_int=\count282
-\l__fp_array_loop_int=\count283
-\l__sort_length_int=\count284
-\l__sort_min_int=\count285
-\l__sort_top_int=\count286
-\l__sort_max_int=\count287
-\l__sort_true_max_int=\count288
-\l__sort_block_int=\count289
-\l__sort_begin_int=\count290
-\l__sort_end_int=\count291
-\l__sort_A_int=\count292
-\l__sort_B_int=\count293
-\l__sort_C_int=\count294
-\l__tl_analysis_normal_int=\count295
-\l__tl_analysis_index_int=\count296
-\l__tl_analysis_nesting_int=\count297
-\l__tl_analysis_type_int=\count298
-\l__regex_internal_a_int=\count299
-\l__regex_internal_b_int=\count300
-\l__regex_internal_c_int=\count301
-\l__regex_balance_int=\count302
-\l__regex_group_level_int=\count303
-\l__regex_mode_int=\count304
-\c__regex_cs_in_class_mode_int=\count305
-\c__regex_cs_mode_int=\count306
-\l__regex_catcodes_int=\count307
-\l__regex_default_catcodes_int=\count308
-\c__regex_catcode_D_int=\count309
-\c__regex_catcode_S_int=\count310
-\c__regex_catcode_L_int=\count311
-\c__regex_catcode_O_int=\count312
-\c__regex_catcode_A_int=\count313
-\c__regex_all_catcodes_int=\count314
-\l__regex_show_lines_int=\count315
-\l__regex_min_state_int=\count316
-\l__regex_max_state_int=\count317
-\l__regex_left_state_int=\count318
-\l__regex_right_state_int=\count319
-\l__regex_capturing_group_int=\count320
-\l__regex_min_pos_int=\count321
-\l__regex_max_pos_int=\count322
-\l__regex_curr_pos_int=\count323
-\l__regex_start_pos_int=\count324
-\l__regex_success_pos_int=\count325
-\l__regex_curr_char_int=\count326
-\l__regex_curr_catcode_int=\count327
-\l__regex_last_char_int=\count328
-\l__regex_case_changed_char_int=\count329
-\l__regex_curr_state_int=\count330
-\l__regex_step_int=\count331
-\l__regex_min_active_int=\count332
-\l__regex_max_active_int=\count333
-\l__regex_replacement_csnames_int=\count334
-\l__regex_match_count_int=\count335
-\l__regex_min_submatch_int=\count336
-\l__regex_submatch_int=\count337
-\l__regex_zeroth_submatch_int=\count338
-\g__regex_trace_regex_int=\count339
+\g__intarray_font_int=\count270
+\c__fp_leading_shift_int=\count271
+\c__fp_middle_shift_int=\count272
+\c__fp_trailing_shift_int=\count273
+\c__fp_big_leading_shift_int=\count274
+\c__fp_big_middle_shift_int=\count275
+\c__fp_big_trailing_shift_int=\count276
+\c__fp_Bigg_leading_shift_int=\count277
+\c__fp_Bigg_middle_shift_int=\count278
+\c__fp_Bigg_trailing_shift_int=\count279
+\c__kernel_randint_max_int=\count280
+\g__fp_array_int=\count281
+\l__fp_array_loop_int=\count282
+\l__sort_length_int=\count283
+\l__sort_min_int=\count284
+\l__sort_top_int=\count285
+\l__sort_max_int=\count286
+\l__sort_true_max_int=\count287
+\l__sort_block_int=\count288
+\l__sort_begin_int=\count289
+\l__sort_end_int=\count290
+\l__sort_A_int=\count291
+\l__sort_B_int=\count292
+\l__sort_C_int=\count293
+\l__tl_analysis_normal_int=\count294
+\l__tl_analysis_index_int=\count295
+\l__tl_analysis_nesting_int=\count296
+\l__tl_analysis_type_int=\count297
+\l__regex_internal_a_int=\count298
+\l__regex_internal_b_int=\count299
+\l__regex_internal_c_int=\count300
+\l__regex_balance_int=\count301
+\l__regex_group_level_int=\count302
+\l__regex_mode_int=\count303
+\c__regex_cs_in_class_mode_int=\count304
+\c__regex_cs_mode_int=\count305
+\l__regex_catcodes_int=\count306
+\l__regex_default_catcodes_int=\count307
+\c__regex_catcode_D_int=\count308
+\c__regex_catcode_S_int=\count309
+\c__regex_catcode_L_int=\count310
+\c__regex_catcode_O_int=\count311
+\c__regex_catcode_A_int=\count312
+\c__regex_all_catcodes_int=\count313
+\l__regex_show_lines_int=\count314
+\l__regex_min_state_int=\count315
+\l__regex_max_state_int=\count316
+\l__regex_left_state_int=\count317
+\l__regex_right_state_int=\count318
+\l__regex_capturing_group_int=\count319
+\l__regex_min_pos_int=\count320
+\l__regex_max_pos_int=\count321
+\l__regex_curr_pos_int=\count322
+\l__regex_start_pos_int=\count323
+\l__regex_success_pos_int=\count324
+\l__regex_curr_char_int=\count325
+\l__regex_curr_catcode_int=\count326
+\l__regex_last_char_int=\count327
+\l__regex_case_changed_char_int=\count328
+\l__regex_curr_state_int=\count329
+\l__regex_step_int=\count330
+\l__regex_min_active_int=\count331
+\l__regex_max_active_int=\count332
+\l__regex_replacement_csnames_int=\count333
+\l__regex_match_count_int=\count334
+\l__regex_min_submatch_int=\count335
+\l__regex_submatch_int=\count336
+\l__regex_zeroth_submatch_int=\count337
+\g__regex_trace_regex_int=\count338
 \c_empty_box=\box98
 \l_tmpa_box=\box99
 \l_tmpb_box=\box100
@@ -1491,20 +1484,20 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen307
 \l__coffin_scaled_total_height_dim=\dimen308
 \l__coffin_scaled_width_dim=\dimen309
-\l__seq_internal_a_int=\count340
-\l__seq_internal_b_int=\count341
+\l__seq_internal_a_int=\count339
+\l__seq_internal_b_int=\count340
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2018-06-14 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count342
+\l__driver_color_stack_int=\count341
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2018-05-12 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count343
-\g__xparse_grabber_int=\count344
-\l__xparse_m_args_int=\count345
-\l__xparse_mandatory_args_int=\count346
-\l__xparse_v_nesting_int=\count347
+\l__xparse_current_arg_int=\count342
+\g__xparse_grabber_int=\count343
+\l__xparse_m_args_int=\count344
+\l__xparse_mandatory_args_int=\count345
+\l__xparse_v_nesting_int=\count346
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -1513,27 +1506,27 @@ Package: l3keys2e 2018-05-12 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box113
 \l__siunitx_tmp_dim=\dimen310
-\l__siunitx_tmp_int=\count348
-\l__siunitx_number_mantissa_length_int=\count349
-\l__siunitx_number_uncert_length_int=\count350
-\l__siunitx_round_int=\count351
-\l__siunitx_process_decimal_int=\count352
-\l__siunitx_process_uncertainty_int=\count353
-\l__siunitx_process_fixed_int=\count354
-\l__siunitx_process_integer_min_int=\count355
-\l__siunitx_process_precision_int=\count356
-\l__siunitx_group_min_int=\count357
+\l__siunitx_tmp_int=\count347
+\l__siunitx_number_mantissa_length_int=\count348
+\l__siunitx_number_uncert_length_int=\count349
+\l__siunitx_round_int=\count350
+\l__siunitx_process_decimal_int=\count351
+\l__siunitx_process_uncertainty_int=\count352
+\l__siunitx_process_fixed_int=\count353
+\l__siunitx_process_integer_min_int=\count354
+\l__siunitx_process_precision_int=\count355
+\l__siunitx_group_min_int=\count356
 \l__siunitx_angle_marker_box=\box114
 \l__siunitx_angle_unit_box=\box115
 \l__siunitx_angle_marker_dim=\dimen311
 \l__siunitx_angle_unit_dim=\dimen312
-\l__siunitx_unit_int=\count358
-\l__siunitx_unit_denominator_int=\count359
-\l__siunitx_unit_numerator_int=\count360
-\l__siunitx_unit_prefix_int=\count361
-\l__siunitx_unit_prefix_base_int=\count362
-\l__siunitx_unit_prefix_gram_int=\count363
-\l__siunitx_number_product_int=\count364
+\l__siunitx_unit_int=\count357
+\l__siunitx_unit_denominator_int=\count358
+\l__siunitx_unit_numerator_int=\count359
+\l__siunitx_unit_prefix_int=\count360
+\l__siunitx_unit_prefix_base_int=\count361
+\l__siunitx_unit_prefix_gram_int=\count362
+\l__siunitx_number_product_int=\count363
 \c__siunitx_one_fill_skip=\skip82
 \l__siunitx_table_unit_align_skip=\skip83
 \l__siunitx_table_exponent_dim=\dimen313
@@ -1676,8 +1669,8 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 ("E:\Master1 RSD\Memoire\latex\tex\latex\chemgreek\chemgreek.sty"
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count365
-\g__chemgreek_tmpa_int=\count366
+\l__chemgreek_tmpa_int=\count364
+\g__chemgreek_tmpa_int=\count365
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1729,7 +1722,7 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count367
+\l__mhchem_ce_distanceFromLastComma_int=\count366
 \__mhchem_arrow_extPgfLength_skip=\skip86
 \mhchem@minispace@tmp=\skip87
 \mhchem@minibackspace@tmp=\skip88
@@ -1740,7 +1733,7 @@ stry (CN)
 \mhchem@smallbondwidth=\skip93
 \mhchem@bondtmp@minussidebearingleft=\skip94
 \mhchem@bondtmp@minussidebearingright=\skip95
-\l__mhchem_option_version_int=\count368
+\l__mhchem_option_version_int=\count367
 \mhchem@option@minusmathsidebearingleft=\dimen322
 \mhchem@option@minusmathsidebearingright=\dimen323
 \mhchem@option@minustextsidebearingleft=\dimen324
@@ -1807,15 +1800,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen326
-\Hy@linkcounter=\count369
-\Hy@pagecounter=\count370
+\Hy@linkcounter=\count368
+\Hy@pagecounter=\count369
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count371
+\Hy@SavedSpaceFactor=\count370
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1837,7 +1830,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count372
+\c@Hy@tempcnt=\count371
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
@@ -1845,7 +1838,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen327
-\Fld@menulength=\count373
+\Fld@menulength=\count372
 \Field@Width=\dimen328
 \Fld@charsize=\dimen329
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -1857,23 +1850,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count374
-\c@Item=\count375
-\c@Hfootnote=\count376
+\Hy@abspage=\count373
+\c@Item=\count374
+\c@Hfootnote=\count375
 )
 Package hyperref Info: Driver: hpdftex.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count377
-\c@bookmark@seq@number=\count378
+\Fld@listcount=\count376
+\c@bookmark@seq@number=\count377
 \Hy@SectionHShift=\skip96
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count379
-\Gm@cntv=\count380
-\c@Gm@tempcnt=\count381
+\Gm@cnth=\count378
+\Gm@cntv=\count379
+\c@Gm@tempcnt=\count380
 \Gm@bindingoffset=\dimen330
 \Gm@wd@mp=\dimen331
 \Gm@odd@mp=\dimen332
@@ -1898,6 +1891,35 @@ s
 \f@nch@O@olf=\skip104
 \f@nch@O@orf=\skip105
 )
+("E:\Master1 RSD\Memoire\latex\tex\latex\tcolorbox\tcolorbox.sty"
+Package: tcolorbox 2018/03/22 version 4.13 text color boxes
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks50
+\verbatim@line=\toks51
+\verbatim@in@stream=\read3
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\environ\environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\trimspaces\trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box120
+\tcb@upperbox=\box121
+\tcb@lowerbox=\box122
+\tcb@phantombox=\box123
+\c@tcbbreakpart=\count381
+\c@tcblayer=\count382
+\tcolorbox@number=\count383
+\tcb@temp=\box124
+\tcb@temp=\box125
+\tcb@temp=\box126
+\tcb@temp=\box127
+\tcb@out=\write5
+\tcb@record@out=\write6
+)
 ("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries\base\glossaries.sty"
 Package: glossaries 2019/01/06 v4.42 (NLCT)
 
@@ -1906,16 +1928,16 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\xkeyval\xkeyval.tex"
 ("E:\Master1 RSD\Memoire\latex\tex\generic\xkeyval\xkvutils.tex"
-\XKV@toks=\toks50
-\XKV@tempa@toks=\toks51
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
 )
-\XKV@depth=\count382
+\XKV@depth=\count384
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\mfirstuc\mfirstuc.sty"
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks52
-\@glsmrest=\toks53
+\@glsmfirst=\toks54
+\@glsmrest=\toks55
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1928,7 +1950,7 @@ Package: datatool-base 2018/04/16 v2.30 (NLCT)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count383
+\c@su@anzahl=\count385
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2018/04/16 v2.30 (NLCT)
@@ -1939,19 +1961,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count384
+\actioncount=\count386
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count385
-\FP@xia=\count386
-\FP@xib=\count387
-\FP@xfa=\count388
-\FP@xfb=\count389
-\FP@rega=\count390
-\FP@regb=\count391
-\FP@regs=\count392
-\FP@times=\count393
+\FP@xs=\count387
+\FP@xia=\count388
+\FP@xib=\count389
+\FP@xfa=\count390
+\FP@xfb=\count391
+\FP@rega=\count392
+\FP@regb=\count393
+\FP@regs=\count394
+\FP@times=\count395
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
@@ -1970,7 +1992,7 @@ Package: fp-pas 1994/08/29
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count394
+\FPseed=\count396
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -1981,15 +2003,15 @@ Package: fp-upn 1996/10/21
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-eval.sty"
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks54
-\@dtl@tmpcount=\count395
+\@dtl@toks=\toks56
+\@dtl@tmpcount=\count397
 \dtl@tmplength=\skip106
-\dtl@sortresult=\count396
-\@dtl@numgrpsepcount=\count397
-\@dtl@datatype=\count398
-\dtl@codeA=\count399
-\dtl@codeB=\count400
-\@dtl@foreach@level=\count401
+\dtl@sortresult=\count398
+\@dtl@numgrpsepcount=\count399
+\@dtl@datatype=\count400
+\dtl@codeA=\count401
+\dtl@codeB=\count402
+\@dtl@foreach@level=\count403
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries\base\glossaries-compatible-
 307.sty"
@@ -2002,13 +2024,13 @@ Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
 f"
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count402
-\@gls@tmpb=\toks55
+\gls@level=\count404
+\@gls@tmpb=\toks57
 \gls@tmplen=\skip107
-\glskeylisttok=\toks56
-\glslabeltok=\toks57
-\glsshorttok=\toks58
-\glslongtok=\toks59
+\glskeylisttok=\toks58
+\glslabeltok=\toks59
+\glsshorttok=\toks60
+\glslongtok=\toks61
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries\styles\glossary-hypernav.st
 y"
@@ -2024,17 +2046,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip110
 \LTpre=\skip111
 \LTpost=\skip112
-\LTchunksize=\count403
+\LTchunksize=\count405
 \LTcapwidth=\dimen338
-\LT@head=\box120
-\LT@firsthead=\box121
-\LT@foot=\box122
-\LT@lastfoot=\box123
-\LT@cols=\count404
-\LT@rows=\count405
-\c@LT@tables=\count406
-\c@LT@chunks=\count407
-\LT@p@ftn=\toks60
+\LT@head=\box128
+\LT@firsthead=\box129
+\LT@foot=\box130
+\LT@lastfoot=\box131
+\LT@cols=\count406
+\LT@rows=\count407
+\c@LT@tables=\count408
+\c@LT@chunks=\count409
+\LT@p@ftn=\toks62
 )
 \glsdescwidth=\skip113
 \glspagelistwidth=\skip114
@@ -2044,7 +2066,7 @@ Package: glossary-super 2019/01/06 v4.42 (NLCT)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count408
+\c@tracingst=\count410
 \ST@wd=\dimen339
 \ST@rightskip=\skip115
 \ST@leftskip=\skip116
@@ -2059,41 +2081,41 @@ Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \ST@prevht=\dimen347
 \ST@toadd=\dimen348
 \ST@dimen=\dimen349
-\ST@pbox=\box124
+\ST@pbox=\box132
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries\styles\glossary-tree.sty"
 Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glstreeindent=\skip118
 ))
-\glswrite=\write5
-\glo@main@file=\write6
-\openout6 = `Main.glo'.
+\glswrite=\write7
+\glo@main@file=\write8
+\openout8 = `Main.glo'.
 
-Package glossaries Info: Writing glossary file Main.glo on input line 126.
-\glo@acronym@file=\write7
-\openout7 = `Main.acn'.
+Package glossaries Info: Writing glossary file Main.glo on input line 142.
+\glo@acronym@file=\write9
+\openout9 = `Main.acn'.
 
-Package glossaries Info: Writing glossary file Main.acn on input line 126.
-\glo@notation@file=\write8
-\openout8 = `Main.ntn'.
+Package glossaries Info: Writing glossary file Main.acn on input line 142.
+\glo@notation@file=\write10
+\openout10 = `Main.ntn'.
 
-Package glossaries Info: Writing glossary file Main.ntn on input line 126.
+Package glossaries Info: Writing glossary file Main.ntn on input line 142.
 (Glossaire.tex) ("E:\Master1 RSD\Memoire\latex\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count409
-\float@exts=\toks61
-\float@box=\box125
-\@float@everytoks=\toks62
-\@floatcapt=\box126
+\c@float@type=\count411
+\float@exts=\toks63
+\float@box=\box133
+\@float@everytoks=\toks64
+\@floatcapt=\box134
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count410
+\c@AlgoLine=\count412
 \algocf@hangindent=\skip119
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count411
+\c@checkoddpage=\count413
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\relsize\relsize.sty"
 Package: relsize 2013/03/29 ver 4.1
@@ -2113,26 +2135,26 @@ Package: relsize 2013/03/29 ver 4.1
 \interspacealgoruled=\dimen354
 \interspacetitleboxruled=\dimen355
 \algocf@ruledwidth=\skip128
-\algocf@inoutbox=\box127
-\algocf@inputbox=\box128
+\algocf@inoutbox=\box135
+\algocf@inputbox=\box136
 \AlCapSkip=\skip129
 \AlCapHSkip=\skip130
 \algoskipindent=\skip131
-\algocf@nlbox=\box129
-\algocf@hangingbox=\box130
-\algocf@untilbox=\box131
+\algocf@nlbox=\box137
+\algocf@hangingbox=\box138
+\algocf@untilbox=\box139
 \algocf@skipuntil=\skip132
-\algocf@capbox=\box132
+\algocf@capbox=\box140
 \algocf@lcaptionbox=\skip133
 \algoheightruledefault=\skip134
 \algoheightrule=\skip135
 \algotitleheightruledefault=\skip136
 \algotitleheightrule=\skip137
-\c@algocfline=\count412
-\c@algocfproc=\count413
-\c@algocf=\count414
-\algocf@algoframe=\box133
-\algocf@algobox=\box134
+\c@algocfline=\count414
+\c@algocfproc=\count415
+\c@algocf=\count416
+\algocf@algoframe=\box141
+\algocf@algobox=\box142
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
@@ -2141,19 +2163,19 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count415
-\c@ALG@rem=\count416
-\c@ALG@nested=\count417
+\c@ALG@line=\count417
+\c@ALG@rem=\count418
+\c@ALG@nested=\count419
 \ALG@tlm=\skip138
 \ALG@thistlm=\skip139
-\c@ALG@Lnr=\count418
-\c@ALG@blocknr=\count419
-\c@ALG@storecount=\count420
-\c@ALG@tmpcounter=\count421
+\c@ALG@Lnr=\count420
+\c@ALG@blocknr=\count421
+\c@ALG@storecount=\count422
+\c@ALG@tmpcounter=\count423
 \ALG@tmplength=\skip140
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-)) ("E:\Master1 RSD\Memoire\latex\tex\latex\etex-pkg\etex.sty"
+) ("E:\Master1 RSD\Memoire\latex\tex\latex\etex-pkg\etex.sty"
 Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
 
 
@@ -2163,31 +2185,176 @@ Package etex Warning: Extended allocation already in use.
 (etex)                \RequirePackage{etex}
 (etex)                at the start of the document.
 
-) (CommandesPerso.tex
-\c@Exemple=\count422
-\c@theorem=\count423
-\@float@every@function=\toks63
-\c@function=\count424
-\@float@every@procedure=\toks64
-\c@procedure=\count425
-) (PageDeGarde.tex) (Expression.tex)
+)) (CommandesPerso.tex
+("E:\Master1 RSD\Memoire\latex\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks65
+\thm@bodyfont=\toks66
+\thm@headfont=\toks67
+\thm@notefont=\toks68
+\thm@headpunct=\toks69
+\thm@preskip=\skip141
+\thm@postskip=\skip142
+\thm@headsep=\skip143
+\dth@everypar=\toks70
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thmtools.sty"
+Package: thmtools 2014/04/21 v66
+\thmt@toks=\toks71
+\c@thmt@dummyctr=\count424
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-patch.sty"
+Package: thm-patch 2014/04/21 v66
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\parseargs.sty"
+Package: parseargs 2014/04/21 v66
+\@parsespec=\toks72
+))
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-kv.sty"
+Package: thm-kv 2014/04/21 v66
+Package thm-kv Info: Theorem names will be uppercased on input line 40.
+Package thm-kv Info: kvsetkeys patch (v1.16 or later) on input line 156.
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-autoref.sty"
+Package: thm-autoref 2014/04/21 v66
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\aliasctr.sty"
+Package: aliasctr 2014/04/21 v66
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\carlisle\remreset.sty"
+
+Package remreset Warning: The remreset package is obsolete:
+(remreset)                \@removefomresset is defined.
+
+))) ("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-listof.sty"
+Package: thm-listof 2014/04/21 v66
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-restate.sty"
+Package: thm-restate 2014/04/21 v66
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-amsthm.sty"
+Package: thm-amsthm 2014/04/21 v66
+\thmt@style@headstyle=\toks73
+))
+\c@Exemple=\count425
+\c@theorem=\count426
+\@float@every@function=\toks74
+\c@function=\count427
+\@float@every@procedure=\toks75
+\c@procedure=\count428
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\pstricks\pstricks.sty"
+Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\iftex\iftex.sty"
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, 
+and LuaTeX
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\tools\shellesc.sty"
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\xkeyval\pst-xkey.tex"
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pstricks.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pst-fp.tex"
+`pst-fp' v0.05, 2010/01/17 (hv)
+\pstFP@xs=\count429
+\pstFP@xia=\count430
+\pstFP@xib=\count431
+\pstFP@xfa=\count432
+\pstFP@xfb=\count433
+\pstFP@rega=\count434
+\pstFP@regb=\count435
+\pstFP@regs=\count436
+\pstFP@times=\count437
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks76
+\pgfutil@tempdima=\dimen356
+\pgfutil@tempdimb=\dimen357
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common-lists.t
+ex")) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex
+") ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgffor.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen358
+\pgffor@skip=\dimen359
+\pgffor@stack=\toks77
+\pgffor@toks=\toks78
+)
+\psLoopIndex=\count438
+
+`PSTricks' v2.84  <2018/05/01> (tvz,hv)
+\pst@dima=\dimen360
+\pst@dimb=\dimen361
+\pst@dimc=\dimen362
+\pst@dimd=\dimen363
+\pst@dimg=\dimen364
+\pst@dimh=\dimen365
+\pst@dimm=\dimen366
+\pst@dimn=\dimen367
+\pst@dimo=\dimen368
+\pst@dimp=\dimen369
+\pst@hbox=\box143
+\pst@ibox=\box144
+\pst@boxg=\box145
+\pst@cnta=\count439
+\pst@cntb=\count440
+\pst@cntc=\count441
+\pst@cntd=\count442
+\pst@cntg=\count443
+\pst@cnth=\count444
+\pst@cntm=\count445
+\pst@cntn=\count446
+\pst@cnto=\count447
+\pst@cntp=\count448
+\@zero=\count449
+\pst@toks=\toks79
+("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pstricks.con")
+\psunit=\dimen370
+\psxunit=\dimen371
+\psyunit=\dimen372
+\pst@C@@rType=\count450
+\pslinewidth=\dimen373
+\psk@startLW=\dimen374
+\psk@endLW=\dimen375
+\pst@customdefs=\toks80
+\pslinearc=\dimen376
+\pst@symbolStep=\dimen377
+\pst@symbolWidth=\dimen378
+\pst@symbolLinewidth=\dimen379
+\everypsbox=\toks81
+\psframesep=\dimen380
+\pslabelsep=\dimen381
+\sh@wgridXunit=\dimen382
+\sh@wgridYunit=\dimen383
+\pst@shift=\dimen384
+)
+File: pstricks.tex 2018/05/01 v2.84 `PSTricks' (tvz,hv)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pst-fp.tex")
+File: pst-fp.tex 2018/05/01 v2.84 `PST-fp' (hv)
+))
+(PageDeGarde.tex) (Expression.tex)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\spacefactor' on input line 26.
+(hyperref)                removing `\spacefactor' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@m' on input line 26.
+(hyperref)                removing `\@m' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\spacefactor' on input line 26.
+(hyperref)                removing `\spacefactor' on input line 25.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@m' on input line 26.
+(hyperref)                removing `\@m' on input line 25.
 
-(Main.aux
+(Main.aux (remerciement.aux) (resumer.aux)
 
 LaTeX Warning: Label `ea4' multiply defined.
 
@@ -2197,65 +2364,65 @@ LaTeX Warning: Label `linerD7' multiply defined.
 (contribution/Algorithm_SendResquest.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 28.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 27.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 27.
 
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 28.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 28.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 27.
 
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 28.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 28.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 27.
 
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 28.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 28.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 27.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-LaTeX Info: Redefining \degres on input line 28.
-LaTeX Info: Redefining \dots on input line 28.
+LaTeX Info: Redefining \degres on input line 27.
+LaTeX Info: Redefining \dots on input line 27.
 Package french.ldf Info: Setting StandardItemizeEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 28.
+(french.ldf)             reported on input line 27.
 Package french.ldf Info: Setting StandardEnumerateEnv=true for
 (french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 28.
-LaTeX Info: Redefining \up on input line 28.
+(french.ldf)             reported on input line 27.
+LaTeX Info: Redefining \up on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2271,17 +2438,17 @@ Package caption Info: End \AtBeginDocument code.
 
 ("E:\Master1 RSD\Memoire\latex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count426
-\scratchdimen=\dimen356
-\scratchbox=\box135
-\nofMPsegments=\count427
-\nofMParguments=\count428
-\everyMPshowfont=\toks65
-\MPscratchCnt=\count429
-\MPscratchDim=\dimen357
-\MPnumerator=\count430
-\makeMPintoPDFobject=\count431
-\everyMPtoPDFconversion=\toks66
+\scratchcounter=\count451
+\scratchdimen=\dimen385
+\scratchbox=\box146
+\nofMPsegments=\count452
+\nofMParguments=\count453
+\everyMPshowfont=\toks82
+\MPscratchCnt=\count454
+\MPscratchDim=\dimen386
+\MPnumerator=\count455
+\makeMPintoPDFobject=\count456
+\everyMPtoPDFconversion=\toks83
 ) ("E:\Master1 RSD\Memoire\latex\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2295,7 +2462,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
-\AtBeginShipoutBox=\box136
+\AtBeginShipoutBox=\box147
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -2320,10 +2487,10 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 .................................................
 . chemgreek info: "mapping-activated"
 . 
-. Activating mapping `fourier' on line 28.
+. Activating mapping `fourier' on line 27.
 .................................................
-Package backref Info: ** backref set up for natbib ** on input line 28.
-Package hyperref Info: Link coloring ON on input line 28.
+Package backref Info: ** backref set up for natbib ** on input line 27.
+Package hyperref Info: Link coloring ON on input line 27.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -2331,15 +2498,15 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("E:\Master1 RSD\Memoire\latex\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count432
+\c@section@level=\count457
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (Main.out) (Main.out)
-\@outlinefile=\write9
-\openout9 = `Main.out'.
+\@outlinefile=\write11
+\openout11 = `Main.out'.
 
 
 *geometry* driver: auto-detecting
@@ -2359,7 +2526,7 @@ LaTeX Info: Redefining \nameref on input line 28.
 * \oddsidemargin=13.08827pt
 * \evensidemargin=-1.1381pt
 * \topmargin=-41.1381pt
-* \headheight=15.0pt
+* \headheight=17.5pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -2377,44 +2544,44 @@ LaTeX Info: Redefining \nameref on input line 28.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 28.
+(Font)              scaled to size 11.03998pt on input line 27.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 28.
+(Font)              scaled to size 8.27998pt on input line 27.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 28.
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 28
+(Font)              scaled to size 6.43999pt on input line 27.
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 27
 .
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 28.
+(Font)              scaled to size 11.03998pt on input line 27.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 28.
+(Font)              scaled to size 8.27998pt on input line 27.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 28.
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+(Font)              scaled to size 6.43999pt on input line 27.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 28.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 27.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 27.
 
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 28.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 27.
 
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lm\ot1lmtt.fd"
@@ -2434,8 +2601,8 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \textheight=717.00946pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-43.81725pt
-* \topmargin=-41.1381pt
-* \headheight=15.0pt
+* \topmargin=-43.6381pt
+* \headheight=17.5pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -2452,7 +2619,7 @@ File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<img/uc2.png, id=134, 139.27031pt x 135.50626pt>
+<img/uc2.png, id=122, 139.27031pt x 135.50626pt>
 File: img/uc2.png Graphic file (type png)
 <use img/uc2.png>
 Package pdftex.def Info: img/uc2.png  used on input line 30.
@@ -2463,21 +2630,32 @@ Package pdftex.def Info: img/uc2.png  used on input line 30.
 (pdftex.def)             Requested size: 71.69954pt x 69.76271pt.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 30.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 30.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 30.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 30.
  [1{C:/Users/Etudiant RSD/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
 
-\openout5 = `Main.xdy'.
+\openout7 = `Main.xdy'.
 
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
 
- <./img/uc2.png>] [2
-
-
-]
+ <./img/uc2.png>]
 Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Main.toc on input line 35.
 Package minitoc Info: I0033
@@ -2504,149 +2682,155 @@ Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc6.
 \openout3 = `Main.mtc6'.
 
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc7.
-\openout3 = `Main.mtc7'.
-
-Package minitoc Info: I0033
-(minitoc)             Writing Main.mtc8.
-\openout3 = `Main.mtc8'.
-
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 35.
-
-(Main.toc)
-\tf@toc=\write10
-\openout10 = `Main.toc'.
+ (Main.toc)
+\tf@toc=\write12
+\openout12 = `Main.toc'.
 
  [1
 
-] [2
+
 
 ] (Main.lof)
-\tf@lof=\write11
-\openout11 = `Main.lof'.
+\tf@lof=\write13
+\openout13 = `Main.lof'.
 
- [3] [4
+ [2
 
 ] (Main.lot)
-\tf@lot=\write12
-\openout12 = `Main.lot'.
+\tf@lot=\write14
+\openout14 = `Main.lot'.
 
- [5] [6
+ [3
 
-] (Main.loa)
-\tf@loa=\write13
-\openout13 = `Main.loa'.
-
- [7]
-[8
-
-] (introduction/Introduction.tex
-Chapitre 1.
-
-Package natbib Warning: Citation `arian5' on page 1 undefined on input line 8.
+]
+\openout2 = `remerciement.aux'.
 
 
-Package natbib Warning: Citation `patriot' on page 1 undefined on input line 8.
+(remerciement.tex [4
+
+
+]) [5
+
+]
+\openout2 = `resumer.aux'.
+
+ (resumer.tex) (introduction/Introduction.tex
+
+Package natbib Warning: Citation `arian5' on page 1 undefined on input line 11.
 
 
 
-Package natbib Warning: Citation `bug2000' on page 1 undefined on input line 8.
+Package natbib Warning: Citation `patriot' on page 1 undefined on input line 11
+.
 
+
+Package natbib Warning: Citation `bug2000' on page 1 undefined on input line 11
+.
 
 
 Package natbib Warning: Citation `Rushby2001' on page 1 undefined on input line
- 10.
+ 13.
 
 
 Package natbib Warning: Citation `Clark1999' on page 1 undefined on input line 
-10.
+13.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.14 \section
-             {Probl√©matique} [1
+l.21 
+      [1
+
+
+
+
 
 ]
-Overfull \hbox (4.51515pt too wide) in paragraph at lines 24--26
+Overfull \hbox (4.51515pt too wide) in paragraph at lines 26--27
 []\T1/futs/m/n/12 Dans l'im-plÈ-men-ta-tion dis-tri-buÈe, les so-lu-tions pro-p
 o-sÈes dans la lit-tÈ-ra-ture tra-vaillent
  []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.33 	\item[Le premier chapitre]
-                                 aborde quelques notions de base sur l‚Äôopt...
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--40
+Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
 
-) (theorie_graphe/Theorie_graphe.tex [3] [4
+) [3] [4
 
-]
-Chapitre 2.
+
+] [5] (theorie_graphe/Theorie_graphe.tex
+Chapitre 1.
+LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <12> not available
+(Font)              Font shape `T1/futs/b/sc' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/sc' tried instead on input line 4.
 \openout3 = `Main.mtc'.
 
 \openout3 = `Main.mtc'.
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 6.
+(Font)              scaled to size 10.07397pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 6.
+(Font)              scaled to size 7.63599pt on input line 4.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 6.
+(Font)              scaled to size 5.51999pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 6.
+(Font)              scaled to size 10.07397pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 6.
+(Font)              scaled to size 7.63599pt on input line 4.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 6.
-(Main.mtc5
+(Font)              scaled to size 5.51999pt on input line 4.
+(Main.mtc4
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 1.
-) [5] (theorie_graphe/Notions_mathematiques.tex)
-(theorie_graphe/Optimisation_combinatoire.tex
+) [6
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[6]
+] (theorie_graphe/Notions_mathematiques.tex
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
+nput line 7.
+
+Overfull \hbox (9.50426pt too wide) in paragraph at lines 16--18
+[][]\T1/futs/b/n/12 DÈfinition 3 \T1/futs/m/n/12 (Par-ti-tion)\T1/futs/b/n/12 .
+ []\T1/futs/m/n/12 Soit un en-semble S quel-conque. Un en-semble P de sous-ense
+mbles
+ []
+
+) (theorie_graphe/Optimisation_combinatoire.tex [7]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 22.
 
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 30.
 
-
-Overfull \hbox (8.68884pt too wide) in paragraph at lines 46--48
-[]\T1/futs/m/it/12 Un pro-blËme d'op-ti-mi-sa-tion com-
+[8]
+Overfull \hbox (5.37375pt too wide) in paragraph at lines 46--48
+[][]\T1/futs/b/n/12 DÈfinition 12 \T1/futs/m/n/12 (Pro-blËme d'op-ti-mi-sa-tion
+ com-bi-na-toire)\T1/futs/b/n/12 . []\T1/futs/m/n/12 Un pro-blËme d'op-ti-mi-sa
+-tion com-
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
+Overfull \hbox (1.88972pt too wide) in paragraph at lines 57--59
+\T1/futs/m/n/12 Lorsque le pro-blËme d'op-ti-mi-sa-tion com-bi-na-toire consis-
+tant ‡ cher-cher un ÈlÈ-ment maxi-
+ []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-<img/Optimum_global_optimum_local.png, id=367, 865.73438pt x 462.97969pt>
+<img/Optimum_global_optimum_local.png, id=360, 865.73438pt x 462.97969pt>
 File: img/Optimum_global_optimum_local.png Graphic file (type png)
 <use img/Optimum_global_optimum_local.png>
 Package pdftex.def Info: img/Optimum_global_optimum_local.png  used on input li
@@ -2657,13 +2841,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 79.
 See the caption package documentation for explanation.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[8]) (theorie_graphe/Notions_graphe.tex
+[9]) (theorie_graphe/Notions_graphe.tex
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 13.
 
@@ -2677,69 +2855,30 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 13.
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 17.
 
 
-Overfull \hbox (6.57349pt too wide) in paragraph at lines 29--30
-\T1/futs/m/it/12 cents entre eux. Deux som-mets non ad-ja-cents peuvent mal-grÈ
- tout avoir une cer-taine connec-
+Overfull \hbox (11.28311pt too wide) in paragraph at lines 33--34
+\T1/futs/m/n/12 mets $\FML/futm/m/it/12 a[]a[]:::a[]a[]$ \T1/futs/m/n/12 re-liÈ
+s entre eux par des arÍtes, c'est-‡-dire $\FML/futm/m/it/12 a[]a[]  \FMS/futm/m
+/n/12 2 \FML/futm/m/it/12 A$\T1/futs/m/n/12 , pour $\FML/futm/m/it/12 i \FMS/fu
+tm/m/n/12 Å \T1/futs/m/n/12 1\FML/futm/m/it/12 ;  \T1/futs/m/n/12 2\FML/futm/m/
+it/12 ;  :::;  n$\T1/futs/m/n/12 .
  []
 
-
-Overfull \hbox (2.33115pt too wide) in paragraph at lines 33--34
-\T1/futs/m/it/12 mets $\FML/futm/m/it/12 a[]a[]:::a[]a[]$ \T1/futs/m/it/12 re-l
-iÈs entre eux par des arÍtes, c'est-‡-dire $\FML/futm/m/it/12 a[]a[]  \FMS/futm
-/m/n/12 2 \FML/futm/m/it/12 A$\T1/futs/m/it/12 , pour $\FML/futm/m/it/12 i \FMS
-/futm/m/n/12 Å \T1/futs/m/n/12 1\FML/futm/m/it/12 ;  \T1/futs/m/n/12 2\FML/futm
-/m/it/12 ;  :::;  n$\T1/futs/m/it/12 .
- []
-
-
-Overfull \hbox (4.76826pt too wide) in paragraph at lines 37--38
-[]\T1/futs/m/it/12 Soit un graphe $\FML/futm/m/it/12 G \FMS/futm/m/n/12 Å \T1/f
-uts/m/n/12 (\FML/futm/m/it/12 S; A\T1/futs/m/n/12 )$\T1/futs/m/it/12 . On dit q
-ue ce graphe est connexe
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[9 <./img/Optimum_global_optimum_local.png>]
+[10 <./img/Optimum_global_optimum_local.png>]
 
 LaTeX Warning: Command \` invalid in math mode on input line 57.
 
 ) (theorie_graphe/Methode_partitionnement.tex
-Overfull \hbox (4.17888pt too wide) in paragraph at lines 10--13
-\T1/futs/m/it/12 Soient un graphe $\FML/futm/m/it/12 G \FMS/futm/m/n/12 Å \T1/f
-uts/m/n/12 (\FML/futm/m/it/12 S; A\T1/futs/m/n/12 )$ \T1/futs/m/it/12 et un en-
-semble de $\FML/futm/m/it/12 k$ \T1/futs/m/it/12 sous-ensembles de $\FML/futm/m
-/it/12 S$\T1/futs/m/it/12 , notÈ $\FML/futm/m/it/12 P[] \FMS/futm/m/n/12 Å f\FM
-L/futm/m/it/12 S[]; S[]; :::; S[]\FMS/futm/m/n/12 g$\T1/futs/m/it/12 .
+Overfull \hbox (16.21481pt too wide) in paragraph at lines 10--13
+\T1/futs/m/n/12 Soient un graphe $\FML/futm/m/it/12 G \FMS/futm/m/n/12 Å \T1/fu
+ts/m/n/12 (\FML/futm/m/it/12 S; A\T1/futs/m/n/12 )$ et un en-semble de $\FML/fu
+tm/m/it/12 k$ \T1/futs/m/n/12 sous-ensembles de $\FML/futm/m/it/12 S$\T1/futs/m
+/n/12 , notÈ $\FML/futm/m/it/12 P[] \FMS/futm/m/n/12 Å f\FML/futm/m/it/12 S[]; 
+S[]; :::; S[]\FMS/futm/m/n/12 g$\T1/futs/m/n/12 .
  []
 
+[11]) (theorie_graphe/Approches_partitionnement.tex [12] [13]
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[10]) (theorie_graphe/Approches_partitionnement.tex
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[11]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[12]
-
-Package natbib Warning: Citation `Bichot2007' on page 13 undefined on input lin
+Package natbib Warning: Citation `Bichot2007' on page 14 undefined on input lin
 e 50.
 
 
@@ -2749,7 +2888,7 @@ Overfull \hbox (13.82463pt too wide) in paragraph at lines 55--59
 -DRICK-SON[][]\T1/futs/m/n/12 , [][]1995b[][]],
  []
 
-<img/multiniveaupartitionnement.PNG, id=573, 850.67813pt x 459.21562pt>
+<img/multiniveaupartitionnement.PNG, id=583, 850.67813pt x 459.21562pt>
 File: img/multiniveaupartitionnement.PNG Graphic file (type png)
 <use img/multiniveaupartitionnement.PNG>
 Package pdftex.def Info: img/multiniveaupartitionnement.PNG  used on input line
@@ -2763,29 +2902,16 @@ See the caption package documentation for explanation.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[13]
+ [14]
 Overfull \hbox (4.03635pt too wide) in paragraph at lines 68--69
 \T1/futs/m/n/12 DÈs lors, plu-sieurs amÈ-lio-ra-tions ont ÈtÈ pro-po-sÈes [[][]
 []\T1/futs/m/sc/12 AU-RORA[][]\T1/futs/m/n/12 , [][]2007[][]], [[][][]\T1/futs/
 m/sc/12 CHE-VA-LIER[][]\T1/futs/m/n/12 , [][]2009[][]],
  []
 
-) (theorie_graphe/Distribution_graphes.tex
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[14 <./img/multiniveaupartitionnement.PNG>]
-<img/eed.PNG, id=681, 840.13875pt x 565.36218pt>
+) (theorie_graphe/Distribution_graphes.tex [15 <./img/multiniveaupartitionnemen
+t.PNG>]
+<img/eed.PNG, id=691, 840.13875pt x 565.36218pt>
 File: img/eed.PNG Graphic file (type png)
 <use img/eed.PNG>
 Package pdftex.def Info: img/eed.PNG  used on input line 47.
@@ -2796,136 +2922,110 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 48.
 See the caption package documentation for explanation.
 
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[15 <./img/eed.PNG>])
-Underfull \hbox (badness 10000) in paragraph at lines 58--22
+[16 <./img/eed.PNG>])
+Underfull \hbox (badness 10000) in paragraph at lines 58--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--22
+Underfull \hbox (badness 10000) in paragraph at lines 58--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--22
+Underfull \hbox (badness 10000) in paragraph at lines 58--20
 
  []
 
-) (r2p_sk_mc/R2p_SK_MC.tex
+)
 Underfull \vbox (badness 1931) has occurred while \output is active []
 
+ [17]
+(r2p_sk_mc/R2p_SK_MC.tex [18]
+Chapitre 2.
+\openout3 = `Main.mtc'.
 
+\openout3 = `Main.mtc'.
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[16]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[17]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 26.66203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18
+(Main.mtc5) [19
 
 ]
-Chapitre 3.
-\openout3 = `Main.mtc'.
-
-\openout3 = `Main.mtc'.
-
-(Main.mtc6) [19]
 
 Package natbib Warning: Citation `Huckle2015' on page 20 undefined on input lin
-e 10.
+e 8.
 
 
 Package natbib Warning: Citation `Kanaracus2012' on page 20 undefined on input 
-line 10.
+line 8.
 
 
 Package natbib Warning: Citation `Ferrari1978' on page 20 undefined on input li
-ne 10.
+ne 8.
 
 
 Package natbib Warning: Citation `ClarkeWing1996' on page 20 undefined on input
- line 12.
+ line 10.
 
 
 Package natbib Warning: Citation `Dsilva2008' on page 20 undefined on input lin
-e 12.
+e 10.
 
 
 Package natbib Warning: Citation `Cheng2006' on page 20 undefined on input line
- 14.
+ 12.
 
 
 Package natbib Warning: Citation `Wang2004' on page 20 undefined on input line 
-14.
+12.
 
 
 Package natbib Warning: Citation `AlurDill1994' on page 20 undefined on input l
-ine 14.
+ine 12.
 
 
 Package natbib Warning: Citation `BenAri1983' on page 20 undefined on input lin
-e 14.
+e 12.
 
 
 Package natbib Warning: Citation `Behrmann2004' on page 20 undefined on input l
-ine 14.
+ine 12.
 
 
 Package natbib Warning: Citation `Barnat2010' on page 20 undefined on input lin
-e 14.
+e 12.
 
 
 Package natbib Warning: Citation `Dill1996' on page 20 undefined on input line 
-14.
+12.
 
 
 Package natbib Warning: Citation `Lime2009' on page 20 undefined on input line 
-14.
+12.
 
 
 Package natbib Warning: Citation `Holzmann2003' on page 20 undefined on input l
-ine 14.
+ine 12.
 
 
-Package natbib Warning: Citation `Arn92' on page 20 undefined on input line 16.
-
-
-
-Package natbib Warning: Citation `CES86' on page 20 undefined on input line 16.
+Package natbib Warning: Citation `Arn92' on page 20 undefined on input line 14.
 
 
 
-Package natbib Warning: Citation `FM' on page 20 undefined on input line 16.
+Package natbib Warning: Citation `CES86' on page 20 undefined on input line 14.
 
 
-Package natbib Warning: Citation `CH93' on page 20 undefined on input line 16.
+
+Package natbib Warning: Citation `FM' on page 20 undefined on input line 14.
+
+
+Package natbib Warning: Citation `CH93' on page 20 undefined on input line 14.
 
 (r2p_sk_mc/Rdp.tex [20]
 
 Package natbib Warning: Citation `SaidounicoursRdp2017' on page 21 undefined on
  input line 9.
 
-<img/rdp.PNG, id=773, 469.755pt x 74.52844pt>
+<img/rdp.PNG, id=781, 469.755pt x 74.52844pt>
 File: img/rdp.PNG Graphic file (type png)
 <use img/rdp.PNG>
 Package pdftex.def Info: img/rdp.PNG  used on input line 12.
@@ -2935,7 +3035,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-<img/place.PNG, id=775, 320.69812pt x 75.28125pt>
+<img/place.PNG, id=783, 320.69812pt x 75.28125pt>
 File: img/place.PNG Graphic file (type png)
 <use img/place.PNG>
 Package pdftex.def Info: img/place.PNG  used on input line 20.
@@ -2945,7 +3045,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 21.
 See the caption package documentation for explanation.
 
-<img/rdp1.PNG, id=778, 283.0575pt x 203.25937pt>
+<img/rdp1.PNG, id=786, 283.0575pt x 203.25937pt>
 File: img/rdp1.PNG Graphic file (type png)
 <use img/rdp1.PNG>
 Package pdftex.def Info: img/rdp1.PNG  used on input line 27.
@@ -2955,7 +3055,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 28.
 See the caption package documentation for explanation.
 
-<img/rdpg.PNG, id=779, 283.2984pt x 203.3196pt>
+<img/rdpg.PNG, id=787, 283.2984pt x 203.3196pt>
 File: img/rdpg.PNG Graphic file (type png)
 <use img/rdpg.PNG>
 Package pdftex.def Info: img/rdpg.PNG  used on input line 32.
@@ -2991,13 +3091,7 @@ Package natbib Warning: Citation `SaidounicoursRdp2017' on page 22 undefined on
 Package natbib Warning: Citation `SaidounicoursRdp2017' on page 23 undefined on
  input line 95.
 
-
-Overfull \hbox (8.35286pt too wide) in paragraph at lines 95--96
-[]\T1/futs/m/it/12 Le fran-chis-se-ment d'une tran-si-tion $\FML/futm/m/it/12 t
-$ \T1/futs/m/it/12 sen-
- []
-
-<img/H2O.PNG, id=803, 598.48593pt x 165.61874pt>
+<img/H2O.PNG, id=812, 598.48593pt x 165.61874pt>
 File: img/H2O.PNG Graphic file (type png)
 <use img/H2O.PNG>
 Package pdftex.def Info: img/H2O.PNG  used on input line 101.
@@ -3014,7 +3108,7 @@ Package natbib Warning: Citation `SaidounicoursRdp2017' on page 23 undefined on
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 116.
 
-<img/gm1.png, id=806, 200.75pt x 278.03876pt>
+<img/gm1.png, id=815, 200.75pt x 278.03876pt>
 File: img/gm1.png Graphic file (type png)
 <use img/gm1.png>
 Package pdftex.def Info: img/gm1.png  used on input line 122.
@@ -3025,20 +3119,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [23 <./img/H2O.PNG>]
-Overfull \hbox (6.2649pt too wide) in paragraph at lines 128--129
-[]\T1/futs/m/it/12 Un sys-tËme de tran-si-tions Èti-que-tÈes ap-
+Overfull \hbox (15.37833pt too wide) in paragraph at lines 131--133
+[]\T1/futs/m/n/12 Formellement un sys-tËme de tran-si-tions Èti-que-tÈes est un
+ qua-dru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12 Å \T1/futs/m/n/12 (\FML/
+futm/m/it/12 S; Act; ; s[]\T1/futs/m/n/12 )$
  []
 
-
-Overfull \hbox (4.57843pt too wide) in paragraph at lines 131--133
-[]\T1/futs/m/it/12 Formellement un sys-tËme de tran-si-tions Èti-que-tÈes est u
-n qua-dru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12 Å \T1/futs/m/n/12 (\FML
-/futm/m/it/12 S; Act; ; s[]\T1/futs/m/n/12 )$
- []
-
-LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 133.
-<img/ste.png, id=819, 83.31125pt x 177.66376pt>
+<img/ste.png, id=831, 83.31125pt x 177.66376pt>
 File: img/ste.png Graphic file (type png)
 <use img/ste.png>
 Package pdftex.def Info: img/ste.png  used on input line 141.
@@ -3049,19 +3136,13 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Overfull \hbox (7.62749pt too wide) in paragraph at lines 149--151
-[]\T1/futs/m/it/12 Formellement une struc-ture de Kripke est un 4-uplet $[]$ [[
-][][]\T1/futs/m/sc/12 Ed-mund M. Clarke[][]\T1/futs/m/it/12 ,
- []
-
-
-Overfull \hbox (7.14516pt too wide) in paragraph at lines 155--156
-[]\T1/futs/m/it/12 Soit $[]$ un en-semble de pro-po-si-tions ato-miques, c'est-
-‡-dire des ex-pres-sions boo-lÈennes
+Overfull \hbox (14.55144pt too wide) in paragraph at lines 149--151
+[]\T1/futs/m/n/12 Formellement une struc-ture de Kripke est un 4-uplet $[]$ [[]
+[][]\T1/futs/m/sc/12 Ed-mund M. Clarke[][]\T1/futs/m/n/12 ,
  []
 
 [24 <./img/gm1.png> <./img/ste.png>]
-<img/stk.png, id=838, 539.01375pt x 153.57375pt>
+<img/stk.png, id=851, 539.01375pt x 153.57375pt>
 File: img/stk.png Graphic file (type png)
 <use img/stk.png>
 Package pdftex.def Info: img/stk.png  used on input line 170.
@@ -3072,7 +3153,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 171.
 See the caption package documentation for explanation.
 
-<img/stkd.png, id=842, 575.751pt x 190.311pt>
+<img/stkd.png, id=855, 575.751pt x 190.311pt>
 File: img/stkd.png Graphic file (type png)
 <use img/stkd.png>
 Package pdftex.def Info: img/stkd.png  used on input line 193.
@@ -3128,57 +3209,79 @@ A\T1/futs/m/n/12 (\FML/futm/m/it/12 fUg\T1/futs/m/n/12 )\FML/futm/m/it/12 ; E\T
 ts/m/n/12 peut-Ítre vÈ-ri-fiÈe dans les Ètats bor-der et aussi
  []
 
-)) (Contribution.tex [29] [30
+)) [29] [30
+
+] [31] (Contribution.tex
+Chapitre 3.
+\openout3 = `Main.mtc'.
+
+\openout3 = `Main.mtc'.
+
+(Main.mtc6) [32
+
 
 ]
-Chapitre 4.
-\openout3 = `Main.mtc'.
 
-\openout3 = `Main.mtc'.
-
-(Main.mtc7) [31]
-
-Package natbib Warning: Citation `EzekielLuttgen2008' on page 32 undefined on i
-nput line 15.
+Package natbib Warning: Citation `EzekielLuttgen2008' on page 33 undefined on i
+nput line 13.
 
 (contribution/Politiquedistribution.tex
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[32]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 40.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 40.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 114.
-
- ("E:\Master1 RSD\Memoire\latex\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-Underfull \vbox (badness 7907) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [33]
+<img/protocole.png, id=974, 1447.65843pt x 542.025pt>
+File: img/protocole.png Graphic file (type png)
+<use img/protocole.png>
+Package pdftex.def Info: img/protocole.png  used on input line 19.
+(pdftex.def)             Requested size: 441.01608pt x 216.80615pt.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <7> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 48.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 117.
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+ ("E:\Master1 RSD\Memoire\latex\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+
+LaTeX Warning: Float too large for page by 9.47029pt on input line 117.
+
+(contribution/ModelCheckingStatistique.tex (contribution/Section1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34] (contribution/ModelCheckingStatistique.tex (contribution/Section1.tex
-<img/skd1.png, id=1021, 423.984pt x 142.6128pt>
+[34 <./img/protocole.png>]
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[35]
+Package hyperref Info: bookmark level for unknown Exemple defaults to 0 on inpu
+t line 10.
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+<img/skd1.png, id=1048, 423.984pt x 142.6128pt>
 File: img/skd1.png Graphic file (type png)
 <use img/skd1.png>
 Package pdftex.def Info: img/skd1.png  used on input line 25.
@@ -3189,24 +3292,14 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 26.
 See the caption package documentation for explanation.
 
+) (contribution/Section2.tex) (contribution/Section3.tex
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (contribution/Section2.tex
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./img/skd1.png>]) (contribution/Section3.tex
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36]) (contribution/Section4.tex
+[37 <./img/skd1.png>]) (contribution/Section4.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 5.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -3224,128 +3317,134 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<img/skd2.png, id=1039, 341.5962pt x 414.348pt>
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38]
+<img/skd2.png, id=1066, 341.5962pt x 414.348pt>
 File: img/skd2.png Graphic file (type png)
 <use img/skd2.png>
 Package pdftex.def Info: img/skd2.png  used on input line 24.
 (pdftex.def)             Requested size: 238.32343pt x 289.07999pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 25.
 See the caption package documentation for explanation.
 
+))) (contribution/Section5.tex (contribution/EtapeInitialisation.tex
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]))) (contribution/Section5.tex (contribution/EtapeInitialisation.tex
+[39 <./img/skd2.png>] (contribution/Algorithm1.tex
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./img/skd2.png>] (contribution/Algorithm1.tex
+[40]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
-Overfull \hbox (25.98837pt too wide) in paragraph at lines 95--107
-\T1/futs/m/it/12 Ètat, dÈ-clenche une vÈ-ri-fi-ca-tion de la for-mule sur la  
-ma-chine 2 . Ainsi les paramËtres$\T1/futs/m/n/12 (\FML/futm/m/it/12 []; []\
-T1/futs/m/n/12 )$
- []
+[41])
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]) (contribution/Algorithm2.tex
+[42] (contribution/Algorithm2.tex
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[43]
 Overfull \hbox (5.65147pt too wide) in paragraph at lines 40--41
 []\T1/futs/m/n/12 L'instruction de cette ligne per-met de rÈ-cu-pÈ-rer les Ètat
 s dont ils dÈ-pendent. 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 82--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--107
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[43]
-Overfull \hbox (21.8054pt too wide) in paragraph at lines 130--149
-\T1/futs/m/it/12 l'Ètat  S2 ). Pen-dant la vÈ-ri-fi-ca-tion, l'al-go-rithme d
-È-tecte la va-leur lo-gique de l'Ètat( S20 )
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
 [44]
+Underfull \hbox (badness 10000) in paragraph at lines 82--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--107
+
+ []
+
+
+Overfull \hbox (8.75552pt too wide) in paragraph at lines 107--130
+\T1/futs/m/n/12 une no-ti-fi-ca-tion pro-voque l'itÈ-ra-tion 2 sur la  ma-chin
+e 1 , cette no-ti-fi-ca-tion concerne
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (26.54541pt too wide) in paragraph at lines 130--149
+\T1/futs/m/n/12 l'Ètat  S2 ). Pen-dant la vÈ-ri-fi-ca-tion, l'al-go-rithme dÈ
+-tecte la va-leur lo-gique de l'Ètat( S20 )
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 149--164
 
  []
@@ -3356,19 +3455,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--182
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
-Underfull \vbox (badness 1681) has occurred while \output is active []
-
-
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45] (contribution/Algorithm3.tex
+[46]) (contribution/Algorithm3.tex
 Package hyperref Info: bookmark level for unknown function defaults to 0 on inp
 ut line 5.
 pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.6.1}
@@ -3397,46 +3489,64 @@ l.24 \end
                    \relax 
 l.24 \end
          {function}
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package caption Warning: \label without proper reference on input line 29.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `alg4' on page 48 undefined on input line 58.
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[48]
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47]
-
-LaTeX Warning: Reference `line41' on page 48 undefined on input line 69.
+LaTeX Warning: Reference `line41' on page 49 undefined on input line 69.
 
 
-Overfull \hbox (3.62471pt too wide) in paragraph at lines 73--74
-[]\T1/futs/m/it/12 L'application de l'Al-go-rithme([][]7[][]) per-met de dÈ-ter
--mi-ner pour cha-cun des Ètats
+Package caption Warning: \label without proper reference on input line 29.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `alg4' on page 49 undefined on input line 73.
+
+
+Overfull \hbox (14.2622pt too wide) in paragraph at lines 73--74
+\T1/futs/m/n/12 Ètats de l'exemple([][]3.2.2[][]), les va-leurs des pa-ra-mËtre
+s ‡ tra-vers les rÈ-sul-tats de l'exemple([][]3.2.3[][]).
  []
 
 
-Overfull \hbox (29.92455pt too wide) in paragraph at lines 89--103
-\T1/futs/m/it/12 pa-ra-mËtres des autres Ètats est si-mi-laire ‡ l'itÈ-ra-tion 
-prÈ-cÈ-dente. Ainsi, dans l'exemple([][]4.2.3[][])
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48]) (contribution/Algorithm4.tex
+[49]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (contribution/Algorithm4.tex
 Package hyperref Info: bookmark level for unknown procedure defaults to 0 on in
 put line 4.
 pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.7.1}
@@ -3470,42 +3580,48 @@ l.16
                    \relax 
 l.16 
      
-Overfull \hbox (19.52458pt too wide) in paragraph at lines 25--26
-[]\T1/futs/m/it/12 La  ma-chine 2  en-voie les in-for-ma-tions : id =s9 ;$\FM
-L/futm/m/it/12 []$\T1/futs/m/it/12 =0 ;$\FML/futm/m/it/12 []$\T1/futs/m/it/12
- =1 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/it/12 =0 ;f ={S9} ;i=2(le
+Overfull \hbox (22.71654pt too wide) in paragraph at lines 25--26
+[]\T1/futs/m/n/12 La  ma-chine 2  en-voie les in-for-ma-tions : id =s9 ;$\FML
+/futm/m/it/12 []$\T1/futs/m/n/12 =0 ;$\FML/futm/m/it/12 []$\T1/futs/m/n/12 =1
+ ;$\FML/futm/m/it/12 m[]$\T1/futs/m/n/12 =0 ;f ={S9} ;i=2(le
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49]
-Overfull \hbox (18.3246pt too wide) in paragraph at lines 45--46
-[]\T1/futs/m/it/12 La  ma-chine 2  en-voie les in-for-ma-tions : id =s11 ;$\F
-ML/futm/m/it/12 []$\T1/futs/m/it/12 =2 ;$\FML/futm/m/it/12 []$\T1/futs/m/it/1
-2 =0 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/it/12 =0 ;f =$\FMS/futm/m/n/12 f\FML/f
-utm/m/it/12 s\T1/futs/m/n/12 22\FMS/futm/m/n/12 g$ \T1/futs/m/it/12 ;i=2
+[50]
+Overfull \hbox (21.04854pt too wide) in paragraph at lines 45--46
+[]\T1/futs/m/n/12 La  ma-chine 2  en-voie les in-for-ma-tions : id =s11 ;$\FM
+L/futm/m/it/12 []$\T1/futs/m/n/12 =2 ;$\FML/futm/m/it/12 []$\T1/futs/m/n/12 =
+0 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/n/12 =0 ;f =$\FMS/futm/m/n/12 f\FML/futm/
+m/it/12 s\T1/futs/m/n/12 22\FMS/futm/m/n/12 g$ \T1/futs/m/n/12 ;i=2
  []
 
 
-Overfull \hbox (48.67918pt too wide) in paragraph at lines 51--52
-[]\T1/futs/m/it/12 La  ma-chine 1  en-voie les in-for-ma-tions : id =s2 ;$\FM
-L/futm/m/it/12 []$\T1/futs/m/it/12 =5 ;$\FML/futm/m/it/12 []$\T1/futs/m/it/12
- =0 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/it/12 =0 ;f =$\FMS/futm/m/n/12 f\FML/fu
-tm/m/it/12 s\T1/futs/m/n/12 9\FML/futm/m/it/12 ; s\T1/futs/m/n/12 10\FML/futm/m
-/it/12 ; s\T1/futs/m/n/12 11\FMS/futm/m/n/12 g$ \T1/futs/m/it/12 ;i=1
+Overfull \hbox (51.40312pt too wide) in paragraph at lines 51--52
+[]\T1/futs/m/n/12 La  ma-chine 1  en-voie les in-for-ma-tions : id =s2 ;$\FML
+/futm/m/it/12 []$\T1/futs/m/n/12 =5 ;$\FML/futm/m/it/12 []$\T1/futs/m/n/12 =0
+ ;$\FML/futm/m/it/12 m[]$\T1/futs/m/n/12 =0 ;f =$\FMS/futm/m/n/12 f\FML/futm/m
+/it/12 s\T1/futs/m/n/12 9\FML/futm/m/it/12 ; s\T1/futs/m/n/12 10\FML/futm/m/it/
+12 ; s\T1/futs/m/n/12 11\FMS/futm/m/n/12 g$ \T1/futs/m/n/12 ;i=1
  []
 
 
-Overfull \hbox (8.65369pt too wide) in paragraph at lines 54--55
-[]\T1/futs/m/it/12 La  ma-chine 3  en-voie les in-for-ma-tions : id =s15 ;$\F
-ML/futm/m/it/12 []$\T1/futs/m/it/12 =3 ;$\FML/futm/m/it/12 []$\T1/futs/m/it/1
-2 =0 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/it/12 =1 ;f =$\FMS/futm/m/n/12 f\FML/f
-utm/m/it/12 s\T1/futs/m/n/12 19\FML/futm/m/it/12 ; s\T1/futs/m/n/12 11\FMS/futm
-/m/n/12 g$ \T1/futs/m/it/12 ;i=3
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[51]
+Overfull \hbox (11.37762pt too wide) in paragraph at lines 54--55
+[]\T1/futs/m/n/12 La  ma-chine 3  en-voie les in-for-ma-tions : id =s15 ;$\FM
+L/futm/m/it/12 []$\T1/futs/m/n/12 =3 ;$\FML/futm/m/it/12 []$\T1/futs/m/n/12 =
+0 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/n/12 =1 ;f =$\FMS/futm/m/n/12 f\FML/futm/
+m/it/12 s\T1/futs/m/n/12 19\FML/futm/m/it/12 ; s\T1/futs/m/n/12 11\FMS/futm/m/n
+/12 g$ \T1/futs/m/n/12 ;i=3
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.7.1}
@@ -3540,84 +3656,55 @@ l.75 \end
 l.75 \end
          {procedure}
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
-Overfull \hbox (0.48734pt too wide) in paragraph at lines 85--86
-[]\T1/futs/m/it/12 A la rÈ-cep-tion des va-leurs : id =s9 ;$\FML/futm/m/it/12 
-[] \FMS/futm/m/n/12 Å \T1/futs/m/n/12 0$ \T1/futs/m/it/12 ;$\FML/futm/m/it/12 
-[]$\T1/futs/m/it/12 =1 ;$\FML/futm/m/it/12 m[]$\T1/futs/m/it/12 =0 ;f ={S9} ;i
-=2 par la  ma-
+[52])) (contribution/EtapeRedistribution.tex
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53] (contribution/Algorithm_Search_StatesToImport.tex
+Underfull \hbox (badness 5924) in paragraph at lines 32--32
+[]\T1/futs/b/n/12 if \T1/futs/m/it/12 ($\T1/futs/m/n/12 (\FML/futm/m/it/12 e \F
+MS/futm/m/n/12 2 \FML/futm/m/it/12 e[]:f\T1/futs/m/n/12 )\FML/futm/m/it/12 and\
+T1/futs/m/n/12 (\FML/futm/m/it/12 exist\T1/futs/m/n/12 (\FML/futm/m/it/12 e:sit
+e\T1/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]))\FML/futm/m/it/12 and\T
+1/futs/m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 É \FML/futm/m/it/12 e:s
+ite\T1/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :[]\
+T1/futs/m/n/12 )\FML/futm/m/it/12 and$$\T1/futs/m/n/12 ((\FML/futm/m/it/12 e[]:
+[] \FMS/futm/m/n/12 É
  []
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51])) (contribution/EtapeRedistribution.tex
-(contribution/Algorithm_Search_StatesToImport.tex
-Underfull \hbox (badness 5924) in paragraph at lines 54--54
-[][]|[]\T1/futs/b/n/12 if \T1/futs/m/it/12 ($\T1/futs/m/n/12 (\FML/futm/m/it/12
- e \FMS/futm/m/n/12 2 \FML/futm/m/it/12 e[]:f\T1/futs/m/n/12 )\FML/futm/m/it/12
- and\T1/futs/m/n/12 (\FML/futm/m/it/12 exist\T1/futs/m/n/12 (\FML/futm/m/it/12 
-e:site\T1/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]))\FML/futm/m/it/12 
-and\T1/futs/m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 É \FML/futm/m/it/1
-2 e:site\T1/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 
-:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 and$$\T1/futs/m/n/12 ((\FML/futm/m/it/12
- e[]:[] \FMS/futm/m/n/12 É
+Underfull \hbox (badness 2334) in paragraph at lines 32--32
+[]\T1/futs/b/n/12 if $\T1/futs/m/n/12 ((\FML/futm/m/it/12 e:[] \FMS/futm/m/n/1
+2 É \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 or\T1/futs/m/n
+/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 ÅÅ \FML/futm/m/it/12 site\T1/futs
+/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :[] and e:[] \
+FMS/futm/m/n/12 É \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 ))\FML/futm/m/it/12
+ and\T1/futs/m/n/12 (\FML/futm/m/it/12 MG \FMS/futm/m/n/12 ÅÅ
  []
 
 
-Underfull \hbox (badness 2334) in paragraph at lines 54--54
-[][]|[]\T1/futs/b/n/12 if $\T1/futs/m/n/12 ((\FML/futm/m/it/12 e:[] \FMS/futm/
-m/n/12 É \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 or\T1/fut
-s/m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 ÅÅ \FML/futm/m/it/12 site\T1
-/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :[] and e:
-[] \FMS/futm/m/n/12 É \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 ))\FML/futm/m/
-it/12 and\T1/futs/m/n/12 (\FML/futm/m/it/12 MG \FMS/futm/m/n/12 ÅÅ
- []
+Package caption Warning: \label without proper reference on input line 32.
+See the caption package documentation for explanation.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+LaTeX Warning: Reference `lineI0' on page 54 undefined on input line 38.
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
-
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[53pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8
-.1}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.62 	\item[ligne \ref{linerI6} :]
-                                    L'instruction de cette ligne v√©rifie qu...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.2}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.62 	\item[ligne \ref{linerI6} :]
-                                    L'instruction de cette ligne v√©rifie qu...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.3}
-) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.62 	\item[ligne \ref{linerI6} :]
-                                    L'instruction de cette ligne v√©rifie qu...
-]
-Overfull \hbox (10.1527pt too wide) in paragraph at lines 65--66
+[54]
+Overfull \hbox (3.9727pt too wide) in paragraph at lines 43--44
 []\T1/futs/m/n/12 L'instruction Ècrite sur cette ligne per-met de re-tour-ner l
 es in-for-ma-tions du couple
  []
@@ -3675,49 +3762,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.6}
                    \relax 
 l.24 \caption
              {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.7}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \caption
-             {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.8}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \caption
-             {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.9}
-) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \caption
-             {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.10
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \caption
-             {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.11
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \caption
-             {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.12
-}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.24 \caption
-             {$Search\_ Min \_ States\_ DeplaceOnLocaleMachine(MG:state): St...
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
+[55]
 Overfull \hbox (5.0331pt too wide) in paragraph at lines 39--40
 \T1/futs/m/n/12 sont in-fÈ-rieurs au mi-ni-mum cou-rant, l'ins-truc-tion de la 
 ligne [][]10[][] met ‡ jour le contenu
@@ -3731,12 +3782,12 @@ es in-for-ma-tions du couple
 
 )
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55]
+[56]
 \openout2 = `contribution/Algorithm_SendResquest.aux'.
 
  (contribution/Algorithm_SendResquest.texpdfTeX warning (ext4): destination wit
@@ -3836,30 +3887,14 @@ me identifier (name{AlgoLine.8.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.51 \caption
-             {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
-me identifier (name{AlgoLine.8.13}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.51 \caption
-             {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
-me identifier (name{AlgoLine.8.14}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.51 \caption
-             {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
-me identifier (name{AlgoLine.8.15}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.51 \caption
              {$element(s:state)$})
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56
-
+[57
 
 ] (contribution/Algorithm_ReceveResquest.texpdfTeX warning (ext4): destination 
 with the same identifier (name{AlgoLine.8.1}) has been already used, duplicate 
@@ -3904,7 +3939,7 @@ ready used, duplicate ignored
                    \relax 
 l.14 \caption
              {$Receive\_ Request(states :List of state,MG:state)$})
-<img/Rskd.png, id=1382, 314.1336pt x 349.305pt>
+<img/Rskd.png, id=1415, 314.1336pt x 349.305pt>
 File: img/Rskd.png Graphic file (type png)
 <use img/Rskd.png>
 Package pdftex.def Info: img/Rskd.png  used on input line 63.
@@ -3916,31 +3951,31 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57
+[58
 
 ])) (contribution/Etudeexperimentale.tex
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./img/Rskd.png>]
-<img/java.png, id=1396, 109.40875pt x 160.6pt>
+[59 <./img/Rskd.png>]
+<img/java.png, id=1429, 109.40875pt x 160.6pt>
 File: img/java.png Graphic file (type png)
 <use img/java.png>
 Package pdftex.def Info: img/java.png  used on input line 12.
 (pdftex.def)             Requested size: 44.10446pt x 64.74121pt.
 
 
-Package natbib Warning: Citation `java' on page 59 undefined on input line 17.
+Package natbib Warning: Citation `java' on page 60 undefined on input line 17.
 
-<img/jade.jpg, id=1397, 200.75pt x 66.2475pt>
+<img/jade.jpg, id=1430, 200.75pt x 66.2475pt>
 File: img/jade.jpg Graphic file (type jpg)
 <use img/jade.jpg>
 Package pdftex.def Info: img/jade.jpg  used on input line 22.
@@ -3951,69 +3986,123 @@ Overfull \hbox (44.10446pt too wide) in paragraph at lines 22--23
  []
 
 
-Package natbib Warning: Citation `jade' on page 59 undefined on input line 27.
+Package natbib Warning: Citation `jade' on page 60 undefined on input line 27.
 
-<img/ida.jpg, id=1398, 72.27pt x 72.27pt>
+<img/ida.jpg, id=1431, 72.27pt x 72.27pt>
 File: img/ida.jpg Graphic file (type jpg)
 <use img/ida.jpg>
 Package pdftex.def Info: img/ida.jpg  used on input line 32.
 (pdftex.def)             Requested size: 44.10446pt x 44.10446pt.
-<img/docker.png, id=1399, 199.74625pt x 171.64125pt>
+<img/docker.png, id=1432, 199.74625pt x 171.64125pt>
 File: img/docker.png Graphic file (type png)
 <use img/docker.png>
 Package pdftex.def Info: img/docker.png  used on input line 43.
 (pdftex.def)             Requested size: 88.2022pt x 75.79213pt.
 
-Package natbib Warning: Citation `docker' on page 59 undefined on input line 48
+Package natbib Warning: Citation `docker' on page 60 undefined on input line 48
 .
 
-<img/neo4j-logo-2015.png, id=1400, 225.84375pt x 100.375pt>
+<img/neo4j-logo-2015.png, id=1433, 225.84375pt x 100.375pt>
 File: img/neo4j-logo-2015.png Graphic file (type png)
 <use img/neo4j-logo-2015.png>
 Package pdftex.def Info: img/neo4j-logo-2015.png  used on input line 54.
 (pdftex.def)             Requested size: 88.2022pt x 39.20122pt.
 
-Package natbib Warning: Citation `neo4j' on page 59 undefined on input line 59.
+Package natbib Warning: Citation `neo4j' on page 60 undefined on input line 59.
 
 
-<img/graphviz.jpg, id=1401, 186.6975pt x 186.6975pt>
+<img/graphviz.jpg, id=1434, 186.6975pt x 186.6975pt>
 File: img/graphviz.jpg Graphic file (type jpg)
 <use img/graphviz.jpg>
 Package pdftex.def Info: img/graphviz.jpg  used on input line 65.
 (pdftex.def)             Requested size: 88.2022pt x 88.20078pt.
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./img/java.png> <./img/jade.jpg> <./img/ida.jpg> <./img/docker.png> <./img
+[60 <./img/java.png> <./img/jade.jpg> <./img/ida.jpg> <./img/docker.png> <./img
 /neo4j-logo-2015.png>]
 
-Package natbib Warning: Citation `graphviz' on page 60 undefined on input line 
+Package natbib Warning: Citation `graphviz' on page 61 undefined on input line 
 70.
 
 
-LaTeX Warning: Reference `apppetrinet' on page 60 undefined on input line 78.
+LaTeX Warning: Reference `mc' on page 61 undefined on input line 75.
 
-)) (conclusion/conclusion.tex
+<img/architecture.png, id=1453, 685.05937pt x 205.5178pt>
+File: img/architecture.png Graphic file (type png)
+<use img/architecture.png>
+Package pdftex.def Info: img/architecture.png  used on input line 79.
+(pdftex.def)             Requested size: 308.71106pt x 92.61386pt.
+<img/mcapp.png, id=1454, 570.63188pt x 371.13657pt>
+File: img/mcapp.png Graphic file (type png)
+<use img/mcapp.png>
+Package pdftex.def Info: img/mcapp.png  used on input line 85.
+(pdftex.def)             Requested size: 308.71106pt x 200.78452pt.
+<img/apppetrinet.png, id=1455, 919.18407pt x 605.26125pt>
+File: img/apppetrinet.png Graphic file (type png)
+<use img/apppetrinet.png>
+Package pdftex.def Info: img/apppetrinet.png  used on input line 91.
+(pdftex.def)             Requested size: 308.71106pt x 203.28326pt.
+<img/clusterdocker.png, id=1456, 964.0818pt x 542.025pt>
+File: img/clusterdocker.png Graphic file (type png)
+<use img/clusterdocker.png>
+Package pdftex.def Info: img/clusterdocker.png  used on input line 97.
+(pdftex.def)             Requested size: 308.71106pt x 173.55905pt.
+<img/bddneo4j.png, id=1457, 1433.355pt x 505.89pt>
+File: img/bddneo4j.png Graphic file (type png)
+<use img/bddneo4j.png>
+Package pdftex.def Info: img/bddneo4j.png  used on input line 103.
+(pdftex.def)             Requested size: 441.01773pt x 155.65094pt.
 
-Package Fancyhdr Warning: \headheight is too small (15.0pt): 
- Make it at least 28.73203pt.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60 <./img/graphviz.jpg>]
-Chapitre 5.
-) [61
+[61 <./img/graphviz.jpg> <./img/architecture.png> <./img/mcapp.png>]
 
-] [62
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[62 <./img/apppetrinet.png> <./img/clusterdocker.png> <./img/bddneo4j.png>]
+Overfull \hbox (0.72964pt too wide) in paragraph at lines 112--130
+ [][] 
+ []
+
+
+Overfull \hbox (18.03761pt too wide) in paragraph at lines 135--153
+ [][] 
+ []
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[63]) (conclusion/conclusion.tex
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[64]) [65
 
 ] (Main.bbl (Main.brf)
-\tf@brf=\write14
-\openout14 = `Main.brf'.
+\tf@brf=\write15
+\openout15 = `Main.brf'.
 
- (francaisbst.tex) [1] [2]
+ (francaisbst.tex) [1
+
+
+] [2]
 
 LaTeX Warning: Command \textasciicircum invalid in math mode on input line 186.
 
@@ -4033,15 +4122,16 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 63.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 63.
- (Main.aux (contribution/Algorithm_SendResquest.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 63.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 63.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+ (Main.aux (remerciement.aux) (resumer.aux)
+(contribution/Algorithm_SendResquest.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 062CE09E19AEF6BCD175234E4FE5C4D3;2212.
+(rerunfilecheck)             Checksum: FDA4E6C86FD6E9609FBC24F43FA5C989;2034.
 Package rerunfilecheck Info: File `Main.brf' has not changed.
-(rerunfilecheck)             Checksum: DBB852B5BEF82794FA38152F9C263781;6298.
+(rerunfilecheck)             Checksum: 8DB0272DAE723FD89700C7733CED651B;8253.
 
 
 LaTeX Warning: There were undefined references.
@@ -4052,16 +4142,16 @@ LaTeX Warning: There were multiply-defined labels.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 24 ({)
+### simple group (level 1) entered at line 22 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 56242 strings out of 492973
- 1210796 string characters out of 3135470
- 1555867 words of memory out of 3000000
- 58232 multiletter control sequences out of 15000+200000
- 735796 words of font info for 212 fonts, out of 3000000 for 9000
+ 59859 strings out of 492973
+ 1285699 string characters out of 3135470
+ 1656397 words of memory out of 3000000
+ 61694 multiletter control sequences out of 15000+200000
+ 740400 words of font info for 214 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,27n,96p,2126b,1370s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,28n,96p,2126b,1366s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Master1 RSD/Memoire/latex/fonts/enc/dvips/base/8r.enc}<E:/M
 aster1 RSD/Memoire/latex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><E:/Master1 
 RSD/Memoire/latex/fonts/type1/public/fourier/fourier-mex.pfb><E:/Master1 RSD/Me
@@ -4070,11 +4160,10 @@ atex/fonts/type1/public/fourier/fourier-ms.pfb><E:/Master1 RSD/Memoire/latex/fo
 nts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Master1 RSD/Memoire/latex/font
 s/type1/adobe/utopia/putb8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe
 /utopia/putbi8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr
-8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr8a.pfb><E:/Ma
-ster1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Main.pdf (79 pages, 1656595 bytes).
+8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on Main.pdf (78 pages, 2504052 bytes).
 PDF statistics:
- 1729 PDF objects out of 2073 (max. 8388607)
- 529 named destinations out of 1000 (max. 500000)
- 379 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1794 PDF objects out of 2073 (max. 8388607)
+ 584 named destinations out of 1000 (max. 500000)
+ 373 words of extra memory for PDF output out of 10000 (max. 10000000)
 

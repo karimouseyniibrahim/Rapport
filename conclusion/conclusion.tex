@@ -1,7 +1,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%									Chapitre Conclusion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Conclusion et Perspectives}
-\section{Conclusion}
+\chapter*{Conclusion et Perspectives}
+\addcontentsline{toc}{part}{Conclusion et Perspectives}
+\markboth{Conclusion et Perspectives}{}
 
-\section{Perspectives}
+\section*{Conclusion}
+La vérification formelle constitue une étape indispensable pour garantir le bon fonctionnement des systèmes complexes et critiques. Ainsi, l’approche basée sur le model checking permet de vérifier des propriétées sur un système décrit avec un modèle formel. Cette approche souffre d'un problème majeur engendré par l'explosion combinatoire de l'espace d'états à explorer  dans un temps raisonnable pour certains systèmes spécifiés.
+
+La distribution est une solution pour combattre l'explosion combinatoire de l'espace d'états. Cette distribution consiste à construire cet espace d'états sur un réseau de machines connectées. Les travaux traitant cette distribution se sont focalisés sur un aspect précis du problème tel que l’équilibrage de charge, la minimisation des transitions lient les différentes parties. En plus de ces travaux une première approche de redistribution comportementale a été proposé basée sur la pertinence des états et leurs connexions (transitions internes et externes).
+
+Dans ce travail, nous avons proposé une nouvelle approche de redistribution de l'espace d'états pour le model checking distribué basé sur la théorie de jeux et la pertinence des états. La compréhension du fonctionnement du model checking distribué a permis de constater que la diminution de transitions liant les différentes parties peut entraîner une mauvaise qualité de distribution de l'espace d'états car la validitée d'une formule sur un état dépendra de ces états successeurs.
+
+Partant de ce constat, nous proposons une nouvelle politique de redistribution qui entre dans le cadre de la théorie de jeux. L'approche propose vise a analysée le comportement des systèmes et redistribuer les états pertinents selon une politique basé sur les jeux non coopérative pour optimiser les performances du système. Chaque machine cherche a optimisée ces performances en définissant une bonne localité pour un état pertinent tout en optimisant l’équilibrage de charge et la quantité de communication entre les machines. Les expérimentations de cette approche ont montré son efficacité de se rapprocher de la meilleure distribution de l’espace d’états au cours des exécutions future, ce qui accélère d’avantage le processus de vérification des propriétés tout en garantissant l’équilibrage de  charge et un taux de communication minimale. Suite aux résultats l'approche, il est possible que les machines sont utilisées au maximum de leur capacité et donc on peut arriver à une accélération linéaire.
+
+\section*{Perspectives}
+Le travail présenté dans ce projet de fin d'étude a permis de dégager plusieurs perspectives à développer dans l’avenir:
+\begin{itemize}
+	\item Un premier objectif consiste à explorer les différentes stratégies de la théorie de jeux en apportant des améliorations supplémentaires à notre stratégie afin d’avoir une meilleur stratégie qui converge directement à une meilleur distribution.
+	\item Nous pensons qu’il peut être intéressant d'utiliser les différentes statistiques générer par l'exécution du model cheking pour  extraire un modèle de partitionnement base sur le machine learning.
+\end{itemize}

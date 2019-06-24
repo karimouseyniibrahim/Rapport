@@ -5,8 +5,6 @@
 %	\citationChap{
 %	...
 %	}{...}
-	\minitoc
-	\newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \section{Introduction}
@@ -14,7 +12,7 @@ Dans les travaux \citep{Saidouni2012}, \citep{TabibSaidouni2016}, \citep{BENSETI
 
 Après une étude des espaces d'états générés, nous avons constaté que la diminution de transitions liant les différentes parties peut entraîner un mauvais équilibrage de charge entre les machines du réseau. Outre l’équilibrage de charge, il peut entraîner une mauvaise qualité de distribution de l'espace d'états car lorsqu'une formule du model checking n'est pas vérifiée sur un état la diminution de transitions externes n'empêche pas une surcharge de communication. La qualité de distribution est estimée en fonction de la quantité de communication requise pour l’exécution des tâches distribuées \citep{EzekielLuttgen2008}. Ainsi La réalisation de ces objectifs nécessiterait des informations supplémentaires sur l’espace d’états considéré et les communications engendrées. 
 
-Ces raisons nous ont amené à proposer une nouvelle politique de distribution qui vise à analyser le comportement d’un système donné en générant son espace d’états et en extrayant les informations pertinentes sur les états et leurs connexions (transitions internes et externes). Ensuite, redistribuer les états pertinents selon une certaines heuristiques afin d’optimiser les performances du système. Cela se fait en définissant une bonne localité d’un état comme celle qui optimise à la fois l’équilibre de la charge et la quantité de communication entre les machines engendrés par l’exécution de l’application opérant sur l’espace d’états distribué.
+Ces raisons nous ont amené à proposer une nouvelle politique de redistribution qui vise à analyser le comportement d’un système donné en générant son espaces d’états et en extrayant les informations pertinentes sur les états et leurs connexions (transitions internes et externes). Ensuite, redistribuer les états pertinents selon une certaines heuristiques basé sur la théorie de jeux afin d’optimiser les performances du système. les machines sont considérées comme des joueurs, Chaque machine cherche a optimisée ces performances en définissant une bonne localité pour un état pertinent tout en optimise l’équilibre de charge et la quantité de communication entre les machines.
  
 Dans ce qui suit nous présentons la nouvelle politique de redistribution de l’espace d’états basée sur le comportement du système ainsi que les résultats obtenus. 
  
@@ -23,3 +21,6 @@ Dans ce qui suit nous présentons la nouvelle politique de redistribution de l�
 \input{contribution/Etudeexperimentale}
 
 \section{Conclusion}
+Dans ce chapitre, nous avons présenté une nouvelle approche pour la distribution de l’espace d'états basée sur le comportement du système analysé. L’approche proposée vise à améliorer la distribution de l'espace d'états qui sera bénéfique pour le model checking car entraine moins de communication entre les machines. L’approche proposée analyse le comportement d’un système donné, et extrait les informations pertinentes sur ses états. Ensuite, les états sont redistribués suite à leurs pertinences soit migré définitivement soit dupliqués sur d’autres machines, afin de minimiser le nombre de communications entre les machines. La machine récepteur de ces états est choisi suite à la  une stratégie du jeux non coopérative où chaque machine cherche à minimiser le taux de ses communications tout en maintenant un bon équilibrage des états entre les machines à l’aide des seuils prédéfinis pour chaque machine.
+
+L’approche proposée peut être adoptée à tout autre spécification formelle ou modèles d'analyse de données car il pratiquement possible de la formalisée comme un graphe. 

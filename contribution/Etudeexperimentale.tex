@@ -69,14 +69,90 @@ Neo4j est une base de données graphe \citep{neo4j}, sous licence GPLv3, implém
 \end{wrapfigure}
 GraphViz (Graph Visualiszation Software) est un ensemble d'outils de visualisation de graphes, créés par les laboratoires de recherche d'AT\&T \citep{graphviz}. Il utilise des fichiers textes suivant le langage $DOT$ pour représenter les données structurées sous forme de graphes. le langage $DOT$ permet  de personnaliser le rendu des graphes par le choix des formes, couleurs et polices de caractères. Ainsi le graphe définie est exporté sous différents formats d'images (FIG, PNG, JPEG, GIF, etc.).
 
+\subsection{Mise en œuvre}
+Nous avons développé une application distribuée  implémenter avec le langage de programmation JAVA sur l'IDE IntelliJ. Chaque instance de l'application dispose une base de donnée orienté graphe (Neo4j) pour le stockage de l'espace d'états. Les applications de même réseau sont utilisés pour accomplir une tache de vérification ou de génération de l'espace d'états.
 
+L'application développée pour l'expérimentation de notre approche dispose d’un éditeur graphique pour modéliser le réseau de Pétri du système à analyser (Figure \ref{apppetrinet}). L'outil permet de générer la structure de Kripke distribuée d'un réseau de Pétri modélisé. Il permet  d'exécuter  le model checking sur une structure de Kripke distribuée ainsi que la redistribution de l'espace d'états par l'approche proposée (Figure \ref{mc}).
 
-
-\subsection{Architecture de l'application}
-
-\subsection{Configuration de la mise en œuvre}
-Nous avons développé un outil qui génère une structure de Kripke distribuée. L’outil dispose d’un éditeur de graphique pour dessiner et modifier les systèmes analysés à partir d'un réseau de Petri (Figure \ref{apppetrinet}).
-
-L’approche proposée a été implémenter avec le langage de programmation JAVA sur IDE IntelliJ, en utilisant le base de donnée orienté graphe Neo4J pour le stockage de l'espace d'états, le Docker pour l'hébergement de ces bases de données. le framework Java Agent Development est aussi utiliser pour faciliter la communication entre les machines.
-
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/architecture}
+	\caption{Architecture de l'application développée}
+	\label{fig:architecture}
+\end{figure}
+\begin{figure} [h]
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/mcapp}
+	\caption{Interface d'exécution model checking}
+	\label{fig:mc}
+\end{figure}
+\begin{figure}  
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/apppetrinet}
+	\caption{Éditeur de modélisation d'un réseau de Pétri} \label{apppetrinet}
+	\label{fig:apppetrinet}
+\end{figure}
+\begin{figure} 
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/clusterdocker}
+	\caption{Virtualisation des Bases de données Neo4j sur Doker}
+	\label{fig:clusterdocker}
+\end{figure}
+\begin{figure} 
+	\centering
+	\includegraphics[width=1\linewidth]{img/bddneo4j}
+	\caption{Base de données Neo4j} 
+\end{figure}
+\pagebreak
 \subsection{Expérimentation}
+Nous avons évalué l’efficacité de la politique de redistribution proposée avec l’approche de distribution basée sur la fonction de hachage MD5 sur le modèle des philosophes. A partir des tableaux \ref{tablea1} et \ref{tableau2}, on constate que l’approche proposée assure une bonne distribution de l'espace d'états pour le model checking tout en maintenant un bon équilibrage de charge, ce qui signifie que toutes les machines du réseau contiennent le nombre d'états qu'il peuvent supporter. En plus du nombre d'états on constate que le temps de la vérification s'améliore de plus en plus, ce qui indique qu’aucune machine n’est surchargée en mémoire et en calcul.
+
+\begin{tableth}
+	\centering
+	\begin{tabular}{|c|c|c||c||c|c|  }
+		\hline
+		         Philos           &               Formules               & Machines  & Temps d'exécution &    Etats Interne     &    Etats Externe     \\ \hline
+		\multirow{4}{*}{2 Philos} & \multirow{2}{*}{\tiny NOT(Ph2Mange)} & Machine 1 &        2 s        &  \multirow{2}{*}{2}  &  \multirow{2}{*}{2}  \\ \cline{3-4}
+		                          &                                      & Machine 2 &        2 s        &                      &                      \\ \cline{2-4}\cline{4-6}
+		                          & \multirow{2}{*}{\tiny NOT(Ph1Mange)} & Machine 1 &        2 s        &  \multirow{2}{*}{6}  &  \multirow{2}{*}{2}  \\ \cline{3-4}
+		                          &                                      & Machine 2 &       10 s        &                      &                      \\ \hline\hline
+		\multirow{4}{*}{3 Philos} & \multirow{2}{*}{\tiny NOT(Ph2Mange)} & Machine 1 &        2 s        & \multirow{2}{*}{17 } & \multirow{2}{*}{ 14} \\ \cline{3-4}
+		                          &                                      & Machine 2 &        2 s        &                      &                      \\ \cline{2-4}\cline{4-6}
+		                          & \multirow{2}{*}{\tiny NOT(Ph1Mange)} & Machine 1 &       19 s        & \multirow{2}{*}{15 } & \multirow{2}{*}{14 } \\ \cline{3-4}
+		                          &                                      & Machine 2 &       10 s        &                      &                      \\ \hline\hline
+		\multirow{6}{*}{4 Philos} & \multirow{3}{*}{\tiny NOT(Ph2Mange)} & Machine 1 &       10 s        & \multirow{2}{*}{35 } & \multirow{2}{*}{53 } \\ \cline{3-4}
+		                          &                                      & Machine 2 &       19 s        &                      &                      \\ \cline{3-4}\cline{4-6}
+		                          & \multirow{3}{*}{\tiny NOT(Ph1Mange)} & Machine 3 &       32 s        & \multirow{2}{*}{40 } & \multirow{2}{*}{49 } \\ \cline{2-4}
+		                          &                                      & Machine 1 &       35 s        &                      &                      \\ \cline{3-4}\cline{4-6}
+		                          &                                      & Machine 2 &       10 s        & \multirow{2}{*}{37 } & \multirow{2}{*}{46 } \\ \cline{3-4}
+		                          &                                      & Machine 3 &       19 s        &                      &                      \\ \hline\hline
+	\end{tabular}
+	\caption{Résultats du model checking sur l'espace d'états distribués avec \textbf{MD5} }\label{tablea1}
+\end{tableth}
+
+\begin{tableth}
+	\centering
+	\begin{tabular}{|c|c|c||c||c|c|c|}
+		\hline
+		         Philos           &                Formules                & Machines  & Exécution &    Etats Interne    &    Etats Externe    &      Duplicata      \\ \hline
+		\multirow{4}{*}{2 Philos} & \multirow{2}{*}{{\tiny NOT(Ph2Mange)}} & Machine 1 &    2 s    & \multirow{2}{*}{2}  & \multirow{2}{*}{2}  & \multirow{2}{*}{1}  \\ \cline{3-4}
+		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \cline{2-4}\cline{4-7}
+		                          &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{6}  & \multirow{2}{*}{2}  & \multirow{2}{*}{0}  \\ \cline{3-4}
+		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \hline\hline
+		\multirow{4}{*}{3 Philos} &  \multirow{2}{*}{\tiny NOT(Ph2Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{17} & \multirow{2}{*}{14} & \multirow{2}{*}{14} \\ \cline{3-4}
+		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \cline{2-4}\cline{4-7}
+		                          &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{15} & \multirow{2}{*}{14} & \multirow{2}{*}{10} \\ \cline{3-4}
+		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \hline\hline
+		\multirow{6}{*}{4 Philos} &  \multirow{3}{*}{\tiny NOT(Ph2Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{35} & \multirow{2}{*}{53} & \multirow{2}{*}{39} \\ \cline{3-4}
+		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \cline{3-7}
+		                          &                                        & Machine 3 &    2 s    & \multirow{2}{*}{40} & \multirow{2}{*}{49} & \multirow{2}{*}{36} \\ \cline{2-4}
+		                          &  \multirow{3}{*}{\tiny NOT(Ph1Mange)}  & Machine 1 &    2 s    & &                     &                     \\ \cline{3-7}
+		                          &                                        & Machine 2 &    2 s    &  \multirow{2}{*}{37} & \multirow{2}{*}{46} & \multirow{2}{*}{33} \\ \cline{3-4}
+		                          &                                        & Machine 3 &   2 s    &                     &                     &                     \\ \hline\hline
+	\end{tabular}
+	\caption{Résultats du model checking sur l'espace d'états redistribués avec \textbf{\CDS{}} }\label{tableau2}
+\end{tableth}
+ 
+\section{Discussion}
+
+Sur la base des résultats expérimentaux présentés ci-dessus, nous constatons l’efficacité de l’approche proposée pour la distribution de l’espace d'états. En termes d’équilibrage l’approche proposée s’est avérée efficace à cause de sa capacité d’analyser le comportement du système et à extraire les informations pertinentes sur ses états. Ainsi, les résultats ont démontrés que la minimisation des transitions externe n'implique pas toujours la minimisation du temps de calcul. Cependant, Notre approche n'est pas dédiée à réduire le nombre de transitions externes, mais d'analyser les états afin de proposer une distribution adéquat des états tout en garantissant un nombre minimal de communication et un équilibrage de charge entre les machines.

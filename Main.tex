@@ -1,4 +1,3 @@
-
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %           Fichier maitre				%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -20,44 +19,59 @@
 % Méta-données du PDF
 \hypersetup{
     pdfauthor={\@author},
-    pdfsubject={Manuscrit de thèse de Master},
+    pdfsubject={Manuscrit de Master},
     pdftitle={\@title},
     pdfkeywords={space d'états, distribution, modèle checker}
 }
 
 \begin{document}
+	\let\cleardoublepage\clearpage
 % Préambule	
 	\pagedegarde	
 	\pagenumbering{roman}
-		% Table des matières
-			\setcounter{tocdepth}{1}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
-			\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
-			\tableofcontents
-		% Liste des figures
-			\renewcommand*\listfigurename{Liste des figures}
-			\listoffigures
-		% Liste des tableaux
-		\listoftables
-		%Liste des algorithme
-		\listofalgorithms
+	% Table des matières
+		\setcounter{tocdepth}{1}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
+		\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
+		\tableofcontents
+	% Liste des figures
+		\renewcommand*\listfigurename{Liste des figures}
+		\listoffigures
+	% Liste des tableaux
+	\listoftables
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 %        Contenu du document        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
+	\include{remerciement}
+	
+	\include{resumer}
+	
 	\pagenumbering{arabic}
-		\input{introduction/Introduction}
-	\input{theorie_graphe/Theorie_graphe}
-	\input{r2p_sk_mc/R2p_SK_MC}
-	\input{Contribution}
-	\input{conclusion/conclusion}	
-	% Annexes
- 
+
+	\input{introduction/Introduction}
+	\clearpage
+ 	\part{Contexte de travail}
+	\clearpage
+	\nopagebreak
+		\input{theorie_graphe/Theorie_graphe}
+		
+		\input{r2p_sk_mc/R2p_SK_MC}
+		
+ 	\part{Contribution}
+	\clearpage
+		\input{Contribution}
+		
+	\input{conclusion/conclusion}
+				
 	\begin{appendix}
+		\addcontentsline{toc}{part}{Références Bibliographies}
+		\markboth{Références Bibliographies}{}
 		\pagenumbering{Roman}	
 		\bibliographystyle{francaissc}
 		\bibliography{Biblio}	
+		
 	\end{appendix}
 	
 \end{document}

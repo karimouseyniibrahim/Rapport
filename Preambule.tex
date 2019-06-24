@@ -14,9 +14,8 @@
 \usepackage[T1]{fontenc}
 
 \usepackage[square,sort&compress,sectionbib]{natbib}		% Doit être chargé avant babel
-\usepackage{chapterbib}
-	\renewcommand{\bibsection}{\section{Références}}		% Met les références biblio dans un \section (au lieu de \section*)
-		
+%\usepackage{chapterbib}
+	\renewcommand{\bibsection}{\chapter*{Références Bibliographies}}		% Met les références biblio dans un \section (au lieu de \section*)
 \usepackage[frenchb]{babel}
 \usepackage{lmodern}
 \usepackage{ae,aecompl}	
@@ -29,7 +28,7 @@
 % Allure générale du document
 \usepackage{enumerate}
 \usepackage{enumitem}
-\usepackage[section]{placeins}	% Place un FloatBarrier à chaque nouvelle section
+%\usepackage[section]{placeins}	% Place un FloatBarrier à chaque nouvelle section
 \usepackage{epigraph}
 \usepackage[font={small}]{caption}
 \usepackage[francais,nohints]{minitoc}		% Mini table des matières, en français
@@ -113,14 +112,31 @@
 %% Packages qui doivent être chargés APRES hyperref	             
 \usepackage[top=2.5cm, bottom=2cm, left=3cm, right=2.5cm,
 			headheight=15pt]{geometry}
+\usepackage{fancyhdr}
+\addtolength{\headheight}{2.5pt}
+\fancyhf{}
+%\fancyhead[LE,RO]{\nouppercase{\thepage}}
+%\fancyhead[L]{\nouppercase{\leftmark}}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\pagestyle{fancy}
+\lhead{\nouppercase{\leftmark}}
+\rfoot{page \centering \thepage}
 
-\usepackage{fancyhdr}			% Entête et pieds de page. Doit être placé APRES geometry
-	\pagestyle{fancy}		% Indique que le style de la page sera justement fancy
-	\lfoot[\thepage]{} 		% gauche du pied de page
-	\cfoot{} 			% milieu du pied de page
-	\rfoot[]{\thepage} 		% droite du pied de page
-	\fancyhead[RO, LE] {}	
-	
+\pagestyle{fancy}
+%\fancyhead{}
+%\fancyhead[L]{Devoir 2 heures TS}
+%\fancyhead[R]{Mathématiques}
+\usepackage{tcolorbox}
+%\fancyfoot{}
+%\fancyfoot[RE,RO]{Page \thepage}
+%\renewcommand{\headrulewidth}{2pt}
+%\renewcommand{\footrulewidth}{1pt}
+%\fancyhead[LO]{ \rightmark\bfseries}
+%\fancyhead[LE]{ \leftmark\bfseries}
+
+%	\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
+%	\newcommand{\HRuleb}{\rule{\linewidth}{0.5mm}}
 \usepackage[acronym,xindy,toc,numberedsection,ucmark]{glossaries}
 	\newglossary[nlg]{notation}{not}{ntn}{Notation} % Création d'un type de glossaire 'notation'
 	\makeglossaries
@@ -131,3 +147,5 @@
 \usepackage{algpseudocode}
 
 \usepackage{etex}   
+
+
