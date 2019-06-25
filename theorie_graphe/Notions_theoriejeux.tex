@@ -1,0 +1,57 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%									section.	Theorie de jeux								%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Théorie de jeux}
+
+La théorie de jeux appelée aussi théorie de décision en interaction est une domaine qui inspire des mathématiques (probabilités, optimisation/contrôle, combinatoire, logique, calculabilité, complexité) et d’autre science tel que économie, cryptographie, physique quantique, cybernétique, biologie, sociologie, linguistique, philosophie.
+Les premiers fondements de ce domaine étaient décrits autour des années 1920 par Ernst Zermelo \citep{ErnstZermelo1913}, Émile Borel \citep{EmileBorel1921} et John von Neumann \citep{JohnvonNeumann1928}. Les idées de la théorie des jeux sont ensuite développées par Oskar Morgenstern et John von Neumann en 1944 \citep{JO1944}.
+
+La théorie de jeux se propose d'étudier des situations (appelées jeux) où des individus (les joueurs) prennent des décisions, chacun étant conscient que le résultat de son propre choix (ses gains) dépend de celui des autres. Ces décisions ayant pour but un gain maximum ou un gain stabilisé.
+
+Dans ce qui suit nous présentons les concepts qui lui sont propres.
+
+\begin{definition}[Stratégie]
+	La stratégie d’un joueur est la fonction par laquelle il choisit son coup de jouer en fonction de l’état du jeu (ou de la fonction de l’état qui lui est présentée). Ainsi un jeu est constitué d'un ensemble de stratégies et de règles du jeu.  Une stratégie est dite gagnante lorsque le joueur qui l’utilise gagne le jeu (supposé avoir une notion de « joueur gagnant ») quels que soient les coups choisis par l’autre joueur.	
+\end{definition}
+
+\begin{definition}[Stratégie pure]
+	Une stratégie pure du joueur $J_i$ est un plan d’action qui prescrit une action de ce joueur pour chaque fois qu’il est susceptible de jouer. L’ensemble des stratégies pures du joueur $J_i$ est noté par $S_i$.
+\end{definition}
+
+\begin{definition}[Stratégie mixte]
+	Une stratégie mixte du joueur $J_i$ est une distribution de probabilités $p_i$ définie sur l’ensemble des stratégies pures du joueur $J_i$. L’ensemble des stratégies mixtes du joueur $J_i$  est noté note $\sum_i$.
+\end{definition}
+
+\begin{definition}[Stratégie locale]
+	Une stratégie locale du joueur $J_i$ est un ensemble d’information $A$ et une distribution de probabilités sur l’ensemble des actions disponibles en cet ensemble d’information. L’ensemble des stratégies locales du joueur $J_i$ pour l’ensemble d’information $A$  est $\pi_{iA}$.
+\end{definition}
+
+\begin{definition}[Stratégie comportementale]
+	Une stratégie comportementale du joueur $J_i$ est un vecteur de stratégies locales de ce joueur, contenant une stratégie locale par ensemble d’information de ce joueur. On note $\pi_i$ l’ensemble des stratégies comportementales du joueur $J_i$.
+\end{definition}
+
+\begin{definition}[Jeux sous forme stratégique]
+	Un jeu sous forme stratégique est défini par:
+	\begin{itemize}
+		\item Un ensemble $N = \{1, . . ., n\}$ de joueurs.
+		\item Pour chaque joueur $J_i$ un ensemble de stratégies $ S_i = \{s_1, . . ., s_n\}$.
+		\item Pour chaque joueur  $J_i$ une fonction dévaluation $\mu_i$: $s_1 \times . . . \times s_n \longrightarrow IR$, qui à chaque ensemble de stratégies associe les gains du joueur $J_i$.
+	\end{itemize}
+\end{definition}
+
+\begin{definition}[Profil stratégique]
+	Un profil stratégique $(s_1*, …, s_n*)$ est une solution d’un jeu, on peut justifier que des joueurs rationnels, guidés par leur intérêt personnel, le jouerait.
+\end{definition}
+
+\begin{definition}[Stratégie dominante]
+	Un stratégie $s_i*$ d’un joueur est une stratégie dominante lorsque pour tout profil de stratégies des autres joueurs, le gain du joueur est maximum lorsqu’il joue cette stratégie.
+\end{definition}
+
+\begin{definition}[Équilibre]
+	On dit qu’un jeu possède un équilibre en stratégies dominantes s’il admet un profil stratégique composé uniquement de stratégies dominantes des joueurs.
+\end{definition}
+
+\begin{definition}[Équilibre de Nash]
+On dit qu’un jeu possède un équilibre de Nash s’il admet un profil stratégique $(s_1*, …,s_n*)$, tel que chaque stratégie individuelle de ce profil est une meilleure réponse aux stratégies des autres joueurs.
+\end{definition}

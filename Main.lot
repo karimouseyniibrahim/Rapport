@@ -1,27 +1,27 @@
 \babel@toc {french}{}
-\contentsline {xpart}{Contexte de travail}{6}{part.1}
+\contentsline {xpart}{Contexte de travail}{6}{part.1}% 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Approche de partitionnement et de distribution des graphes}{7}{chapter.1}
+\contentsline {xchapter}{Approche de partitionnement et de distribution des graphes}{7}{chapter.1}% 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Model Checking}{20}{chapter.2}
-\contentsline {xpart}{Contribution}{32}{part.2}
+\contentsline {xchapter}{Model Checking}{21}{chapter.2}% 
+\contentsline {xpart}{Contribution}{33}{part.2}% 
 \addvspace {10\p@ }
-\contentsline {xchapter}{Algorithme de distribution d\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement des syst\IeC {\`e}mes}{33}{chapter.3}
-\contentsline {table}{\numberline {3.1}{\ignorespaces Statistique des \'{e}tats\relax }}{37}{table.caption.33}
-\contentsline {table}{\numberline {3.2}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 1\relax }}{41}{table.caption.34}
-\contentsline {table}{\numberline {3.3}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 2\relax }}{41}{table.caption.35}
-\contentsline {table}{\numberline {3.4}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 3\relax }}{42}{table.caption.36}
-\contentsline {table}{\numberline {3.5}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 4\relax }}{42}{table.caption.37}
-\contentsline {table}{\numberline {3.6}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 5\relax }}{42}{table.caption.38}
-\contentsline {table}{\numberline {3.7}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 1\relax }}{45}{table.caption.39}
-\contentsline {table}{\numberline {3.8}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 2\relax }}{46}{table.caption.40}
-\contentsline {table}{\numberline {3.9}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 3\relax }}{46}{table.caption.41}
-\contentsline {table}{\numberline {3.10}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 4\relax }}{46}{table.caption.42}
-\contentsline {table}{\numberline {3.11}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 5\relax }}{47}{table.caption.43}
-\contentsline {table}{\numberline {3.12}{\ignorespaces Calcul des valeurs des parametres: it\IeC {\'e}ration 1\relax }}{49}{table.caption.45}
-\contentsline {table}{\numberline {3.13}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 2\relax }}{50}{table.caption.46}
-\contentsline {table}{\numberline {3.14}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 3\relax }}{50}{table.caption.47}
-\contentsline {table}{\numberline {3.15}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 4\relax }}{50}{table.caption.48}
-\contentsline {table}{\numberline {3.16}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 5\relax }}{51}{table.caption.49}
-\contentsline {table}{\numberline {3.17}{\ignorespaces R\IeC {\'e}sultats du model checking sur l'espace d'\IeC {\'e}tats distribu\IeC {\'e}s avec \textbf {MD5} \relax }}{63}{table.caption.67}
-\contentsline {table}{\numberline {3.18}{\ignorespaces R\IeC {\'e}sultats du model checking sur l'espace d'\IeC {\'e}tats redistribu\IeC {\'e}s avec \textbf {CDS{}} \relax }}{63}{table.caption.68}
+\contentsline {xchapter}{Algorithme de distribution d\IeC {\textquoteright }espace d\IeC {\textquoteright }\IeC {\'e}tats bas\IeC {\'e}e sur le comportement des syst\IeC {\`e}mes}{34}{chapter.3}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Statistique des \'{e}tats\relax }}{38}{table.caption.33}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 1\relax }}{42}{table.caption.34}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 2\relax }}{42}{table.caption.35}% 
+\contentsline {table}{\numberline {3.4}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 3\relax }}{43}{table.caption.36}% 
+\contentsline {table}{\numberline {3.5}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 4\relax }}{43}{table.caption.37}% 
+\contentsline {table}{\numberline {3.6}{\ignorespaces \IeC {\'E}tape d'initialisation it\IeC {\'e}ration 5\relax }}{43}{table.caption.38}% 
+\contentsline {table}{\numberline {3.7}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 1\relax }}{46}{table.caption.39}% 
+\contentsline {table}{\numberline {3.8}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 2\relax }}{47}{table.caption.40}% 
+\contentsline {table}{\numberline {3.9}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 3\relax }}{47}{table.caption.41}% 
+\contentsline {table}{\numberline {3.10}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 4\relax }}{47}{table.caption.42}% 
+\contentsline {table}{\numberline {3.11}{\ignorespaces \IeC {\'E}tape de marquage: it\IeC {\'e}ration 5\relax }}{48}{table.caption.43}% 
+\contentsline {table}{\numberline {3.12}{\ignorespaces Calcul des valeurs des parametres: it\IeC {\'e}ration 1\relax }}{50}{table.caption.45}% 
+\contentsline {table}{\numberline {3.13}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 2\relax }}{51}{table.caption.46}% 
+\contentsline {table}{\numberline {3.14}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 3\relax }}{51}{table.caption.47}% 
+\contentsline {table}{\numberline {3.15}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 4\relax }}{51}{table.caption.48}% 
+\contentsline {table}{\numberline {3.16}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 5\relax }}{52}{table.caption.49}% 
+\contentsline {table}{\numberline {3.17}{\ignorespaces R\IeC {\'e}sultats du model checking sur l'espace d'\IeC {\'e}tats distribu\IeC {\'e}s avec \textbf {MD5} \relax }}{64}{table.caption.67}% 
+\contentsline {table}{\numberline {3.18}{\ignorespaces R\IeC {\'e}sultats du model checking sur l'espace d'\IeC {\'e}tats redistribu\IeC {\'e}s avec \textbf {CDS{}} \relax }}{64}{table.caption.68}% 
