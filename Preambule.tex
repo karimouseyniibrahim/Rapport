@@ -8,7 +8,8 @@
 \usepackage{blindtext}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\usepackage{tikz}
+\usepackage{pgfplots}
 %% Réglage des fontes et typo    
 \usepackage[utf8]{inputenc}		% LaTeX, comprend les accents !
 \usepackage[T1]{fontenc}
@@ -148,4 +149,16 @@
 
 \usepackage{etex}   
 
+\pgfplotsset{every axis/.append style={
+		axis x line=middle,    % put the x axis in the middle
+		axis y line=middle,    % put the y axis in the middle
+		axis line style={<->}, % arrows on the axis
+		xlabel={$x$},          % default put x on x-axis
+		ylabel={$y$},          % default put y on y-axis
+	},
+	cmhplot/.style={color=blue,mark=none,line width=1pt,<->},
+	soldot/.style={color=red,only marks,mark=*},
+	holdot/.style={color=green,fill=white,only marks,mark=*},
+}
 
+\tikzset{>=stealth}

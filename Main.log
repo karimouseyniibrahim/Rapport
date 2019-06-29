@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  25 JUN 2019 02:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  27 JUN 2019 19:48
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -46,10 +46,440 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count105
 \c@blind@pangrammax=\count106
 )
-("E:\Master1 RSD\Memoire\latex\tex\latex\base\inputenc.sty"
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\frontendlayer\tikz.sty"
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\basiclayer\pgf.sty"
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\utilities\pgfrcs.sty"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks14
+\pgfutil@tempdima=\dimen103
+\pgfutil@tempdimb=\dimen104
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common-lists.t
+ex")) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-latex.de
+f"
+\pgfutil@abb=\box26
+ ("E:\Master1 RSD\Memoire\latex\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\basiclayer\pgfcore.sty"
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\systemlayer\pgfsys.sty"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks16
+\pgfkeys@temptoks=\toks17
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeysfiltered.code.t
+ex"
+\pgfkeys@tmptoks=\toks18
+))
+\pgf@x=\dimen107
+\pgf@y=\dimen108
+\pgf@xa=\dimen109
+\pgf@ya=\dimen110
+\pgf@xb=\dimen111
+\pgf@yb=\dimen112
+\pgf@xc=\dimen113
+\pgf@yc=\dimen114
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count107
+\c@pgf@countb=\count108
+\c@pgf@countc=\count109
+\c@pgf@countd=\count110
+\t@pgf@toka=\toks19
+\t@pgf@tokb=\toks20
+\t@pgf@tokc=\toks21
+ ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsys-common-pdf.de
+f"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.
+tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count111
+\pgfsyssoftpath@bigbuffer@items=\count112
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.
+tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("E:\Master1 RSD\Memoire\latex\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathutil.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen115
+\pgfmath@count=\count113
+\pgfmath@box=\box27
+\pgfmath@toks=\toks22
+\pgfmath@stack@operand=\toks23
+\pgfmath@stack@operation=\toks24
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.basic.code
+.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.trigonomet
+ric.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.random.cod
+e.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.comparison
+.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.base.code.
+tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.round.code
+.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.misc.code.
+tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.integerari
+thmetics.code.tex")))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count114
+))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepoints.code.te
+x"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen116
+\pgf@picmaxx=\dimen117
+\pgf@picminy=\dimen118
+\pgf@picmaxy=\dimen119
+\pgf@pathminx=\dimen120
+\pgf@pathmaxx=\dimen121
+\pgf@pathminy=\dimen122
+\pgf@pathmaxy=\dimen123
+\pgf@xx=\dimen124
+\pgf@xy=\dimen125
+\pgf@yx=\dimen126
+\pgf@yy=\dimen127
+\pgf@zx=\dimen128
+\pgf@zy=\dimen129
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepathconstruct.
+code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen130
+\pgf@path@lasty=\dimen131
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepathusage.code
+.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen132
+\pgf@shorten@start@additional=\dimen133
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorescopes.code.te
+x"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count115
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.c
+ode.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen134
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoretransformation
+s.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen135
+\pgf@pt@y=\dimen136
+\pgf@pt@temp=\dimen137
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreobjects.code.t
+ex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepathprocessing
+.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorearrows.code.te
+x"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen138
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen139
+\pgf@sys@shading@range@num=\count116
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreexternal.code.
+tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorelayers.code.te
+x"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoretransparency.c
+ode.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepatterns.code.
+tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\compatibility\pgfcomp-version-0-65
+.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen140
+\pgf@nodesepend=\dimen141
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\compatibility\pgfcomp-version-1-18
+.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\utilities\pgffor.sty"
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\utilities\pgfkeys.sty"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\math\pgfmath.sty"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex"))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen142
+\pgffor@skip=\dimen143
+\pgffor@stack=\toks25
+\pgffor@toks=\toks26
+))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryplothandlers
+.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count117
+\pgfplotmarksize=\dimen144
+)
+\tikz@lastx=\dimen145
+\tikz@lasty=\dimen146
+\tikz@lastxsaved=\dimen147
+\tikz@lastysaved=\dimen148
+\tikzleveldistance=\dimen149
+\tikzsiblingdistance=\dimen150
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count118
+\tikznumberofchildren=\count119
+\tikznumberofcurrentchild=\count120
+\tikz@fig@count=\count121
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count122
+\pgfmatrixcurrentcolumn=\count123
+\pgf@matrix@numberofcolumns=\count124
+)
+\tikz@expandcount=\count125
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("E:\Master1 RSD\Memoire\latex\tex\latex\pgfplots\pgfplots.sty"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.revision.tex")
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotscore.code.tex"
+\t@pgfplots@toka=\toks27
+\t@pgfplots@tokb=\toks28
+\t@pgfplots@tokc=\toks29
+\pgfplots@tmpa=\dimen151
+\c@pgfplots@coordindex=\count126
+\c@pgfplots@scanlineindex=\count127
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\sys\pgfplotssysgeneric.code
+.tex"))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\pgfplotslibrary.code.t
+ex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
+gfsupp_loader.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+")
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count128
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
+gfsupp_leq.code.tex"))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsutil.code.tex"
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotslists
+tructure.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotslists
+tructureext.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsarray
+.code.tex"
+\c@pgfplotsarray@tmp=\count129
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsmatri
+x.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\numtable\pgfplotstableshare
+d.code.tex"
+\c@pgfplotstable@counta=\count130
+\t@pgfplotstable@a=\toks30
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsdeque
+.code.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsbinary.code.te
+x"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsbinary.data.co
+de.tex"))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsutil.verb.code
+.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\pgflibrarypgfplots.sur
+fshading.code.tex"
+\c@pgfplotslibrarysurf@no=\count131
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\sys\pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def")))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotscolormap.code.
+tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+"))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsstackedplots.code.t
+ex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsplothandlers.code.t
+ex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsmeshplothandler.cod
+e.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsmeshplotimage.code.
+tex")))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.scaling.code.tex")
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotscoordprocessing.cod
+e.tex")
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+") ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.markers.code.te
+x") ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsticks.code.tex"
+) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.paths.code.tex")
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarydecorations.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmoduledecorations.cod
+e.tex"
+\pgfdecoratedcompleteddistance=\dimen152
+\pgfdecoratedremainingdistance=\dimen153
+\pgfdecoratedinputsegmentcompleteddistance=\dimen154
+\pgfdecoratedinputsegmentremainingdistance=\dimen155
+\pgf@decorate@distancetomove=\dimen156
+\pgf@decorate@repeatstate=\count132
+\pgfdecorationsegmentamplitude=\dimen157
+\pgfdecorationsegmentlength=\dimen158
+)
+\tikz@lib@dec@box=\box37
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarydecorations.pathmorphing.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\decorations\pgflibrary
+decorations.pathmorphing.code.tex"))
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibrarydecorations.pathreplacing.code.tex"
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\decorations\pgflibrary
+decorations.pathreplacing.code.tex"))
+\pgfplots@numplots=\count133
+\pgfplots@xmin@reg=\dimen159
+\pgfplots@xmax@reg=\dimen160
+\pgfplots@ymin@reg=\dimen161
+\pgfplots@ymax@reg=\dimen162
+\pgfplots@zmin@reg=\dimen163
+\pgfplots@zmax@reg=\dimen164
+)
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
+zlibraryplotmarks.code.tex"
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryplotmarks.co
+de.tex"
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) ("E:\Master1 RSD\Memoire\latex\tex\latex\base\inputenc.sty"
 Package: inputenc 2018/04/06 v1.3b Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\base\fontenc.sty"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -63,7 +493,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip43
 \bibsep=\skip44
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count107
+\c@NAT@ctr=\count134
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.sty"
 Package: babel 2018/06/05 3.22 The Babel package
@@ -91,39 +521,35 @@ Language: french 2018/04/12 v3.4d French support from the babel system
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.def"
 File: babel.def 2018/06/05 3.22 Babel common definitions
-\babel@savecnt=\count108
-\U@D=\dimen103
+\babel@savecnt=\count135
+\U@D=\dimen165
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\txtbabel.def")
-\bbl@dirlevel=\count109
+\bbl@dirlevel=\count136
 )
 \l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count110
+\FB@nonchar=\count137
 Package babel Info: Making : an active character on input line 415.
 Package babel Info: Making ; an active character on input line 416.
 Package babel Info: Making ! an active character on input line 417.
 Package babel Info: Making ? an active character on input line 418.
-\FBguill@level=\count111
-\FB@everypar=\toks16
-\FB@Mht=\dimen104
-\mc@charclass=\count112
-\mc@charfam=\count113
-\mc@charslot=\count114
-\std@mcc=\count115
-\dec@mcc=\count116
-\c@FBcaption@count=\count117
+\FBguill@level=\count138
+\FB@everypar=\toks33
+\FB@Mht=\dimen166
+\mc@charclass=\count139
+\mc@charfam=\count140
+\mc@charslot=\count141
+\std@mcc=\count142
+\dec@mcc=\count143
+\c@FBcaption@count=\count144
 \listindentFB=\skip45
 \descindentFB=\skip46
 \labelwidthFB=\skip47
 \leftmarginFB=\skip48
-\parindentFFN=\dimen105
+\parindentFFN=\dimen167
 \FBfnindent=\skip49
 )))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\carlisle\scalefnt.sty")
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
-)
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -179,52 +605,52 @@ Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\multicol.sty"
 Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count118
-\mult@box=\box26
-\multicol@leftmargin=\dimen106
-\c@unbalance=\count119
-\c@collectmore=\count120
-\doublecol@number=\count121
-\multicoltolerance=\count122
-\multicolpretolerance=\count123
-\full@width=\dimen107
-\page@free=\dimen108
-\premulticols=\dimen109
-\postmulticols=\dimen110
+\c@tracingmulticols=\count145
+\mult@box=\box38
+\multicol@leftmargin=\dimen168
+\c@unbalance=\count146
+\c@collectmore=\count147
+\doublecol@number=\count148
+\multicoltolerance=\count149
+\multicolpretolerance=\count150
+\full@width=\dimen169
+\page@free=\dimen170
+\premulticols=\dimen171
+\postmulticols=\dimen172
 \multicolsep=\skip50
 \multicolbaselineskip=\skip51
-\partial@page=\box27
-\last@line=\box28
-\maxbalancingoverflow=\dimen111
-\mult@rightbox=\box29
-\mult@grightbox=\box30
-\mult@gfirstbox=\box31
-\mult@firstbox=\box32
-\@tempa=\box33
-\@tempa=\box34
-\@tempa=\box35
-\@tempa=\box36
-\@tempa=\box37
-\@tempa=\box38
-\@tempa=\box39
-\@tempa=\box40
-\@tempa=\box41
-\@tempa=\box42
-\@tempa=\box43
-\@tempa=\box44
+\partial@page=\box39
+\last@line=\box40
+\maxbalancingoverflow=\dimen173
+\mult@rightbox=\box41
+\mult@grightbox=\box42
+\mult@gfirstbox=\box43
+\mult@firstbox=\box44
 \@tempa=\box45
 \@tempa=\box46
 \@tempa=\box47
 \@tempa=\box48
 \@tempa=\box49
-\c@columnbadness=\count124
-\c@finalcolumnbadness=\count125
-\last@try=\dimen112
-\multicolovershoot=\dimen113
-\multicolundershoot=\dimen114
-\mult@nat@firstbox=\box50
-\colbreak@box=\box51
-\mc@col@check@num=\count126
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\c@columnbadness=\count151
+\c@finalcolumnbadness=\count152
+\last@try=\dimen174
+\multicolovershoot=\dimen175
+\multicolundershoot=\dimen176
+\mult@nat@firstbox=\box62
+\colbreak@box=\box63
+\mc@col@check@num=\count153
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fourier.sty"
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
@@ -500,27 +926,27 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count127
+\c@lips@count=\count154
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\wrapfig\wrapfig.sty"
-\wrapoverhang=\dimen115
-\WF@size=\dimen116
-\c@WF@wrappedlines=\count128
-\WF@box=\box52
-\WF@everypar=\toks18
+\wrapoverhang=\dimen177
+\WF@size=\dimen178
+\c@WF@wrappedlines=\count155
+\WF@box=\box64
+\WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\enumerate.sty"
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks19
+\@enLab=\toks35
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip52
-\enit@outerparindent=\dimen117
-\enit@toks=\toks20
-\enit@inbox=\box53
-\enitdp@description=\count129
+\enit@outerparindent=\dimen179
+\enit@toks=\toks36
+\enit@inbox=\box65
+\enitdp@description=\count156
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\epigraph\epigraph.sty"
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
@@ -535,15 +961,15 @@ Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 ("E:\Master1 RSD\Memoire\latex\tex\latex\caption\caption3.sty"
 Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen118
-\captionmargin@=\dimen119
-\captionwidth=\dimen120
-\caption@tempdima=\dimen121
-\caption@indent=\dimen122
-\caption@parindent=\dimen123
-\caption@hangindent=\dimen124
+\captionmargin=\dimen180
+\captionmargin@=\dimen181
+\captionwidth=\dimen182
+\caption@tempdima=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
 )
-\c@ContinuedFloat=\count130
+\c@ContinuedFloat=\count157
 Package caption Info: wrapfig package is loaded.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\minitoc\minitoc.sty"
@@ -554,7 +980,7 @@ Package: mtcmess 2006/03/14
 )
 Package minitoc Info: I0001
 (minitoc)             *** minitoc package, version 62 ***.
-\tf@mtc=\write3
+\tf@mtc=\write4
 \mtcindent=\skip57
 \mtcskipamount=\skip58
 Package minitoc Info: I0005
@@ -563,14 +989,14 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks21
-\mtc@strutbox=\box54
-\mtc@hstrutbox=\box55
+\mtc@toks=\toks37
+\mtc@strutbox=\box66
+\mtc@hstrutbox=\box67
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
-\openout3 = `Main.mtc0'.
+\openout4 = `Main.mtc0'.
 
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
  (Main.mtc0)
 Package minitoc Info: I0012
@@ -578,14 +1004,14 @@ Package minitoc Info: I0012
 Package minitoc Info: I0031
 (minitoc)             ==> this version is configured for UNIX-like 
 (minitoc)                 (long extensions) file names.
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
-\openout3 = `Main.mtc0'.
+\openout4 = `Main.mtc0'.
 
-\c@mtc=\count131
-\c@minitocdepth=\count132
-\c@ptc=\count133
-\c@parttocdepth=\count134
+\c@mtc=\count158
+\c@minitocdepth=\count159
+\c@ptc=\count160
+\c@parttocdepth=\count161
 \ptcindent=\skip59
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
@@ -627,51 +1053,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks22
-\ex@=\dimen125
+\@emptytoks=\toks38
+\ex@=\dimen187
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen126
+\pmbraise@=\dimen188
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count135
+\inf@bad=\count162
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count136
-\leftroot@=\count137
+\uproot@=\count163
+\leftroot@=\count164
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count138
-\DOTSCASE@=\count139
+\classnum@=\count165
+\DOTSCASE@=\count166
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box56
-\strutbox@=\box57
-\big@size=\dimen127
+\Mathstrutbox@=\box68
+\strutbox@=\box69
+\big@size=\dimen189
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count140
-\c@MaxMatrixCols=\count141
+\macc@depth=\count167
+\c@MaxMatrixCols=\count168
 \dotsspace@=\muskip10
-\c@parentequation=\count142
-\dspbrk@lvl=\count143
-\tag@help=\toks23
-\row@=\count144
-\column@=\count145
-\maxfields@=\count146
-\andhelp@=\toks24
-\eqnshift@=\dimen128
-\alignsep@=\dimen129
-\tagshift@=\dimen130
-\tagwidth@=\dimen131
-\totwidth@=\dimen132
-\lineht@=\dimen133
-\@envbody=\toks25
+\c@parentequation=\count169
+\dspbrk@lvl=\count170
+\tag@help=\toks39
+\row@=\count171
+\column@=\count172
+\maxfields@=\count173
+\andhelp@=\toks40
+\eqnshift@=\dimen190
+\alignsep@=\dimen191
+\tagshift@=\dimen192
+\tagwidth@=\dimen193
+\totwidth@=\dimen194
+\lineht@=\dimen195
+\@envbody=\toks41
 \multlinegap=\skip61
 \multlinetaggap=\skip62
-\mathdisplay@stack=\toks26
+\mathdisplay@stack=\toks42
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -728,116 +1154,88 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\ncctools\nccmath.sty"
 Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
-\NCC@fracrulewidth=\dimen134
+\NCC@fracrulewidth=\dimen196
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip66
-\multirow@cntb=\count147
+\multirow@cntb=\count174
 \multirow@dima=\skip67
-\bigstrutjot=\dimen135
+\bigstrutjot=\dimen197
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen136
-\lightrulewidth=\dimen137
-\cmidrulewidth=\dimen138
-\belowrulesep=\dimen139
-\belowbottomsep=\dimen140
-\aboverulesep=\dimen141
-\abovetopsep=\dimen142
-\cmidrulesep=\dimen143
-\cmidrulekern=\dimen144
-\defaultaddspace=\dimen145
-\@cmidla=\count148
-\@cmidlb=\count149
-\@aboverulesep=\dimen146
-\@belowrulesep=\dimen147
-\@thisruleclass=\count150
-\@lastruleclass=\count151
-\@thisrulewidth=\dimen148
+\heavyrulewidth=\dimen198
+\lightrulewidth=\dimen199
+\cmidrulewidth=\dimen256
+\belowrulesep=\dimen257
+\belowbottomsep=\dimen258
+\aboverulesep=\dimen259
+\abovetopsep=\dimen260
+\cmidrulesep=\dimen261
+\cmidrulekern=\dimen262
+\defaultaddspace=\dimen263
+\@cmidla=\count175
+\@cmidlb=\count176
+\@aboverulesep=\dimen264
+\@belowrulesep=\dimen265
+\@thisruleclass=\count177
+\@lastruleclass=\count178
+\@thisrulewidth=\dimen266
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2018/05/02 v1.0c Color table columns (DPC)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\array.sty"
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-\col@sep=\dimen149
-\ar@mcellbox=\box58
-\extrarowheight=\dimen150
-\NC@list=\toks27
+\col@sep=\dimen267
+\ar@mcellbox=\box70
+\extrarowheight=\dimen268
+\NC@list=\toks43
 \extratabsurround=\skip68
 \backup@length=\skip69
-\ar@cellbox=\box59
+\ar@cellbox=\box71
 )
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\color.sty"
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 147.
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
-))
-\everycr=\toks28
+\everycr=\toks44
 \minrowclearance=\skip70
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\tabularx.sty"
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-\TX@col@width=\dimen151
-\TX@old@table=\dimen152
-\TX@old@col=\dimen153
-\TX@target=\dimen154
-\TX@delta=\dimen155
-\TX@cols=\count152
-\TX@ftn=\toks29
+\TX@col@width=\dimen269
+\TX@old@table=\dimen270
+\TX@old@col=\dimen271
+\TX@target=\dimen272
+\TX@delta=\dimen273
+\TX@cols=\count179
+\TX@ftn=\toks45
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\threeparttable\threeparttable.sty"
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box60
+\@tempboxb=\box72
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count153
-)
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\trig.sty"
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-cfg\graphics.cfg"
-File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
-)
-Package graphics Info: Driver file: pdftex.def on input line 99.
-)
-\Gin@req@height=\dimen156
-\Gin@req@width=\dimen157
+\etb@tempcnta=\count180
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\caption\subcaption.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count154
-\c@subtable=\count155
+\c@subfigure=\count181
+\c@subtable=\count182
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count156
-\calc@Bcount=\count157
-\calc@Adimen=\dimen158
-\calc@Bdimen=\dimen159
+\calc@Acount=\count183
+\calc@Bcount=\count184
+\calc@Adimen=\dimen274
+\calc@Bdimen=\dimen275
 \calc@Askip=\skip71
 \calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count158
+\calc@Ccount=\count185
 \calc@Cskip=\skip73
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\eso-pic\eso-pic.sty"
@@ -855,434 +1253,26 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )))
-\AM@pagewidth=\dimen160
-\AM@pageheight=\dimen161
+\AM@pagewidth=\dimen276
+\AM@pageheight=\dimen277
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\pdfpages\pppdftex.def"
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 )
-\AM@pagebox=\box61
-\AM@global@opts=\toks30
-\AM@toc@title=\toks31
-\c@AM@survey=\count159
-\AM@templatesizebox=\box62
+\AM@pagebox=\box73
+\AM@global@opts=\toks46
+\AM@toc@title=\toks47
+\c@AM@survey=\count186
+\AM@templatesizebox=\box74
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count160
+\c@r@tfl@t=\count187
 \rotFPtop=\skip74
 \rotFPbot=\skip75
-\rot@float@box=\box63
-\rot@mess@toks=\toks32
+\rot@float@box=\box75
+\rot@mess@toks=\toks48
 )
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgfplots\pgfplots.sty"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.revision.tex")
-Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\frontendlayer\tikz.sty"
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\basiclayer\pgf.sty"
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\utilities\pgfrcs.sty"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common.tex"
-\pgfutil@everybye=\toks33
-\pgfutil@tempdima=\dimen162
-\pgfutil@tempdimb=\dimen163
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common-lists.t
-ex")) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-latex.de
-f"
-\pgfutil@abb=\box64
- ("E:\Master1 RSD\Memoire\latex\tex\latex\ms\everyshi.sty"
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\basiclayer\pgfcore.sty"
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\systemlayer\pgfsys.sty"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsys.code.tex"
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex"
-\pgfkeys@pathtoks=\toks34
-\pgfkeys@temptoks=\toks35
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeysfiltered.code.t
-ex"
-\pgfkeys@tmptoks=\toks36
-))
-\pgf@x=\dimen164
-\pgf@y=\dimen165
-\pgf@xa=\dimen166
-\pgf@ya=\dimen167
-\pgf@xb=\dimen168
-\pgf@yb=\dimen169
-\pgf@xc=\dimen170
-\pgf@yc=\dimen171
-\w@pgf@writea=\write4
-\r@pgf@reada=\read1
-\c@pgf@counta=\count161
-\c@pgf@countb=\count162
-\c@pgf@countc=\count163
-\c@pgf@countd=\count164
-\t@pgf@toka=\toks37
-\t@pgf@tokb=\toks38
-\t@pgf@tokc=\toks39
- ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgf.cfg"
-File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
-)
-Driver file for pgf: pgfsys-pdftex.def
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsys-common-pdf.de
-f"
-File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
-)))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.
-tex"
-File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
-\pgfsyssoftpath@smallbuffer@items=\count165
-\pgfsyssoftpath@bigbuffer@items=\count166
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.
-tex"
-File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
-)) ("E:\Master1 RSD\Memoire\latex\tex\latex\xcolor\xcolor.sty"
-Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\graphics-cfg\color.cfg"
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package xcolor Info: Driver file: pdftex.def on input line 225.
-LaTeX Info: Redefining \color on input line 709.
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
-Package xcolor Info: Model `RGB' extended on input line 1364.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcore.code.tex"
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathcalc.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathutil.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathparser.code.tex"
-\pgfmath@dimen=\dimen172
-\pgfmath@count=\count167
-\pgfmath@box=\box65
-\pgfmath@toks=\toks40
-\pgfmath@stack@operand=\toks41
-\pgfmath@stack@operation=\toks42
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.basic.code
-.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.trigonomet
-ric.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.random.cod
-e.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.comparison
-.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.base.code.
-tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.round.code
-.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.misc.code.
-tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfunctions.integerari
-thmetics.code.tex")))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count168
-))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepoints.code.te
-x"
-File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
-\pgf@picminx=\dimen173
-\pgf@picmaxx=\dimen174
-\pgf@picminy=\dimen175
-\pgf@picmaxy=\dimen176
-\pgf@pathminx=\dimen177
-\pgf@pathmaxx=\dimen178
-\pgf@pathminy=\dimen179
-\pgf@pathmaxy=\dimen180
-\pgf@xx=\dimen181
-\pgf@xy=\dimen182
-\pgf@yx=\dimen183
-\pgf@yy=\dimen184
-\pgf@zx=\dimen185
-\pgf@zy=\dimen186
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepathconstruct.
-code.tex"
-File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
-\pgf@path@lastx=\dimen187
-\pgf@path@lasty=\dimen188
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepathusage.code
-.tex"
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
-\pgf@shorten@end@additional=\dimen189
-\pgf@shorten@start@additional=\dimen190
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorescopes.code.te
-x"
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
-\pgfpic=\box66
-\pgf@hbox=\box67
-\pgf@layerbox@main=\box68
-\pgf@picture@serial@count=\count169
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.c
-ode.tex"
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
-\pgflinewidth=\dimen191
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoretransformation
-s.code.tex"
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
-\pgf@pt@x=\dimen192
-\pgf@pt@y=\dimen193
-\pgf@pt@temp=\dimen194
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
-"
-File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreobjects.code.t
-ex"
-File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepathprocessing
-.code.tex"
-File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorearrows.code.te
-x"
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
-\pgfarrowsep=\dimen195
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
-"
-File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
-\pgf@max=\dimen196
-\pgf@sys@shading@range@num=\count170
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
-"
-File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoreexternal.code.
-tex"
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
-\pgfexternal@startupbox=\box69
-))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorelayers.code.te
-x"
-File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcoretransparency.c
-ode.tex"
-File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\basiclayer\pgfcorepatterns.code.
-tex"
-File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
-)))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
-"
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
-\pgfnodeparttextbox=\box70
-) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmoduleplot.code.tex
-"
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
-)
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\compatibility\pgfcomp-version-0-65
-.sty"
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen197
-\pgf@nodesepend=\dimen198
-)
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\compatibility\pgfcomp-version-1-18
-.sty"
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
-)) ("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\utilities\pgffor.sty"
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\utilities\pgfkeys.sty"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\latex\pgf\math\pgfmath.sty"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\math\pgfmath.code.tex")
-\pgffor@iter=\dimen199
-\pgffor@skip=\dimen256
-\pgffor@stack=\toks43
-\pgffor@toks=\toks44
-))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
-"
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryplothandlers
-.code.tex"
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
-\pgf@plot@mark@count=\count171
-\pgfplotmarksize=\dimen257
-)
-\tikz@lastx=\dimen258
-\tikz@lasty=\dimen259
-\tikz@lastxsaved=\dimen260
-\tikz@lastysaved=\dimen261
-\tikzleveldistance=\dimen262
-\tikzsiblingdistance=\dimen263
-\tikz@figbox=\box71
-\tikz@figbox@bg=\box72
-\tikz@tempbox=\box73
-\tikz@tempbox@bg=\box74
-\tikztreelevel=\count172
-\tikznumberofchildren=\count173
-\tikznumberofcurrentchild=\count174
-\tikz@fig@count=\count175
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmodulematrix.code.tex
-"
-File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
-\pgfmatrixcurrentrow=\count176
-\pgfmatrixcurrentcolumn=\count177
-\pgf@matrix@numberofcolumns=\count178
-)
-\tikz@expandcount=\count179
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
-zlibrarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
-)))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotscore.code.tex"
-\t@pgfplots@toka=\toks45
-\t@pgfplots@tokb=\toks46
-\t@pgfplots@tokc=\toks47
-\pgfplots@tmpa=\dimen264
-\c@pgfplots@coordindex=\count180
-\c@pgfplots@scanlineindex=\count181
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\sys\pgfplotssysgeneric.code
-.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\pgfplotslibrary.code.t
-ex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
-gfsupp_loader.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
-")
-Package pgfplots: loading complementary arithmetics for your pgf version...
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
-gfsupp_pgflibraryfpu.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
-gfsupp_pgfmathfloat.code.tex"
-\c@pgfmathroundto@lastzeros=\count182
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldp
-gfsupp_leq.code.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsutil.code.tex"
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotslists
-tructure.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotslists
-tructureext.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsarray
-.code.tex"
-\c@pgfplotsarray@tmp=\count183
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsmatri
-x.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\numtable\pgfplotstableshare
-d.code.tex"
-\c@pgfplotstable@counta=\count184
-\t@pgfplotstable@a=\toks48
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\liststructure\pgfplotsdeque
-.code.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsbinary.code.te
-x"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsbinary.data.co
-de.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotsutil.verb.code
-.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\pgflibrarypgfplots.sur
-fshading.code.tex"
-\c@pgfplotslibrarysurf@no=\count185
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\sys\pgflibrarypgfplots.surf
-shading.pgfsys-pdftex.def")))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotscolormap.code.
-tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\util\pgfplotscolor.code.tex
-"))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsstackedplots.code.t
-ex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsplothandlers.code.t
-ex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsmeshplothandler.cod
-e.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsmeshplotimage.code.
-tex")))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.scaling.code.tex")
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotscoordprocessing.cod
-e.tex")
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.errorbars.code.tex
-") ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.markers.code.te
-x") ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplotsticks.code.tex"
-) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\pgfplots.paths.code.tex")
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
-zlibrarydecorations.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\modules\pgfmoduledecorations.cod
-e.tex"
-\pgfdecoratedcompleteddistance=\dimen265
-\pgfdecoratedremainingdistance=\dimen266
-\pgfdecoratedinputsegmentcompleteddistance=\dimen267
-\pgfdecoratedinputsegmentremainingdistance=\dimen268
-\pgf@decorate@distancetomove=\dimen269
-\pgf@decorate@repeatstate=\count186
-\pgfdecorationsegmentamplitude=\dimen270
-\pgfdecorationsegmentlength=\dimen271
-)
-\tikz@lib@dec@box=\box75
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
-zlibrarydecorations.pathmorphing.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\decorations\pgflibrary
-decorations.pathmorphing.code.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
-zlibrarydecorations.pathreplacing.code.tex"
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\decorations\pgflibrary
-decorations.pathreplacing.code.tex"))
-\pgfplots@numplots=\count187
-\pgfplots@xmin@reg=\dimen272
-\pgfplots@xmax@reg=\dimen273
-\pgfplots@ymin@reg=\dimen274
-\pgfplots@ymax@reg=\dimen275
-\pgfplots@zmin@reg=\dimen276
-\pgfplots@zmax@reg=\dimen277
-)
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
-zlibraryplotmarks.code.tex"
-File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\libraries\pgflibraryplotmarks.co
-de.tex"
-File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-)))
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\tikzlibrarypgfplots.gr
 oupplots.code.tex"
 \pgfplots@group@current@plot=\count188
@@ -2091,15 +2081,15 @@ Package: glossary-tree 2019/01/06 v4.42 (NLCT)
 \glo@main@file=\write8
 \openout8 = `Main.glo'.
 
-Package glossaries Info: Writing glossary file Main.glo on input line 142.
+Package glossaries Info: Writing glossary file Main.glo on input line 143.
 \glo@acronym@file=\write9
 \openout9 = `Main.acn'.
 
-Package glossaries Info: Writing glossary file Main.acn on input line 142.
+Package glossaries Info: Writing glossary file Main.acn on input line 143.
 \glo@notation@file=\write10
 \openout10 = `Main.ntn'.
 
-Package glossaries Info: Writing glossary file Main.ntn on input line 142.
+Package glossaries Info: Writing glossary file Main.ntn on input line 143.
 (Glossaire.tex) ("E:\Master1 RSD\Memoire\latex\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count411
@@ -2414,28 +2404,7 @@ LaTeX Font Info:    Try loading font information for T1+futs on input line 27.
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 )
-LaTeX Info: Redefining \degres on input line 27.
-LaTeX Info: Redefining \dots on input line 27.
-Package french.ldf Info: Setting StandardItemizeEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 27.
-Package french.ldf Info: Setting StandardEnumerateEnv=true for
-(french.ldf)             compatibility with enumitem package,
-(french.ldf)             reported on input line 27.
-LaTeX Info: Redefining \up on input line 27.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-Package caption Info: longtable package is loaded.
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\caption\ltcaption.sty"
-Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
-)
-Package caption Info: rotating package is loaded.
-Package caption Info: supertabular package is loaded.
-Package caption Info: threeparttable package is loaded.
-Package caption Info: End \AtBeginDocument code.
-
+ABD: EveryShipout initializing macros
 ("E:\Master1 RSD\Memoire\latex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count451
@@ -2462,6 +2431,29 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.16} (current compat level: 1.3).
+
+LaTeX Info: Redefining \degres on input line 27.
+LaTeX Info: Redefining \dots on input line 27.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 27.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 27.
+LaTeX Info: Redefining \up on input line 27.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+("E:\Master1 RSD\Memoire\latex\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box147
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\oberdiek\pdflscape.sty"
@@ -2472,11 +2464,6 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-ABD: EveryShipout initializing macros
-Package pgfplots notification 'compat/show suggested version=true': you might b
-enefit from \pgfplotsset{compat=1.16} (current compat level: 1.3).
-
-
 ("E:\Master1 RSD\Memoire\latex\tex\latex\translator\translator-basic-dictionary
 -English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
@@ -2660,27 +2647,27 @@ Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Main.toc on input line 35.
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc1.
-\openout3 = `Main.mtc1'.
+\openout4 = `Main.mtc1'.
 
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc2.
-\openout3 = `Main.mtc2'.
+\openout4 = `Main.mtc2'.
 
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc3.
-\openout3 = `Main.mtc3'.
+\openout4 = `Main.mtc3'.
 
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc4.
-\openout3 = `Main.mtc4'.
+\openout4 = `Main.mtc4'.
 
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc5.
-\openout3 = `Main.mtc5'.
+\openout4 = `Main.mtc5'.
 
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc6.
-\openout3 = `Main.mtc6'.
+\openout4 = `Main.mtc6'.
 
  (Main.toc)
 \tf@toc=\write12
@@ -2773,9 +2760,9 @@ LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
 (Font)              Font shape `T1/futs/b/it' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24.88> not available
 (Font)              Font shape `T1/futs/b/sc' tried instead on input line 4.
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 10.07397pt on input line 4.
@@ -2979,9 +2966,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--21
 
 [18 <./img/eed.PNG>]) (r2p_sk_mc/R2p_SK_MC.tex [19]
 Chapitre 2.
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
 (Main.mtc5) [20
 
@@ -3249,9 +3236,9 @@ ts/m/n/12 peut-être vé-ri-fiée dans les états bor-der et aussi
 
 ] [32] (Contribution.tex
 Chapitre 3.
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
-\openout3 = `Main.mtc'.
+\openout4 = `Main.mtc'.
 
 (Main.mtc6) [33
 
@@ -4115,14 +4102,23 @@ Overfull \hbox (18.03761pt too wide) in paragraph at lines 135--153
  [][] 
  []
 
-)
+Missing character: There is no ; in font nullfont!
+
+Overfull \hbox (27.74829pt too wide) in paragraph at lines 210--211
+[][] 
+ []
+
+
+Underfull \vbox (badness 2050) has occurred while \output is active []
+
+
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]) (conclusion/conclusion.tex
+[64])) (conclusion/conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
@@ -4150,7 +4146,7 @@ Package natbib Warning: There were undefined citations.
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Main.maf file.
-\openout3 = `Main.maf'.
+\openout4 = `Main.maf'.
 
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
@@ -4181,13 +4177,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 22 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 59895 strings out of 492973
- 1286543 string characters out of 3135470
- 1656397 words of memory out of 3000000
- 61705 multiletter control sequences out of 15000+200000
+ 59926 strings out of 492973
+ 1287217 string characters out of 3135470
+ 1660756 words of memory out of 3000000
+ 61740 multiletter control sequences out of 15000+200000
  740400 words of font info for 214 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,28n,96p,2126b,1366s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,28n,96p,2126b,1365s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Master1 RSD/Memoire/latex/fonts/enc/dvips/base/8r.enc}<E:/M
 aster1 RSD/Memoire/latex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><E:/Master1 
 RSD/Memoire/latex/fonts/type1/public/fourier/fourier-mex.pfb><E:/Master1 RSD/Me
@@ -4197,7 +4193,7 @@ nts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Master1 RSD/Memoire/latex/font
 s/type1/adobe/utopia/putb8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe
 /utopia/putbi8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr
 8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Main.pdf (79 pages, 2513714 bytes).
+Output written on Main.pdf (79 pages, 2515369 bytes).
 PDF statistics:
  1829 PDF objects out of 2073 (max. 8388607)
  606 named destinations out of 1000 (max. 500000)

@@ -1,6 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
+A level-1 auxiliary file: remerciement.aux
+A level-1 auxiliary file: resumer.aux
 Case mismatch error between cite keys Bichot2007 and BICHOT2007
----line 188 of file Main.aux
+---line 174 of file Main.aux
  : \citation{Bichot2007
  :                     }
 I'm skipping whatever remains of this command
@@ -14,6 +16,10 @@ Warning--I didn't find a database entry for "patriot"
 Warning--I didn't find a database entry for "bug2000"
 Warning--I didn't find a database entry for "Rushby2001"
 Warning--I didn't find a database entry for "Clark1999"
+Warning--I didn't find a database entry for "ErnstZermelo1913"
+Warning--I didn't find a database entry for "EmileBorel1921"
+Warning--I didn't find a database entry for "JohnvonNeumann1928"
+Warning--I didn't find a database entry for "JO1944"
 Warning--I didn't find a database entry for "Huckle2015"
 Warning--I didn't find a database entry for "Kanaracus2012"
 Warning--I didn't find a database entry for "Ferrari1978"
