@@ -18,8 +18,8 @@ Un espace d'état est une structure relationnelle qui représente le comportemen
 
 
 \begin{definition}
-Soit $M =\{M_K\}_{K=1..N}$ $N$ machines. Un espace d'états distribué, noté $DiG$, est un graphe avec une fonction de distribution $f^k$. $DiG = (G; f^k )_{ k=1..N}$ , tel que : $G = (S, A)$ : est un graphe dirigé.
-$f^k : G \Rightarrow G_k$ : est une application de G dans G k , tel que \\$G_k = (S_k , A_k )$ : $\{G_K \}_{1<k<N}$ est un ensemble de sous-ensembles appelés fragments $G_k $, tel que :\\ $U^{N}_{k=1} S_k = S\; et\; U^{N}_{k=1}A_k = A$
+Soit $M =\{M_k\}_{k=1..N}$ $N$ machines. Un espace d'états distribué, noté $DiG$, est un graphe avec une fonction de distribution $f^k$. $DiG = (G; f^k )_{ k=1..N}$ , tel que : $G = (S, A)$ : est un graphe dirigé.
+$f^k : G \Rightarrow G_k$ : est une application de G dans G k , tel que \\$G_k = (S_k , A_k )$ : $\{G_k \}_{1<k<N}$ est un ensemble de sous-ensembles appelés fragments $G_k $, tel que :\\ $U^{N}_{k=1} S_k = S\; et\; U^{N}_{k=1}A_k = A$
 \end{definition}
 
 \begin{definition} \citep{BENSETIRA2017}\\
@@ -30,11 +30,11 @@ Un fragment $G_k$ est définit par $G_k = (S_k , A_k )$ de tel sorte que :
 	\item  Aucun élément de $S_k$ n'est vide : $\forall \;k \in \;1, ..., N,\; S_k \ne \emptyset$
 	\item L'union de tous les éléments de $S_k$ est égale à $S$ : $U^{N}_ {k=1} S_k = S$
 	\end{itemize}
-\item $A_k = A^{L}_{K}\cap A^{K}_{R}$ tel que  $A^{L}_{K} \cap A^{K}_{R}= \emptyset$ : l'ensemble des transitions internes et externes avec :
+\item $A_k = A^{L}_{k}\cap A^{k}_{R}$ tel que  $A^{L}_{k} \cap A^{k}_{R}= \emptyset$ : l'ensemble des transitions internes et externes avec :
 	\begin{itemize}
-	\item  $A^{L}_{K}\subseteq S_K \times S_K$ est l'ensemble des transitions entre les états qui appartient à la même machine $M_k$ (transitions locales ou internes)
-	\item  $A^{R}_{K}\subseteq S_K \times (S/S_K ) \cup (S/S_K ) \times S_K = (s, s')$, tel que soit $(s \in S_K et s' \neq S_K ) ou(s \neq S_K et s'
-\in S_K )$ : est l'ensemble des transitions dont les origines se trouvent dans des machines locales et les états cibles (destination) sont dans des machines distantes (transitions externes) et inversement.
+	\item  $A^{L}_{k}\subseteq S_k \times S_k$ est l'ensemble des transitions entre les états qui appartient à la même machine $M_k$ (transitions locales ou internes)
+	\item  $A^{R}_{k}\subseteq S_k \times (S/S_k ) \cup (S/S_k ) \times S_k = (s, s')$, tel que soit $(s \in S_k et s' \neq S_k ) ou(s \neq S_k et s'
+\in S_k )$ : est l'ensemble des transitions dont les origines se trouvent dans des machines locales et les états cibles (destination) sont dans des machines distantes (transitions externes) et inversement.
 	\end{itemize}
 	
 \end{itemize}
