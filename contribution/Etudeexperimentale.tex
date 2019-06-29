@@ -1,6 +1,6 @@
 \section{Étude expérimentale}
 Cette section présente les différents outils utilisés à l'aboutissement de l'application réalisée ainsi que l'architecture de l'application développée.
-A partir de l'application développée nous réalisons une étude expérimentale d'un exemple issu de la vie courante, ensuite nous interprétons les résultats expérimentale obtenus par la méthode de redistribution proposée dans ce chapitre.
+A partir de l'application développée nous réalisons une étude expérimentale d'un exemple issu de la vie courante, ensuite nous interprétons les résultats expérimentaux obtenus par la méthode de redistribution proposée dans ce chapitre.
 
 \subsection{Outils de développement}
 Pour la mise en œuvre d’une application de distribution de l'espace d'états et de la vérification formelle, la capacité à monter en charge s’envisage pour pouvoir évoluer de façon fluide en fonction de l'augmentation de la demande des ressources afin qu'une expérimentation soit menée dans les meilleures conditions. Dans ce qui suit nous pressentons les outils nécessaires pour le développement de ce type d'application. \newpage
@@ -84,7 +84,7 @@ L'application développée pour l'expérimentation de notre approche dispose d�
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/mcapp}
 	\caption{Interface d'exécution model checking}
-	\label{fig:mc}
+	\label{mc}
 \end{figure}
 \begin{figure}  
 	\centering
@@ -111,21 +111,21 @@ Nous avons évalué l’efficacité de la politique de redistribution proposée 
 	\centering
 	\begin{tabular}{|c|c|c||c||c|c|  }
 		\hline
-		         Philos           &               Formules               & Machines  & Temps d'exécution &    Etats Interne     &    Etats Externe     \\ \hline
-		\multirow{4}{*}{2 Philos} & \multirow{2}{*}{\tiny NOT(Ph2Mange)} & Machine 1 &        2 s        &  \multirow{2}{*}{2}  &  \multirow{2}{*}{2}  \\ \cline{3-4}
-		                          &                                      & Machine 2 &        2 s        &                      &                      \\ \cline{2-4}\cline{4-6}
-		                          & \multirow{2}{*}{\tiny NOT(Ph1Mange)} & Machine 1 &        2 s        &  \multirow{2}{*}{6}  &  \multirow{2}{*}{2}  \\ \cline{3-4}
-		                          &                                      & Machine 2 &       10 s        &                      &                      \\ \hline\hline
-		\multirow{4}{*}{3 Philos} & \multirow{2}{*}{\tiny NOT(Ph2Mange)} & Machine 1 &        2 s        & \multirow{2}{*}{17 } & \multirow{2}{*}{ 14} \\ \cline{3-4}
-		                          &                                      & Machine 2 &        2 s        &                      &                      \\ \cline{2-4}\cline{4-6}
-		                          & \multirow{2}{*}{\tiny NOT(Ph1Mange)} & Machine 1 &       19 s        & \multirow{2}{*}{15 } & \multirow{2}{*}{14 } \\ \cline{3-4}
-		                          &                                      & Machine 2 &       10 s        &                      &                      \\ \hline\hline
-		\multirow{6}{*}{4 Philos} & \multirow{3}{*}{\tiny NOT(Ph2Mange)} & Machine 1 &       10 s        & \multirow{2}{*}{35 } & \multirow{2}{*}{53 } \\ \cline{3-4}
-		                          &                                      & Machine 2 &       19 s        &                      &                      \\ \cline{3-4}\cline{4-6}
-		                          & \multirow{3}{*}{\tiny NOT(Ph1Mange)} & Machine 3 &       32 s        & \multirow{2}{*}{40 } & \multirow{2}{*}{49 } \\ \cline{2-4}
-		                          &                                      & Machine 1 &       35 s        &                      &                      \\ \cline{3-4}\cline{4-6}
-		                          &                                      & Machine 2 &       10 s        & \multirow{2}{*}{37 } & \multirow{2}{*}{46 } \\ \cline{3-4}
-		                          &                                      & Machine 3 &       19 s        &                      &                      \\ \hline\hline
+		          Philos            &                Formules                &  Machines   & Temps d'exécution &     Etats Interne      &     Etats Externe      \\ \hline
+		\multirow{4}{*}{$2$ Philos} &  \multirow{2}{*}{\tiny NOT(Ph2Mange)}  & Machine $1$ &      $2 s $       &  \multirow{2}{*}{$2$}  &  \multirow{2}{*}{$2$}  \\ \cline{3-4}
+		                            &                                        & Machine $2$ &       $2 s$       &                        &                        \\ \cline{2-4}\cline{4-6}
+		                            &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine $1$ &       $2 s$       &   \multirow{2}{*}{6}   &   \multirow{2}{*}{2}   \\ \cline{3-4}
+		                            &                                        & Machine $2$ &      $10 s$       &                        &                        \\ \hline\hline
+		\multirow{4}{*}{$3$ Philos} &  \multirow{2}{*}{\tiny NOT(Ph2Mange)}  & Machine $1$ &       $2 s$       & \multirow{2}{*}{$17$ } & \multirow{2}{*}{ $14$} \\ \cline{3-4}
+		                            &                                        & Machine $2$ &       $2 s$       &                        &                        \\ \cline{2-4}\cline{4-6}
+		                            &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine $1$ &      $19 s$       & \multirow{2}{*}{$15$ } & \multirow{2}{*}{$14$ } \\ \cline{3-4}
+		                            &                                        & Machine $2$ &      $10 s$       &                        &                        \\ \hline\hline
+		\multirow{6}{*}{$4$ Philos} & \multirow{3}{*}{\tiny NOT(Ph2Mange)} & Machine $1$ &      $10 s$       & \multirow{2}{*}{$35$} & \multirow{2}{*}{$53$} \\ \cline{3-4}
+		                            &                                        & Machine $2$ &      $19 s$       &                        &                        \\ \cline{3-4}\cline{4-6}
+		                            &  \multirow{3}{*}{\tiny NOT(Ph1Mange)}  & Machine $3$ &      $32 s$       &  \multirow{2}{*}{40 }  &  \multirow{2}{*}{49 }  \\ \cline{2-4}
+		                            &                                        & Machine $1$ &      $35 s$       &                        &                        \\ \cline{3-4}\cline{4-6}
+		                            &                                        & Machine $2$ &      $10 s$       &  \multirow{2}{*}{37 }  &  \multirow{2}{*}{46 }  \\ \cline{3-4}
+		                            &                                        & Machine $3$ &      $19 s$       &                        &                        \\ \hline\hline
 	\end{tabular}
 	\caption{Résultats du model checking sur l'espace d'états distribués avec \textbf{MD5} }\label{tablea1}
 \end{tableth}
@@ -134,21 +134,21 @@ Nous avons évalué l’efficacité de la politique de redistribution proposée 
 	\centering
 	\begin{tabular}{|c|c|c||c||c|c|c|}
 		\hline
-		         Philos           &                Formules                & Machines  & Exécution &    Etats Interne    &    Etats Externe    &      Duplicata      \\ \hline
-		\multirow{4}{*}{2 Philos} & \multirow{2}{*}{{\tiny NOT(Ph2Mange)}} & Machine 1 &    2 s    & \multirow{2}{*}{2}  & \multirow{2}{*}{2}  & \multirow{2}{*}{1}  \\ \cline{3-4}
-		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \cline{2-4}\cline{4-7}
-		                          &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{6}  & \multirow{2}{*}{2}  & \multirow{2}{*}{0}  \\ \cline{3-4}
-		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \hline\hline
-		\multirow{4}{*}{3 Philos} &  \multirow{2}{*}{\tiny NOT(Ph2Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{17} & \multirow{2}{*}{14} & \multirow{2}{*}{14} \\ \cline{3-4}
-		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \cline{2-4}\cline{4-7}
-		                          &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{15} & \multirow{2}{*}{14} & \multirow{2}{*}{10} \\ \cline{3-4}
-		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \hline\hline
-		\multirow{6}{*}{4 Philos} &  \multirow{3}{*}{\tiny NOT(Ph2Mange)}  & Machine 1 &    2 s    & \multirow{2}{*}{35} & \multirow{2}{*}{53} & \multirow{2}{*}{39} \\ \cline{3-4}
-		                          &                                        & Machine 2 &    2 s    &                     &                     &                     \\ \cline{3-7}
-		                          &                                        & Machine 3 &    2 s    & \multirow{2}{*}{40} & \multirow{2}{*}{49} & \multirow{2}{*}{36} \\ \cline{2-4}
-		                          &  \multirow{3}{*}{\tiny NOT(Ph1Mange)}  & Machine 1 &    2 s    & &                     &                     \\ \cline{3-7}
-		                          &                                        & Machine 2 &    2 s    &  \multirow{2}{*}{37} & \multirow{2}{*}{46} & \multirow{2}{*}{33} \\ \cline{3-4}
-		                          &                                        & Machine 3 &   2 s    &                     &                     &                     \\ \hline\hline
+		          Philos            &                Formules                &  Machines   & Exécution &     Etats Interne     &     Etats Externe     &       Duplicata       \\ \hline
+		\multirow{4}{*}{$2$ Philos} & \multirow{2}{*}{{\tiny NOT(Ph2Mange)}} & Machine $1$ &  $2 s $   & \multirow{2}{*}{$2$}  & \multirow{2}{*}{$2$}  & \multirow{2}{*}{$1$}  \\ \cline{3-4}
+		                            &                                        & Machine $2$ &   $2 s$   &                       &                       &                       \\ \cline{2-4}\cline{4-7}
+		                            &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine $1$ &   $2 s$   & \multirow{2}{*}{$6$}  & \multirow{2}{*}{$2$}  & \multirow{2}{*}{$0$}  \\ \cline{3-4}
+		                            &                                        & Machine $2$ &   $2 s$   &                       &                       &                       \\ \hline\hline
+		\multirow{4}{*}{$3$ Philos} &  \multirow{2}{*}{\tiny NOT(Ph2Mange)}  & Machine $1$ &   $2 s$   & \multirow{2}{*}{$17$} & \multirow{2}{*}{$14$} & \multirow{2}{*}{$14$} \\ \cline{3-4}
+		                            &                                        & Machine $2$ &   $2 s$   &                       &                       &                       \\ \cline{2-4}\cline{4-7}
+		                            &  \multirow{2}{*}{\tiny NOT(Ph1Mange)}  & Machine $1$ &  $2 s $   & \multirow{2}{*}{$15$} &  \multirow{2}{*}{14}  &  \multirow{2}{*}{10}  \\ \cline{3-4}
+		                            &                                        & Machine $2$ &   $2 s$   &                       &                       &                       \\ \hline\hline
+		\multirow{6}{*}{$4$ Philos} &  \multirow{3}{*}{\tiny NOT(Ph2Mange)}  & Machine $1$ &   $2 s$   & \multirow{2}{*}{$35$} & \multirow{2}{*}{$53$} & \multirow{2}{*}{$39$} \\ \cline{3-4}
+		                            &                                        & Machine $2$ &   $2 s$   &                       &                       &                       \\ \cline{3-7}
+		                            &                                        & Machine $3$ &   $2 s$   & \multirow{2}{*}{$40$} & \multirow{2}{*}{$49$} & \multirow{2}{*}{$36$} \\ \cline{2-4}
+		                            &  \multirow{3}{*}{\tiny NOT(Ph1Mange)}  & Machine $1$ &   $2 s$   &                       &                       &                       \\ \cline{3-7}
+		                            &                                        & Machine $2$ &   $2 s$   & \multirow{2}{*}{$37$} & \multirow{2}{*}{$46$} & \multirow{2}{*}{$33$} \\ \cline{3-4}
+		                            &                                        & Machine $3$ &   $2 s$   &                       &                       &                       \\ \hline\hline
 	\end{tabular}
 	\caption{Résultats du model checking sur l'espace d'états redistribués avec \textbf{\CDS{}} }\label{tableau2}
 \end{tableth}
@@ -210,4 +210,4 @@ Nous avons évalué l’efficacité de la politique de redistribution proposée 
 \end{tikzpicture}
 \section{Discussion}
 
-Sur la base des résultats expérimentaux présentés ci-dessus, nous constatons l’efficacité de l’approche proposée pour la distribution de l’espace d'états. En termes d’équilibrage l’approche proposée s’est avérée efficace à cause de sa capacité d’analyser le comportement du système et à extraire les informations pertinentes sur ses états. Ainsi, les résultats ont démontrés que la minimisation des transitions externe n'implique pas toujours la minimisation du temps de calcul. Cependant, Notre approche n'est pas dédiée à réduire le nombre de transitions externes, mais d'analyser les états afin de proposer une distribution adéquat des états tout en garantissant un nombre minimal de communication et un équilibrage de charge entre les machines.
+Sur la base des résultats expérimentaux présentés ci-dessus, nous constatons l’efficacité de l’approche proposée pour la distribution de l’espace d'états. En termes d’équilibrage l’approche proposée s’est avérée efficace à cause de sa capacité d’analyser le comportement du système et à extraire les informations pertinentes sur ses états. Ainsi, les résultats ont démontrés que la minimisation des transitions externe n'implique pas toujours la minimisation du temps de calcul. Cependant, Notre approche n'est pas dédiée à réduire le nombre de transitions externes, mais d'analyser les états afin de proposer une distributions adéquats des états tout en garantissant un nombre minimal de communications et un équilibrage de charge entre les machines.

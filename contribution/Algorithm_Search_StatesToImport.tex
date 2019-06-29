@@ -4,28 +4,28 @@
 
 
 \Begin{
-	 $MG\longleftarrow null$\;\label{lineI0}\\
+\nl	 $MG\longleftarrow null$\;\label{lineI0}\\
 \nl	  \ForEach{$e\in \; Border(F)$}{ \label{linerI1}
-					\ForEach{$e'\in \; Notifier(F) $}{\label{linerI2}
-			\For{$j=1$ \KwTo $size(e'.site)$}{\label{linerI3}
-				\If{($(e\in e'.f) and (exist(e.site[j]))and(e.\parametretwo{}>e.site[j].\parametretwo{}) 
+\nl					\ForEach{$e'\in \; Notifier(F) $}{\label{linerI2}
+\nl			\For{$j=1$ \KwTo $size(e'.site)$}{\label{linerI3}
+\nl				\If{($(e\in e'.f) and (exist(e.site[j]))and(e.\parametretwo{}>e.site[j].\parametretwo{}) 
 					and$\;$ ((e'.\parametretwo{}>e'.site[j].\parametretwo{})or(e'.\parametretwo{}==e'.site[j].\parametretwo{} and e'.\parametretree{}>e'.site[j].\parametretree{})) and$\; $(((MG.\parametretwo{}>e'.site[j].\parametretwo{})or(MG.\parametretwo{}==e'.site[j].\parametretwo{}\; and\; MG.\parametretree{}>e'.site[j].\parametretree{})or \;MG ==null)$) 
 					)}{\label{linerI4}
-					$MG\longleftarrow e'.site[j]$\;\label{linerI5}
+\nl					$MG\longleftarrow e'.site[j]$\;\label{linerI5}
 				}
 			}
 								
 		}
 	}
-	\If{$MG==null$}{\label{linerI6}
+\nl	\If{$MG==null$}{\label{linerI6}
 		\nl\ForEach{$e\in \; \{Border(F)\cup Notifier(F)\}$}{\label{linerI7}
-			\ForEach{$site\in e.site $}{\label{linerI8}
-				\If{$((e.\parametretwo{}>site.\parametretwo{} )or (e.\parametretwo{}==site[j].\parametretwo{}\; and\; e.\parametretree{}>site.\parametretree{} )) and(MG ==null or ((MG.\parametretwo{}>site.\parametretwo{} )or \;(MG.\parametretwo{}==site[j].\parametretwo{} \;and\; e.\parametretree{}>site.\parametretree{} )))$}{\label{linerI99}
-					$MG\longleftarrow e'.site[j]$\;\label{linerI9}
+\nl			\ForEach{$site\in e.site $}{\label{linerI8}
+\nl				\If{$((e.\parametretwo{}>site.\parametretwo{} )or (e.\parametretwo{}==site[j].\parametretwo{}\; and\; e.\parametretree{}>site.\parametretree{} )) and(MG ==null or ((MG.\parametretwo{}>site.\parametretwo{} )or \;(MG.\parametretwo{}==site[j].\parametretwo{} \;and\; e.\parametretree{}>site.\parametretree{} )))$}{\label{linerI99}
+\nl					$MG\longleftarrow e'.site[j]$\;\label{linerI9}
 				}
 				
 			}	   	
-		}\label{linerI10}
+\nl			}\label{linerI10}
 	}	 	
 	\nl \Return MG\label{linerI11} 
 }

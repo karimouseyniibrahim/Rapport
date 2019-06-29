@@ -2,21 +2,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %           Liste des packages         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%% Faux texte, juste pour la démo
-\usepackage{blindtext}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{tikz}
 \usepackage{pgfplots}
 %% Réglage des fontes et typo    
 \usepackage[utf8]{inputenc}		% LaTeX, comprend les accents !
 \usepackage[T1]{fontenc}
-
-\usepackage[square,sort&compress,sectionbib]{natbib}		% Doit être chargé avant babel
+\usepackage{natbib}		% Doit être chargé avant babel
 %\usepackage{chapterbib}
-	\renewcommand{\bibsection}{\chapter*{Références Bibliographies}}		% Met les références biblio dans un \section (au lieu de \section*)
+%	\renewcommand{\bibsection}{\chapter*{Références Bibliographies}}		% Met les références biblio dans un \section (au lieu de \section*)
+ 
 \usepackage[frenchb]{babel}
 \usepackage{lmodern}
 \usepackage{ae,aecompl}	
@@ -24,7 +19,6 @@
 \usepackage[upright]{fourier}
 \usepackage{lipsum}
 \usepackage{wrapfig}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Allure générale du document
 \usepackage{enumerate}
@@ -35,7 +29,6 @@
 \usepackage[francais,nohints]{minitoc}		% Mini table des matières, en français
 	\setcounter{minitocdepth}{2}	% Mini-toc détaillées (sections/sous-sections)
 \usepackage[notbib]{tocbibind}		% Ajoute les Tables	des Matières/Figures/Tableaux à la table des matières
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Maths                         
 \usepackage{amsmath}			% Permet de taper des formules mathématiques
@@ -55,7 +48,6 @@
 \usepackage{etoolbox}
 	\appto\TPTnoteSettings{\footnotesize}
 \addto\captionsfrench{\def\tablename{{\textsc{Tableau}}}}	% Renome 'table' en 'tableau'
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Eléments graphiques                    
 \usepackage{graphicx}			% Permet l'inclusion d'images
@@ -77,7 +69,6 @@
 	}}
 \usepackage{eso-pic}
 \usepackage{import}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Mise en forme du texte        
 \usepackage{xspace}
@@ -92,12 +83,10 @@
 	  range-phrase=~\`{a}~,     	% Utilise le tiret court pour dire "de... à"
 	  range-units=single,  		% Cache l'unité sur la première borne
 	  }
-
 \usepackage[version=3]{mhchem}	% Equations chimiques
 \usepackage{textcomp}
 \usepackage{array}
 \usepackage{hyphenat}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Navigation dans le document
 \usepackage[pdftex,pdfborder={0 0 0},
@@ -107,8 +96,6 @@
 			pagebackref=true,
 			]{hyperref}	% Créera automatiquement les liens internes au PDF
 					% Doit être chargé en dernier (Sauf exceptions ci-dessous)
-			
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Packages qui doivent être chargés APRES hyperref	             
 \usepackage[top=2.5cm, bottom=2cm, left=3cm, right=2.5cm,
@@ -123,26 +110,12 @@
 \pagestyle{fancy}
 \lhead{\nouppercase{\leftmark}}
 \rfoot{page \centering \thepage}
-
 \pagestyle{fancy}
-%\fancyhead{}
-%\fancyhead[L]{Devoir 2 heures TS}
-%\fancyhead[R]{Mathématiques}
 \usepackage{tcolorbox}
-%\fancyfoot{}
-%\fancyfoot[RE,RO]{Page \thepage}
-%\renewcommand{\headrulewidth}{2pt}
-%\renewcommand{\footrulewidth}{1pt}
-%\fancyhead[LO]{ \rightmark\bfseries}
-%\fancyhead[LE]{ \leftmark\bfseries}
-
-%	\newcommand{\HRule}{\rule{\linewidth}{0.2mm}}
-%	\newcommand{\HRuleb}{\rule{\linewidth}{0.5mm}}
 \usepackage[acronym,xindy,toc,numberedsection,ucmark]{glossaries}
 	\newglossary[nlg]{notation}{not}{ntn}{Notation} % Création d'un type de glossaire 'notation'
 	\makeglossaries
-	\loadglsentries{Glossaire}			% Utilisation d'un fichier externe pour la définition des entrées (Glossaire.tex)				
-
+	\loadglsentries{Glossaire}			% Utilisation d'un fichier externe pour la définition des entrées 
 \usepackage{float}% http://ctan.org/pkg/float
 \usepackage[linesnumbered,ruled,vlined]{algorithm2e}
 \usepackage{algpseudocode}
@@ -162,3 +135,5 @@
 }
 
 \tikzset{>=stealth}
+
+

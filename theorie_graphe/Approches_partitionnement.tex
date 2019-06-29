@@ -2,7 +2,7 @@
 %%									section.	Approches de partitionnement										%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Approches de partitionnement}
+\section{Approches de partitionnement de graphes}
  Le partitionnement d'un graphe consiste à trouver une partition des sommets respectant une ou plusieurs propriétés. Ces propriétés sont de nature très diverses. On peut par exemple chercher à minimiser la capacité des arêtes externes, c'est-à-dire le nombre d'arêtes ou la somme totale des poids des arêtes reliant deux groupes.  Le problème devient difficile si on cherche à diviser le graphe en $k$ groupes de tailles équilibrées car il n'existe alors pas d'algorithme polynomial pour y répondre. Ce problème a été démontré NP-complet \citep{HYAFIL1973}, \citep{GAREY1976}
 
 Au cours des dernières années, beaucoup d'efforts ont été consacrés au développement d'heuristiques rapides et efficaces pour ce problème. Ces heuristiques peuvent souvent gérer des graphes assez grands avec des milliers de nœuds et fournir de bonnes solutions. Pour un aperçu plus détaillé, nous nous référons à \citep{BichotSiarry2013}, \citep{BULU2016},\citep{SCHLOEGEL2000}.
@@ -68,7 +68,7 @@ Pour ce faire, le schéma multi-niveaux comporte trois étapes (Figure \ref{pmn}
 Dés lors, plusieurs améliorations ont été proposées \citep{Aurora2007}, \citep{ChevalierSafro2009}, \citep{KalayciBattiti2018}, \citep{Karypis2003}, \citep{KarypisKumar1998}, \citep{Monien2000}, \citep{Pellegrini1995}, \citep{Pope2016}, \citep{Predari2017}, \citep{Safro2015}, \citep{SandersSchulz2011}, \citep{Talu2017}.
 
 
-\subsection*{La parallélisation du partitionnement de graphe}
+\subsection*{La parallélisation du partitionnement de graphes}
 Des tentatives de parallélisation des algorithmes de partitionnement de graphes ont vu le jour. On peut citer ParMeTiS \citep{Karypis2011}, ParJostle \citep{Walshaw2012}, PT-Scotch \citep{ChevalierPellegrini2008}, et Parkway \citep{TrifunovicKnottenbelt2004} pour le partitionnement d'hyper-graphes. Tous ces outils utilisent un schéma multi-niveaux parallèle.
 
 Des approches qui combinent les différentes méthodes présentées ci dessus ont été proposées, \citep{Chan2016}, \citep{LaSalleKarypis2013}, \citep{LaSalleKarypis2015}, \citep{LengYu2007}, \citep{Rahimian2013}, \citep{SandersSchulz2012}, \citep{Tashkova2011}.

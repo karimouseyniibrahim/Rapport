@@ -29,10 +29,10 @@ L'ensemble minimal des états à déplacer dans une machine locale correspond au
 \nopagebreak
 } 
 \mysubsection{Heuristique de redistribution de l'espace d'états}{
-Après la recherche de l'ensemble minimal des états à déplacer, l'ensemble d'états peut être déplacer lorsque l'équilibre peut être assurer entre les machines avec une faible duplication des états. Ainsi, le processus de vérification de l'équilibrage de charge est décris comme suit.
+Après la recherche de l'ensemble minimal des états à déplacer, l'ensemble de ces états peut être déplacer lorsque l'équilibre peut être assuré entre les machines avec une faible duplication des états. Ainsi, le processus de vérification de l'équilibrage de charge est décrit comme suit.
 
 \begin{itemize}
-	\item  Lorsque le résultat de la différence entre le nombre des états à déplacer sur machine locale et sur la machine distante est inférieur ou égale à l'écart calculé un message est alors envoyé pour demander les états a migré  de la machine distante, comporte aussi les états provenant de cette machine locale.
+	\item  Lorsque le résultat de la différence entre le nombre des états à déplacer sur la machine locale et sur la machine distante est inférieur ou égale à l'écart calculé, un message est alors envoyé pour demander les états à migrer  de la machine distante, comporte aussi les états provenant de cette machine locale.
 	\item Sinon, si le nombre des états à déplacer est inférieur ou égale à l'écart  alors la machine locale envoie ces états à déplacer à la machine distante.
 	\item Sinon, s'il s'agit des états de la machine distante, la  machine locale envoie une demande de ces états.	\nopagebreak\nopagebreak\nopagebreak
 \end{itemize}
@@ -42,7 +42,7 @@ Ce principe est formalisé comme suit:
 
 }               
 \mysubsection{Réception des états ou la demande des états à déplacer}{
-A la réception d'une requête les états à insérer sont insérés et les ensemble des états demandés sont envoyés. Lorsque des états sont insérés à la structure de Kripke d'une machine, les valeurs calculées par la machine distante sont alors mises à jour par celles correspondantes à la machine locale pour le bon fonctionnement du protocole. Après ce processus  l'Algorithme \ref{alg6} est relancé. 
+A la réception d'une requête les états à insérer sont insérés et les ensembles des états demandés sont envoyés. Lorsque des états sont insérés à la structure de Kripke d'une machine, les valeurs calculées par la machine distante sont alors mises à jour par celles correspondantes à la machine locale pour le bon fonctionnement du protocole. Après ce processus  l'Algorithme \ref{alg6} est relancé. 
 Ce principe est formalisé comme suit:
 \input{contribution/Algorithm_ReceveResquest}
 }
@@ -52,7 +52,7 @@ L'exécution du protocole de redistribution sur les résultats générés dans l
 \nopagebreak
 \begin{description}
 \item[Itération 1 :] Pendant la première itération du protocole sur la \mone{}, l'algorithme détecte que les état \s{S7} et \s{S9} sont mutuellement dépendants. Ainsi, les valeurs envoyées par la \mtwo{} sur l'état \s{S7} sont minimales, les états concernant ces valeurs sont à déplacer de la \mtwo{}. Ainsi les états à déplacer de la \mone{} vers la \mtwo{} sont recherchés, l'algorithme détecte que les états liés à l'état \s{S11} sont minimaux. Les états de cet ensemble sont à envoyer sur la \mtwo{}. Après ces deux processus de recherche, les valeurs sont évaluées afin de ressortir la requête à envoyer. L'évaluation montre qu'il est possible d'importer les prédécesseurs de l'état \s{S7} et les prédécesseurs de  l'état \s{S11}.
-L'état \s{s2} ne sera pas envoyé parmi les états à déplacer car la \mtree{} possède des prédécesseurs directs de cet état. Après l'envoi des états à déplacer, la \mone{} possède l'état \s{S9}, quant à l'état \s{S1} il est possédé par la \mtwo{}.
+L'état \s{S2} ne sera pas envoyé parmi les états à déplacer car la \mtree{} possède des prédécesseurs directs de cet état. Après l'envoi des états à déplacer, la \mone{} possède l'état \s{S9}, quant à l'état \s{S1} il est possédé par la \mtwo{}.
 
 
 Sur la \mtree{} l'algorithme détecte qu'il est possible de déplacer l'état \s{S22} sur la \mtwo{}.

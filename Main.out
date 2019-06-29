@@ -1,7 +1,7 @@
-\BOOKMARK [0][-]{chapter*.2}{Table des mati\350res}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{Liste des figures}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Liste des tableaux}{}% 3
-\BOOKMARK [-1][-]{chapter*.6}{Introduction G\351n\351rale}{}% 4
+\BOOKMARK [0][-]{chapter*.1}{Table des mati\350res}{}% 1
+\BOOKMARK [0][-]{chapter*.2}{Liste des figures}{}% 2
+\BOOKMARK [0][-]{chapter*.3}{Liste des tableaux}{}% 3
+\BOOKMARK [-1][-]{chapter*.5}{Introduction G\351n\351rale}{}% 4
 \BOOKMARK [-1][-]{part.1}{I Contexte de travail}{}% 5
 \BOOKMARK [0][-]{chapter.1}{Approche de partitionnement et de distribution des graphes}{part.1}% 6
 \BOOKMARK [1][-]{section.1.1}{Introduction}{chapter.1}% 7
@@ -9,8 +9,8 @@
 \BOOKMARK [1][-]{section.1.3}{Optimisation combinatoire}{chapter.1}% 9
 \BOOKMARK [1][-]{section.1.4}{Graphes}{chapter.1}% 10
 \BOOKMARK [1][-]{section.1.5}{Th\351orie de jeux}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.6}{Partitionnement de graphe}{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.7}{Approches de partitionnement}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.6}{Partitionnement de graphes}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.7}{Approches de partitionnement de graphes}{chapter.1}% 13
 \BOOKMARK [1][-]{section.1.8}{Distribution de graphes}{chapter.1}% 14
 \BOOKMARK [1][-]{section.1.9}{Conclusion}{chapter.1}% 15
 \BOOKMARK [0][-]{chapter.2}{Model Checking}{part.1}% 16
@@ -19,12 +19,12 @@
 \BOOKMARK [1][-]{section.2.3}{Logique temporelle arborescente \(CTL\)}{chapter.2}% 19
 \BOOKMARK [1][-]{section.2.4}{Model checking}{chapter.2}% 20
 \BOOKMARK [1][-]{section.2.5}{Conclusion}{chapter.2}% 21
-\BOOKMARK [-1][-]{part.2}{II Contribution}{}% 22
+\BOOKMARK [-1][-]{part.2}{II Contributions}{}% 22
 \BOOKMARK [0][-]{chapter.3}{Algorithme de distribution d\220espace d\220\351tats bas\351e sur le comportement des syst\350mes}{part.2}% 23
 \BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 24
 \BOOKMARK [1][-]{section.3.2}{Politique de distribution de l\220espace d\220\351tats bas\351e sur le comportement du syst\350me}{chapter.3}% 25
 \BOOKMARK [1][-]{section.3.3}{\311tude exp\351rimentale}{chapter.3}% 26
 \BOOKMARK [1][-]{section.3.4}{Discussion}{chapter.3}% 27
 \BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 28
-\BOOKMARK [-1][-]{chapter*.69}{Conclusion et Perspectives}{}% 29
-\BOOKMARK [-1][-]{section*.71}{R\351f\351rences Bibliographies}{}% 30
+\BOOKMARK [-1][-]{chapter*.68}{Conclusion et Perspectives}{}% 29
+\BOOKMARK [-1][-]{section*.70}{Bibliographie}{}% 30

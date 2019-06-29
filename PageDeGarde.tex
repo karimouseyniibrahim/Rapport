@@ -2,19 +2,15 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %           Page de Garde		         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\makeatletter
- 
+\makeatletter 
 \def\@specialite{Spécialité}
 \newcommand{\specialite}[1]{
   \def\@specialite{#1}
 }
-
 \def\@directeur{directeur}
 \newcommand{\directeur}[1]{
   \def\@directeur{#1}
 }
-
 \def\@encadrant{encadrant}
 \newcommand{\encadrant}[1]{
   \def\@encadrant{#1}
@@ -77,35 +73,21 @@
 \AddToShipoutPicture*{\EtiquetteThese}
   \begin{titlepage}
 	\centering	
+\begin{minipage}{1\textwidth}
+	\begin{center}
+		\large\ministere{}
+	\end{center}				
+\end{minipage}
 
- \begin{tableth}
-	\centering
-	\begin{tabular}{*{3}{c}}
-		\begin{minipage}{0.2\textwidth}
-				\includegraphics[width=0.7\linewidth]{img/uc2.png}
-			\end{minipage}
-			&	\begin{minipage}{0.5\textwidth}
-				\begin{center}
-					\vspace{0.5cm}
-						  \ministere{}
-				\end{center}				
-			\end{minipage}	&
-			\begin{minipage}{0.2\textwidth}
-				\includegraphics[width=0.7\linewidth]{img/uc2.png}
-			\end{minipage}\\
-
-	\end{tabular}	
-\end{tableth}
-
+\includegraphics[width=0.2\linewidth]{img/uc2.png}
     \vspace{1cm}
     	\begin{minipage}{1\textwidth}\raggedright
-			 {\Large Ann\'{e}e  : }\\
-			 {\Large \No d'ordre    : }\\
-			 {\Large Série : }\\
-		\end{minipage}	
- 
-    \vspace{0.5cm}
-      
+    		\begin{tabular}{>{\bfseries}llr}
+			 \large Ann\'{e}e&:\enspace\textbf{\the\year} \\
+			 \large \No d'ordre&: \\
+			 \large Série&:\\
+			\end{tabular}
+		\end{minipage}      
     	{\Large{\textbf{M\'EMOIRE}}}\\
     	\vspace{0.5cm}
     	\textit{pour obtenir le diplôme}\\
@@ -131,12 +113,11 @@
     \vspace{1cm}
 	\begin{tabular}{>{\bfseries}llr}
 		\large Jury\\
-		%Directeur de mémoire : {\bfseries \@directeur}\\
-		%Co-encadrant de mémoire : {\bfseries \@encadrant}\\
 		\@jurya
 		\@juryb
 		\@juryc
 		\@juryd
+		\@jurye
 	\end{tabular}
 	\vfill 
   \end{titlepage}

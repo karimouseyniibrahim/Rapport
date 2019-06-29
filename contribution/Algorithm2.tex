@@ -40,7 +40,7 @@ Les instructions décrivant l'Algorithme(\ref{alg2}) sont expliquées comme suit
 	\item[ligne \ref{line29} :] L'instruction de cette ligne permet de récupérer les états dont ils dépendent. 
 	\item[ligne \ref{line210} :] L'instruction de cette ligne enregistre l'itération courante sur l'état, car un état peut dépendre de plusieurs états de différentes itérations. 
 	\end{description}
-	\item[ligne \ref{line211} :] Lorsque la formule n'est pas vérifiée sur l'état,ses successeurs sont parcourus grâce à l'instruction de la ligne \ref{line212}. Lors de ce parcours, l'itération courante est vérifiée par l'instruction de la ligne \ref{line213}.\\ Lorsque l'itération courante est présente, les états successeurs sur lesquels la formule n'est pas vérifiée sont enregistrés dans la variable \s{limit} de l'état grâce à l'instruction de la ligne \ref{line214}. La sauvegarde de ces états permet d'éviter le déplacement de cet état, étant donné que sa duplication permet à l'algorithme de connaitre la valeur logique de ces prédécesseurs sans que la machine concernée ne soit notifiée.
+	\item[ligne \ref{line211} :] Lorsque la formule n'est pas vérifiée sur l'état, ses successeurs sont parcourus grâce à l'instruction de la ligne \ref{line212}. Lors de ce parcours, l'itération courante est vérifiée par l'instruction de la ligne \ref{line213}.\\ Lorsque l'itération courante est présente, les états successeurs sur lesquels la formule n'est pas vérifiée sont enregistrés dans la variable \s{limit} de l'état grâce à l'instruction de la ligne \ref{line214}. La sauvegarde de ces états permet d'éviter le déplacement de cet état, étant donné que sa duplication permet à l'algorithme de connaitre la valeur logique de ces prédécesseurs sans que la machine concernée ne soit notifiée.
 	
 \end{description}
 
@@ -127,8 +127,8 @@ Le Tableau (\ref{tim2}) représente les différents états marqués pendant l'it
 	\end{tabular}
 	\caption{Étape de marquage: itération 2}\label{tim2}
 \end{tableth}
-	\item[Itération 3] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 3 sont utilisés pour déterminer les états liés aux états notifiés de l'exemple(\ref{ea1}. Une notification provoque l'itération 3 sur la \mtree{}, cette notification concerne l'état \s{S2}). Pendant la vérification, l'algorithme détecte la valeur logique de l'état(\s{S20}) sur la \mtree{}, elle dépend de l'état \s{S2}. Ce dernier est ajouté à l'ensemble  de dépendance de l'état \s{S20}. Par contre l'état \s{S19} est un prédécesseur indirect de l'état \s{S2}, il est ajouté à l'ensemble \s{limit} de l'état (\s{S19}, car la formule n'est pas vérifiée sur cet état l'à. Toute fois l'itération courante est marquée sur l'état \s{S19}. 
-le Tableau (\ref{tim3}) représente les différents états marqués pendant l'itération 3 de chacune des machines. 
+	\item[Itération 3] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 3 sont utilisés pour déterminer les états liés aux états notifiés de l'exemple(\ref{ea1}). Une notification provoque l'itération 3 sur la \mtree{}, cette notification concerne l'état \s{S2}). Pendant la vérification, l'algorithme détecte la valeur logique de l'état (\s{S20}) sur la \mtree{}, elle dépend de l'état \s{S2}. Ce dernier est ajouté à l'ensemble  de dépendance de l'état \s{S20}. Par contre l'état \s{S19} est un prédécesseur indirect de l'état \s{S2}, il est ajouté à l'ensemble \s{limit} de l'état (\s{S19}, car la formule n'est pas vérifiée sur cet état l'à. Toute fois l'itération courante est marquée sur l'état \s{S19}. 
+Le Tableau (\ref{tim3}) représente les différents états marqués pendant l'itération 3 de chacune des machines. 
 	\begin{tableth}
 	\centering
 	\begin{tabular}{|*{7}{c|}}
@@ -146,7 +146,7 @@ le Tableau (\ref{tim3}) représente les différents états marqués pendant l'it
 	\caption{Étape de marquage: itération 3}\label{tim3}
 \end{tableth}
 \\\\\\\\\\
-	\item[Itération 4] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 4 sont utilisés pour déterminer les états liés aux états notifiés dans l'exemple(\ref{ea1}. Une notification provoque l'itération 4 sur la \mtwo{}, la notification concerne l'état \s{S22}). Le principe de marquage est similaire à l'itération précédente, le Tableau (\ref{tim4}) représente alors les différents états marqués pendant l'itération 4 de chacune des machines. 
+	\item[Itération 4] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 4 sont utilisés pour déterminer les états liés aux états notifiés dans l'exemple(\ref{ea1}). Une notification provoque l'itération 4 sur la \mtwo{}, la notification concerne l'état \s{S22}). Le principe de marquage est similaire à l'itération précédente, le Tableau (\ref{tim4}) représente alors les différents états marqués pendant l'itération 4 de chacune des machines. 
 	\begin{tableth}
 	\centering
 	\begin{tabular}{|*{7}{c|}}
@@ -162,7 +162,7 @@ le Tableau (\ref{tim3}) représente les différents états marqués pendant l'it
 	\caption{Étape de marquage: itération 4}\label{tim4}
 \end{tableth}\\
 
-	\item[Itération 5] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 5 sont utilisés pour déterminer les états liés aux états notifiés de l'exemple(\ref{ea1}. Une notification provoque l'itération 5 sur la \mtree{}, la notification concerne l'état \s{11}). Ainsi l'algorithme détecte la valeur logique des états(\s{S15}, \s{S16}, \s{S18}) sur la \mtree{}, elle dépend de l'état \s{S11}. Le principe de marquage est similaire à l'itération 2, on remarque sur ces états l'effet de plusieurs itérations, cela s'explique par le fait que ces états dépendent de plusieurs autres états. Le Tableau (\ref{tim5}) représente les différents états marqués pendant l'itération 5 de chacune des machines.
+	\item[Itération 5] Dans cette itération les résultats obtenues dans l'exemple(\ref{ea1}) à l'itération 5 sont utilisés pour déterminer les états liés aux états notifiés de l'exemple(\ref{ea1}. Une notification provoque l'itération 5 sur la \mtree{}, la notification concerne l'état \s{11}). Ainsi l'algorithme détecte la valeur logique des états(\s{S15}), \s{S16}, \s{S18}) sur la \mtree{}, elle dépend de l'état \s{S11}. Le principe de marquage est similaire à l'itération 2, on remarque sur ces états l'effet de plusieurs itérations, cela s'explique par le fait que ces états dépendent de plusieurs autres états. Le Tableau (\ref{tim5}) représente les différents états marqués pendant l'itération 5 de chacune des machines.
 	\begin{tableth}
 	\centering
 	\begin{tabular}{|*{7}{c|}}

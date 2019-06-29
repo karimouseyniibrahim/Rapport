@@ -7,8 +7,6 @@
 \input{CommandesPerso}	% Commandes et environnements perso
 \input{PageDeGarde}
  
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%   			Liste des fichiers à compiler					%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -44,34 +42,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
-	\include{remerciement}
-	
-	\include{resumer}
-	
+	\include{remerciement}	
+	\include{resumer}	
 	\pagenumbering{arabic}
-
 	\input{introduction/Introduction}
 	\clearpage
  	\part{Contexte de travail}
 	\clearpage
 	\nopagebreak
-		\input{theorie_graphe/Theorie_graphe}
-		
-		\input{r2p_sk_mc/R2p_SK_MC}
-		
- 	\part{Contribution}
+		\input{theorie_graphe/Theorie_graphe}		
+		\input{r2p_sk_mc/R2p_SK_MC}		
+ 	\part{Contributions}
 	\clearpage
-		\input{Contribution}
-		
-	\input{conclusion/conclusion}
-				
+		\input{Contribution}		
+	\input{conclusion/conclusion}				
 	\begin{appendix}
-		\addcontentsline{toc}{part}{Références Bibliographies}
-		\markboth{Références Bibliographies}{}
+		\addcontentsline{toc}{part}{Bibliographie}
+		\markboth{Bibliographie}{}
 		\pagenumbering{Roman}	
-		\bibliographystyle{francaissc}
-		\bibliography{Biblio}	
-		
-	\end{appendix}
-	
+		%\bibliographystyle{francaissc}
+		\bibliographystyle{dinat} 
+		%\bibliographystyle{plainnm}
+		\bibliography{Biblio}		
+	\end{appendix}	
 \end{document}

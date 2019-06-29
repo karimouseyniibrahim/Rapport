@@ -1,16 +1,16 @@
 \section{Réseaux de Petri}
-Les Réseaux de Petri (abréviation  RdP) ont été introduits par le mathématicien Allemand Carl Adam Petri dans sa thèse \citep{Carl1962}, d'où leur appellation Réseaux de Petri (ou Petri Nets en anglais). Ces derniers méritent bien leur  appellation  car  la  thèse de C.A Petri a présenté un certain nombre d'idées fondamentales du modèle. Mais la théorie de RdP en sa totalité, telle que nous la connaissons actuellement est le résultat de fusionnement et de contribution directe ou indirecte des travaux de plusieurs  chercheurs de différentes universités et de différents laboratoires \citep{Robert2007}.
+Les Réseaux de Petri (abréviation  RdP) ont été introduits par le mathématicien Allemand Carl Adam Petri dans sa thèse \citep{Carl1962}, d'où leur appellation Réseaux de Petri (ou Petri Nets en anglais). Ces derniers méritent bien leur  appellation  car  la  thèse de C.A Petri a présenté un certain nombre d'idées fondamentales du modèle. Mais la théorie des RdP en sa totalité, telle que nous la connaissons actuellement est le résultat de fusionnement et de contribution directe ou indirecte des travaux de plusieurs  chercheurs de différentes universités et de différents laboratoires \citep{Robert2007}.
 
 Les réseaux de Petri sont des outils à la fois graphiques et mathématiques permettant de modéliser le comportement dynamique des systèmes à  évènements discrets et d'évolutions simultanées. Leur représentation graphique permet de visualiser d'une manière naturelle le parallélisme, la synchronisation, le partage de ressources, les choix (conflits), etc. Leur représentation mathématique permet d'analyser le modèle pour étudier ses propriétés et de les comparer avec le comportement du système réel.
 
-Ce section présente les notions fondamentales des réseaux de Petri.
+Cette section présente les notions fondamentales des réseaux de Petri.
 
 \begin{definition}[Informelle]
 Un réseau de Petri est un graphe biparti dont les sommets sont répartis selon deux types,  les places et les transitions. Ce graphe est constitué de telle sorte que les arcs du graphe ne peuvent relier que des places aux transitions ou des transitions aux places. Les places sont représentées par des cercles, alors que les transitions sont représentées par des traits ou des rectangles (Figure \ref{rdp}). Les places servent  à représenter les états du  système modélisé, tandis que les  transitions  représentent les changements d'état ou les événements \citep{SaidounicoursRdp2017}.
 
 \begin{center}
 	\includegraphics[scale=0.5]{img/rdp.PNG}
-	\captionof{figure}{Représentation graphique des éléments de RdP} \label{rdp}
+	\captionof{figure}{Représentation graphique des éléments d'un RdP} \label{rdp}
 \end{center}
 
 
@@ -105,22 +105,22 @@ La Figure \ref{atom} illustre la réaction chimique $(2H_{2} + O_{2} \rightarrow
  Lorsqu'une transition est validée, cela n'implique pas qu'elle sera immédiatement franchie; cela ne représente qu'une possibilité de franchissement, dans un  RdP, même si plusieurs transitions sont validées par un même marquage une et seulement une transition peut être franchie.
  
  
-\begin{definition}[Graphe de Marquage]
-Le graphe des marquages du réseau $G(R, M_0 $) est définit par un graphe orienté dont les sommets sont étiquetées par les marquages des états accessible $Acc(R, M_0 )$ et dont les arcs sont étiquetés par des transition de $L(R, M_0 )$.
-Un marquage $M_i$  est accessible (atteignable) à partir de $M_0$ , s'il existe une séquence $s$ de franchissement des transitions qui permet d'atteindre $M_i$  à partir de $M_0$. On note: $M_0  [s > M_i  $
+\begin{definition}[Graphe des Marquages]
+Le graphe des marquages du réseau $G(R, M_0 )$ est défini par un graphe orienté dont les sommets sont étiquetés par les marquages des états accessibles $Acc(R, M_0 )$ et dont les arcs sont étiquetés par des transitions de $L(R, M_0 )$.
+Un marquage $M_i$  est accessible (atteignable) à partir de $M_0$ , s'il existe une séquence $s$ de franchissement de transitions qui permet d'atteindre $M_i$  à partir de $M_0$. On note: $M_0  [s > M_i  $
 
 
-La construction du graphe de marquage $G$ est faite comme suit \citep{SaidounicoursRdp2017}:
+La construction du graphe des marquages $G$ est faite comme suit \citep{SaidounicoursRdp2017}:
 \begin{itemize}
-	\item Pour chaque marquage $M$ obtenu à partir de $M_0$, trouver toute les transitions franchissable $t_i$;
+	\item Pour chaque marquage $M$ obtenu à partir de $M_0$, trouver toutes les transitions franchissables $t_i$;
 	\item Pour chaque transition $t_i$, trouver son marquage $M’$;
-	\item Construire le nouveau nœud s'il est différent de celui déjà obtenu, puis ajouter l'arc correspondant au marquage actuel vers le prochain;
+	\item Construire le nouveau nœud s'il est différent de ceux déjà obtenus, puis ajouter l'arc correspondant au marquage actuel vers le prochain;
 	\item Continuer l'exploration tant que des marquages et des transitions n'ont pas été encore considérés.
 \end{itemize}
-La Figure \ref{gm1} illustre le graphe de marquage obtenue à partir du RdP de la Figure Figure \ref{atom}.
+La Figure \ref{gm1} illustre le graphe des marquages obtenue à partir du RdP de la Figure \ref{atom}.
 \begin{center}
 	\includegraphics[scale=0.4]{img/gm1.png}
-	\captionof{figure}{Graphe de marquage de $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$} \label{gm1}
+	\captionof{figure}{Graphe des marquages de $(2H_{2} + O_{2} \rightarrow 2H_{2}O)$} \label{gm1}
  \end{center}
 \end{definition}
 
@@ -144,7 +144,7 @@ La Figure \ref{ste} illustre le STE du graphe de marquage de la Figure \ref{gm1}
 \end{definition}
 
 \begin{definition}[Structure de Kripke]
-Une Structure de Kripke un graphe orienté dont les nœuds représentent les états accessibles du système et dont les arcs représentent les transitions entre les états. Une fonction d'étiquetage fait correspondre à chaque état un ensemble de propositions logiques vraies dans cet état \citep{Kripke1963}.
+Une Structure de Kripke est un graphe orienté dont les nœuds représentent les états accessibles du système et dont les arcs représentent les transitions entre les états. Une fonction d'étiquetage fait correspondre à chaque état un ensemble de propositions logiques vraies dans cet état \citep{Kripke1963}.
 
 Formellement une structure de Kripke est un 4-uplet ${\displaystyle M=(S,I,R,L)}$ \citep{Edmund1999}:
 \begin{itemize}
@@ -172,8 +172,8 @@ La Figure \ref{stkrdp} représente une structure de Kripke dont l'ensemble de pr
  \end{center}
  
  
-La distribution de l'espace d'états entrain la fragmentation de la structure de Kripke. Les structures partielles de Kripke modélisent des espaces d'états incomplets à parties inconnues (états border). L'évaluation des formules logiques temporelles sur les structures partielles de Kripke repose donc sur des interprétations à trois valeurs; la valeur de vérité supplémentaire \textbf{$\perp$ }  signifie « inconnu si la propriété est vraie ou fausse ».\\
-Formellement une structure partiale de Kripke est un 4-uplet \\${\displaystyle F_M(T) = (S_T , I_T , R_T , L_T )}$ \citep{depriester2011bouneb}:
+La distribution de l'espace d'états entraine la fragmentation de la structure de Kripke. Les structures partielles de Kripke modélisent des espaces d'états incomplets à parties inconnues (états border). L'évaluation des formules logiques temporelles sur les structures partielles de Kripke repose donc sur des interprétations à trois valeurs; la valeur de vérité supplémentaire \textbf{$\perp$ }  signifie « inconnu si la propriété est vraie ou fausse ».\\
+Formellement une structure partielle de Kripke est un 4-uplet \\${\displaystyle F_M(T) = (S_T , I_T , R_T , L_T )}$ \citep{depriester2011bouneb}:
 \begin{itemize}
 	\item $T \subseteq S $;
 	\item \textbf{$S_T$}  est une sous ensemble d'états fini de l'espace d'états S;
@@ -182,14 +182,14 @@ Formellement une structure partiale de Kripke est un 4-uplet \\${\displaystyle F
 	\item $ L_T$ : $S_T \times P \rightarrow \{ false, \perp , true \} $.
 \end{itemize}
 
-La Figure \ref{stkrdpd} représente des structures partielles de Kripke repartie sur trois machines, dont l'ensemble de propositions atomiques est ${\displaystyle AP=\{a,b,c\}}$. La répartition des états est fait comme suit:  
+La Figure \ref{stkrdpd} représente des structures partielles de Kripke reparties sur trois machines, dont l'ensemble de propositions atomiques est ${\displaystyle AP=\{a,b,c\}}$. La répartition des états est faite comme suit:  
 \begin{itemize}
- \item Sur la machine $M_1$ la structure partiale renferme deux  états à parties complets $s_0$ et $s_1$, et deux états à parties incomplets $s_2$ et $s_4$;
- \item Sur la machine $M_2$ la structure partiale renferme un état à partie complet $s_4$, et un état à partie incomplet $s_5$;
- \item Sur la machine $M_3$ la structure partiale renferme deux  états à parties complets $s_2$ et $s_5$, et deux états à parties incomplets $s_1$ et $s_4$
+ \item Sur la machine $M_1$ la structure partielle renferme deux états à parties complètes $s_0$ et $s_1$, et deux états à parties incomplètes $s_2$ et $s_4$;
+ \item Sur la machine $M_2$ la structure partielle renferme un état à partie complète $s_4$, et un état à partie incomplète $s_5$;
+ \item Sur la machine $M_3$ la structure partielle renferme deux  états à parties complètes $s_2$ et $s_5$, et deux états à parties incomplètes $s_1$ et $s_4$
  \end{itemize}
 
 \begin{center}
-	\includegraphics[scale=0.5]{img/stkd.png}
-	\captionof{figure}{Une structure de Kripke à trois états, avec deux propositions} \label{stkrdpd}
+	\includegraphics[scale=0.7]{img/stkd.png}
+	\captionof{figure}{Structure de Kripke distribuée de cinq états, avec trois propositions} \label{stkrdpd}
  \end{center}

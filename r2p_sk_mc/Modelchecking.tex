@@ -1,17 +1,17 @@
 \section{Model checking}\label{mcd}
-Le model checking peut-être ramené à la vérification d'une propriété \emph{P} sur un système $\phi : \phi \models P$. Plusieurs types de propriétés peuvent être vérifiés tels que les propriétés de sûreté ou de vivacité. Toutefois, vérifier des propriétés de sûreté est très souvent suffisant : On peut détecter des interblocages, vérifier des bornes ou encore qu'une section critique est bien respectée par les processus y accédant. 
+Le model checking peut-être ramené à la vérification d'une propriété \emph{P} sur un système $\phi : \phi \models P$. Plusieurs types de propriétés peuvent être vérifiés tels que les propriétés de sûreté ou de vivacité. Toutefois, vérifier des propriétés de sûreté est souvent très suffisant: On peut détecter des interblocages, vérifier des bornes ou encore qu'une section critique est bien respectée par les processus y accédant. 
 
 
 Vérifier une propriété de sûreté revient à parcourir les états que peut atteindre un système, et pour chaque état rencontré, vérifier si la propriété est respectée. Il s'agit donc d'un parcours de graphe (en largeur ou en profondeur).
 
 Ainsi, la génération distribuée de l'espace d'états permet de répartir l'ensemble des états entre les machines du réseaux, ce qui permet de pallier au problème de l'explosion combinatoire de l'espace d'états. Le but de cette génération distribuée est la vérification de systèmes de tailles importantes. De ce fait, les algorithmes de vérification feront aussi l'objet de distribution. 
 
-L'algorithme de model checking distribué qui a été développé dans \citep{depriester2011bouneb}, elle représente un version simplifiée de l'algorithme de model checking distribué. Toutes les machines contribuent pour la vérification des propriétés exprimées en CTL. Chaque machine vérifiée la propriété sur la structure de Kripke partiale, la vérification au niveau des états à parties inconnues est traité indécidable. Ainsi, les machines coopèrent afin de vérifier la formule CTL. 
+L'algorithme de model checking distribué qui a été développé dans \citep{depriester2011bouneb}, représente une version simplifiée de l'algorithme de model checking distribué. Toutes les machines contribuent pour la vérification des propriétés exprimées en CTL. Chaque machine vérifie la propriétée sur la structure de Kripke partielle, la vérification au niveau des états à parties inconnues est traitée indécidable. Ainsi, les machines coopèrent afin de vérifier la formule CTL. 
 
-Dans cette section, nous présentons L'algorithme de model checking distribué qui a été proposer dans \citep{depriester2011bouneb}.
+Dans cette section, nous présentons l'algorithme de model checking distribué qui a été proposé dans \citep{depriester2011bouneb}.
 
 \subsection{Model checking CTL  sur les fargments}
-Soit $M = (S, L, R, I)$ un fragment de structure de Kripke et une formule de CTL, l'algorithme récursif suivant calcule l'ensemble des états $H(f) \subseteq S$ qui satisfont f ou elle peut satisfaire f et qui exclut tous les états qui ne satisfont pas f. 
+Soit $M = (S, L, R, I)$ un fragment de structure de Kripke et $f$ une formule CTL, l'algorithme récursif suivant calcule l'ensemble des états $H(f) \subseteq S$ qui satisfont f et qui exclut tous les états qui ne satisfont pas f. 
  \begin{flalign}
     \label{eqn1}
 	&  T(p)= \left\{ x \in S\mid(x,p)=true\right\}&  \\
@@ -52,10 +52,10 @@ Soit $M = (S, L, R, I)$ un fragment de structure de Kripke et une formule de CTL
 &	H(A(f\cup g)=\mu Z.(H(g)\sqcup H(f))\label{eqn19}
 \end{flalign}
 
-Après l'application de l'algorithme récursif ci-dessus, nous avons $\forall s \notin H(f) \Rightarrow L(s, f) =false$. Les autres opérateurs, comme par exemple $EG$ peuvent être déduites de l'ensemble des opérateurs cités ci-dessus, par exemple $H(EGf) = H( \neg (AF \neg f))$.
+Après l'application de l'algorithme récursif ci-dessus, nous avons $\forall s \notin H(f) \Rightarrow L(s, f) =false$. Les autres opérateurs, comme par exemple $EG$ peuvent être déduits de l'ensemble des opérateurs cités ci-dessus, par exemple $H(EGf) = H( \neg (AF \neg f))$.
 
 \subsection{Model checking CTL  distribué}
-l'algorithme model checking distribué considère l'ensemble de la formule \\$\phi \in \{ f EGf, AGf, AFf, EFf, A(fUg), E(fUg) \}$ peut-être vérifiée dans les états border et aussi la vérité sur les états border est le paramètre passé au transformateur de
+l'algorithme de model checking distribué considère l'ensemble de la formule \\$\phi \in \{ f EGf, AGf, AFf, EFf, A(fUg), E(fUg) \}$. Une telle formule peut-être vérifiée dans les états border, par ailleurs la vérité sur les états border est le paramètre passé au transformateur de
 prédicat  comme suit :
 
  \begin{flalign}
@@ -64,8 +64,7 @@ prédicat  comme suit :
  & AGp = \lambda Y.\mu Z.(p \vee Y \wedge  AXZ)  \\
  & EGp = \lambda Y.\mu Z.(p \vee Y \wedge EXZ) \\
  & A(p \cup q) = \lambda Y.\mu Z.(q \vee Y \vee(p \wedge AXZ)) \\
- & E(p \cup q) = \lambda Y.\mu Z.(q \vee Y \vee (p \wedge EXZ)) \\
-\\
+ & E(p \cup q) = \lambda Y.\mu Z.(q \vee Y \vee (p \wedge EXZ)) 
 \end{flalign}
 
-\emph{Y} représente l'absence d'information sur l'état border, grâce  à l'information obtenue au niveau des états border,  la validitée de la formule peut être conclus sur toute la structure de Kripke.
+\emph{Y} représente l'absence d'information sur l'état border, grâce  à l'information obtenue au niveau des états border,  la validitée de la formule peut être conclue sur toute la structure de Kripke.
