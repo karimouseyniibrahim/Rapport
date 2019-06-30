@@ -1,12 +1,21 @@
 \backcite {BICHOT2007}{{ii}{(document)}{Doc-Start}}
 \backcite {SandersSchulz2011}{{ii}{(document)}{Doc-Start}}
 \backcite {BENSETIRA2017}{{ii}{(document)}{Doc-Start}}
+\backcite {arian5}{{1}{(document)}{Doc-Start}}
+\backcite {patriot}{{1}{(document)}{Doc-Start}}
+\backcite {bug2000}{{1}{(document)}{Doc-Start}}
+\backcite {Rushby2001}{{1}{(document)}{Doc-Start}}
+\backcite {Clarke1999}{{1}{(document)}{Doc-Start}}
 \backcite {BENSETIRA2017}{{2}{(document)}{Doc-Start}}
 \backcite {EULER1736}{{7}{\filterminitoc {1.}1}{section.1.1}}
 \backcite {DEO2017}{{7}{\filterminitoc {1.}1}{section.1.1}}
 \backcite {Norman1989}{{8}{\filterminitoc {1.}2}{definition.3}}
 \backcite {BICHOT2007}{{10}{1.1}{figure.1.1}}
 \backcite {Francois2013}{{10}{\filterminitoc {1.}4}{section.1.4}}
+\backcite {depriester1913ernst}{{11}{\filterminitoc {1.}5}{section.1.5}}
+\backcite {EmileBorel1921}{{11}{\filterminitoc {1.}5}{section.1.5}}
+\backcite {depriester1928jonvon}{{12}{\filterminitoc {1.}5}{section.1.5}}
+\backcite {depriester1944jo}{{12}{\filterminitoc {1.}5}{section.1.5}}
 \backcite {GAREY1976}{{13}{\filterminitoc {1.}6}{section.1.6}}
 \backcite {CONG2003}{{13}{\filterminitoc {1.}6}{section.1.6}}
 \backcite {BARAT2016}{{13}{\filterminitoc {1.}6}{section.1.6}}
@@ -23,10 +32,10 @@
 \backcite {Bonami2012}{{13}{\filterminitoc {1.}7}{section*.14}}
 \backcite {Delling2012}{{13}{\filterminitoc {1.}7}{section*.14}}
 \backcite {FeldmannWidmayer2015}{{13}{\filterminitoc {1.}7}{section*.14}}
-\backcite {Ferreira1998}{{13}{\filterminitoc {1.}7}{section*.14}}
-\backcite {Hager2013}{{13}{\filterminitoc {1.}7}{section*.14}}
-\backcite {Kaibel2011}{{13}{\filterminitoc {1.}7}{section*.14}}
-\backcite {Sellmann2003}{{13}{\filterminitoc {1.}7}{section*.14}}
+\backcite {Ferreira1998}{{14}{\filterminitoc {1.}7}{section*.14}}
+\backcite {Hager2013}{{14}{\filterminitoc {1.}7}{section*.14}}
+\backcite {Kaibel2011}{{14}{\filterminitoc {1.}7}{section*.14}}
+\backcite {Sellmann2003}{{14}{\filterminitoc {1.}7}{section*.14}}
 \backcite {Sorensen2007}{{14}{\filterminitoc {1.}7}{section*.14}}
 \backcite {Land2010}{{14}{\filterminitoc {1.}7}{section*.14}}
 \backcite {DonathHoffman1972}{{14}{\filterminitoc {1.}7}{section*.15}}
@@ -102,10 +111,29 @@
 \backcite {TabibSaidouni2016}{{19}{\filterminitoc {1.}8}{section*.25}}
 \backcite {Tabib2017}{{19}{\filterminitoc {1.}8}{section*.25}}
 \backcite {BENSETIRA2017}{{19}{\filterminitoc {1.}8}{section*.25}}
+\backcite {Huckle2015}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Ferrari1978}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {ClarkeWing1996}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Cheng2006}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Wang2004}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {AlurDill1994}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {BenAri1983}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Behrmann2004}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Barnat2010}{{21}{\filterminitoc {2.}1}{section.2.1}}
 \backcite {Garavel2013}{{21}{\filterminitoc {2.}1}{section.2.1}}
-\backcite {Carl1962}{{21}{\filterminitoc {2.}2}{section.2.2}}
+\backcite {Dill1996}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Lime2009}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Arn92}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {CES86}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {FM}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {CH93}{{21}{\filterminitoc {2.}1}{section.2.1}}
+\backcite {Carl1962}{{22}{\filterminitoc {2.}2}{section.2.2}}
 \backcite {Robert2007}{{22}{\filterminitoc {2.}2}{section.2.2}}
+\backcite {SaidounicoursRdp2017}{{22}{40}{definition.40}}
 \backcite {Murata1989}{{23}{41}{definition.41}}
+\backcite {SaidounicoursRdp2017}{{24}{42}{definition.42}}
+\backcite {SaidounicoursRdp2017}{{24}{43}{definition.43}}
+\backcite {SaidounicoursRdp2017}{{24}{44}{definition.44}}
 \backcite {Saidouni2012}{{25}{45}{definition.45}}
 \backcite {Kripke1963}{{25}{46}{definition.46}}
 \backcite {Edmund1999}{{25}{46}{definition.46}}
@@ -113,7 +141,6 @@
 \backcite {depriester2011bouneb}{{26}{\filterminitoc {2.}2}{figure.2.9}}
 \backcite {Bakker1983}{{27}{\filterminitoc {2.}3}{section.2.3}}
 \backcite {Clarke1981}{{27}{\filterminitoc {2.}3}{section.2.3}}
-\backcite {Emerson1983}{{27}{\filterminitoc {2.}3}{section.2.3}}
 \backcite {depriester2011bouneb}{{29}{\filterminitoc {2.}4}{section.2.4}}
 \backcite {depriester2011bouneb}{{29}{\filterminitoc {2.}4}{section.2.4}}
 \backcite {Saidouni2012}{{34}{\filterminitoc {3.}1}{section.3.1}}
@@ -122,3 +149,9 @@
 \backcite {depriester2011bouneb}{{37}{\filterminitoc {3.}2.2}{subsection.3.2.2}}
 \backcite {depriester1950johnnash}{{39}{\filterminitoc {3.}2.4}{subsection.3.2.4}}
 \backcite {depriester2007jeanantoine}{{39}{\filterminitoc {3.}2.4}{subsection.3.2.4}}
+\backcite {java}{{61}{\filterminitoc {3.}3.1}{figure.caption.50}}
+\backcite {jade}{{61}{\filterminitoc {3.}3.1}{figure.caption.52}}
+\backcite {ida}{{61}{\filterminitoc {3.}3.1}{figure.caption.54}}
+\backcite {docker}{{61}{\filterminitoc {3.}3.1}{figure.caption.56}}
+\backcite {neo4j}{{61}{\filterminitoc {3.}3.1}{figure.caption.58}}
+\backcite {graphivz}{{62}{\filterminitoc {3.}3.1}{figure.caption.60}}

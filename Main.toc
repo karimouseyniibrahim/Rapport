@@ -23,7 +23,7 @@
 \contentsline {section}{\numberline {\filterminitoc {1.}9}Conclusion}{19}{section.1.9}
 \contentsline {chapter}{\numberline {2}Model Checking}{20}{chapter.2}
 \contentsline {section}{\numberline {\filterminitoc {2.}1}Introduction}{21}{section.2.1}
-\contentsline {section}{\numberline {\filterminitoc {2.}2}R\IeC {\'e}seaux de Petri}{21}{section.2.2}
+\contentsline {section}{\numberline {\filterminitoc {2.}2}R\IeC {\'e}seaux de Petri}{22}{section.2.2}
 \contentsline {paragraph}{Notation}{23}{section*.26}
 \contentsline {paragraph}{Remarque }{24}{section*.27}
 \contentsline {paragraph}{Remarque}{26}{section*.28}
@@ -60,5 +60,5 @@
 \contentsline {subsection}{\numberline {\filterminitoc {3.}3.3}Exp\IeC {\'e}rimentation}{64}{subsection.3.3.3}
 \contentsline {section}{\numberline {\filterminitoc {3.}4}Discussion}{65}{section.3.4}
 \contentsline {section}{\numberline {\filterminitoc {3.}5}Conclusion}{65}{section.3.5}
-\contentsline {part}{Conclusion et Perspectives}{66}{chapter*.68}
-\contentsline {part}{Bibliographie}{66}{section*.70}
+\contentsline {part}{Conclusion et Perspectives}{I}{chapter*.68}
+\contentsline {part}{Bibliographie}{I}{section*.70}

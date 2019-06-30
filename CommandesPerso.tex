@@ -40,11 +40,11 @@
 	\epigraph{\og \textit{#1} \fg{}}{#2}
 }
 %% On commence par une page impaire quand on change le style de numérotation de pages 
-\let\oldpagenumbering\pagenumbering
-\renewcommand{\pagenumbering}[1]{%
-	\cleardoublepage
-	\oldpagenumbering{#1}
-}
+%\let\oldpagenumbering\pagenumbering
+%\renewcommand{\pagenumbering}[1]{%
+%	\cleardoublepage
+%	\oldpagenumbering{#1}
+%}
 \newcommand{\mcd}{model checking distribué}
 \newcommand{\mc}{model checking}
 \newcommand{\border}{\emph{Border}}
@@ -62,7 +62,7 @@
 \newcommand{\parametretree}{\gamma}
 \newcommand{\parametrefive}{\delta}
 \newcommand{\parametrefour}{\gamma m}
-\newcommand{\ministere}{R\'{e}publique  Alg\'{e}rienne D\'{e}mocratique et Populaire\\ Minist\'{e}re de  l'enseignement Sup\'{e}rieur et de la Recherche Scientifique\\ UNIVERSITE CONSTANTINE 2\\ Faculté des Nouvelles Technologies de l'Information et la Communication Département d’Informatique Fondamentale et ses Applications}
+\newcommand{\ministere}{R\'{e}publique  Alg\'{e}rienne D\'{e}mocratique et Populaire\\Minist\'{e}re de  l'enseignement Sup\'{e}rieur et de la Recherche Scientifique\\Université Constantine 2 – Abdelhamid Mehri \\Faculté des Nouvelles Technologies de l'Information et la Communication Département d’Informatique Fondamentale et ses Applications}
 \newcommand{\sneuf}{\og S9 \fg{}}
 \newcommand{\s}[1]{\og #1 \fg{}}
 \newcommand{\mone}{\og machine 1 \fg{}}
@@ -102,7 +102,7 @@
 \algnewcommand\algorithmicforeach{\textbf{for each}}
 \algdef{S}[FOR]{ForEach}[1]{\algorithmicforeach\ #1\ \algorithmicdo}
 
-\SetNlSty{}{}{}
+%\SetNlSty{}{}{}
 \let\oldnl\nl% Store \nl in \oldnl
 \newcommand\nonl{%
   \renewcommand{\nl}{\let\nl\oldnl}}% Remove line number for one line
