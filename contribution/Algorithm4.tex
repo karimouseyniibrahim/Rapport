@@ -1,5 +1,4 @@
-
-\begin{procedure} 
+\begin{procedure}[h]
 	\setcounter{AlgoLine}{0}	
 \caption{SendValueCalculate ($id,\parametretwo{},\parametretree{},\parametrefour{},f$)}
 
@@ -15,6 +14,7 @@
    }  	
 
 \end{procedure}
+
 L'envoi des valeurs concernent les états appartenant aux machines distantes sur lesquels la formule n'est pas vérifiée, et les états locale la formule n'est pas vérifiée qui possèdent des prédécesseurs directs sur d'autres machines. Le parcours de ces états est fait par l'instruction de la ligne \ref{linesend1} de la procédure d'envoi. L'envoi des valeurs concerne les états de l'itération courante, car les valeurs sont échangées après chaque itération. La vérification de la présence de l'itération courante est effectuée à la ligne \ref{linesend2}. Lorsqu'elle est pressente, les valeurs calculées sont envoyées à toutes les machines concernées par cet état. Cela est fait de la ligne \ref{linesend3} jusqu'à la ligne \ref{linesend5}.
 
 \begin{Exemple}\label{ea4}
@@ -23,35 +23,35 @@ L'envoi des valeurs concernent les états appartenant aux machines distantes sur
 	\item[Itération 1]
 		\begin{itemize}
 		\item La \mtwo{} envoie les informations: $id =s9$; $\parametretwo{}=0$; $\parametretree{}=1$; $\parametrefour{}=0$; $f =\{S9\}$; $i=2$ (le paramètre i désigne l'identité de la machine) à la \mone{}.
-		\item La \mtwo{} envoie les informations: $id =s10$; $\parametretwo{}=2$; $\parametretree{}=1$; $\parametrefour{}=1$; $f =\{S10\}$; $i=2$  à la \mone{}.
-		\item La \mtree{} envoie les informations: $id =s15$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}=1$; $f =\{s19\}$; $i=3$	 à la \mtwo{}.
+		\item La \mtwo{} envoie les informations: $id =s10$; $\parametretwo{}=2$; $\parametretree{}=1$; $\parametrefour{}=1$;\\$f =\{S10\}$; $i=2$  à la \mone{}.
+		\item La \mtree{} envoie les informations: $id =s15$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}=1$;\\$f =\{s19\}$; $i=3$	 à la \mtwo{}.
 		\end{itemize}
 	\item[Itération 2]
 		\begin{itemize}
-			\item La \mone{} envoie les informations: $id =s9$; $\parametretwo{} =6$; $\parametretree{} =0$; $\parametrefour{}=0$; $f =\emptyset$, $i=1$ à la \mtwo{}.
-			\item  La \mone{} envoie les informations: $id =s10$; $\parametretwo{}=5$; $\parametretree{}=0$; $\parametrefour{}=0$; $f =\emptyset$; $i=1$ à la \mtwo{}.
-			\item  La \mone{} envoie les informations: $id =s7$ ;$\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$; $f =\{s9\}$; $i=1$ à la \mtwo{}.
-			\item  La \mone{} envoie les informations: $id =s2$; $\parametretwo{}=5$; $\parametretree{}=0$; $\parametrefour{}=0$; $f =\{s9,s10\}$; $i=1$ à la \mtree{}.
-			\item  La \mtwo{} envoie les informations: $id =s15$; $\parametretwo{}=1$; $\parametretree{}=0$; $\parametrefour{}=1$; $f =\emptyset$; $i=2$ à la \mtree{}.
+			\item La \mone{} envoie les informations: $id =s9$; $\parametretwo{} =6$; $\parametretree{} =0$; $\parametrefour{}=0$;\\$f =\emptyset$, $i=1$ à la \mtwo{}.
+			\item  La \mone{} envoie les informations: $id =s10$; $\parametretwo{}=5$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f =\emptyset$; $i=1$ à la \mtwo{}.
+			\item  La \mone{} envoie les informations: $id =s7$ ;$\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f =\{s9\}$; $i=1$ à la \mtwo{}.
+			\item  La \mone{} envoie les informations: $id =s2$; $\parametretwo{}=5$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f =\{s9,s10\}$; $i=1$ à la \mtree{}.
+			\item  La \mtwo{} envoie les informations: $id =s15$; $\parametretwo{}=1$; $\parametretree{}=0$; $\parametrefour{}=1$;\\$f =\emptyset$; $i=2$ à la \mtree{}.
 			\end{itemize}	
 \item[Itération 3]
 		\begin{itemize}
-			\item  La \mtwo{} envoie les informations: $id =s7$; $\parametretwo{}=1$; $\parametretree{}=0$; $\parametrefour{}=1$; $f =\emptyset$; $i=1$ à la \mone{}.
-			\item  La \mtree{} envoie les informations: $id =s2$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}=1$; $f =\emptyset$; $i=3$ à la \mone{}.
-			\item  La \mtree{} envoie les informations: $id =s22$; $\parametretwo{}=1$; $\parametretree{}=0$; $\parametrefour{}=0$; $f =\{s2\}$; $i=3$ à la \mtwo{}.
+			\item  La \mtwo{} envoie les informations: $id =s7$; $\parametretwo{}=1$; $\parametretree{}=0$; $\parametrefour{}=1$;\\$f =\emptyset$; $i=1$ à la \mone{}.
+			\item  La \mtree{} envoie les informations: $id =s2$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}=1$;\\$f =\emptyset$; $i=3$ à la \mone{}.
+			\item  La \mtree{} envoie les informations: $id =s22$; $\parametretwo{}=1$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f =\{s2\}$; $i=3$ à la \mtwo{}.
 			\end{itemize}
 		\item[Itération 4]
 		\begin{itemize}
-			\item  La \mtwo{} envoie les informations: $id =s11$; $\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$; $f=\{s22\}$; $i=2$ à la \mone{}.
-			\item  La \mtwo{} envoie les informations: $id =s11$; $\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$; $f=\{s22\}$; $i=2$ à la \mtree{}.
-			\item  La \mtwo{} envoie les informations: $id =s22$; $\parametretwo{}$=2; $\parametretree{}=0$; $\parametrefour{}=0$; $f=\emptyset$; $i=2$ à la \mtwo{}.
+			\item  La \mtwo{} envoie les informations: $id =s11$; $\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f=\{s22\}$; $i=2$ à la \mone{}.
+			\item  La \mtwo{} envoie les informations: $id =s11$; $\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f=\{s22\}$; $i=2$ à la \mtree{}.
+			\item  La \mtwo{} envoie les informations: $id =s22$; $\parametretwo{}$=2; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f=\emptyset$; $i=2$ à la \mtwo{}.
 			\end{itemize}
 			\item[Itération 5]
 		\begin{itemize}
-		\item  La \mone{} envoie les informations: $id =s2$; $\parametretwo{}=5$; $\parametretree{}=0$; $\parametrefour{}=0$; f=$\{s9,s10,s11\}$; i=1 à la \mtree{}.
-			\item  La \mone{} envoie les informations: $id =s11$; $\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$; $f=\emptyset$; $i=1$ à la \mtwo{}.
-			\item  La \mtree{} envoie les informations: $id =s11$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}$=0; $f =\{s22\}$; $i=2$ à la \mtwo{}.
-			\item La \mtree{} envoie les informations: $id =s15$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}=1$; $f=\{s19,s11\}$; $i=3$	 à la \mtwo{}.
+		\item  La \mone{} envoie les informations: $id =s2$; $\parametretwo{}=5$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f=\{s9,s10,s11\}$; i=1 à la \mtree{}.
+			\item  La \mone{} envoie les informations: $id =s11$; $\parametretwo{}=2$; $\parametretree{}=0$; $\parametrefour{}=0$;\\$f=\emptyset$; $i=1$ à la \mtwo{}.
+			\item  La \mtree{} envoie les informations: $id =s11$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}$=0;\\$f =\{s22\}$; $i=2$ à la \mtwo{}.
+			\item La \mtree{} envoie les informations: $id =s15$; $\parametretwo{}=3$; $\parametretree{}=0$; $\parametrefour{}=1$;\\$f=\{s19,s11\}$; $i=3$	 à la \mtwo{}.
 			\end{itemize}	
 	\end{description}
 

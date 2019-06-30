@@ -10,13 +10,12 @@ A level-1 auxiliary file: contribution/Algorithm_SendResquest.aux
 The style file: dinat.bst
 Database file #1: Biblio.bib
 Warning--entry type for "Walshaw2012" isn't style-file defined
---line 667 of file Biblio.bib
-Repeated entry---line 932 of file Biblio.bib
+--line 675 of file Biblio.bib
+Repeated entry---line 940 of file Biblio.bib
  : @article{Garavel2013
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Emerson1983"
-Warning--I didn't find a database entry for "EzekielLuttgen2008"
 Too many commas in name 1 of "CLARKE, E. M., GRUMBERG, O. et PELED, D" for entry Clarke1999
 while executing---line 1932 of file dinat.bst
 Too many commas in name 1 of "CLARKE, E. M., GRUMBERG, O. et PELED, D" for entry Clarke1999

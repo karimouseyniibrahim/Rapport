@@ -1,4 +1,4 @@
-\begin{thebibliography}{134}
+\begin{thebibliography}{135}
 % this bibliography was produced with the style dinat.bst v2.5
 \makeatletter
 \newcommand{\dinatlabel}[1]%
@@ -347,6 +347,12 @@
   Commentarii Academiae Scientarum Imperialis Petropolitanae.
 \newblock In: \emph{•}
 \newblock (1736)
+
+\bibitem[EZEKIEL(2008)]{EzekielLuttgen2008}
+\dinatlabel{EZEKIEL 2008} \textsc{EZEKIEL}, G:
+\newblock Measuring and evaluating parallel state-space exploration algorithms.
+\newblock In: \emph{Electronic Notes in Theoretical Computer Science}
+\newblock (2008)
 
 \bibitem[FELDMANN(2015)]{FeldmannWidmayer2015}
 \dinatlabel{FELDMANN 2015} \textsc{FELDMANN}, A. E. et~W.:

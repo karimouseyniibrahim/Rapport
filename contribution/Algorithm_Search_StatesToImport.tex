@@ -1,8 +1,4 @@
 \begin{function}[h]
-
-
-
-
 \Begin{
 \nl	 $MG\longleftarrow null$\;\label{lineI0}\\
 \nl	  \ForEach{$e\in \; Border(F)$}{ \label{linerI1}
@@ -29,11 +25,11 @@
 	}	 	
 	\nl \Return MG\label{linerI11} 
 }
-	\caption{$Search\_ Min\_ States\_DeplaceOnDistantMachine$():state}
+	\caption{$Search\_ Min\_ States\_DeplaceOnDistantMachine$():state}\label{Search2}
 \end{function}
 
 
-Les instructions décrivant la fonction précédente sont expliquées comme suit:
+Les instructions décrivant la fonction \ref{Search2} sont expliquées comme suit:
 \begin{description}
 	\item[ligne \ref{lineI0} :] L'instruction de cette ligne sert à initialiser la variable stockant les informations du couple minimal.
 	\item[ligne \ref{linerI1} :] Parcourir les états \s{\border{}} sur lesquels la formule n'es pas vérifiée. Ainsi, pour chaque état parcouru, les états \s{\notifier} sont parcourus à la ligne \ref{linerI2} pour rechercher le couple minimal parmis les valeurs envoyées par les machines distantes au niveau des états en dépendance mutuelle. Le parcours des valeurs envoyées par les machines distantes est fait à la ligne \ref{linerI3}. Ainsi la vérification du couple minimal est faite  à la ligne \ref{linerI4}. Lorsqu'un couple minimal est trouvé le contenue de la variable \s{MG} est alors remplacé par les informations du nouveau couple (ligne \ref{linerI5}).

@@ -27,9 +27,9 @@ Les instructions décrivant la procédure ($Send\_ Request$) sont expliquées co
  \nl 		$states \leftarrow \emptyset$\;	
 \\ \nl 		\uIf{$ type(s) ==border$}{
 \nl 			\ForEach {$e' \in S$}{
-\nl				\If{$s.f\in e'.f \;and\; size(e.site)==1$}{
+\nl				\If{$s.f\in e'.f \;$}{
 \nl					$states \leftarrow states \cup \{ e'\}$\;	
-\nl			      }
+ 			      }
 \nl 			\ElseIf{$s.f\in e'.limit$}{
 \nl 					$states\leftarrow states \cup \{ e'\}$\;\\	
 \nl 					duplicate(e') in this machine\;	

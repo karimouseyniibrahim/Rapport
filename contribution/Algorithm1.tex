@@ -1,4 +1,4 @@
-\begin{algorithm}[H]\label{alg1}
+\begin{algorithm}[H]
 \SetAlgoLined
 \SetKwIF{If}{ElseIf}{Else}{if}{then}{else if}{else}{endif}
 \SetKwInOut{S}{$S$}
@@ -6,7 +6,7 @@
 \SetKwInOut{p}{$p$}
 \SetKwInOut{ei}{$e.i$}
 \SetKwInOut{lep}{$L(e,p)$}
-\SetKwInOut{te}{$(type(e)$}
+\SetKwInOut{te}{$(type(e))$}
 \SetKwInOut{ci}{$\curenti{}$}
 \S{Liste des états}
 \e{Un état}
@@ -24,7 +24,7 @@
    }
 } 
 }
- \caption{Initialize Parameters}
+ \caption{Initialize Parameters}\label{alg1}
 \end{algorithm}
 Les instructions décrivant l'algorithme(\ref{alg1}) sont expliquées comme suit:
 \begin{description}
@@ -34,7 +34,7 @@ Les instructions décrivant l'algorithme(\ref{alg1}) sont expliquées comme suit
 	Lorsque les conditions de la ligne \ref{line12} sont vérifiées alors les instructions des lignes suivantes sont exécutées:
 	\item[ligne \ref{line13} :] Le paramètre $\parametretwo{}$ est initialisé à $0$(zéro).
 	\item[ligne \ref{line14} :] Le paramètre $\parametretree{}$ est initialisé à $0$(zéro) lorsque l'état est un \textsl{\border{}} ( c'est-à-dire lorsqu'il appartient à une autre machine ) , sinon à $1$. Par exemple, l'exécution de la formule  \textit{$AG(a)$} sur la structure de Kripke distribuée de la Figure(\ref{skd2}). A l'état \sneuf{} : sur \mone{}  le paramètre $\parametretree{}$ est initialisé à $0$, car cet état n'appartient pas à la machine;  Par contre sur la \mtwo{} le paramètre $\parametretree{}$ est initialisé à $1$, car l'état appartient à cette machine.
-	\item[ligne \ref{line15} :] L'itération courante est sauvegardée sur l'état pour éviter de reprendre l'initialisation de cet état lors d'une prochaine itération car s'il n'est pas ajouté, les états respectant les conditions de la ligne \ref{line12} sont initialisés; sans cette initialisation, cet état vérifiera les conditions de la ligne \ref{line12}. 
+	\item[ligne \ref{line15} :] L'itération courante est ajoutée sur l'état pour éviter de reprendre l'initialisation de cet état lors d'une prochaine itération car s'il n'est pas ajouté, les états respectant les conditions de la ligne \ref{line12} sont initialisés; sans cette initialisation, cet état vérifiera les conditions de la ligne \ref{line12}. 
 \end{description}
 \begin{Exemple}\label{ea1}
 	Après la vérification de la formule \textit{$AG(a)$} sur la structure de Kripke de la Figure (\ref{skd2}), les résultats d'initialisation sont:
@@ -60,7 +60,7 @@ Dans le Tableau (\ref{tii1}), on retrouve les états initialisés par les machin
 
 	\item[Itération 2]				
 Après la première itération, les états sur lesquels la formule n'est pas vérifiée, et qui ont des prédécesseurs appartenant à d'autres machines sont notifiées pour prendre en compte la valeur logique de ces états. Une notification déclenche une itération. Elle permet de vérifier la formule sur l'espace d'état de la machine notifiée. Pendant l'itération, l'algorithme du model checker détecte sur certains états que la formule n'est pas vérifiée. Ces états sont liés aux états sur lesquels la notification est faite.
-Une seconde itération est déclenchée sur la \mone{}, car l'état \s{S6} dispose d'un successeur sur la \mtwo{} (l'état \s{S9}). La formule n'est pas vérifiée sur cet état(détecté à Itération $1$), d'où la notification envoyée par la \mtwo{} à la \mone{}. Dans la \mone{} les paramètres $(\parametretwo{}, \parametretree{})$ de l'état \s{S9} sont initialisés à zéro. Le paramètre $\parametretree{}$ est initialisé à $0$  parce qu'il n'appartient pas à la \mtwo{}. Ainsi le Tableau (\ref{tii2}) décrit les différents états initialisés dans les machines notifiées.
+Une seconde itération est déclenchée sur la \mone{}, car l'état \s{S6} dispose d'un successeur sur la \mtwo{} (l'état \s{S9}). La formule n'est pas vérifiée sur cet état(détecté à Itération $1$), d'où la notification envoyée par la \mtwo{} à la \mone{}. Dans la \mone{} les paramètres $(\parametretwo{}, \parametretree{})$ de l'état \s{S9} sont initialisés à zéro, tandis que le paramètre $\parametretree{}$ est initialisé à $0$ sur la \mtwo{} parce qu'il n'appartient pas à la \mtwo{}. Ainsi le Tableau (\ref{tii2}) décrit les différents états initialisés dans les machines notifiées.
       
 \begin{tableth}
 	\centering
@@ -78,7 +78,7 @@ Une seconde itération est déclenchée sur la \mone{}, car l'état \s{S6} dispo
 	\caption{Étape d'initialisation itération 2}\label{tii2}
 \end{tableth}
 	\item[Itération 3]
-Après l'itération précédente, des états liés peuvent posséder des prédécesseurs sur d'autres machines. Ces dernières machines  sont notifiées. Par exemple, l'état \s{S2} est lié à l'état \s{S9}, \s{S2} possède des prédécesseurs sur la \mtwo{} et sur la \mtree{}. La notification pour cet état entraine une vérification de la formule sur chaque machine notifiée. Ainsi les paramètres$(\parametretwo{}, \parametretree{})$ de cet état sont initialisées à $0$ d'après l'algorithme d'initialisation. Le paramètre $\parametretree{}$ est initialisé à $0$  parce qu'il n'appartient pas à la machine. Le Tableau (\ref{tii3}) décrit les différents états initialisés sur  chacune des machines.    		 
+Après l'itération précédente, des états liés peuvent posséder des prédécesseurs sur d'autres machines. Ces dernières machines  sont notifiées. Par exemple, l'état \s{S2} est lié à l'état \s{S9}, \s{S2} possède des prédécesseurs sur la \mtwo{} et sur la \mtree{}. La notification pour cet état entraine une vérification de la formule sur chaque machine notifiée. Ainsi les paramètres $(\parametretwo{}, \parametretree{})$ de cet état sont initialisées à $0$ d'après l'algorithme d'initialisation. Le paramètre $\parametretree{}$ est initialisé à $0$  parce qu'il n'appartient pas à la machine. Le Tableau (\ref{tii3}) décrit les différents états initialisés sur  chacune des machines.    		 
 \begin{tableth}
 	\centering
 	\begin{tabular}{|*{6}{c|}}
@@ -92,7 +92,7 @@ Après l'itération précédente, des états liés peuvent posséder des prédé
 	\end{tabular}
 	\caption{Étape d'initialisation itération 3}\label{tii3}
 \end{tableth}
-	\item[Itération 4] Après l'itération précédente, des états liés peuvent posséder des prédécesseurs sur d'autres machines. Ces dernières sont notifiées. Par exemple l'état \s{S22} est lié à l'état \s{S2}. Il possède un prédécesseur sur la \mtwo{}. La notification pour cet état, déclenche une vérification de la formule sur la \mtwo{}. Ainsi les paramètres$(\parametretwo{}, \parametretree{})$ de cet état sont initialisés à $0$, d'après l'algorithme d'initialisation. Le paramètre $\parametretree{}$ est initialisé à $0$  parce qu'il n'appartient pas à cette machine. Le Tableau (\ref{tii4}) décrit les différents états initialisés sur  chacune des machines. 			  
+	\item[Itération 4] Après l'itération précédente, des états liés peuvent posséder des prédécesseurs sur d'autres machines. Ces dernières sont notifiées. Par exemple l'état \s{S22} est lié à l'état \s{S2}. Il possède un prédécesseur sur la \mtwo{}. La notification pour cet état, déclenche une vérification de la formule sur la \mtwo{}. Ainsi les paramètres $(\parametretwo{}, \parametretree{})$ de cet état sont initialisés à $0$, d'après l'algorithme d'initialisation. Le paramètre $\parametretree{}$ est initialisé à $0$  parce qu'il n'appartient pas à cette machine. Le Tableau (\ref{tii4}) décrit les différents états initialisés sur  chacune des machines. 			  
 \begin{tableth}
 	\centering
 	\begin{tabular}{|*{6}{c|}}
