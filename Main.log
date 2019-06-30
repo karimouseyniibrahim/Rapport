@@ -2692,8 +2692,8 @@ l.20 D
 
 ]
 Overfull \hbox (4.51515pt too wide) in paragraph at lines 26--27
-[]\T1/futs/m/n/12 Dans l'im-plé-men-ta-tion dis-tri-buée, les so-lu-tions pro-p
-o-sées dans la lit-té-ra-ture tra-vaillent
+[]\T1/futs/m/n/12 Dans l'im-plï¿½-men-ta-tion dis-tri-buï¿½e, les so-lu-tions pro-p
+o-sï¿½es dans la lit-tï¿½-ra-ture tra-vaillent
  []
 
 [2]
@@ -2742,7 +2742,7 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 ]
 Overfull \hbox (0.1299pt too wide) in paragraph at lines 12--13
 \T1/futs/m/n/12 tion com-bi-na-toire. En-suite, nous in-tro-dui-sons quelques n
-o-tions sur la théo-rie des graphes
+o-tions sur la thï¿½o-rie des graphes
  []
 
 (theorie_graphe/Notions_mathematiques.tex
@@ -2750,22 +2750,22 @@ Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 7.
 
 Overfull \hbox (10.46544pt too wide) in paragraph at lines 16--18
-[][]\T1/futs/b/n/12 Définition 3 \T1/futs/m/n/12 (Par-ti-tion)\T1/futs/b/n/12 .
+[][]\T1/futs/b/n/12 Dï¿½finition 3 \T1/futs/m/n/12 (Par-ti-tion)\T1/futs/b/n/12 .
  []\T1/futs/m/n/12 Soit un en-semble $\FML/futm/m/it/12 S$ \T1/futs/m/n/12 quel
 -conque. Un en-semble $\FML/futm/m/it/12 P$ \T1/futs/m/n/12 de sous-ensembles
  []
 
 ) (theorie_graphe/Optimisation_combinatoire.tex [7] [8]
 Overfull \hbox (5.37375pt too wide) in paragraph at lines 48--50
-[][]\T1/futs/b/n/12 Définition 12 \T1/futs/m/n/12 (Pro-blème d'op-ti-mi-sa-tion
- com-bi-na-toire)\T1/futs/b/n/12 . []\T1/futs/m/n/12 Un pro-blème d'op-ti-mi-sa
+[][]\T1/futs/b/n/12 Dï¿½finition 12 \T1/futs/m/n/12 (Pro-blï¿½me d'op-ti-mi-sa-tion
+ com-bi-na-toire)\T1/futs/b/n/12 . []\T1/futs/m/n/12 Un pro-blï¿½me d'op-ti-mi-sa
 -tion com-
  []
 
 
 Overfull \hbox (1.88972pt too wide) in paragraph at lines 59--61
-\T1/futs/m/n/12 Lorsque le pro-blème d'op-ti-mi-sa-tion com-bi-na-toire consis-
-tant à cher-cher un élé-ment maxi-
+\T1/futs/m/n/12 Lorsque le pro-blï¿½me d'op-ti-mi-sa-tion com-bi-na-toire consis-
+tant ï¿½ cher-cher un ï¿½lï¿½-ment maxi-
  []
 
 
@@ -2801,10 +2801,10 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 17.
 
 
 Overfull \hbox (11.28311pt too wide) in paragraph at lines 33--34
-\T1/futs/m/n/12 mets $\FML/futm/m/it/12 a[]a[]:::a[]a[]$ \T1/futs/m/n/12 re-lié
-s entre eux par des arêtes, c'est-à-dire $\FML/futm/m/it/12 a[]a[]  \FMS/futm/m
+\T1/futs/m/n/12 mets $\FML/futm/m/it/12 a[]a[]:::a[]a[]$ \T1/futs/m/n/12 re-liï¿½
+s entre eux par des arï¿½tes, c'est-ï¿½-dire $\FML/futm/m/it/12 a[]a[]  \FMS/futm/m
 /n/12 2 \FML/futm/m/it/12 A$\T1/futs/m/n/12 , pour $\FML/futm/m/it/12 i \FMS/fu
-tm/m/n/12  \T1/futs/m/n/12 1\FML/futm/m/it/12 ;  \T1/futs/m/n/12 2\FML/futm/m/
+tm/m/n/12 ï¿½ \T1/futs/m/n/12 1\FML/futm/m/it/12 ;  \T1/futs/m/n/12 2\FML/futm/m/
 it/12 ;  :::;  n$\T1/futs/m/n/12 .
  []
 
@@ -2818,16 +2818,16 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 44.
 
 
 Overfull \hbox (0.17932pt too wide) in paragraph at lines 44--45
-[][]\T1/futs/b/n/12 Définition 33 \T1/futs/m/n/12 (Pro-fil stra-té-gique)\T1/fu
-ts/b/n/12 . []\T1/futs/m/n/12 Un pro-fil stra-té-gique $(\FML/futm/m/it/12 s[]\
+[][]\T1/futs/b/n/12 Dï¿½finition 33 \T1/futs/m/n/12 (Pro-fil stra-tï¿½-gique)\T1/fu
+ts/b/n/12 . []\T1/futs/m/n/12 Un pro-fil stra-tï¿½-gique $(\FML/futm/m/it/12 s[]\
 FMS/futm/m/n/12 \FML/futm/m/it/12 ; :::; s[]\FMS/futm/m/n/12 \T1/futs/m/n/12 
 )$ est une so-lu-tion d'un
  []
 
 
 Overfull \hbox (7.00171pt too wide) in paragraph at lines 52--53
-\T1/futs/m/n/12 s'il ad-met un pro-fil stra-té-gique com-posé uni-que-ment de s
-tra-té-gies do-mi-nantes des joueurs. 
+\T1/futs/m/n/12 s'il ad-met un pro-fil stra-tï¿½-gique com-posï¿½ uni-que-ment de s
+tra-tï¿½-gies do-mi-nantes des joueurs. 
  []
 
 
@@ -2835,17 +2835,17 @@ LaTeX Warning: Command \textellipsis invalid in math mode on input line 56.
 
 ) (theorie_graphe/Methode_partitionnement.tex [12]
 Overfull \hbox (16.21481pt too wide) in paragraph at lines 10--13
-\T1/futs/m/n/12 Soient un graphe $\FML/futm/m/it/12 G \FMS/futm/m/n/12  \T1/fu
+\T1/futs/m/n/12 Soient un graphe $\FML/futm/m/it/12 G \FMS/futm/m/n/12 ï¿½ \T1/fu
 ts/m/n/12 (\FML/futm/m/it/12 S; A\T1/futs/m/n/12 )$ et un en-semble de $\FML/fu
 tm/m/it/12 k$ \T1/futs/m/n/12 sous-ensembles de $\FML/futm/m/it/12 S$\T1/futs/m
-/n/12 , noté $\FML/futm/m/it/12 P[] \FMS/futm/m/n/12  f\FML/futm/m/it/12 S[]; 
+/n/12 , notï¿½ $\FML/futm/m/it/12 P[] \FMS/futm/m/n/12 ï¿½ f\FML/futm/m/it/12 S[]; 
 S[]; :::; S[]\FMS/futm/m/n/12 g$\T1/futs/m/n/12 .
  []
 
 ) (theorie_graphe/Approches_partitionnement.tex [13] [14]
 Overfull \hbox (2.51364pt too wide) in paragraph at lines 48--49
-\T1/futs/m/n/12 aléa-toires adap-ta-tifs (GRASP) [[][][]AREIBI[][], [][]2004[][
-]], les mé-thodes de dif-fu-sion sto-chas-tique [[][][]TAO[][],
+\T1/futs/m/n/12 alï¿½a-toires adap-ta-tifs (GRASP) [[][][]AREIBI[][], [][]2004[][
+]], les mï¿½-thodes de dif-fu-sion sto-chas-tique [[][][]TAO[][],
  []
 
 
@@ -2909,8 +2909,8 @@ Chapitre 2.
 
 ]
 Overfull \hbox (1.64664pt too wide) in paragraph at lines 12--13
-[]\T1/futs/m/n/12 Le mo-del che-cking est une forme de vé-ri-fi-ca-tion for-mel
-le des sys-tèmes [[][][]CHENG[][], [][]2006[][]],
+[]\T1/futs/m/n/12 Le mo-del che-cking est une forme de vï¿½-ri-fi-ca-tion for-mel
+le des sys-tï¿½mes [[][][]CHENG[][], [][]2006[][]],
  []
 
 (r2p_sk_mc/Rdp.tex
@@ -3002,8 +3002,8 @@ See the caption package documentation for explanation.
 
 [24 <./img/H2O.PNG>]
 Overfull \hbox (15.37833pt too wide) in paragraph at lines 131--133
-[]\T1/futs/m/n/12 Formellement un sys-tème de tran-si-tions éti-que-tées est un
- qua-dru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12  \T1/futs/m/n/12 (\FML/
+[]\T1/futs/m/n/12 Formellement un sys-tï¿½me de tran-si-tions ï¿½ti-que-tï¿½es est un
+ qua-dru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12 ï¿½ \T1/futs/m/n/12 (\FML/
 futm/m/it/12 S; Act; ; s[]\T1/futs/m/n/12 )$
  []
 
@@ -3068,11 +3068,11 @@ Package amsmath Warning: Foreign command \atop;
 
 [29]
 Overfull \hbox (0.65485pt too wide) in paragraph at lines 55--56
-[]\T1/futs/m/n/12 Après l'ap-pli-ca-tion de l'al-go-rithme ré-cur-sif ci-dessus
-, nous avons $\FMS/futm/m/n/12 8\FML/futm/m/it/12 s \FMS/futm/m/n/12 › \FML/fut
+[]\T1/futs/m/n/12 Aprï¿½s l'ap-pli-ca-tion de l'al-go-rithme rï¿½-cur-sif ci-dessus
+, nous avons $\FMS/futm/m/n/12 8\FML/futm/m/it/12 s \FMS/futm/m/n/12 ï¿½ \FML/fut
 m/m/it/12 H\T1/futs/m/n/12 (\FML/futm/m/it/12 f\T1/futs/m/n/12 ) \FMS/futm/m/n/
 12 ) \FML/futm/m/it/12 L\T1/futs/m/n/12 (\FML/futm/m/it/12 s; f\T1/futs/m/n/12 
-) \FMS/futm/m/n/12 
+) \FMS/futm/m/n/12 ï¿½
  []
 
 )) [30] [31
@@ -3089,13 +3089,13 @@ Chapitre 3.
 ]
 Overfull \hbox (7.33636pt too wide) in paragraph at lines 11--12
 []\T1/futs/m/n/12 Dans [[][][]CHAOUCHE. A. C.[][], [][]2012[][]], [[][][]TA-BIB
-[][], [][]2016[][]], [[][][]BEN-SE-TIRA[][], [][]2017[][]], nous avons constaté
+[][], [][]2016[][]], [[][][]BEN-SE-TIRA[][], [][]2017[][]], nous avons constatï¿½
 
  []
 
 
 Overfull \hbox (1.4818pt too wide) in paragraph at lines 11--12
-\T1/futs/m/n/12 que les mé-thodes de gé-né-ra-tion des es-paces d'états pour le
+\T1/futs/m/n/12 que les mï¿½-thodes de gï¿½-nï¿½-ra-tion des es-paces d'ï¿½tats pour le
  mo-del che-cking consiste qu'un
  []
 
@@ -3249,8 +3249,8 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 [44]
 Overfull \hbox (5.65147pt too wide) in paragraph at lines 40--41
-[]\T1/futs/m/n/12 L'instruction de cette ligne per-met de ré-cu-pé-rer les état
-s dont ils dé-pendent. 
+[]\T1/futs/m/n/12 L'instruction de cette ligne per-met de rï¿½-cu-pï¿½-rer les ï¿½tat
+s dont ils dï¿½-pendent. 
  []
 
 
@@ -3271,7 +3271,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--107
 
 
 Overfull \hbox (8.75552pt too wide) in paragraph at lines 107--130
-\T1/futs/m/n/12 une no-ti-fi-ca-tion pro-voque l'ité-ra-tion 2 sur la  ma-chin
+\T1/futs/m/n/12 une no-ti-fi-ca-tion pro-voque l'itï¿½-ra-tion 2 sur la  ma-chin
 e 1 , cette no-ti-fi-ca-tion concerne
  []
 
@@ -3376,8 +3376,8 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 [49]
 Overfull \hbox (16.14621pt too wide) in paragraph at lines 73--74
-\T1/futs/m/n/12 états de l'exemple ([][]3.2.2[][]), les va-leurs des pa-ra-mètr
-es à tra-vers les ré-sul-tats de l'exemple([][]3.2.3[][]).
+\T1/futs/m/n/12 ï¿½tats de l'exemple ([][]3.2.2[][]), les va-leurs des pa-ra-mï¿½tr
+es ï¿½ tra-vers les rï¿½-sul-tats de l'exemple([][]3.2.3[][]).
  []
 
 
@@ -3482,11 +3482,13 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 [53]
 Overfull \hbox (3.75386pt too wide) in paragraph at lines 114--115
-[]\T1/futs/m/n/12 A la ré-cep-tion des va-leurs : $\FML/futm/m/it/12 id \FMS/fu
-tm/m/n/12  \FML/futm/m/it/12 s\T1/futs/m/n/12 2$ ; $\FML/futm/m/it/12 [] \FMS
-/futm/m/n/12  \T1/futs/m/n/12 5$ ; $\FML/futm/m/it/12 [] \FMS/futm/m/n/12  \
-T1/futs/m/n/12 0$ ; $\FML/futm/m/it/12 m[] \FMS/futm/m/n/12  \T1/futs/m/n/12 
-0$ ; $\FML/futm/m/it/12 f \FMS/futm/m/n/12  f\FML/futm/m/it/12 s\T1/futs/m/n/1
+[]\T1/futs/m/n/12 A la rï¿½-cep-tion des va-leurs : $\FML/futm/m/it/12 id \FMS/fu
+tm/m/n/12 ï¿½ \FML/futm/m/it/12 s\T1/futs/m/n/12 2$ ; $\FML/futm/m/it/12 [] \FMS
+/futm/m/n/12 ï¿½ \T1/futs/m/n/12 5$ ; $\FML/futm/m/it/12 
+[] \FMS/futm/m/n/12 ï¿½ \
+T1/futs/m/n/12 0$ ; $\FML/futm/m/it/12 
+m[] \FMS/futm/m/n/12 ï¿½ \T1/futs/m/n/12 
+0$ ; $\FML/futm/m/it/12 f \FMS/futm/m/n/12 ï¿½ f\FML/futm/m/it/12 s\T1/futs/m/n/1
 2 9\FML/futm/m/it/12 ; s\T1/futs/m/n/12 10\FML/futm/m/it/12 ; s\T1/futs/m/n/12 
 11\FMS/futm/m/n/12 g$ \T1/futs/m/n/12 ;
  []
@@ -3504,20 +3506,22 @@ Underfull \hbox (badness 5924) in paragraph at lines 28--28
  \FMS/futm/m/n/12 2 \FML/futm/m/it/12 e[]:f\T1/futs/m/n/12 )\FML/futm/m/it/12 a
 nd\T1/futs/m/n/12 (\FML/futm/m/it/12 exist\T1/futs/m/n/12 (\FML/futm/m/it/12 e:
 site\T1/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]))\FML/futm/m/it/12 an
-d\T1/futs/m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 ƒ \FML/futm/m/it/12 
+d\T1/futs/m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 ï¿½ \FML/futm/m/it/12 
 e:site\T1/futs/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :
 []\T1/futs/m/n/12 )\FML/futm/m/it/12 and$$\T1/futs/m/n/12 ((\FML/futm/m/it/12 e
-[]:[] \FMS/futm/m/n/12 ƒ
+[]:[] \FMS/futm/m/n/12 ï¿½
  []
 
 
 Underfull \hbox (badness 2334) in paragraph at lines 28--28
 []|[]\T1/futs/b/n/12 if $\T1/futs/m/n/12 ((\FML/futm/m/it/12 e:[] \FMS/futm/m/
-n/12 ƒ \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 or\T1/futs/
-m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12  \FML/futm/m/it/12 site\T1/f
-uts/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :[] and e:[
-] \FMS/futm/m/n/12 ƒ \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 ))\FML/futm/m/it
-/12 and\T1/futs/m/n/12 (\FML/futm/m/it/12 MG \FMS/futm/m/n/12 
+n/12 ï¿½ \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 or\T1/futs/
+m/n/12 (\FML/futm/m/it/12 e:[] \FMS/futm/m/n/12 ï¿½ï¿½ \FML/futm/m/it/12 site\T1/f
+uts/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :[] and e:
+[
+] \FMS/futm/m/n/12 ï¿½ \FML/futm/m/it/12 site:
+[]\T1/futs/m/n/12 ))\FML/futm/m/it
+/12 and\T1/futs/m/n/12 (\FML/futm/m/it/12 MG \FMS/futm/m/n/12 ï¿½ï¿½
  []
 
 
@@ -3531,13 +3535,13 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 [55]
 Overfull \hbox (10.1527pt too wide) in paragraph at lines 39--40
-[]\T1/futs/m/n/12 L'instruction écrite sur cette ligne per-met de re-tour-ner l
+[]\T1/futs/m/n/12 L'instruction ï¿½crite sur cette ligne per-met de re-tour-ner l
 es in-for-ma-tions du couple
  []
 
 )
 Overfull \hbox (8.35464pt too wide) in paragraph at lines 26--27
-[]\T1/futs/m/n/12 L'ensemble mi-ni-mal des états à dé-pla-cer dans une ma-chine
+[]\T1/futs/m/n/12 L'ensemble mi-ni-mal des ï¿½tats ï¿½ dï¿½-pla-cer dans une ma-chine
  lo-cale cor-res-pond au couple
  []
 
@@ -3563,11 +3567,13 @@ l.24 \caption
 
 Underfull \hbox (badness 3942) in paragraph at lines 24--24
 []|[]\T1/futs/b/n/12 if $\T1/futs/m/n/12 ((\FML/futm/m/it/12 x:[] \FMS/futm/m/
-n/12 ‚ \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 or\T1/futs/
-m/n/12 (\FML/futm/m/it/12 x:[] \FMS/futm/m/n/12  \FML/futm/m/it/12 site:[] 
-and \T1/futs/m/n/12 (\FML/futm/m/it/12 x:[] \FMS/futm/m/n/12 ‚ \FML/futm/m/it/
-12 site:[]\T1/futs/m/n/12 ))\FML/futm/m/it/12 and\T1/futs/m/n/12 (\FML/futm/m/
-it/12 MF \FMS/futm/m/n/12 
+n/12 ï¿½ \FML/futm/m/it/12 site:[]\T1/futs/m/n/12 )\FML/futm/m/it/12 or\T1/futs/
+m/n/12 (\FML/futm/m/it/12 x:[] \FMS/futm/m/n/12 ï¿½ï¿½ \FML/futm/m/it/12 site:[] 
+and \T1/futs/m/n/12 (\FML/futm/m/it/12 x:
+[] \FMS/futm/m/n/12 ï¿½ \FML/futm/m/it/
+12 site:
+[]\T1/futs/m/n/12 ))\FML/futm/m/it/12 and\T1/futs/m/n/12 (\FML/futm/m/
+it/12 MF \FMS/futm/m/n/12 ï¿½ï¿½
  []
 
 
@@ -3578,13 +3584,13 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 [56]
 Overfull \hbox (5.0331pt too wide) in paragraph at lines 39--40
-\T1/futs/m/n/12 sont in-fé-rieurs au mi-ni-mum cou-rant, l'ins-truc-tion de la 
-ligne [][]10[][] met à jour le contenu
+\T1/futs/m/n/12 sont in-fï¿½-rieurs au mi-ni-mum cou-rant, l'ins-truc-tion de la 
+ligne [][]10[][] met ï¿½ jour le contenu
  []
 
 
 Overfull \hbox (10.1527pt too wide) in paragraph at lines 41--42
-[]\T1/futs/m/n/12 L'instruction écrite sur cette ligne per-met de re-tour-ner l
+[]\T1/futs/m/n/12 L'instruction ï¿½crite sur cette ligne per-met de re-tour-ner l
 es in-for-ma-tions du couple
  []
 
