@@ -45,15 +45,15 @@
 \contentsline {subsection}{\numberline {\filterminitoc {3.}2.4}Principe de l\IeC {\textquoteright }\'{e}quilibre de Nash}{39}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {\filterminitoc {3.}2.5}Principe d'Optimisation de $\alpha , \beta \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em} \gamma $}{39}{subsection.3.2.5}
 \contentsline {subsection}{\numberline {\filterminitoc {3.}2.6}Calcul des valeurs des parametres $\beta {} \tmspace +\thickmuskip {.2777em} et\tmspace +\thickmuskip {.2777em}\gamma {} $ }{40}{subsection.3.2.6}
-\contentsline {subsubsection}{\numberline {a}}{41}{subsubsection.3.2.6.1}
-\contentsline {subsubsection}{\numberline {b}}{43}{subsubsection.3.2.6.2}
-\contentsline {subsubsection}{\numberline {c}}{48}{subsubsection.3.2.6.3}
-\contentsline {subsubsection}{\numberline {d}}{51}{subsubsection.3.2.6.4}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.a}}{41}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.b}}{43}{subsubsection.3.2.6.2}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.c}}{48}{subsubsection.3.2.6.3}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.d}}{51}{subsubsection.3.2.6.4}
 \contentsline {subsection}{\numberline {\filterminitoc {3.}2.7}Algorithme de Redistribution }{54}{subsection.3.2.7}
-\contentsline {subsubsection}{\numberline {a}}{55}{subsubsection.3.2.7.1}
-\contentsline {subsubsection}{\numberline {b}}{56}{subsubsection.3.2.7.2}
-\contentsline {subsubsection}{\numberline {c}}{57}{subsubsection.3.2.7.3}
-\contentsline {subsubsection}{\numberline {d}}{59}{subsubsection.3.2.7.4}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.a}}{55}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.b}}{56}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.c}}{57}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.d}}{59}{subsubsection.3.2.7.4}
 \contentsline {section}{\numberline {\filterminitoc {3.}3}\IeC {\'E}tude exp\IeC {\'e}rimentale}{60}{section.3.3}
 \contentsline {subsection}{\numberline {\filterminitoc {3.}3.1}Outils de d\IeC {\'e}veloppement}{60}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {\filterminitoc {3.}3.2}Mise en \IeC {\oe }uvre}{62}{subsection.3.3.2}

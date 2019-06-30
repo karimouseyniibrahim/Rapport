@@ -95,7 +95,7 @@
 %Subsections do not get centered
 \allowdisplaybreaks
 \newcommand{\mysubsection}[2][]
-{\renewcommand*{\thesubsubsection}{\alph{subsubsection}}
+{\renewcommand*{\thesubsubsection}{\thesubsection.\alph{subsubsection}}
 \subsubsection[#1]{#2} 
 }
 \newcommand{\sectionbreak}{\clearpage}
