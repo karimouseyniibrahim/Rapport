@@ -4,11 +4,11 @@
 
   	\Begin{  
 \nl  		\ForEach{$e\in \{Notifier(S)\cup Border(S)\}$}{ \label{linesend1}
-\nl   		\uIf{$(\curenti{} \in e.i)$ }{\label{linesend2}
+\nl   		\If{$(\curenti{} \in e.i)$ }{\label{linesend2}
 \nl   			$F=(type(e)==Notifier) ? e : \emptyset$\;\label{linesend3}\\
 \nl    		 	\ForEach{$m \in e.site $}{\label{linesend4}
 \nl   				$send(e.id,e.\parametretwo{},e.\parametretree{},F,e.\parametrefour{},i)\;\;  to \;\;m.id )$\;
-\nl   			}\label{linesend5}
+    			}\label{linesend5}
     		}
     	}  
    }  	

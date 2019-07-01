@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  1 JUL 2019 03:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  1 JUL 2019 09:14
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -3495,11 +3495,6 @@ l.15
 <to be read again> 
                    \relax 
 l.15 
-     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
-.7.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.15 
      
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
@@ -3877,15 +3872,15 @@ ready used, duplicate ignored
                    \relax 
 l.14 \caption
              {$Receive\_ Request(states :List of state,MG:state)$})
-<img/Rskd.png, id=1543, 314.1336pt x 349.305pt>
-File: img/Rskd.png Graphic file (type png)
-<use img/Rskd.png>
-Package pdftex.def Info: img/Rskd.png  used on input line 63.
-(pdftex.def)             Requested size: 324.98482pt x 361.34999pt.
+<img/skrd.png, id=1543, 329.5512pt x 372.4314pt>
+File: img/skrd.png Graphic file (type png)
+<use img/skrd.png>
+Package pdftex.def Info: img/skrd.png  used on input line 62.
+(pdftex.def)             Requested size: 319.76482pt x 361.34999pt.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 65.
+(caption)                particular \caption on input line 64.
 See the caption package documentation for explanation.
 
 
@@ -3903,7 +3898,7 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61 <./img/Rskd.png>]
+[61 <./img/skrd.png>]
 <img/java.png, id=1557, 109.40875pt x 160.6pt>
 File: img/java.png Graphic file (type png)
 <use img/java.png>
@@ -4087,14 +4082,9 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 309496412AC57B3F4AAAB77D0B2720EB;2095.
+Package rerunfilecheck Info: File `Main.brf' has not changed.
+(rerunfilecheck)             Checksum: 47C3F367DFBD587F54ACE8B8D1A53533;10461.
 
-
-Package rerunfilecheck Warning: File `Main.brf' has changed.
-(rerunfilecheck)                Rerun to get bibliographical references right.
-
-Package rerunfilecheck Info: Checksums for `Main.brf':
-(rerunfilecheck)             Before: 18B420DB2674CF0DE6A5A161A45D607B;10461
-(rerunfilecheck)             After:  47C3F367DFBD587F54ACE8B8D1A53533;10461.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -4105,8 +4095,8 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level 
 Here is how much of TeX's memory you used:
  59998 strings out of 492973
- 1289277 string characters out of 3135470
- 1660305 words of memory out of 3000000
+ 1289275 string characters out of 3135470
+ 1660306 words of memory out of 3000000
  61775 multiletter control sequences out of 15000+200000
  752709 words of font info for 217 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4120,9 +4110,9 @@ nts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Master1 RSD/Memoire/latex/font
 s/type1/adobe/utopia/putb8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe
 /utopia/putbi8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr
 8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Main.pdf (85 pages, 2563316 bytes).
+Output written on Main.pdf (85 pages, 2566395 bytes).
 PDF statistics:
- 2002 PDF objects out of 2073 (max. 8388607)
+ 2004 PDF objects out of 2073 (max. 8388607)
  644 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

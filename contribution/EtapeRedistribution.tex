@@ -52,15 +52,14 @@ L'exécution du protocole de redistribution sur les résultats générés dans l
 \nopagebreak
 \begin{description}
 \item[Itération 1 :] Pendant la première itération du protocole sur la \mone{}, l'algorithme détecte que les état \s{S7} et \s{S9} sont mutuellement dépendants. Ainsi, les valeurs envoyées par la \mtwo{} sur l'état \s{S7} sont minimales, les états concernant ces valeurs sont à déplacer de la \mtwo{}. Ainsi les états à déplacer de la \mone{} vers la \mtwo{} sont recherchés, l'algorithme détecte que les états liés à l'état \s{S11} sont minimaux. Les états de cet ensemble sont à envoyer sur la \mtwo{}. Après ces deux processus de recherche, les valeurs sont évaluées afin de ressortir la requête à envoyer. L'évaluation montre qu'il est possible d'importer les prédécesseurs de l'état \s{S7} et les prédécesseurs de  l'état \s{S11}.
-L'état \s{S2} ne sera pas envoyé parmi les états à déplacer car la \mtree{} possède des prédécesseurs directs de cet état. Après l'envoi des états à déplacer, la \mone{} possède l'état \s{S9}, quant à l'état \s{S1} il est possédé par la \mtwo{}.
-
-
+ Après l'envoi des états à déplacer, la \mone{} possède l'état \s{S9}, quant à l'état \s{S1} il est possédé par la \mtwo{}.
+ 
 Sur la \mtree{} l'algorithme détecte qu'il est possible de déplacer l'état \s{S22} sur la \mtwo{}.
-   Après ces redistributions d'états, le protocole détecte qu'il est impossible de redistribuer les états car il risque d'avoir un déséquilibrage de charge sur les machines.
+   Après cette distribution des états, il est possible de redistribuer l'espace d'états à nouveau lorsque les configurations des machines les permettent.
    
 \end{description}
 \centering
-	\includegraphics[height=5in]{img/Rskd.png}
+	\includegraphics[height=5in]{img/skrd.png}
 	
 	\captionof{figure}{Structure de Kripke Redistribu\'{e}} 
 \end{Exemple}

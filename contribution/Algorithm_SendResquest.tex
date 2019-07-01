@@ -3,13 +3,13 @@
 	\setcounter{AlgoLine}{0}
   	\Begin{	
   		\nl \uIf{$\mid MG.site.\parametretwo{} -MF.\parametretwo{} \mid \leq \parametrefive{}$}{\label{pline1}
-  		\nl	$send(element(MF),MG) to  MG.id$\;\label{pline2}
+  		\nl	$send(element(MF),MG) to \;\; MG.id$\;\label{pline2}
   		}
   		\nl \uElseIf{$MG.site.\parametretwo{} \leq \parametrefive{}$}{\label{pline3}
-  		\nl	$send(null,MG)  to MG.id$\;\label{pline4}
+  		\nl	$send(null,MG)  to\;\; MG.id$\;\label{pline4}
   		}
   		\nl \ElseIf{$MF.\parametretwo{} \leq \parametrefive{}$}{\label{pline5}
-  		\nl	$send(element(MF),null)  to  MF.id$\;\label{pline6}
+  		\nl	$send(element(MF),null)  to \;\; MF.id$\;\label{pline6}
   		}
   	}
 \caption{$Send\_ Request(MG:state,MF:state)$}
