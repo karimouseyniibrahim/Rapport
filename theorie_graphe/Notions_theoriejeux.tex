@@ -4,12 +4,23 @@
 
 \section{Théorie de jeux}
 
-La théorie de jeux appelée aussi théorie de décision en interaction est une domaine qui inspire des mathématiques (probabilités, optimisation/contrôle, combinatoire, logique, calculabilité, complexité) et d’autre science tel que économie, cryptographie, physique quantique, cybernétique, biologie, sociologie, linguistique, philosophie.
+La théorie de jeux appelée aussi théorie de décision en interaction est une domaine qui inspire des mathématiques (probabilités, optimisation/contrôle, combinatoire, logique, calculabilité, complexité) et d’autre sciences tel que économie, cryptographie, physique quantique, cybernétique, biologie, sociologie, linguistique, philosophie.
 Les premiers fondements de ce domaine étaient décrits autour des années 1920 par Ernst Zermelo \citep{depriester1913ernst}, Émile Borel \citep{EmileBorel1921} et John von Neumann \citep{depriester1928jonvon}. Les idées de la théorie de jeux sont ensuite développées par Oskar Morgenstern et John von Neumann en 1944 \citep{depriester1944jo}.
 
 La théorie de jeux se propose d'étudier des situations (appelées jeux) où des individus (les joueurs) prennent des décisions, chacun étant conscient que le résultat de son propre choix (ses gains) dépend de celui des autres. Ces décisions ayant pour but un gain maximum ou un gain stabilisé.
 
 Dans ce qui suit nous présentons les concepts qui lui sont propres.
+\begin{definition}[Jeux]
+Un "jeu" est une situation où des joueurs sont conduits à faire des choix stratégiques parmi un certain nombre d'actions possibles, et ce dans le cadre défini à l'avance par les "règles du jeu", le résultat de ces choix constituant une "issue du jeu", à laquelle est associé un "gain" (ou payement), positif ou négatif, pour chacun des participants.	
+\end{definition}
+\textbf{Remarque:} Un joueur peut être une personne, un groupe de personnes, une société, une région, un parti politique, un pays ou la Nature.
+
+\begin{definition}[Jeux coopératif]
+	Un jeu est dit coopératif lorsque les joueurs peuvent communiquer librement entre eux et passer des accords (par ex. sous forme d'un contrat). Ils forment alors une coalition et recherchent l'intérêt général suivi d'un partage des gains entre tous les joueurs.
+\end{definition}
+\begin{definition}[eux non coopératif]
+	Un jeu non-coopératif, les joueurs (qui ne communiquent pas ou ne peuvent pas communiquer entre eux) agissent selon le principe de rationalité économique: chacun cherche à prendre les meilleures décisions pour lui-même (c'est à dire cherche à maximiser ses gains individuels).
+\end{definition}
 
 \begin{definition}[Stratégie]
 	La stratégie d’un joueur est la fonction par laquelle il choisit son coup de jouer en fonction de l’état du jeu (ou de la fonction de l’état qui lui est présentée). Ainsi un jeu est constitué d'un ensemble de stratégies et de règles du jeu.  Une stratégie est dite gagnante lorsque le joueur qui l’utilise gagne le jeu (supposé avoir une notion de « joueur gagnant ») quels que soient les coups choisis par l’autre joueur.	

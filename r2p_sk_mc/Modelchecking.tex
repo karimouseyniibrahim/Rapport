@@ -6,7 +6,7 @@ Vérifier une propriété de sûreté revient à parcourir les états que peut a
 
 Ainsi, la génération distribuée de l'espace d'états permet de répartir l'ensemble des états entre les machines du réseaux, ce qui permet de pallier au problème de l'explosion combinatoire de l'espace d'états. Le but de cette génération distribuée est la vérification de systèmes de tailles importantes. De ce fait, les algorithmes de vérification feront aussi l'objet de distribution. 
 
-L'algorithme de model checking distribué qui a été développé dans \citep{depriester2011bouneb}, représente une version simplifiée de l'algorithme de model checking distribué. Toutes les machines contribuent pour la vérification des propriétés exprimées en CTL. Chaque machine vérifie la propriétée sur la structure de Kripke partielle, la vérification au niveau des états à parties inconnues est traitée indécidable. Ainsi, les machines coopèrent afin de vérifier la formule CTL. 
+L'algorithme de model checking distribué qui a été développé dans \citep{depriester2011bouneb}, représente une version simplifiée de l'algorithme de model checking distribué. Toutes les machines contribuent pour la vérification des propriétés exprimées en CTL. Chaque machine vérifie la propriété sur la structure de Kripke partielle, la vérification au niveau des états à parties inconnues est traitée indécidable. Ainsi, les machines coopèrent afin de vérifier la formule CTL. 
 
 Dans cette section, nous présentons l'algorithme de model checking distribué qui a été proposé dans \citep{depriester2011bouneb}.
 
@@ -67,4 +67,4 @@ prédicat  comme suit :
  & E(p \cup q) = \lambda Y.\mu Z.(q \vee Y \vee (p \wedge EXZ)) 
 \end{flalign}
 
-\emph{Y} représente l'absence d'information sur l'état border, grâce  à l'information obtenue au niveau des états border,  la validitée de la formule peut être conclue sur toute la structure de Kripke.
+\emph{Y} représente l'absence d'information sur l'état border, grâce  à l'information obtenue au niveau des états border,  la validité de la formule peut être conclue sur toute la structure de Kripke.

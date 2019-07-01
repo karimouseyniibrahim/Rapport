@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  1 JUL 2019 01:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  1 JUL 2019 03:48
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -483,6 +483,21 @@ File: switch.def 2018/06/05 3.22 Babel switching mechanism
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
+("E:\Master1 RSD\Memoire\latex\tex\latex\babel-english\english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.def"
+File: babel.def 2018/06/05 3.22 Babel common definitions
+\babel@savecnt=\count117
+\U@D=\dimen165
+
+("E:\Master1 RSD\Memoire\latex\tex\generic\babel\txtbabel.def")
+\bbl@dirlevel=\count118
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel-french\frenchb.ldf"
 Language: frenchb 2018/04/12 v3.4d French support from the babel system
 
@@ -493,15 +508,6 @@ Package babel-french Warning: Option `frenchb' for Babel is *deprecated*,
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel-french\french.ldf"
 Language: french 2018/04/12 v3.4d French support from the babel system
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.def"
-File: babel.def 2018/06/05 3.22 Babel common definitions
-\babel@savecnt=\count117
-\U@D=\dimen165
-
-("E:\Master1 RSD\Memoire\latex\tex\generic\babel\txtbabel.def")
-\bbl@dirlevel=\count118
-)
 \l@acadian = a dialect from \language\l@french 
 \FB@nonchar=\count119
 Package babel Info: Making : an active character on input line 415.
@@ -523,13 +529,7 @@ Package babel Info: Making ? an active character on input line 418.
 \leftmarginFB=\skip48
 \parindentFFN=\dimen167
 \FBfnindent=\skip49
-))
-("E:\Master1 RSD\Memoire\latex\tex\latex\babel-english\english.ldf"
-Language: english 2017/06/06 v3.3r English support from the babel system
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
+)))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\carlisle\scalefnt.sty")
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -1994,13 +1994,13 @@ Package: glossaries-compatible-307 2019/01/06 v4.42 (NLCT)
 Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\tracklang\tracklang.tex"))
-("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries-english\glossaries-english.
-ldf"
-File: glossaries-english.ldf 2014/11/23 v1.0
-)
 ("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries-french\glossaries-french.ld
 f"
 File: glossaries-french.ldf 2016/12/12 v1.1
+)
+("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries-english\glossaries-english.
+ldf"
+File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count386
 \@gls@tmpb=\toks57
@@ -2424,6 +2424,12 @@ enefit from \pgfplotsset{compat=1.16} (current compat level: 1.3).
 
 LaTeX Info: Redefining \degres on input line 31.
 LaTeX Info: Redefining \dots on input line 31.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 31.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 31.
 LaTeX Info: Redefining \up on input line 31.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
@@ -2637,12 +2643,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--27
  []
 
 
-Overfull \hbox (10.6698pt too wide) in paragraph at lines 16--27
-\T1/futs/b/n/12 Pr. Djamel Ed-dine SAIDOUNI\T1/futs/m/n/12 , pour son in-tÈgrit
-È, sa disponi-bil-itÈ, sa gÈnÈrositÈ de partager
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 16--27
 
  []
@@ -2672,17 +2672,48 @@ l.35 		\include{remerciement}
 ]
 \openout2 = `resumer.aux'.
 
- (resumer.tex)pdfTeX warning (ext4): destination with the same identifier (name
-{page.}) has been already used, duplicate ignored
+ (resumer.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--14
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 	\include{resumer}
-                        [3
+l.26 \break
+            [1
+
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--43
+
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 		\include{resumer}
+                         [1
+
+]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM Main.toc on input line 41.
+(minitoc)             PREPARING MINITOCS FROM Main.toc on input line 42.
 Package minitoc Info: I0033
 (minitoc)             Writing Main.mtc1.
 \openout4 = `Main.mtc1'.
@@ -2714,6 +2745,7 @@ Package minitoc Info: I0033
  [1
 
 
+
 ] (Main.lof)
 \tf@lof=\write13
 \openout13 = `Main.lof'.
@@ -2727,14 +2759,8 @@ Package minitoc Info: I0033
  [3
 
 ]
-(introduction/Introduction.tex
-Overfull \hbox (8.7898pt too wide) in paragraph at lines 18--19
-\T1/futs/m/n/12 pos-si-ble de les ex-plorer dans un temps raisonnable, on se he
-urte au prob-lËme de l'explosion
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+(introduction/Introduction.texpdfTeX warning (ext4): destination with the same 
+identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.20 D
@@ -2742,13 +2768,13 @@ l.20 D
 [1
 
 
-] [2]
-Overfull \hbox (0.41383pt too wide) in paragraph at lines 38--41
- []\T1/futs/b/n/12 La sec-onde par-tie[] \T1/futs/m/n/12 est dÈdiÈe aux con-tri
--bu-tions de notre pro-jet, elle con-tient un chapitre.
+]
+Overfull \hbox (4.51515pt too wide) in paragraph at lines 26--27
+[]\T1/futs/m/n/12 Dans l'im-plÈ-men-ta-tion dis-tri-buÈe, les so-lu-tions pro-p
+o-sÈes dans la lit-tÈ-ra-ture tra-vaillent
  []
 
-
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
  []
@@ -2762,7 +2788,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--41
 
 
 ] [5] (theorie_graphe/Theorie_graphe.tex
-Chapter 1.
+Chapitre 1.
 LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <12> not available
 (Font)              Font shape `T1/futs/b/sc' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
@@ -2792,56 +2818,32 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10.95> not available
 
 
 ]
-Overfull \hbox (4.39772pt too wide) in paragraph at lines 10--11
-\T1/futs/m/n/12 ils sont util-isÈs pour reprÈsen-ter les in-ter-ac-tions sta-ti
-ques ou dy-namiques dans des rÈseaux
- []
-
-
-Overfull \hbox (9.38977pt too wide) in paragraph at lines 10--11
-\T1/futs/m/n/12 des gËnes dans les sys-tËmes bi-ologiques, des rÈac-tions chim-
-iques dans les rÈseaux biochim-
- []
-
-
-Overfull \hbox (14.54657pt too wide) in paragraph at lines 12--13
-[]\T1/futs/m/n/12 Nous prÈsen-tons, dans ce chapitre, quelques no-tions math-È-
-ma-tiques et de l'optimisation
+Overfull \hbox (0.1299pt too wide) in paragraph at lines 12--13
+\T1/futs/m/n/12 tion com-bi-na-toire. En-suite, nous in-tro-dui-sons quelques n
+o-tions sur la thÈo-rie des graphes
  []
 
 (theorie_graphe/Notions_mathematiques.tex
 Package hyperref Info: bookmark level for unknown definition defaults to 0 on i
 nput line 7.
 
-Overfull \hbox (11.46184pt too wide) in paragraph at lines 16--18
+Overfull \hbox (10.46544pt too wide) in paragraph at lines 16--18
 [][]\T1/futs/b/n/12 DÈfinition 3 \T1/futs/m/n/12 (Par-ti-tion)\T1/futs/b/n/12 .
- []\T1/futs/m/n/12 Soit un en-sem-ble $\FML/futm/m/it/12 S$ \T1/futs/m/n/12 que
-l-conque. Un en-sem-ble $\FML/futm/m/it/12 P$ \T1/futs/m/n/12 de sous-ensembles
-
+ []\T1/futs/m/n/12 Soit un en-semble $\FML/futm/m/it/12 S$ \T1/futs/m/n/12 quel
+-conque. Un en-semble $\FML/futm/m/it/12 P$ \T1/futs/m/n/12 de sous-ensembles
  []
 
-LaTeX Font Info:    Try loading font information for TS1+futs on input line 18.
-
-("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\ts1futs.fd"
-File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
-))
-(theorie_graphe/Optimisation_combinatoire.tex [7]
-Overfull \hbox (49.01364pt too wide) in paragraph at lines 6--7
-\T1/futs/m/n/12 L'optimisation com-bi-na-toire, ap-pelÈe aussi op-ti-mi-sa-tion
- dis-crËte, est une branche de l'optimisation
- []
-
-[8]
+) (theorie_graphe/Optimisation_combinatoire.tex [7] [8]
 Overfull \hbox (5.37375pt too wide) in paragraph at lines 48--50
-[][]\T1/futs/b/n/12 DÈfinition 12 \T1/futs/m/n/12 (Prob-lËme d'optimisation com
--bi-na-toire)\T1/futs/b/n/12 . []\T1/futs/m/n/12 Un prob-lËme d'optimisation co
-m-
+[][]\T1/futs/b/n/12 DÈfinition 12 \T1/futs/m/n/12 (Pro-blËme d'op-ti-mi-sa-tion
+ com-bi-na-toire)\T1/futs/b/n/12 . []\T1/futs/m/n/12 Un pro-blËme d'op-ti-mi-sa
+-tion com-
  []
 
 
-Overfull \hbox (23.16449pt too wide) in paragraph at lines 50--51
-[]$\FML/futm/m/it/12 E$ \T1/futs/m/n/12 est un en-sem-ble dis-cret ap-pelÈ es-p
-ace des so-lu-tions (aussi ap-pelÈ es-pace de recherche)
+Overfull \hbox (1.88972pt too wide) in paragraph at lines 59--61
+\T1/futs/m/n/12 Lorsque le pro-blËme d'op-ti-mi-sa-tion com-bi-na-toire consis-
+tant ‡ cher-cher un ÈlÈ-ment maxi-
  []
 
 
@@ -2850,7 +2852,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
  []
 
 [9]
-<img/Optimum_global_optimum_local.png, id=392, 865.73438pt x 462.97969pt>
+<img/Optimum_global_optimum_local.png, id=397, 865.73438pt x 462.97969pt>
 File: img/Optimum_global_optimum_local.png Graphic file (type png)
 <use img/Optimum_global_optimum_local.png>
 Package pdftex.def Info: img/Optimum_global_optimum_local.png  used on input li
@@ -2875,124 +2877,77 @@ LaTeX Warning: Command \textquoteright invalid in math mode on input line 13.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 17.
 
-[10 <./img/Optimum_global_optimum_local.png>]
-Overfull \hbox (11.52191pt too wide) in paragraph at lines 33--34
+
+Overfull \hbox (11.28311pt too wide) in paragraph at lines 33--34
 \T1/futs/m/n/12 mets $\FML/futm/m/it/12 a[]a[]:::a[]a[]$ \T1/futs/m/n/12 re-liÈ
-s en-tre eux par des arÍtes, c'est-‡-dire $\FML/futm/m/it/12 a[]a[]  \FMS/futm/
-m/n/12 2 \FML/futm/m/it/12 A$\T1/futs/m/n/12 , pour $\FML/futm/m/it/12 i \FMS/f
-utm/m/n/12 Å \T1/futs/m/n/12 1\FML/futm/m/it/12 ;  \T1/futs/m/n/12 2\FML/futm/m
-/it/12 ;  :::;  n$\T1/futs/m/n/12 .
+s entre eux par des arÍtes, c'est-‡-dire $\FML/futm/m/it/12 a[]a[]  \FMS/futm/m
+/n/12 2 \FML/futm/m/it/12 A$\T1/futs/m/n/12 , pour $\FML/futm/m/it/12 i \FMS/fu
+tm/m/n/12 Å \T1/futs/m/n/12 1\FML/futm/m/it/12 ;  \T1/futs/m/n/12 2\FML/futm/m/
+it/12 ;  :::;  n$\T1/futs/m/n/12 .
  []
 
+[10 <./img/Optimum_global_optimum_local.png>]
 
 LaTeX Warning: Command \` invalid in math mode on input line 57.
 
-) (theorie_graphe/Notions_theoriejeux.tex [11]
-Overfull \hbox (0.4417pt too wide) in paragraph at lines 19--20
-\T1/futs/m/n/12 pre-scrit une ac-tion de ce joueur pour chaque fois qu'il est s
-us-cep-ti-ble de jouer. L'ensemble
+) (theorie_graphe/Notions_theoriejeux.tex [11] [12]
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 55.
+
+
+Overfull \hbox (0.17932pt too wide) in paragraph at lines 55--56
+[][]\T1/futs/b/n/12 DÈfinition 36 \T1/futs/m/n/12 (Pro-fil stra-tÈ-gique)\T1/fu
+ts/b/n/12 . []\T1/futs/m/n/12 Un pro-fil stra-tÈ-gique $(\FML/futm/m/it/12 s[]\
+FMS/futm/m/n/12 \FML/futm/m/it/12 ; :::; s[]\FMS/futm/m/n/12 \T1/futs/m/n/12 
+)$ est une so-lu-tion d'un
  []
 
 
-Overfull \hbox (27.77975pt too wide) in paragraph at lines 27--28
-[][]\T1/futs/b/n/12 DÈfinition 30 \T1/futs/m/n/12 (StratÈgie lo-cale)\T1/futs/b
-/n/12 . []\T1/futs/m/n/12 Une stratÈgie lo-cale du joueur $\FML/futm/m/it/12 J[
-]$ \T1/futs/m/n/12 est un en-sem-ble d'information
+Overfull \hbox (7.00171pt too wide) in paragraph at lines 63--64
+\T1/futs/m/n/12 s'il ad-met un pro-fil stra-tÈ-gique com-posÈ uni-que-ment de s
+tra-tÈ-gies do-mi-nantes des joueurs. 
  []
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 44.
-
-
-Overfull \hbox (0.17932pt too wide) in paragraph at lines 44--45
-[][]\T1/futs/b/n/12 DÈfinition 33 \T1/futs/m/n/12 (Pro-fil stratÈgique)\T1/futs
-/b/n/12 . []\T1/futs/m/n/12 Un pro-fil stratÈgique $(\FML/futm/m/it/12 s[]\FMS/
-futm/m/n/12 \FML/futm/m/it/12 ; :::; s[]\FMS/futm/m/n/12 \T1/futs/m/n/12 )$ e
-st une so-lu-tion d'un
- []
-
-
-Overfull \hbox (7.00171pt too wide) in paragraph at lines 52--53
-\T1/futs/m/n/12 s'il ad-met un pro-fil stratÈgique com-posÈ unique-ment de stra
-tÈ-gies dom-i-nantes des joueurs. 
- []
-
-[12]
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 56.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 67.
 
 ) (theorie_graphe/Methode_partitionnement.tex
-Overfull \hbox (16.33421pt too wide) in paragraph at lines 10--13
+Overfull \hbox (16.21481pt too wide) in paragraph at lines 10--13
 \T1/futs/m/n/12 Soient un graphe $\FML/futm/m/it/12 G \FMS/futm/m/n/12 Å \T1/fu
-ts/m/n/12 (\FML/futm/m/it/12 S; A\T1/futs/m/n/12 )$ et un en-sem-ble de $\FML/f
-utm/m/it/12 k$ \T1/futs/m/n/12 sous-ensembles de $\FML/futm/m/it/12 S$\T1/futs/
-m/n/12 , notÈ $\FML/futm/m/it/12 P[] \FMS/futm/m/n/12 Å f\FML/futm/m/it/12 S[];
- S[]; :::; S[]\FMS/futm/m/n/12 g$\T1/futs/m/n/12 .
+ts/m/n/12 (\FML/futm/m/it/12 S; A\T1/futs/m/n/12 )$ et un en-semble de $\FML/fu
+tm/m/it/12 k$ \T1/futs/m/n/12 sous-ensembles de $\FML/futm/m/it/12 S$\T1/futs/m
+/n/12 , notÈ $\FML/futm/m/it/12 P[] \FMS/futm/m/n/12 Å f\FML/futm/m/it/12 S[]; 
+S[]; :::; S[]\FMS/futm/m/n/12 g$\T1/futs/m/n/12 .
  []
 
-) (theorie_graphe/Approches_partitionnement.tex [13]
-Overfull \hbox (12.27368pt too wide) in paragraph at lines 14--16
-\T1/futs/m/n/12 les heuris-tiques. Cepen-dant, peux d'effort ont ÈtÈ faits dans
- le dÈveloppe-ment d'algorithmes
- []
-
-
-Overfull \hbox (2.45059pt too wide) in paragraph at lines 31--32
-[]\T1/futs/m/n/12 Dans cette ap-proche, on dis-tingue en-tre les mÈth-odes basÈ
-es sur les al-go-rithmes itÈrat-
- []
-
-[14]
-Overfull \hbox (7.70168pt too wide) in paragraph at lines 34--35
-\T1/futs/m/n/12 tion-nant le voisin le plus proche qui per-met de rÈ-duire la c
-oupe de la par-ti-tion. L'algorithme
- []
-
-
-Overfull \hbox (19.00563pt too wide) in paragraph at lines 38--39
-\T1/futs/m/n/12 forte-ment dÈpen-dant de la so-lu-tion ini-tiale. D'autres ap-p
-roches d'algorithmes d'optimisation
- []
-
-
-Overfull \hbox (10.62569pt too wide) in paragraph at lines 41--42
-\T1/futs/m/n/12 par-ti-tion-nement de graphes [[][][]BUI[][], [][]1996[][]; [][
-][]CHEVA-LIER[][], [][]2006[][]; [][][]CHOCK-ALINGAM[][], [][]1992[][]; [][][]S
-OPER[][],
- []
-
-
-Overfull \hbox (7.95845pt too wide) in paragraph at lines 48--49
-[]\T1/futs/m/n/12 D'autres mÈta-heuristiques, comme la recherche tabou [[][][]B
-AT-TITI[][], [][]1999[][]], le re-cuit simulÈ
- []
-
-
-Overfull \hbox (12.11371pt too wide) in paragraph at lines 50--52
-\T1/futs/m/n/12 un solide poreux, et la mÈth-ode de fusion-fission [[][][]BI-CH
-OT[][], [][]2007[][]] qui s'inspire de la physique
+) (theorie_graphe/Approches_partitionnement.tex [13] [14]
+Overfull \hbox (2.51364pt too wide) in paragraph at lines 48--49
+\T1/futs/m/n/12 alÈa-toires adap-ta-tifs (GRASP) [[][][]AREIBI[][], [][]2004[][
+]], les mÈ-thodes de dif-fu-sion sto-chas-tique [[][][]TAO[][],
  []
 
 [15]
-Overfull \hbox (50.26164pt too wide) in paragraph at lines 55--59
-\T1/futs/m/n/12 La mÈth-ode multi-niveaux, in-tro-duite par [[][][]BARNARD[][],
- [][]1994[][]; [][][]HEN-DRICK-SON[][], [][]1995b[][]], [[][][]VAN DRIESS-
- []
-
-<img/multiniveaupartitionnement.PNG, id=660, 850.67813pt x 459.21562pt>
+<img/multiniveaupartitionnement.PNG, id=662, 850.67813pt x 459.21562pt>
 File: img/multiniveaupartitionnement.PNG Graphic file (type png)
 <use img/multiniveaupartitionnement.PNG>
 Package pdftex.def Info: img/multiniveaupartitionnement.PNG  used on input line
  65.
 (pdftex.def)             Requested size: 267.75734pt x 144.54pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 66.
 See the caption package documentation for explanation.
 
-) (theorie_graphe/Distribution_graphes.tex [16 <./img/multiniveaupartitionnemen
-t.PNG>] [17]
-<img/eed.PNG, id=760, 840.13875pt x 565.36218pt>
+
+Overfull \hbox (3.8733pt too wide) in paragraph at lines 72--73
+\T1/futs/m/n/12 vu le jour. On peut ci-ter Par-Me-TiS [[][][]KA-RY-PIS[][], [][
+]2011[][]], Par-Jostle [[][][]WAL-SHAW[][]], PT-Scotch [[][][]CHE-
+ []
+
+[16 <./img/multiniveaupartitionnement.PNG>])
+(theorie_graphe/Distribution_graphes.tex [17]
+<img/eed.PNG, id=769, 840.13875pt x 565.36218pt>
 File: img/eed.PNG Graphic file (type png)
 <use img/eed.PNG>
 Package pdftex.def Info: img/eed.PNG  used on input line 47.
@@ -3018,14 +2973,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--21
 
  []
 
-[18 <./img/eed.PNG>]) (r2p_sk_mc/R2p_SK_MC.tex
-Overfull \hbox (10.30165pt too wide) in paragraph at lines 22--4
-\T1/futs/m/n/12 nou-veaux al-go-rithmes de dis-tri-bu-tion de graphes en ex-plo
-itant les mÈth-odes d'optimisation
- []
-
-[19]
-Chapter 2.
+[18 <./img/eed.PNG>]) (r2p_sk_mc/R2p_SK_MC.tex [19]
+Chapitre 2.
 \openout4 = `Main.mtc'.
 
 \openout4 = `Main.mtc'.
@@ -3034,36 +2983,26 @@ Chapter 2.
 
 ]
 Overfull \hbox (1.64664pt too wide) in paragraph at lines 12--13
-[]\T1/futs/m/n/12 Le model check-ing est une forme de vÈri-fi-ca-tion formelle 
-des sys-tËmes [[][][]CHENG[][], [][]2006[][]],
+[]\T1/futs/m/n/12 Le mo-del che-cking est une forme de vÈ-ri-fi-ca-tion for-mel
+le des sys-tËmes [[][][]CHENG[][], [][]2006[][]],
  []
 
 (r2p_sk_mc/Rdp.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21]
-Overfull \hbox (15.53761pt too wide) in paragraph at lines 4--5
-\T1/futs/m/n/12 d'Èvolutions si-mul-tanÈes. Leur reprÈsen-ta-tion graphique per
--met de vi-su-aliser d'une maniËre
- []
-
-<img/rdp.PNG, id=888, 469.755pt x 74.52844pt>
+<img/rdp.PNG, id=895, 469.755pt x 74.52844pt>
 File: img/rdp.PNG Graphic file (type png)
 <use img/rdp.PNG>
 Package pdftex.def Info: img/rdp.PNG  used on input line 12.
 (pdftex.def)             Requested size: 234.87692pt x 37.26411pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 13.
 See the caption package documentation for explanation.
 
-
-Overfull \hbox (12.98178pt too wide) in paragraph at lines 17--18
-\T1/futs/m/n/12 vent l'Ètat d'une ressource (nom-bre d'instances, oc-cupÈe ou n
-on, ...). Un je-ton est reprÈsentÈ
- []
-
-<img/place.PNG, id=890, 320.69812pt x 75.28125pt>
+<img/place.PNG, id=897, 320.69812pt x 75.28125pt>
 File: img/place.PNG Graphic file (type png)
 <use img/place.PNG>
 Package pdftex.def Info: img/place.PNG  used on input line 20.
@@ -3073,7 +3012,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 21.
 See the caption package documentation for explanation.
 
-<img/rdp1.PNG, id=893, 283.0575pt x 203.25937pt>
+<img/rdp1.PNG, id=900, 283.0575pt x 203.25937pt>
 File: img/rdp1.PNG Graphic file (type png)
 <use img/rdp1.PNG>
 Package pdftex.def Info: img/rdp1.PNG  used on input line 27.
@@ -3084,7 +3023,7 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [22 <./img/rdp.PNG> <./img/place.PNG> <./img/rdp1.PNG>]
-<img/rdpg.PNG, id=906, 283.2984pt x 203.3196pt>
+<img/rdpg.PNG, id=913, 283.2984pt x 203.3196pt>
 File: img/rdpg.PNG Graphic file (type png)
 <use img/rdpg.PNG>
 Package pdftex.def Info: img/rdpg.PNG  used on input line 32.
@@ -3095,27 +3034,28 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 33.
 See the caption package documentation for explanation.
 
+LaTeX Font Info:    Try loading font information for TS1+futs on input line 51.
+
+("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\ts1futs.fd"
+File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
+)
 File: img/rdp1.PNG Graphic file (type png)
 <use img/rdp1.PNG>
 Package pdftex.def Info: img/rdp1.PNG  used on input line 84.
 (pdftex.def)             Requested size: 141.5284pt x 101.62943pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 85.
 See the caption package documentation for explanation.
 
 [23 <./img/rdpg.PNG>]
-Overfull \hbox (16.52174pt too wide) in paragraph at lines 90--91
-[][]\T1/futs/b/n/12 DÈfinition 42 \T1/futs/m/n/12 (Sen-si-bil-i-sa-tion d'une t
-ran-si-tion)\T1/futs/b/n/12 . []\T1/futs/m/n/12 Une tran-si-tion $\FML/futm/m/i
-t/12 t$ \T1/futs/m/n/12 est dite sen-si-bil-isÈe (validÈe,
- []
-
-<img/H2O.PNG, id=924, 598.48593pt x 165.61874pt>
+<img/H2O.PNG, id=933, 598.48593pt x 165.61874pt>
 File: img/H2O.PNG Graphic file (type png)
 <use img/H2O.PNG>
 Package pdftex.def Info: img/H2O.PNG  used on input line 101.
 (pdftex.def)             Requested size: 299.24223pt x 82.80916pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 102.
@@ -3124,26 +3064,24 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Command \textquoteright invalid in math mode on input line 116.
 
-[24 <./img/H2O.PNG>]
-<img/gm1.png, id=942, 200.75pt x 278.03876pt>
+<img/gm1.png, id=938, 200.75pt x 278.03876pt>
 File: img/gm1.png Graphic file (type png)
 <use img/gm1.png>
 Package pdftex.def Info: img/gm1.png  used on input line 122.
 (pdftex.def)             Requested size: 80.29857pt x 111.21352pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 123.
 See the caption package documentation for explanation.
 
-
+[24 <./img/H2O.PNG>]
 Overfull \hbox (15.37833pt too wide) in paragraph at lines 131--133
-[]\T1/futs/m/n/12 Formellement un sys-tËme de tran-si-tions Èti-quetÈes est un 
-quadru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12 Å \T1/futs/m/n/12 (\FML/fu
-tm/m/it/12 S; Act; ; s[]\T1/futs/m/n/12 )$
+[]\T1/futs/m/n/12 Formellement un sys-tËme de tran-si-tions Èti-que-tÈes est un
+ qua-dru-plet $ \FML/futm/m/it/12 STE \FMS/futm/m/n/12 Å \T1/futs/m/n/12 (\FML/
+futm/m/it/12 S; Act; ; s[]\T1/futs/m/n/12 )$
  []
 
-<img/ste.png, id=947, 83.31125pt x 177.66376pt>
+<img/ste.png, id=954, 83.31125pt x 177.66376pt>
 File: img/ste.png Graphic file (type png)
 <use img/ste.png>
 Package pdftex.def Info: img/ste.png  used on input line 141.
@@ -3154,40 +3092,28 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 See the caption package documentation for explanation.
 
 [25 <./img/gm1.png> <./img/ste.png>]
-Overfull \hbox (24.30447pt too wide) in paragraph at lines 155--156
-[]\T1/futs/m/n/12 Soit $[]$ un en-sem-ble de propo-si-tions atom-iques, c'est-‡
--dire des ex-pres-sions boolÈennes
- []
-
-
-Overfull \hbox (5.06659pt too wide) in paragraph at lines 167--168
-[]\T1/futs/m/n/12 La Fig-ure [][]2.9[][] reprÈsente une struc-ture de Kripke do
-nt l'ensemble de propo-si-tions atom-
- []
-
-<img/stk.png, id=963, 539.01375pt x 153.57375pt>
+<img/stk.png, id=974, 539.01375pt x 153.57375pt>
 File: img/stk.png Graphic file (type png)
 <use img/stk.png>
 Package pdftex.def Info: img/stk.png  used on input line 170.
 (pdftex.def)             Requested size: 215.60167pt x 61.4284pt.
 
+
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 171.
 See the caption package documentation for explanation.
 
-[26 <./img/stk.png>]
-<img/stkd.png, id=979, 575.751pt x 190.311pt>
+<img/stkd.png, id=978, 575.751pt x 190.311pt>
 File: img/stkd.png Graphic file (type png)
 <use img/stkd.png>
 Package pdftex.def Info: img/stkd.png  used on input line 193.
 (pdftex.def)             Requested size: 403.02296pt x 133.21677pt.
 
-
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 194.
 See the caption package documentation for explanation.
 
-) (r2p_sk_mc/CTL.tex
+[26 <./img/stk.png>]) (r2p_sk_mc/CTL.tex
 
 Package natbib Warning: Citation `Emerson1983' on page 27 undefined on input li
 ne 2.
@@ -3197,48 +3123,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[27 <./img/stkd.png>]
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 22.
 
 
 LaTeX Warning: Command \textellipsis invalid in math mode on input line 23.
 
-[28]
+[27 <./img/stkd.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-) (r2p_sk_mc/Modelchecking.tex [29]
+) (r2p_sk_mc/Modelchecking.tex [28]
 
 Package amsmath Warning: Foreign command \atop;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 53.
 
-
-Overfull \hbox (0.77425pt too wide) in paragraph at lines 55--56
-[]\T1/futs/m/n/12 AprËs l'application de l'algorithme rÈcur-sif ci-dessus, nous
- avons $\FMS/futm/m/n/12 8\FML/futm/m/it/12 s \FMS/futm/m/n/12 õ \FML/futm/m/it
-/12 H\T1/futs/m/n/12 (\FML/futm/m/it/12 f\T1/futs/m/n/12 ) \FMS/futm/m/n/12 ) \
-FML/futm/m/it/12 L\T1/futs/m/n/12 (\FML/futm/m/it/12 s; f\T1/futs/m/n/12 ) \FMS
-/futm/m/n/12 Å
+[29]
+Overfull \hbox (0.65485pt too wide) in paragraph at lines 55--56
+[]\T1/futs/m/n/12 AprËs l'ap-pli-ca-tion de l'al-go-rithme rÈ-cur-sif ci-dessus
+, nous avons $\FMS/futm/m/n/12 8\FML/futm/m/it/12 s \FMS/futm/m/n/12 õ \FML/fut
+m/m/it/12 H\T1/futs/m/n/12 (\FML/futm/m/it/12 f\T1/futs/m/n/12 ) \FMS/futm/m/n/
+12 ) \FML/futm/m/it/12 L\T1/futs/m/n/12 (\FML/futm/m/it/12 s; f\T1/futs/m/n/12 
+) \FMS/futm/m/n/12 Å
  []
 
-[30])) [31] [32
+)) [30] [31
 
-] [33] (Contribution.tex
-Chapter 3.
+] [32] (Contribution.tex
+Chapitre 3.
 \openout4 = `Main.mtc'.
 
 \openout4 = `Main.mtc'.
 
-(Main.mtc6) [34
+(Main.mtc6) [33
 
 
 ]
+Overfull \hbox (7.33636pt too wide) in paragraph at lines 11--12
+[]\T1/futs/m/n/12 Dans [[][][]CHAOUCHE. A. C.[][], [][]2012[][]], [[][][]TA-BIB
+[][], [][]2016[][]], [[][][]BEN-SE-TIRA[][], [][]2017[][]], nous avons constatÈ
+
+ []
+
+
 Overfull \hbox (1.4818pt too wide) in paragraph at lines 11--12
-\T1/futs/m/n/12 que les mÈth-odes de gÈnÈra-tion des es-paces d'Ètats pour le m
-odel check-ing con-siste qu'un
+\T1/futs/m/n/12 que les mÈ-thodes de gÈ-nÈ-ra-tion des es-paces d'Ètats pour le
+ mo-del che-cking consiste qu'un
  []
 
 (contribution/Politiquedistribution.tex
@@ -3251,8 +3183,8 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
-<img/protocole.png, id=1091, 1447.65843pt x 542.025pt>
+[34]
+<img/protocole.png, id=1094, 1447.65843pt x 542.025pt>
 File: img/protocole.png Graphic file (type png)
 <use img/protocole.png>
 Package pdftex.def Info: img/protocole.png  used on input line 21.
@@ -3279,7 +3211,17 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36 <./img/protocole.png>]
+[35 <./img/protocole.png>]
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36]
+Package hyperref Info: bookmark level for unknown Exemple defaults to 0 on inpu
+t line 10.
+
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
@@ -3287,22 +3229,7 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [37]
-Package hyperref Info: bookmark level for unknown Exemple defaults to 0 on inpu
-t line 10.
-
-Overfull \hbox (16.44571pt too wide) in paragraph at lines 15--16
-\T1/futs/m/n/12 Les rÈ-sul-tats ob-servÈs du-rant le pro-ces-sus de vÈri-fi-ca-
-tion de la for-mule AG(a) sont reprÈsen-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[38]
-<img/skd1.png, id=1165, 423.984pt x 142.6128pt>
+<img/skd1.png, id=1168, 423.984pt x 142.6128pt>
 File: img/skd1.png Graphic file (type png)
 <use img/skd1.png>
 Package pdftex.def Info: img/skd1.png  used on input line 25.
@@ -3313,19 +3240,14 @@ Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 26.
 See the caption package documentation for explanation.
 
-) (contribution/Section2.tex
+) (contribution/Section2.tex) (contribution/Section3.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./img/skd1.png>]) (contribution/Section3.tex) (contribution/Section4.tex
-Overfull \hbox (5.17458pt too wide) in paragraph at lines 11--4
-[]\T1/futs/m/n/12 En s'inspirant de ces principes, on pro-pose une stratÈgie d'
-optimisation des paramËtres
- []
-
+[38 <./img/skd1.png>]) (contribution/Section4.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 13.24796pt on input line 5.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -3339,21 +3261,23 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 7.35999pt on input line 5.
 
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40]
 Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<img/skd2.png, id=1182, 341.5962pt x 414.348pt>
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39]
+<img/skd2.png, id=1185, 341.5962pt x 414.348pt>
 File: img/skd2.png Graphic file (type png)
 <use img/skd2.png>
 Package pdftex.def Info: img/skd2.png  used on input line 24.
 (pdftex.def)             Requested size: 238.32343pt x 289.07999pt.
+
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
 (caption)                particular \caption on input line 25.
@@ -3366,54 +3290,42 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./img/skd2.png>] (contribution/Algorithm1.tex
+[40 <./img/skd2.png>] (contribution/Algorithm1.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
+[41]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (4.29672pt too wide) in paragraph at lines 81--95
-[]\T1/futs/m/n/12 AprËs l'itÈration prÈcÈ-dente, des Ètats liÈs peu-vent pos-sÈ
-der des prÈdÈcesseurs
- []
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
+[42])
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43]
-Overfull \hbox (4.29672pt too wide) in paragraph at lines 95--107
-[]\T1/futs/m/n/12 AprËs l'itÈration prÈcÈ-dente, des Ètats liÈs peu-vent pos-sÈ
-der des prÈdÈcesseurs
- []
-
-
-Overfull \hbox (4.29672pt too wide) in paragraph at lines 107--121
-[]\T1/futs/m/n/12 AprËs l'itÈration prÈcÈ-dente, des Ètats liÈs peu-vent pos-sÈ
-der des prÈdÈcesseurs
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
+[43] (contribution/Algorithm2.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44] (contribution/Algorithm2.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[44]
+Overfull \hbox (5.65147pt too wide) in paragraph at lines 40--41
+[]\T1/futs/m/n/12 L'instruction de cette ligne per-met de rÈ-cu-pÈ-rer les Ètat
+s dont ils dÈ-pendent. 
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
@@ -3422,6 +3334,52 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]
+Underfull \hbox (badness 10000) in paragraph at lines 82--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--107
+
+ []
+
+
+Overfull \hbox (8.75552pt too wide) in paragraph at lines 107--130
+\T1/futs/m/n/12 une no-ti-fi-ca-tion pro-voque l'itÈ-ra-tion 2 sur la  ma-chin
+e 1 , cette no-ti-fi-ca-tion concerne
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--149
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
@@ -3429,65 +3387,6 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 82--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--107
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[47]
-Overfull \hbox (3.89647pt too wide) in paragraph at lines 130--149
-\T1/futs/m/n/12 l'ensemble de dÈpen-dance de l'Ètat S20. Par con-tre l'Ètat 
-S19 est un prÈdÈcesseur
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--149
-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48]
-Overfull \hbox (4.12437pt too wide) in paragraph at lines 149--164
-\T1/futs/m/n/12 l'Ètat S22. Le principe de mar-quage est sim-i-laire ‡ l'itÈr
-ation prÈcÈ-dente, le Tableau
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 149--164
 
  []
@@ -3498,16 +3397,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 165--182
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-)
+[47])
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49] (contribution/Algorithm3.tex
+[48] (contribution/Algorithm3.tex
 Package hyperref Info: bookmark level for unknown function defaults to 0 on inp
 ut line 5.
 pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.6.1}
@@ -3536,10 +3438,6 @@ l.24 \end
                    \relax 
 l.24 \end
          {function}
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
@@ -3550,49 +3448,22 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+[49]
+Overfull \hbox (16.14621pt too wide) in paragraph at lines 73--74
+\T1/futs/m/n/12 Ètats de l'exemple ([][]3.2.2[][]), les va-leurs des pa-ra-mËtr
+es ‡ tra-vers les rÈ-sul-tats de l'exemple([][]3.2.3[][]).
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
 [50]
-Overfull \hbox (11.16849pt too wide) in paragraph at lines 62--63
-\T1/futs/m/n/12 vÈri-fi-ant les deux pre-miËres con-di-tions. Lorsque ces con-d
-i-tions sont vÈri-fiÈes, l'espace
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-Overfull \hbox (25.05022pt too wide) in paragraph at lines 66--67
-[]\T1/futs/m/n/12 Sinon, si l'Ètat ex-terne est prÈsent dans l'ensemble limit
- de cet Ètat, les paramËtres
- []
-
-
-Overfull \hbox (5.89655pt too wide) in paragraph at lines 69--70
-\T1/futs/m/n/12 rects sur des autres ma-chines dis-tantes, la dÈpen-dance des s
-uc-cesseurs et la prÈsence
- []
-
-
-Overfull \hbox (16.26561pt too wide) in paragraph at lines 73--74
-\T1/futs/m/n/12 Ètats de l'exemple ([][]3.2.2[][]), les valeurs des paramËtres 
-‡ travers les rÈ-sul-tats de l'exemple([][]3.2.3[][]).
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -3631,28 +3502,19 @@ l.15
 l.15 
      
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-Overfull \hbox (10.49059pt too wide) in paragraph at lines 18--19
-[]\T1/futs/m/n/12 L'envoi des valeurs con-cer-nent les Ètats ap-par-tenant aux 
-ma-chines dis-tantes sur lesquels
- []
-
+[51]
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54]pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.
+[52]pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.
 7.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -3683,25 +3545,31 @@ l.75 \end
                    \relax 
 l.75 \end
          {procedure}
-Overfull \hbox (3.0626pt too wide) in paragraph at lines 77--78
-[]\T1/futs/m/n/12 Les in-struc-tions dÈcrivant la procÈ-dure de rÈ-cep-tion des
- valeurs, per-me-t-tent de stocker
+
+Package Fancyhdr Warning: \headheight is too small (17.5pt): 
+ Make it at least 27.08203pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[53]
+Overfull \hbox (3.75386pt too wide) in paragraph at lines 114--115
+[]\T1/futs/m/n/12 A la rÈ-cep-tion des va-leurs : $\FML/futm/m/it/12 id \FMS/fu
+tm/m/n/12 Å \FML/futm/m/it/12 s\T1/futs/m/n/12 2$ ; $\FML/futm/m/it/12 [] \FMS
+/futm/m/n/12 Å \T1/futs/m/n/12 5$ ; $\FML/futm/m/it/12 [] \FMS/futm/m/n/12 Å \
+T1/futs/m/n/12 0$ ; $\FML/futm/m/it/12 m[] \FMS/futm/m/n/12 Å \T1/futs/m/n/12 
+0$ ; $\FML/futm/m/it/12 f \FMS/futm/m/n/12 Å f\FML/futm/m/it/12 s\T1/futs/m/n/1
+2 9\FML/futm/m/it/12 ; s\T1/futs/m/n/12 10\FML/futm/m/it/12 ; s\T1/futs/m/n/12 
+11\FMS/futm/m/n/12 g$ \T1/futs/m/n/12 ;
  []
 
+)) (contribution/EtapeRedistribution.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55])) (contribution/EtapeRedistribution.tex
-
-Package Fancyhdr Warning: \headheight is too small (17.5pt): 
- Make it at least 27.08203pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56] (contribution/Algorithm_Search_StatesToImport.tex
+[54] (contribution/Algorithm_Search_StatesToImport.tex
 Underfull \hbox (badness 5924) in paragraph at lines 28--28
 []|[]\T1/futs/b/n/12 if \T1/futs/m/it/12 ($\T1/futs/m/n/12 (\FML/futm/m/it/12 e
  \FMS/futm/m/n/12 2 \FML/futm/m/it/12 e[]:f\T1/futs/m/n/12 )\FML/futm/m/it/12 a
@@ -3727,20 +3595,26 @@ uts/m/n/12 [\FML/futm/m/it/12 j\T1/futs/m/n/12 ]\FML/futm/m/it/12 :[] and e:[
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.32048pt too wide) in paragraph at lines 38--39
-\T1/futs/m/n/12 mum est faite ‡ la ligne [][]13[][]. Ainsi la vÈri-fi-ca-tion d
-e cette con-di-tion en-traine l'exÈcution
- []
-
-
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]) (contribution/Algorithm_Search_StatesToMove.texpdfTeX warning (ext4): des
-tination with the same identifier (name{AlgoLine.8.1}) has been already used, d
-uplicate ignored
+[55]
+Overfull \hbox (10.1527pt too wide) in paragraph at lines 39--40
+[]\T1/futs/m/n/12 L'instruction Ècrite sur cette ligne per-met de re-tour-ner l
+es in-for-ma-tions du couple
+ []
+
+)
+Overfull \hbox (8.35464pt too wide) in paragraph at lines 26--27
+[]\T1/futs/m/n/12 L'ensemble mi-ni-mal des Ètats ‡ dÈ-pla-cer dans une ma-chine
+ lo-cale cor-res-pond au couple
+ []
+
+(contribution/Algorithm_Search_StatesToMove.texpdfTeX warning (ext4): destinati
+on with the same identifier (name{AlgoLine.8.1}) has been already used, duplica
+te ignored
 <to be read again> 
                    \relax 
 l.24 \caption
@@ -3773,84 +3647,87 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58])
+[56]
+Overfull \hbox (5.0331pt too wide) in paragraph at lines 39--40
+\T1/futs/m/n/12 sont in-fÈ-rieurs au mi-ni-mum cou-rant, l'ins-truc-tion de la 
+ligne [][]10[][] met ‡ jour le contenu
+ []
+
+
+Overfull \hbox (10.1527pt too wide) in paragraph at lines 41--42
+[]\T1/futs/m/n/12 L'instruction Ècrite sur cette ligne per-met de re-tour-ner l
+es in-for-ma-tions du couple
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8
+[57pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8
 .4}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.5}
-) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.5}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.6}
-) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.6}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.7}
-) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.7}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.8}
-) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.8}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.9}
-) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.9}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.10
-}) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.10}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.11
-}) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.11}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.12
-}) has been already used, duplicate ignored
+l.38 \end{itemize}
+                  pdfTeX warning (ext4): destination with the same identifier (
+name{AlgoLine.8.12}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.36 	\item S
-             inon, si le nombre des √©tats √† d√©placer est inf√©rieur ou √©...
-]
+l.38 \end{itemize}
+                  ]
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
+[58]
 \openout2 = `contribution/Algorithm_SendResquest.aux'.
 
  (contribution/Algorithm_SendResquest.texpdfTeX warning (ext4): destination wit
@@ -3889,14 +3766,9 @@ icate ignored
 <to be read again> 
                    \relax 
 l.15 \caption
-             {$Send\_ Request(MG:state,MF:state)$}
-Overfull \hbox (4.23244pt too wide) in paragraph at lines 19--20
-\T1/futs/m/n/12 Ètats lo-caux et des Ètats dis-tants. La vÈri-fi-ca-tion de cet
-te con-di-tion per-met d'exÈcuter
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine.8.1}
-) has been already used, duplicate ignored
+             {$Send\_ Request(MG:state,MF:state)$}pdfTeX warning (ext4): destin
+ation with the same identifier (name{AlgoLine.8.1}) has been already used, dupl
+icate ignored
 <to be read again> 
                    \relax 
 l.51 \caption
@@ -3972,7 +3844,7 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61
+[59
 
 ] (contribution/Algorithm_ReceveResquest.texpdfTeX warning (ext4): destination 
 with the same identifier (name{AlgoLine.8.1}) has been already used, duplicate 
@@ -4005,7 +3877,7 @@ ready used, duplicate ignored
                    \relax 
 l.14 \caption
              {$Receive\_ Request(states :List of state,MG:state)$})
-<img/Rskd.png, id=1544, 314.1336pt x 349.305pt>
+<img/Rskd.png, id=1543, 314.1336pt x 349.305pt>
 File: img/Rskd.png Graphic file (type png)
 <use img/Rskd.png>
 Package pdftex.def Info: img/Rskd.png  used on input line 63.
@@ -4022,7 +3894,7 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62
+[60
 
 ])) (contribution/Etudeexperimentale.tex
 
@@ -4031,25 +3903,13 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63 <./img/Rskd.png>]
-<img/java.png, id=1558, 109.40875pt x 160.6pt>
+[61 <./img/Rskd.png>]
+<img/java.png, id=1557, 109.40875pt x 160.6pt>
 File: img/java.png Graphic file (type png)
 <use img/java.png>
 Package pdftex.def Info: img/java.png  used on input line 12.
 (pdftex.def)             Requested size: 44.10446pt x 64.74121pt.
-
-Underfull \hbox (badness 1852) in paragraph at lines 17--18
-[]\T1/futs/m/n/12 Java est un lan-gage de pro-gram-ma-tion mod-erne ori-en-tÈe 
-ob-jet
- []
-
-
-Underfull \hbox (badness 2111) in paragraph at lines 17--18
-\T1/futs/m/n/12 dÈveloppÈ par Sun Mi-crosys-tems (au-jourd'hui ra-chetÈ par Or-
-a-
- []
-
-<img/jade.jpg, id=1560, 200.75pt x 66.2475pt>
+<img/jade.jpg, id=1559, 200.75pt x 66.2475pt>
 File: img/jade.jpg Graphic file (type jpg)
 <use img/jade.jpg>
 Package pdftex.def Info: img/jade.jpg  used on input line 22.
@@ -4059,22 +3919,22 @@ Overfull \hbox (44.10446pt too wide) in paragraph at lines 22--23
  [] 
  []
 
-<img/ida.jpg, id=1563, 72.27pt x 72.27pt>
+<img/ida.jpg, id=1562, 72.27pt x 72.27pt>
 File: img/ida.jpg Graphic file (type jpg)
 <use img/ida.jpg>
 Package pdftex.def Info: img/ida.jpg  used on input line 32.
 (pdftex.def)             Requested size: 44.10446pt x 44.10446pt.
-<img/docker.png, id=1565, 199.74625pt x 171.64125pt>
+<img/docker.png, id=1564, 199.74625pt x 171.64125pt>
 File: img/docker.png Graphic file (type png)
 <use img/docker.png>
 Package pdftex.def Info: img/docker.png  used on input line 43.
 (pdftex.def)             Requested size: 88.2022pt x 75.79213pt.
-<img/neo4j-logo-2015.png, id=1567, 225.84375pt x 100.375pt>
+<img/neo4j-logo-2015.png, id=1566, 225.84375pt x 100.375pt>
 File: img/neo4j-logo-2015.png Graphic file (type png)
 <use img/neo4j-logo-2015.png>
 Package pdftex.def Info: img/neo4j-logo-2015.png  used on input line 54.
 (pdftex.def)             Requested size: 88.2022pt x 39.20122pt.
-<img/graphviz.jpg, id=1569, 186.6975pt x 186.6975pt>
+<img/graphviz.jpg, id=1568, 186.6975pt x 186.6975pt>
 File: img/graphviz.jpg Graphic file (type jpg)
 <use img/graphviz.jpg>
 Package pdftex.def Info: img/graphviz.jpg  used on input line 65.
@@ -4085,29 +3945,29 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64 <./img/java.png> <./img/jade.jpg> <./img/ida.jpg> <./img/docker.png> <./img
+[62 <./img/java.png> <./img/jade.jpg> <./img/ida.jpg> <./img/docker.png> <./img
 /neo4j-logo-2015.png>]
-<img/architecture.png, id=1595, 685.05937pt x 205.5178pt>
+<img/architecture.png, id=1594, 685.05937pt x 205.5178pt>
 File: img/architecture.png Graphic file (type png)
 <use img/architecture.png>
 Package pdftex.def Info: img/architecture.png  used on input line 79.
 (pdftex.def)             Requested size: 308.71106pt x 92.61386pt.
-<img/mcapp.png, id=1596, 570.63188pt x 371.13657pt>
+<img/mcapp.png, id=1595, 570.63188pt x 371.13657pt>
 File: img/mcapp.png Graphic file (type png)
 <use img/mcapp.png>
 Package pdftex.def Info: img/mcapp.png  used on input line 85.
 (pdftex.def)             Requested size: 308.71106pt x 200.78452pt.
-<img/apppetrinet.png, id=1597, 919.18407pt x 605.26125pt>
+<img/apppetrinet.png, id=1596, 919.18407pt x 605.26125pt>
 File: img/apppetrinet.png Graphic file (type png)
 <use img/apppetrinet.png>
 Package pdftex.def Info: img/apppetrinet.png  used on input line 91.
 (pdftex.def)             Requested size: 308.71106pt x 203.28326pt.
-<img/clusterdocker.png, id=1598, 964.0818pt x 542.025pt>
+<img/clusterdocker.png, id=1597, 964.0818pt x 542.025pt>
 File: img/clusterdocker.png Graphic file (type png)
 <use img/clusterdocker.png>
 Package pdftex.def Info: img/clusterdocker.png  used on input line 97.
 (pdftex.def)             Requested size: 308.71106pt x 173.55905pt.
-<img/bddneo4j.png, id=1599, 1433.355pt x 505.89pt>
+<img/bddneo4j.png, id=1598, 1433.355pt x 505.89pt>
 File: img/bddneo4j.png Graphic file (type png)
 <use img/bddneo4j.png>
 Package pdftex.def Info: img/bddneo4j.png  used on input line 103.
@@ -4119,14 +3979,14 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65 <./img/graphviz.jpg> <./img/architecture.png> <./img/mcapp.png>]
+[63 <./img/graphviz.jpg> <./img/architecture.png> <./img/mcapp.png>]
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66 <./img/apppetrinet.png> <./img/clusterdocker.png> <./img/bddneo4j.png>]
+[64 <./img/apppetrinet.png> <./img/clusterdocker.png> <./img/bddneo4j.png>]
 Overfull \hbox (0.72964pt too wide) in paragraph at lines 115--133
  [][] 
  []
@@ -4155,57 +4015,38 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67])
+[65])
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68]) (conclusion/conclusion.tex
+[66]) (conclusion/conclusion.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69]
-Overfull \hbox (9.29057pt too wide) in paragraph at lines 14--15
-[]\T1/futs/m/n/12 Dans ce tra-vail, nous avons pro-posÈ une nou-velle ap-proche
- de re-dis-tri-bu-tion de l'espace
- []
-
-
-Overfull \hbox (1.07245pt too wide) in paragraph at lines 22--23
-[]\T1/futs/m/n/12 Nous pen-sons qu'il peut Ítre in-tÈres-sant d'utiliser les di
-f-fÈrentes statis-tiques gÈnÈrer
- []
-
-) [70
+[67]) [68
 
 ] (Main.bbl (Main.brf)
 \tf@brf=\write15
 \openout15 = `Main.brf'.
 
-
-Underfull \hbox (badness 1072) in paragraph at lines 63--63
-[]\T1/futs/m/n/12 [AURORA 2007]  \T1/futs/m/sc/12 AU-RORA\T1/futs/m/n/12 , P. K
-.:  \T1/futs/m/it/12 Multi-level graph par-ti-tion-ing\T1/futs/m/n/12 , ThËse d
-e doc-
- []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.119 
+l.112 
        [1
 
 
 ]
-Underfull \hbox (badness 1072) in paragraph at lines 182--182
-[]\T1/futs/m/n/12 [Bug 9 FEB. 1999]  \T1/futs/m/sc/12 Bug\T1/futs/m/n/12 , BARN
--ABY J. F.:  \T1/futs/m/it/12 Fear of the Year 2000 Bug Is a Prob-
+Underfull \hbox (badness 1348) in paragraph at lines 182--182
+[]\T1/futs/m/n/12 [Bug 9 FEB. 1999]  \T1/futs/m/sc/12 Bug\T1/futs/m/n/12 , BAR-
+NABY J. F. :  \T1/futs/m/it/12 Fear of the Year 2000 Bug Is a Pro-
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
@@ -4238,17 +4079,22 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
 [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 70.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 70.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 71.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 71.
  (Main.aux (remerciement.aux) (resumer.aux)
 (contribution/Algorithm_SendResquest.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 70.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 70.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 71.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 71.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 489BF8B196F2638279CD26AF551A6826;2076.
-Package rerunfilecheck Info: File `Main.brf' has not changed.
-(rerunfilecheck)             Checksum: D188D999B428F80D6AEA829485D93C33;10461.
+(rerunfilecheck)             Checksum: 309496412AC57B3F4AAAB77D0B2720EB;2095.
 
+
+Package rerunfilecheck Warning: File `Main.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `Main.brf':
+(rerunfilecheck)             Before: 18B420DB2674CF0DE6A5A161A45D607B;10461
+(rerunfilecheck)             After:  47C3F367DFBD587F54ACE8B8D1A53533;10461.
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -4258,13 +4104,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 22 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 59986 strings out of 492973
- 1288997 string characters out of 3135470
- 1660351 words of memory out of 3000000
- 61773 multiletter control sequences out of 15000+200000
- 741134 words of font info for 211 fonts, out of 3000000 for 9000
+ 59998 strings out of 492973
+ 1289277 string characters out of 3135470
+ 1660305 words of memory out of 3000000
+ 61775 multiletter control sequences out of 15000+200000
+ 752709 words of font info for 217 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,28n,96p,2126b,1332s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,28n,96p,2126b,1336s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Master1 RSD/Memoire/latex/fonts/enc/dvips/base/8r.enc}<E:/M
 aster1 RSD/Memoire/latex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><E:/Master1 
 RSD/Memoire/latex/fonts/type1/public/fourier/fourier-mex.pfb><E:/Master1 RSD/Me
@@ -4274,9 +4120,9 @@ nts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Master1 RSD/Memoire/latex/font
 s/type1/adobe/utopia/putb8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe
 /utopia/putbi8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr
 8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Main.pdf (86 pages, 2559028 bytes).
+Output written on Main.pdf (85 pages, 2563316 bytes).
 PDF statistics:
- 2003 PDF objects out of 2073 (max. 8388607)
- 638 named destinations out of 1000 (max. 500000)
+ 2002 PDF objects out of 2073 (max. 8388607)
+ 644 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
