@@ -53,11 +53,14 @@
 \newcommand{\bn}{\emph{\border{} et \notifier{}}}
 \newcommand{\ei}{Etat Interne}
 \newcommand{\CDS}{CDS}
+\newcommand{\saidouni}{Pr. Djamel Eddine SAIDOUNI}
+\newcommand{\bouneb}{Dr. Bouneb Zine El Abidine}
 \newcommand{\CDSDef}{Comportemental Distribution States}
 \newcommand{\ee}{Etat Externe}
 \newcommand{\deplacer}{déplacer}
 \newcommand{\dupliquer}{dupliquer}
 \newcommand{\parametreone}{\alpha}
+
 \newcommand{\parametretwo}{\beta}
 \newcommand{\parametretree}{\gamma}
 \newcommand{\parametrefive}{\delta}
@@ -157,3 +160,12 @@
 \def\@makeschapterhead#1{\hbox{%
 		\huge\hbox{\textbf{#1}}%
 	}\par\vskip 1cm}
+\newenvironment{changemargin}[2]{%
+	\begin{list}{}{%
+			\setlength{\leftmargin}{#1}%
+			\setlength{\rightmargin}{#2}%
+		}%
+		\item[]}
+	{\end{list}}
+
+ 

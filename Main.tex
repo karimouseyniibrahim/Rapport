@@ -19,31 +19,34 @@
     pdfauthor={\@author},
     pdfsubject={Manuscrit de Master},
     pdftitle={\@title},
-    pdfkeywords={space d'états, distribution, modèle checker}
+    %pdfkeywords={space d'états, distribution, modèle checker}
 }
 
+\frenchAbstractKeywords{Merci de ne pas dépasser les cinq mots}
+
+
+\englishAbstractKeywords{Please don't use more than five keywords}
+
+\renewcommand*\listfigurename{Liste des figures}
 \begin{document}
 	\let\cleardoublepage\clearpage
 % Préambule	
 	\pagedegarde	
+		\include{remerciement}	
+	\include{resumer}
 	\pagenumbering{roman}
 	% Table des matières
 		\setcounter{tocdepth}{1}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
 		\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
 		\tableofcontents
 	% Liste des figures
-		\renewcommand*\listfigurename{Liste des figures}
 		\listoffigures
-	% Liste des tableaux
-	\listoftables
-
+		\listoftables
+		\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 %        Contenu du document        %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- 
-	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
-	\include{remerciement}	
-	\include{resumer}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)	
 	\pagenumbering{arabic}
 	\input{introduction/Introduction}
 	\clearpage
@@ -54,21 +57,14 @@
 		\input{r2p_sk_mc/R2p_SK_MC}		
  	\part{Contributions}
 	\clearpage
-		\input{Contribution}	 	
+		\input{Contribution}	
 		\input{conclusion/conclusion}	
-				
-	\begin{appendix}
-		\addcontentsline{toc}{part}{Bibliographie}
-		\markboth{Bibliographie}{}
-		\pagenumbering{Roman}	
-		%\bibliographystyle{francaissc}
-		%\bibliographystyle{dinat} 
-		%\bibliographystyle{plainnm}
-		\bibliographystyle{dinat}
-		 \bibliography{Biblio}	
-	
-		
-		%Imports the bibliography file "sample.bib"
-	%\bibliography{sample}	
-	\end{appendix}	
+	\clearpage	
+	%\begin{appendix}
+	\addcontentsline{toc}{part}{Bibliographie}
+	\markboth{Bibliographie}{}
+ 	\pagenumbering{roman}	
+	\bibliographystyle{dinat}
+ \bibliography{Biblio}		
+	%\end{appendix}	
 \end{document}

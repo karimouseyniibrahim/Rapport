@@ -310,7 +310,9 @@
 \newblock (2007)
 
 \bibitem[DOCKER()]{docker}
-\dinatlabel{DOCKER }
+\dinatlabel{DOCKER } \textsc{DOCKER}:
+\newblock \emph{DOCKER}. --
+\newblock URL \url{https://www.docker.com/}
 
 \bibitem[DONATH(1972)]{DonathHoffman1972}
 \dinatlabel{DONATH 1972} \textsc{DONATH}, A.:
@@ -424,7 +426,9 @@
 \newblock (2006)
 
 \bibitem[GRAPHVIZ()]{graphivz}
-\dinatlabel{GRAPHVIZ }
+\dinatlabel{GRAPHVIZ } \textsc{GRAPHVIZ}:
+\newblock \emph{GRAPHVIZ}. --
+\newblock URL \url{https://www.graphviz.org/}
 
 \bibitem[GUIDOUM(2013)]{Guidoum2013}
 \dinatlabel{GUIDOUM 2013} \textsc{GUIDOUM}, BENSOUYAD M. et SAIDOUNI D.~E.:
@@ -479,7 +483,9 @@
 \newblock (1973)
 
 \bibitem[IDA()]{ida}
-\dinatlabel{IDA }
+\dinatlabel{IDA } \textsc{IDA}:
+\newblock \emph{IDA}. --
+\newblock URL \url{https://www.jetbrains.com}
 
 \bibitem[J.~Von~Neumann(1944)]{depriester1944jo}
 \dinatlabel{J.~Von~Neumann 1944} \textsc{J.~Von~Neumann}, O.~M.:
@@ -494,7 +500,9 @@
 \newblock (1983)
 
 \bibitem[JAVA()]{java}
-\dinatlabel{JAVA }
+\dinatlabel{JAVA } \textsc{JAVA}:
+\newblock \emph{JAVA}. --
+\newblock URL \url{https://www.java.com/}
 
 \bibitem[JOHNSON(1989)]{Johnson1989}
 \dinatlabel{JOHNSON 1989} \textsc{JOHNSON}, ARAGON C. R. MCGEOCH L. A. et
@@ -645,7 +653,9 @@
 \newblock 18 (1950), Nr.~1, S.~155--162
 
 \bibitem[NEO4J()]{neo4j}
-\dinatlabel{NEO4J }
+\dinatlabel{NEO4J } \textsc{NEO4J}:
+\newblock \emph{NEO4J}. --
+\newblock URL \url{https://neo4j.com}
 
 \bibitem[von Neumann(1928)]{depriester1928jonvon}
 \dinatlabel{von Neumann 1928} \textsc{Neumann}, John von:

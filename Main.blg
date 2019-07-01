@@ -1,11 +1,6 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 A level-1 auxiliary file: remerciement.aux
 A level-1 auxiliary file: resumer.aux
-Case mismatch error between cite keys Bichot2007 and BICHOT2007
----line 202 of file Main.aux
- : \citation{Bichot2007
- :                     }
-I'm skipping whatever remains of this command
 A level-1 auxiliary file: contribution/Algorithm_SendResquest.aux
 The style file: dinat.bst
 Database file #1: Biblio.bib
@@ -14,6 +9,11 @@ Warning--entry type for "Walshaw2012" isn't style-file defined
 Repeated entry---line 940 of file Biblio.bib
  : @article{Garavel2013
  :                     ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1041 of file Biblio.bib
+ :  
+ :  url       = "http://www-users.math.umn.edu/~arnold/disasters/ariane5rep.html"
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Emerson1983"
 Too many commas in name 1 of "CLARKE, E. M., GRUMBERG, O. et PELED, D" for entry Clarke1999
