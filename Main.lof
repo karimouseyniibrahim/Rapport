@@ -1,8 +1,12 @@
 \babel@toc {french}{}
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
 \babel@toc {french}{}
+\gdef \the@ipfilectr {}
 \contentsline {xpart}{Contexte de travail}{6}{part.1}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Approche de partitionnement et de distribution des graphes}{7}{chapter.1}
@@ -27,6 +31,8 @@
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Sch\IeC {\'e}ma de la politique de redistribution de l'espace d\IeC {\textquoteright }\IeC {\'e}tats\relax }}{35}{figure.caption.31}
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Structure de Kripke distribu\'{e}\relax }}{38}{figure.3.2}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Structure de Kripke distribu\'{e}\relax }}{40}{figure.3.3}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Structure de Kripke Redistribu\'{e}\relax }}{61}{figure.3.4}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Architecture de l'application d\IeC {\'e}velopp\IeC {\'e}e\relax }}{63}{figure.caption.63}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Interface d'ex\IeC {\'e}cution model checking\relax }}{63}{figure.caption.64}

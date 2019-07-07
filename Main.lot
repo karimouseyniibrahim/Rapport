@@ -1,8 +1,12 @@
 \babel@toc {french}{}
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
 \babel@toc {french}{}
+\gdef \the@ipfilectr {}
 \contentsline {xpart}{Contexte de travail}{6}{part.1}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Approche de partitionnement et de distribution des graphes}{7}{chapter.1}
@@ -27,5 +31,7 @@
 \contentsline {table}{\numberline {3.14}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 3\relax }}{51}{table.caption.48}
 \contentsline {table}{\numberline {3.15}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 4\relax }}{51}{table.caption.49}
 \contentsline {table}{\numberline {3.16}{\ignorespaces Calcul des valeurs des param\IeC {\`e}tres: it\IeC {\'e}ration 5\relax }}{52}{table.caption.50}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
 \contentsline {table}{\numberline {3.17}{\ignorespaces R\IeC {\'e}sultats du model checking sur l'espace d'\IeC {\'e}tats distribu\IeC {\'e}s avec \textbf {MD5} \relax }}{65}{table.caption.68}
 \contentsline {table}{\numberline {3.18}{\ignorespaces R\IeC {\'e}sultats du model checking sur l'espace d'\IeC {\'e}tats redistribu\IeC {\'e}s avec \textbf {CDS{}} \relax }}{66}{table.caption.69}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  1 JUL 2019 09:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.7.5)  7 JUL 2019 08:15
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -470,6 +470,10 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count116
 )
+("E:\Master1 RSD\Memoire\latex\tex\latex\cite\chapterbib.sty"
+\c@inputfile=\count117
+Package: chapterbib 2010/09/18  v 1.17
+)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.sty"
 Package: babel 2018/06/05 3.22 The Babel package
 
@@ -488,11 +492,11 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\babel.def"
 File: babel.def 2018/06/05 3.22 Babel common definitions
-\babel@savecnt=\count117
+\babel@savecnt=\count118
 \U@D=\dimen165
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel\txtbabel.def")
-\bbl@dirlevel=\count118
+\bbl@dirlevel=\count119
 )
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
@@ -509,20 +513,20 @@ Package babel-french Warning: Option `frenchb' for Babel is *deprecated*,
 ("E:\Master1 RSD\Memoire\latex\tex\generic\babel-french\french.ldf"
 Language: french 2018/04/12 v3.4d French support from the babel system
 \l@acadian = a dialect from \language\l@french 
-\FB@nonchar=\count119
+\FB@nonchar=\count120
 Package babel Info: Making : an active character on input line 415.
 Package babel Info: Making ; an active character on input line 416.
 Package babel Info: Making ! an active character on input line 417.
 Package babel Info: Making ? an active character on input line 418.
-\FBguill@level=\count120
+\FBguill@level=\count121
 \FB@everypar=\toks33
 \FB@Mht=\dimen166
-\mc@charclass=\count121
-\mc@charfam=\count122
-\mc@charslot=\count123
-\std@mcc=\count124
-\dec@mcc=\count125
-\c@FBcaption@count=\count126
+\mc@charclass=\count122
+\mc@charfam=\count123
+\mc@charslot=\count124
+\std@mcc=\count125
+\dec@mcc=\count126
+\c@FBcaption@count=\count127
 \listindentFB=\skip45
 \descindentFB=\skip46
 \labelwidthFB=\skip47
@@ -586,14 +590,14 @@ Package: aecompl 1998/07/23 0.9 T1 Complements for AE fonts (D. Roegel)
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\multicol.sty"
 Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
-\c@tracingmulticols=\count127
+\c@tracingmulticols=\count128
 \mult@box=\box38
 \multicol@leftmargin=\dimen168
-\c@unbalance=\count128
-\c@collectmore=\count129
-\doublecol@number=\count130
-\multicoltolerance=\count131
-\multicolpretolerance=\count132
+\c@unbalance=\count129
+\c@collectmore=\count130
+\doublecol@number=\count131
+\multicoltolerance=\count132
+\multicolpretolerance=\count133
 \full@width=\dimen169
 \page@free=\dimen170
 \premulticols=\dimen171
@@ -624,14 +628,14 @@ Package: multicol 2018/04/20 v1.8s multicolumn formatting (FMi)
 \@tempa=\box59
 \@tempa=\box60
 \@tempa=\box61
-\c@columnbadness=\count133
-\c@finalcolumnbadness=\count134
+\c@columnbadness=\count134
+\c@finalcolumnbadness=\count135
 \last@try=\dimen174
 \multicolovershoot=\dimen175
 \multicolundershoot=\dimen176
 \mult@nat@firstbox=\box62
 \colbreak@box=\box63
-\mc@col@check@num=\count135
+\mc@col@check@num=\count136
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fourier\fourier.sty"
 Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
@@ -907,12 +911,12 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\lipsum\lipsum.sty"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count136
+\c@lips@count=\count137
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\wrapfig\wrapfig.sty"
 \wrapoverhang=\dimen177
 \WF@size=\dimen178
-\c@WF@wrappedlines=\count137
+\c@WF@wrappedlines=\count138
 \WF@box=\box64
 \WF@everypar=\toks34
 Package: wrapfig 2003/01/31  v 3.6
@@ -927,7 +931,7 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen179
 \enit@toks=\toks36
 \enit@inbox=\box65
-\enitdp@description=\count138
+\enitdp@description=\count139
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\epigraph\epigraph.sty"
 Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
@@ -950,7 +954,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen185
 \caption@hangindent=\dimen186
 )
-\c@ContinuedFloat=\count139
+\c@ContinuedFloat=\count140
 Package caption Info: wrapfig package is loaded.
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\minitoc\minitoc.sty"
@@ -989,10 +993,10 @@ Package minitoc Info: I0031
 
 \openout4 = `Main.mtc0'.
 
-\c@mtc=\count140
-\c@minitocdepth=\count141
-\c@ptc=\count142
-\c@parttocdepth=\count143
+\c@mtc=\count141
+\c@minitocdepth=\count142
+\c@ptc=\count143
+\c@parttocdepth=\count144
 \ptcindent=\skip59
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
@@ -1044,13 +1048,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 ("E:\Master1 RSD\Memoire\latex\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count144
+\inf@bad=\count145
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count145
-\leftroot@=\count146
+\uproot@=\count146
+\leftroot@=\count147
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count147
-\DOTSCASE@=\count148
+\classnum@=\count148
+\DOTSCASE@=\count149
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1059,15 +1063,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen189
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count149
-\c@MaxMatrixCols=\count150
+\macc@depth=\count150
+\c@MaxMatrixCols=\count151
 \dotsspace@=\muskip10
-\c@parentequation=\count151
-\dspbrk@lvl=\count152
+\c@parentequation=\count152
+\dspbrk@lvl=\count153
 \tag@help=\toks39
-\row@=\count153
-\column@=\count154
-\maxfields@=\count155
+\row@=\count154
+\column@=\count155
+\maxfields@=\count156
 \andhelp@=\toks40
 \eqnshift@=\dimen190
 \alignsep@=\dimen191
@@ -1140,7 +1144,7 @@ Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
 ("E:\Master1 RSD\Memoire\latex\tex\latex\multirow\multirow.sty"
 Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
 \multirow@colwidth=\skip66
-\multirow@cntb=\count156
+\multirow@cntb=\count157
 \multirow@dima=\skip67
 \bigstrutjot=\dimen197
 )
@@ -1156,12 +1160,12 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen261
 \cmidrulekern=\dimen262
 \defaultaddspace=\dimen263
-\@cmidla=\count157
-\@cmidlb=\count158
+\@cmidla=\count158
+\@cmidlb=\count159
 \@aboverulesep=\dimen264
 \@belowrulesep=\dimen265
-\@thisruleclass=\count159
-\@lastruleclass=\count160
+\@thisruleclass=\count160
+\@lastruleclass=\count161
 \@thisrulewidth=\dimen266
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\colortbl\colortbl.sty"
@@ -1187,7 +1191,7 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@old@col=\dimen271
 \TX@target=\dimen272
 \TX@delta=\dimen273
-\TX@cols=\count161
+\TX@cols=\count162
 \TX@ftn=\toks45
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\threeparttable\threeparttable.sty"
@@ -1196,27 +1200,27 @@ Package: threeparttable 2003/06/13  v 3.0
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\etoolbox\etoolbox.sty"
 Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count162
+\etb@tempcnta=\count163
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\caption\subcaption.sty"
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
-\c@subfigure=\count163
-\c@subtable=\count164
+\c@subfigure=\count164
+\c@subtable=\count165
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\pdfpages\pdfpages.sty"
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\tools\calc.sty"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count165
-\calc@Bcount=\count166
+\calc@Acount=\count166
+\calc@Bcount=\count167
 \calc@Adimen=\dimen274
 \calc@Bdimen=\dimen275
 \calc@Askip=\skip71
 \calc@Bskip=\skip72
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count167
+\calc@Ccount=\count168
 \calc@Cskip=\skip73
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\eso-pic\eso-pic.sty"
@@ -1243,12 +1247,12 @@ File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
 \AM@pagebox=\box73
 \AM@global@opts=\toks46
 \AM@toc@title=\toks47
-\c@AM@survey=\count168
+\c@AM@survey=\count169
 \AM@templatesizebox=\box74
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\graphics\rotating.sty"
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count169
+\c@r@tfl@t=\count170
 \rotFPtop=\skip74
 \rotFPbot=\skip75
 \rot@float@box=\box75
@@ -1256,9 +1260,9 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgfplots\libs\tikzlibrarypgfplots.gr
 oupplots.code.tex"
-\pgfplots@group@current@plot=\count170
-\pgfplots@group@current@row=\count171
-\pgfplots@group@current@column=\count172
+\pgfplots@group@current@plot=\count171
+\pgfplots@group@current@row=\count172
+\pgfplots@group@current@column=\count173
 
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\frontendlayer\tikz\libraries\tik
 zlibrarycalc.code.tex"
@@ -1316,17 +1320,17 @@ Package: expl3 2018-06-14 L3 programming layer (loader)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\l3kernel\expl3-code.tex"
 Package: expl3 2018-06-14 L3 programming layer (code)
-\c_max_int=\count173
-\l_tmpa_int=\count174
-\l_tmpb_int=\count175
-\g_tmpa_int=\count176
-\g_tmpb_int=\count177
-\g__kernel_prg_map_int=\count178
-\c_log_iow=\count179
-\l_iow_line_count_int=\count180
-\l__iow_line_target_int=\count181
-\l__iow_one_indent_int=\count182
-\l__iow_indent_int=\count183
+\c_max_int=\count174
+\l_tmpa_int=\count175
+\l_tmpb_int=\count176
+\g_tmpa_int=\count177
+\g_tmpb_int=\count178
+\g__kernel_prg_map_int=\count179
+\c_log_iow=\count180
+\l_iow_line_count_int=\count181
+\l__iow_line_target_int=\count182
+\l__iow_one_indent_int=\count183
+\l__iow_indent_int=\count184
 \c_zero_dim=\dimen278
 \c_max_dim=\dimen279
 \l_tmpa_dim=\dimen280
@@ -1345,78 +1349,78 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l_tmpb_muskip=\muskip14
 \g_tmpa_muskip=\muskip15
 \g_tmpb_muskip=\muskip16
-\l_keys_choice_int=\count184
-\l__intarray_loop_int=\count185
+\l_keys_choice_int=\count185
+\l__intarray_loop_int=\count186
 \c__intarray_sp_dim=\dimen284
-\g__intarray_font_int=\count186
-\c__fp_leading_shift_int=\count187
-\c__fp_middle_shift_int=\count188
-\c__fp_trailing_shift_int=\count189
-\c__fp_big_leading_shift_int=\count190
-\c__fp_big_middle_shift_int=\count191
-\c__fp_big_trailing_shift_int=\count192
-\c__fp_Bigg_leading_shift_int=\count193
-\c__fp_Bigg_middle_shift_int=\count194
-\c__fp_Bigg_trailing_shift_int=\count195
-\c__kernel_randint_max_int=\count196
-\g__fp_array_int=\count197
-\l__fp_array_loop_int=\count198
-\l__sort_length_int=\count199
-\l__sort_min_int=\count266
-\l__sort_top_int=\count267
-\l__sort_max_int=\count268
-\l__sort_true_max_int=\count269
-\l__sort_block_int=\count270
-\l__sort_begin_int=\count271
-\l__sort_end_int=\count272
-\l__sort_A_int=\count273
-\l__sort_B_int=\count274
-\l__sort_C_int=\count275
-\l__tl_analysis_normal_int=\count276
-\l__tl_analysis_index_int=\count277
-\l__tl_analysis_nesting_int=\count278
-\l__tl_analysis_type_int=\count279
-\l__regex_internal_a_int=\count280
-\l__regex_internal_b_int=\count281
-\l__regex_internal_c_int=\count282
-\l__regex_balance_int=\count283
-\l__regex_group_level_int=\count284
-\l__regex_mode_int=\count285
-\c__regex_cs_in_class_mode_int=\count286
-\c__regex_cs_mode_int=\count287
-\l__regex_catcodes_int=\count288
-\l__regex_default_catcodes_int=\count289
-\c__regex_catcode_D_int=\count290
-\c__regex_catcode_S_int=\count291
-\c__regex_catcode_L_int=\count292
-\c__regex_catcode_O_int=\count293
-\c__regex_catcode_A_int=\count294
-\c__regex_all_catcodes_int=\count295
-\l__regex_show_lines_int=\count296
-\l__regex_min_state_int=\count297
-\l__regex_max_state_int=\count298
-\l__regex_left_state_int=\count299
-\l__regex_right_state_int=\count300
-\l__regex_capturing_group_int=\count301
-\l__regex_min_pos_int=\count302
-\l__regex_max_pos_int=\count303
-\l__regex_curr_pos_int=\count304
-\l__regex_start_pos_int=\count305
-\l__regex_success_pos_int=\count306
-\l__regex_curr_char_int=\count307
-\l__regex_curr_catcode_int=\count308
-\l__regex_last_char_int=\count309
-\l__regex_case_changed_char_int=\count310
-\l__regex_curr_state_int=\count311
-\l__regex_step_int=\count312
-\l__regex_min_active_int=\count313
-\l__regex_max_active_int=\count314
-\l__regex_replacement_csnames_int=\count315
-\l__regex_match_count_int=\count316
-\l__regex_min_submatch_int=\count317
-\l__regex_submatch_int=\count318
-\l__regex_zeroth_submatch_int=\count319
-\g__regex_trace_regex_int=\count320
+\g__intarray_font_int=\count187
+\c__fp_leading_shift_int=\count188
+\c__fp_middle_shift_int=\count189
+\c__fp_trailing_shift_int=\count190
+\c__fp_big_leading_shift_int=\count191
+\c__fp_big_middle_shift_int=\count192
+\c__fp_big_trailing_shift_int=\count193
+\c__fp_Bigg_leading_shift_int=\count194
+\c__fp_Bigg_middle_shift_int=\count195
+\c__fp_Bigg_trailing_shift_int=\count196
+\c__kernel_randint_max_int=\count197
+\g__fp_array_int=\count198
+\l__fp_array_loop_int=\count199
+\l__sort_length_int=\count266
+\l__sort_min_int=\count267
+\l__sort_top_int=\count268
+\l__sort_max_int=\count269
+\l__sort_true_max_int=\count270
+\l__sort_block_int=\count271
+\l__sort_begin_int=\count272
+\l__sort_end_int=\count273
+\l__sort_A_int=\count274
+\l__sort_B_int=\count275
+\l__sort_C_int=\count276
+\l__tl_analysis_normal_int=\count277
+\l__tl_analysis_index_int=\count278
+\l__tl_analysis_nesting_int=\count279
+\l__tl_analysis_type_int=\count280
+\l__regex_internal_a_int=\count281
+\l__regex_internal_b_int=\count282
+\l__regex_internal_c_int=\count283
+\l__regex_balance_int=\count284
+\l__regex_group_level_int=\count285
+\l__regex_mode_int=\count286
+\c__regex_cs_in_class_mode_int=\count287
+\c__regex_cs_mode_int=\count288
+\l__regex_catcodes_int=\count289
+\l__regex_default_catcodes_int=\count290
+\c__regex_catcode_D_int=\count291
+\c__regex_catcode_S_int=\count292
+\c__regex_catcode_L_int=\count293
+\c__regex_catcode_O_int=\count294
+\c__regex_catcode_A_int=\count295
+\c__regex_all_catcodes_int=\count296
+\l__regex_show_lines_int=\count297
+\l__regex_min_state_int=\count298
+\l__regex_max_state_int=\count299
+\l__regex_left_state_int=\count300
+\l__regex_right_state_int=\count301
+\l__regex_capturing_group_int=\count302
+\l__regex_min_pos_int=\count303
+\l__regex_max_pos_int=\count304
+\l__regex_curr_pos_int=\count305
+\l__regex_start_pos_int=\count306
+\l__regex_success_pos_int=\count307
+\l__regex_curr_char_int=\count308
+\l__regex_curr_catcode_int=\count309
+\l__regex_last_char_int=\count310
+\l__regex_case_changed_char_int=\count311
+\l__regex_curr_state_int=\count312
+\l__regex_step_int=\count313
+\l__regex_min_active_int=\count314
+\l__regex_max_active_int=\count315
+\l__regex_replacement_csnames_int=\count316
+\l__regex_match_count_int=\count317
+\l__regex_min_submatch_int=\count318
+\l__regex_submatch_int=\count319
+\l__regex_zeroth_submatch_int=\count320
+\g__regex_trace_regex_int=\count321
 \c_empty_box=\box98
 \l_tmpa_box=\box99
 \l_tmpb_box=\box100
@@ -1458,20 +1462,20 @@ Package: expl3 2018-06-14 L3 programming layer (code)
 \l__coffin_top_corner_dim=\dimen307
 \l__coffin_scaled_total_height_dim=\dimen308
 \l__coffin_scaled_width_dim=\dimen309
-\l__seq_internal_a_int=\count321
-\l__seq_internal_b_int=\count322
+\l__seq_internal_a_int=\count322
+\l__seq_internal_b_int=\count323
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\l3kernel\l3pdfmode.def"
 File: l3pdfmode.def 2018-06-14 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count323
+\l__driver_color_stack_int=\count324
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\l3packages\xparse\xparse.sty"
 Package: xparse 2018-05-12 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count324
-\g__xparse_grabber_int=\count325
-\l__xparse_m_args_int=\count326
-\l__xparse_mandatory_args_int=\count327
-\l__xparse_v_nesting_int=\count328
+\l__xparse_current_arg_int=\count325
+\g__xparse_grabber_int=\count326
+\l__xparse_m_args_int=\count327
+\l__xparse_mandatory_args_int=\count328
+\l__xparse_v_nesting_int=\count329
 )
 Package: siunitx 2018/05/17 v2.7s A comprehensive (SI) units package
 
@@ -1480,27 +1484,27 @@ Package: l3keys2e 2018-05-12 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box113
 \l__siunitx_tmp_dim=\dimen310
-\l__siunitx_tmp_int=\count329
-\l__siunitx_number_mantissa_length_int=\count330
-\l__siunitx_number_uncert_length_int=\count331
-\l__siunitx_round_int=\count332
-\l__siunitx_process_decimal_int=\count333
-\l__siunitx_process_uncertainty_int=\count334
-\l__siunitx_process_fixed_int=\count335
-\l__siunitx_process_integer_min_int=\count336
-\l__siunitx_process_precision_int=\count337
-\l__siunitx_group_min_int=\count338
+\l__siunitx_tmp_int=\count330
+\l__siunitx_number_mantissa_length_int=\count331
+\l__siunitx_number_uncert_length_int=\count332
+\l__siunitx_round_int=\count333
+\l__siunitx_process_decimal_int=\count334
+\l__siunitx_process_uncertainty_int=\count335
+\l__siunitx_process_fixed_int=\count336
+\l__siunitx_process_integer_min_int=\count337
+\l__siunitx_process_precision_int=\count338
+\l__siunitx_group_min_int=\count339
 \l__siunitx_angle_marker_box=\box114
 \l__siunitx_angle_unit_box=\box115
 \l__siunitx_angle_marker_dim=\dimen311
 \l__siunitx_angle_unit_dim=\dimen312
-\l__siunitx_unit_int=\count339
-\l__siunitx_unit_denominator_int=\count340
-\l__siunitx_unit_numerator_int=\count341
-\l__siunitx_unit_prefix_int=\count342
-\l__siunitx_unit_prefix_base_int=\count343
-\l__siunitx_unit_prefix_gram_int=\count344
-\l__siunitx_number_product_int=\count345
+\l__siunitx_unit_int=\count340
+\l__siunitx_unit_denominator_int=\count341
+\l__siunitx_unit_numerator_int=\count342
+\l__siunitx_unit_prefix_int=\count343
+\l__siunitx_unit_prefix_base_int=\count344
+\l__siunitx_unit_prefix_gram_int=\count345
+\l__siunitx_number_product_int=\count346
 \c__siunitx_one_fill_skip=\skip82
 \l__siunitx_table_unit_align_skip=\skip83
 \l__siunitx_table_exponent_dim=\dimen313
@@ -1643,8 +1647,8 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 ("E:\Master1 RSD\Memoire\latex\tex\latex\chemgreek\chemgreek.sty"
 Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemi
 stry (CN)
-\l__chemgreek_tmpa_int=\count346
-\g__chemgreek_tmpa_int=\count347
+\l__chemgreek_tmpa_int=\count347
+\g__chemgreek_tmpa_int=\count348
 .................................................
 . LaTeX info: "xparse/define-command"
 . 
@@ -1696,7 +1700,7 @@ stry (CN)
 . Defining command \selectchemgreekmapping with sig. 'm' on line 491.
 .................................................
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count348
+\l__mhchem_ce_distanceFromLastComma_int=\count349
 \__mhchem_arrow_extPgfLength_skip=\skip86
 \mhchem@minispace@tmp=\skip87
 \mhchem@minibackspace@tmp=\skip88
@@ -1707,7 +1711,7 @@ stry (CN)
 \mhchem@smallbondwidth=\skip93
 \mhchem@bondtmp@minussidebearingleft=\skip94
 \mhchem@bondtmp@minussidebearingright=\skip95
-\l__mhchem_option_version_int=\count349
+\l__mhchem_option_version_int=\count350
 \mhchem@option@minusmathsidebearingleft=\dimen322
 \mhchem@option@minusmathsidebearingright=\dimen323
 \mhchem@option@minustextsidebearingleft=\dimen324
@@ -1774,15 +1778,15 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen326
-\Hy@linkcounter=\count350
-\Hy@pagecounter=\count351
+\Hy@linkcounter=\count351
+\Hy@pagecounter=\count352
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count352
+\Hy@SavedSpaceFactor=\count353
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1804,7 +1808,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-\c@Hy@tempcnt=\count353
+\c@Hy@tempcnt=\count354
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\url\url.sty"
 \Urlmuskip=\muskip17
@@ -1812,7 +1816,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen327
-\Fld@menulength=\count354
+\Fld@menulength=\count355
 \Field@Width=\dimen328
 \Fld@charsize=\dimen329
 Package hyperref Info: Hyper figures OFF on input line 6369.
@@ -1824,23 +1828,23 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6394.
 Package hyperref Info: PDF/A mode OFF on input line 6399.
 LaTeX Info: Redefining \ref on input line 6439.
 LaTeX Info: Redefining \pageref on input line 6443.
-\Hy@abspage=\count355
-\c@Item=\count356
-\c@Hfootnote=\count357
+\Hy@abspage=\count356
+\c@Item=\count357
+\c@Hfootnote=\count358
 )
 Package hyperref Info: Driver: hpdftex.
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
-\Fld@listcount=\count358
-\c@bookmark@seq@number=\count359
+\Fld@listcount=\count359
+\c@bookmark@seq@number=\count360
 \Hy@SectionHShift=\skip96
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\geometry\geometry.sty"
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count360
-\Gm@cntv=\count361
-\c@Gm@tempcnt=\count362
+\Gm@cnth=\count361
+\Gm@cntv=\count362
+\c@Gm@tempcnt=\count363
 \Gm@bindingoffset=\dimen330
 \Gm@wd@mp=\dimen331
 \Gm@odd@mp=\dimen332
@@ -1884,9 +1888,9 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@upperbox=\box121
 \tcb@lowerbox=\box122
 \tcb@phantombox=\box123
-\c@tcbbreakpart=\count363
-\c@tcblayer=\count364
-\tcolorbox@number=\count365
+\c@tcbbreakpart=\count364
+\c@tcblayer=\count365
+\tcolorbox@number=\count366
 \tcb@temp=\box124
 \tcb@temp=\box125
 \tcb@temp=\box126
@@ -1905,7 +1909,7 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 \XKV@toks=\toks52
 \XKV@tempa@toks=\toks53
 )
-\XKV@depth=\count366
+\XKV@depth=\count367
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("E:\Master1 RSD\Memoire\latex\tex\latex\mfirstuc\mfirstuc.sty"
@@ -1924,7 +1928,7 @@ Package: datatool-base 2018/04/16 v2.30 (NLCT)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\substr\substr.sty"
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count367
+\c@su@anzahl=\count368
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\datatool\datatool-fp.sty"
 Package: datatool-fp 2018/04/16 v2.30 (NLCT)
@@ -1935,19 +1939,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\defpattern.sty"
 Package: defpattern 1994/10/12
-\actioncount=\count368
+\actioncount=\count369
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-basic.sty"
 Package: fp-basic 1996/05/13
-\FP@xs=\count369
-\FP@xia=\count370
-\FP@xib=\count371
-\FP@xfa=\count372
-\FP@xfb=\count373
-\FP@rega=\count374
-\FP@regb=\count375
-\FP@regs=\count376
-\FP@times=\count377
+\FP@xs=\count370
+\FP@xia=\count371
+\FP@xib=\count372
+\FP@xfa=\count373
+\FP@xfb=\count374
+\FP@rega=\count375
+\FP@regb=\count376
+\FP@regs=\count377
+\FP@times=\count378
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-addons.sty"
 Package: fp-addons 1995/03/15
@@ -1966,7 +1970,7 @@ Package: fp-pas 1994/08/29
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-random.sty"
 Package: fp-random 1995/02/23
-\FPseed=\count378
+\FPseed=\count379
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\fp\fp-eqn.sty"
 Package: fp-eqn 1995/04/03
@@ -1978,14 +1982,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks56
-\@dtl@tmpcount=\count379
+\@dtl@tmpcount=\count380
 \dtl@tmplength=\skip106
-\dtl@sortresult=\count380
-\@dtl@numgrpsepcount=\count381
-\@dtl@datatype=\count382
-\dtl@codeA=\count383
-\dtl@codeB=\count384
-\@dtl@foreach@level=\count385
+\dtl@sortresult=\count381
+\@dtl@numgrpsepcount=\count382
+\@dtl@datatype=\count383
+\dtl@codeA=\count384
+\dtl@codeB=\count385
+\@dtl@foreach@level=\count386
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\glossaries\base\glossaries-compatible-
 307.sty"
@@ -2002,7 +2006,7 @@ File: glossaries-french.ldf 2016/12/12 v1.1
 ldf"
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count386
+\gls@level=\count387
 \@gls@tmpb=\toks57
 \gls@tmplen=\skip107
 \glskeylisttok=\toks58
@@ -2024,16 +2028,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip110
 \LTpre=\skip111
 \LTpost=\skip112
-\LTchunksize=\count387
+\LTchunksize=\count388
 \LTcapwidth=\dimen338
 \LT@head=\box128
 \LT@firsthead=\box129
 \LT@foot=\box130
 \LT@lastfoot=\box131
-\LT@cols=\count388
-\LT@rows=\count389
-\c@LT@tables=\count390
-\c@LT@chunks=\count391
+\LT@cols=\count389
+\LT@rows=\count390
+\c@LT@tables=\count391
+\c@LT@chunks=\count392
 \LT@p@ftn=\toks62
 )
 \glsdescwidth=\skip113
@@ -2044,7 +2048,7 @@ Package: glossary-super 2019/01/06 v4.42 (NLCT)
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\supertabular\supertabular.sty"
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count392
+\c@tracingst=\count393
 \ST@wd=\dimen339
 \ST@rightskip=\skip115
 \ST@leftskip=\skip116
@@ -2080,7 +2084,7 @@ Package glossaries Info: Writing glossary file Main.acn on input line 118.
 Package glossaries Info: Writing glossary file Main.ntn on input line 118.
 (Glossaire.tex) ("E:\Master1 RSD\Memoire\latex\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count393
+\c@float@type=\count394
 \float@exts=\toks63
 \float@box=\box133
 \@float@everytoks=\toks64
@@ -2088,12 +2092,12 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\algorithm2e\algorithm2e.sty"
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count394
+\c@AlgoLine=\count395
 \algocf@hangindent=\skip119
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\ifoddpage\ifoddpage.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count395
+\c@checkoddpage=\count396
 )
 ("E:\Master1 RSD\Memoire\latex\tex\latex\relsize\relsize.sty"
 Package: relsize 2013/03/29 ver 4.1
@@ -2128,9 +2132,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip135
 \algotitleheightruledefault=\skip136
 \algotitleheightrule=\skip137
-\c@algocfline=\count396
-\c@algocfproc=\count397
-\c@algocf=\count398
+\c@algocfline=\count397
+\c@algocfproc=\count398
+\c@algocf=\count399
 \algocf@algoframe=\box141
 \algocf@algobox=\box142
 )
@@ -2141,15 +2145,15 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count399
-\c@ALG@rem=\count400
-\c@ALG@nested=\count401
+\c@ALG@line=\count400
+\c@ALG@rem=\count401
+\c@ALG@nested=\count402
 \ALG@tlm=\skip138
 \ALG@thistlm=\skip139
-\c@ALG@Lnr=\count402
-\c@ALG@blocknr=\count403
-\c@ALG@storecount=\count404
-\c@ALG@tmpcounter=\count405
+\c@ALG@Lnr=\count403
+\c@ALG@blocknr=\count404
+\c@ALG@storecount=\count405
+\c@ALG@tmpcounter=\count406
 \ALG@tmplength=\skip140
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
@@ -2179,7 +2183,7 @@ Package: amsthm 2017/10/31 v2.20.4
 ("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thmtools.sty"
 Package: thmtools 2014/04/21 v66
 \thmt@toks=\toks71
-\c@thmt@dummyctr=\count406
+\c@thmt@dummyctr=\count407
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\thmtools\thm-patch.sty"
 Package: thm-patch 2014/04/21 v66
@@ -2214,12 +2218,12 @@ Package: thm-restate 2014/04/21 v66
 Package: thm-amsthm 2014/04/21 v66
 \thmt@style@headstyle=\toks73
 ))
-\c@Exemple=\count407
-\c@theorem=\count408
+\c@Exemple=\count408
+\c@theorem=\count409
 \@float@every@function=\toks74
-\c@function=\count409
+\c@function=\count410
 \@float@every@procedure=\toks75
-\c@procedure=\count410
+\c@procedure=\count411
 
 ("E:\Master1 RSD\Memoire\latex\tex\latex\pstricks\pstricks.sty"
 Package: pstricks 2018/01/06 v0.67 LaTeX wrapper for `PSTricks' (RN,HV)
@@ -2238,15 +2242,15 @@ File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pstricks.tex"
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pst-fp.tex"
 `pst-fp' v0.05, 2010/01/17 (hv)
-\pstFP@xs=\count411
-\pstFP@xia=\count412
-\pstFP@xib=\count413
-\pstFP@xfa=\count414
-\pstFP@xfb=\count415
-\pstFP@rega=\count416
-\pstFP@regb=\count417
-\pstFP@regs=\count418
-\pstFP@times=\count419
+\pstFP@xs=\count412
+\pstFP@xia=\count413
+\pstFP@xib=\count414
+\pstFP@xfa=\count415
+\pstFP@xfb=\count416
+\pstFP@rega=\count417
+\pstFP@regb=\count418
+\pstFP@regs=\count419
+\pstFP@times=\count420
 )
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfutil-common.tex"
 \pgfutil@everybye=\toks76
@@ -2262,7 +2266,7 @@ ex")) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pgffor@stack=\toks77
 \pgffor@toks=\toks78
 )
-\psLoopIndex=\count420
+\psLoopIndex=\count421
 
 `PSTricks' v2.84  <2018/05/01> (tvz,hv)
 \pst@dima=\dimen360
@@ -2278,23 +2282,23 @@ ex")) ("E:\Master1 RSD\Memoire\latex\tex\generic\pgf\utilities\pgfkeys.code.tex
 \pst@hbox=\box143
 \pst@ibox=\box144
 \pst@boxg=\box145
-\pst@cnta=\count421
-\pst@cntb=\count422
-\pst@cntc=\count423
-\pst@cntd=\count424
-\pst@cntg=\count425
-\pst@cnth=\count426
-\pst@cntm=\count427
-\pst@cntn=\count428
-\pst@cnto=\count429
-\pst@cntp=\count430
-\@zero=\count431
+\pst@cnta=\count422
+\pst@cntb=\count423
+\pst@cntc=\count424
+\pst@cntd=\count425
+\pst@cntg=\count426
+\pst@cnth=\count427
+\pst@cntm=\count428
+\pst@cntn=\count429
+\pst@cnto=\count430
+\pst@cntp=\count431
+\@zero=\count432
 \pst@toks=\toks79
 ("E:\Master1 RSD\Memoire\latex\tex\generic\pstricks\pstricks.con")
 \psunit=\dimen370
 \psxunit=\dimen371
 \psyunit=\dimen372
-\pst@C@@rType=\count432
+\pst@C@@rType=\count433
 \pslinewidth=\dimen373
 \psk@startLW=\dimen374
 \psk@endLW=\dimen375
@@ -2333,6 +2337,18 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@m' on input line 23.
 
 (Main.aux (remerciement.aux) (resumer.aux)
+
+LaTeX Warning: Label `linef1' multiply defined.
+
+
+LaTeX Warning: Label `linef2' multiply defined.
+
+
+LaTeX Warning: Label `linef3' multiply defined.
+
+
+LaTeX Warning: Label `linef4' multiply defined.
+
 
 LaTeX Warning: Label `ea4' multiply defined.
 
@@ -2395,16 +2411,16 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 ABD: EveryShipout initializing macros
 ("E:\Master1 RSD\Memoire\latex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count433
+\scratchcounter=\count434
 \scratchdimen=\dimen385
 \scratchbox=\box146
-\nofMPsegments=\count434
-\nofMParguments=\count435
+\nofMPsegments=\count435
+\nofMParguments=\count436
 \everyMPshowfont=\toks82
-\MPscratchCnt=\count436
+\MPscratchCnt=\count437
 \MPscratchDim=\dimen386
-\MPnumerator=\count437
-\makeMPintoPDFobject=\count438
+\MPnumerator=\count438
+\makeMPintoPDFobject=\count439
 \everyMPtoPDFconversion=\toks83
 ) ("E:\Master1 RSD\Memoire\latex\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -2473,7 +2489,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("E:\Master1 RSD\Memoire\latex\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count439
+\c@section@level=\count440
 )
 LaTeX Info: Redefining \ref on input line 31.
 LaTeX Info: Redefining \pageref on input line 31.
@@ -2607,10 +2623,6 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9.3599> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
  [1{C:/Users/Etudiant RSD/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 Non-PDF special ignored!
 <special> header=pstricks.pro
@@ -2633,7 +2645,11 @@ Non-PDF special ignored!
  <./img/uc2.png>]
 \openout2 = `remerciement.aux'.
 
- (remerciement.tex [1
+ (remerciement.tex
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
+ [1
+
 
 
 
@@ -2673,6 +2689,9 @@ l.35 		\include{remerciement}
 \openout2 = `resumer.aux'.
 
  (resumer.tex
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 8.
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--14
 
  []
@@ -2691,6 +2710,7 @@ een already used, duplicate ignored
                    \relax 
 l.26 \break
             [1
+
 
 
 
@@ -3438,9 +3458,8 @@ l.24 \end
                    \relax 
 l.24 \end
          {function}
-Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
- []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
@@ -3449,13 +3468,10 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
-Overfull \hbox (16.14621pt too wide) in paragraph at lines 73--74
+Overfull \hbox (16.14621pt too wide) in paragraph at lines 87--88
 \T1/futs/m/n/12 Ètats de l'exemple ([][]3.2.2[][]), les va-leurs des pa-ra-mËtr
 es ‡ tra-vers les rÈ-sul-tats de l'exemple([][]3.2.3[][]).
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
@@ -3557,14 +3573,14 @@ T1/futs/m/n/12 0$ ; $\FML/futm/m/it/12 m[] \FMS/futm/m/n/12 Å \T1/futs/m/n/12
 11\FMS/futm/m/n/12 g$ \T1/futs/m/n/12 ;
  []
 
-)) (contribution/EtapeRedistribution.tex
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54] (contribution/Algorithm_Search_StatesToImport.tex
+[54])) (contribution/EtapeRedistribution.tex
+(contribution/Algorithm_Search_StatesToImport.tex
 Underfull \hbox (badness 5924) in paragraph at lines 28--28
 []|[]\T1/futs/b/n/12 if \T1/futs/m/it/12 ($\T1/futs/m/n/12 (\FML/futm/m/it/12 e
  \FMS/futm/m/n/12 2 \FML/futm/m/it/12 e[]:f\T1/futs/m/n/12 )\FML/futm/m/it/12 a
@@ -3666,56 +3682,56 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.5}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.5}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.6}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.6}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.7}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.7}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.8}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.8}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.9}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.9}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.10}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.10}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.11}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.11}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{AlgoLine.8.12}) has been already used, duplicate ignored
+l.33 
+     pdfTeX warning (ext4): destination with the same identifier (name{AlgoLine
+.8.12}) has been already used, duplicate ignored
 
 \@EveryShipout@Output ...@Org@Shipout \box \@cclv 
                                                   
-l.38 \end{itemize}
-                  ]
+l.33 
+     ]
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
  Make it at least 27.08203pt.
@@ -3766,72 +3782,82 @@ ation with the same identifier (name{AlgoLine.8.1}) has been already used, dupl
 icate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.12}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.13}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
              {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
 me identifier (name{AlgoLine.8.14}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \caption
+l.57 \caption
+             {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
+me identifier (name{AlgoLine.8.15}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \caption
+             {$element(s:state)$}pdfTeX warning (ext4): destination with the sa
+me identifier (name{AlgoLine.8.16}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.57 \caption
              {$element(s:state)$})
 
 Package Fancyhdr Warning: \headheight is too small (17.5pt): 
@@ -3840,6 +3866,7 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [59
+
 
 ] (contribution/Algorithm_ReceveResquest.texpdfTeX warning (ext4): destination 
 with the same identifier (name{AlgoLine.8.1}) has been already used, duplicate 
@@ -3872,7 +3899,7 @@ ready used, duplicate ignored
                    \relax 
 l.14 \caption
              {$Receive\_ Request(states :List of state,MG:state)$})
-<img/skrd.png, id=1543, 329.5512pt x 372.4314pt>
+<img/skrd.png, id=1545, 329.5512pt x 372.4314pt>
 File: img/skrd.png Graphic file (type png)
 <use img/skrd.png>
 Package pdftex.def Info: img/skrd.png  used on input line 62.
@@ -3899,12 +3926,12 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
  This may cause the page layout to be inconsistent, however.
 
 [61 <./img/skrd.png>]
-<img/java.png, id=1557, 109.40875pt x 160.6pt>
+<img/java.png, id=1559, 109.40875pt x 160.6pt>
 File: img/java.png Graphic file (type png)
 <use img/java.png>
 Package pdftex.def Info: img/java.png  used on input line 12.
 (pdftex.def)             Requested size: 44.10446pt x 64.74121pt.
-<img/jade.jpg, id=1559, 200.75pt x 66.2475pt>
+<img/jade.jpg, id=1561, 200.75pt x 66.2475pt>
 File: img/jade.jpg Graphic file (type jpg)
 <use img/jade.jpg>
 Package pdftex.def Info: img/jade.jpg  used on input line 22.
@@ -3914,22 +3941,22 @@ Overfull \hbox (44.10446pt too wide) in paragraph at lines 22--23
  [] 
  []
 
-<img/ida.jpg, id=1562, 72.27pt x 72.27pt>
+<img/ida.jpg, id=1564, 72.27pt x 72.27pt>
 File: img/ida.jpg Graphic file (type jpg)
 <use img/ida.jpg>
 Package pdftex.def Info: img/ida.jpg  used on input line 32.
 (pdftex.def)             Requested size: 44.10446pt x 44.10446pt.
-<img/docker.png, id=1564, 199.74625pt x 171.64125pt>
+<img/docker.png, id=1566, 199.74625pt x 171.64125pt>
 File: img/docker.png Graphic file (type png)
 <use img/docker.png>
 Package pdftex.def Info: img/docker.png  used on input line 43.
 (pdftex.def)             Requested size: 88.2022pt x 75.79213pt.
-<img/neo4j-logo-2015.png, id=1566, 225.84375pt x 100.375pt>
+<img/neo4j-logo-2015.png, id=1568, 225.84375pt x 100.375pt>
 File: img/neo4j-logo-2015.png Graphic file (type png)
 <use img/neo4j-logo-2015.png>
 Package pdftex.def Info: img/neo4j-logo-2015.png  used on input line 54.
 (pdftex.def)             Requested size: 88.2022pt x 39.20122pt.
-<img/graphviz.jpg, id=1568, 186.6975pt x 186.6975pt>
+<img/graphviz.jpg, id=1570, 186.6975pt x 186.6975pt>
 File: img/graphviz.jpg Graphic file (type jpg)
 <use img/graphviz.jpg>
 Package pdftex.def Info: img/graphviz.jpg  used on input line 65.
@@ -3942,27 +3969,27 @@ Package Fancyhdr Warning: \headheight is too small (17.5pt):
 
 [62 <./img/java.png> <./img/jade.jpg> <./img/ida.jpg> <./img/docker.png> <./img
 /neo4j-logo-2015.png>]
-<img/architecture.png, id=1594, 685.05937pt x 205.5178pt>
+<img/architecture.png, id=1596, 685.05937pt x 205.5178pt>
 File: img/architecture.png Graphic file (type png)
 <use img/architecture.png>
 Package pdftex.def Info: img/architecture.png  used on input line 79.
 (pdftex.def)             Requested size: 308.71106pt x 92.61386pt.
-<img/mcapp.png, id=1595, 570.63188pt x 371.13657pt>
+<img/mcapp.png, id=1597, 570.63188pt x 371.13657pt>
 File: img/mcapp.png Graphic file (type png)
 <use img/mcapp.png>
 Package pdftex.def Info: img/mcapp.png  used on input line 85.
 (pdftex.def)             Requested size: 308.71106pt x 200.78452pt.
-<img/apppetrinet.png, id=1596, 919.18407pt x 605.26125pt>
+<img/apppetrinet.png, id=1598, 919.18407pt x 605.26125pt>
 File: img/apppetrinet.png Graphic file (type png)
 <use img/apppetrinet.png>
 Package pdftex.def Info: img/apppetrinet.png  used on input line 91.
 (pdftex.def)             Requested size: 308.71106pt x 203.28326pt.
-<img/clusterdocker.png, id=1597, 964.0818pt x 542.025pt>
+<img/clusterdocker.png, id=1599, 964.0818pt x 542.025pt>
 File: img/clusterdocker.png Graphic file (type png)
 <use img/clusterdocker.png>
 Package pdftex.def Info: img/clusterdocker.png  used on input line 97.
 (pdftex.def)             Requested size: 308.71106pt x 173.55905pt.
-<img/bddneo4j.png, id=1598, 1433.355pt x 505.89pt>
+<img/bddneo4j.png, id=1600, 1433.355pt x 505.89pt>
 File: img/bddneo4j.png Graphic file (type png)
 <use img/bddneo4j.png>
 Package pdftex.def Info: img/bddneo4j.png  used on input line 103.
@@ -4094,13 +4121,13 @@ LaTeX Warning: There were multiply-defined labels.
 ### simple group (level 1) entered at line 22 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 59998 strings out of 492973
- 1289275 string characters out of 3135470
- 1660306 words of memory out of 3000000
- 61775 multiletter control sequences out of 15000+200000
- 752709 words of font info for 217 fonts, out of 3000000 for 9000
+ 60044 strings out of 492973
+ 1289960 string characters out of 3135470
+ 1660720 words of memory out of 3000000
+ 61817 multiletter control sequences out of 15000+200000
+ 748060 words of font info for 214 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,28n,96p,2126b,1336s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 64i,28n,96p,2126b,1340s stack positions out of 5000i,500n,10000p,200000b,50000s
 {E:/Master1 RSD/Memoire/latex/fonts/enc/dvips/base/8r.enc}<E:/M
 aster1 RSD/Memoire/latex/fonts/type1/public/amsfonts/cm/cmtt12.pfb><E:/Master1 
 RSD/Memoire/latex/fonts/type1/public/fourier/fourier-mex.pfb><E:/Master1 RSD/Me
@@ -4110,9 +4137,9 @@ nts/type1/public/amsfonts/symbols/msbm10.pfb><E:/Master1 RSD/Memoire/latex/font
 s/type1/adobe/utopia/putb8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe
 /utopia/putbi8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putr
 8a.pfb><E:/Master1 RSD/Memoire/latex/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Main.pdf (85 pages, 2566398 bytes).
+Output written on Main.pdf (85 pages, 2567602 bytes).
 PDF statistics:
- 2004 PDF objects out of 2073 (max. 8388607)
- 644 named destinations out of 1000 (max. 500000)
+ 2006 PDF objects out of 2073 (max. 8388607)
+ 646 named destinations out of 1000 (max. 500000)
  381 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,12 @@
 \babel@toc {french}{}
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
 \babel@toc {french}{}
 \babel@toc {french}{}
 \babel@toc {english}{}
 \babel@toc {french}{}
+\gdef \the@ipfilectr {}
 \contentsline {chapter}{Table des mati\`eres}{i}{chapter*.5}
 \contentsline {chapter}{Table des figures}{ii}{chapter*.6}
 \contentsline {chapter}{Liste des tableaux}{iii}{chapter*.7}
@@ -53,10 +57,12 @@
 \contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.b}}{43}{subsubsection.3.2.6.2}
 \contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.c}}{48}{subsubsection.3.2.6.3}
 \contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.6.d}}{51}{subsubsection.3.2.6.4}
-\contentsline {subsection}{\numberline {\filterminitoc {3.}2.7}Algorithme de Redistribution }{54}{subsection.3.2.7}
+\contentsline {subsection}{\numberline {\filterminitoc {3.}2.7}Algorithme de Redistribution }{55}{subsection.3.2.7}
 \contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.a}}{55}{subsubsection.3.2.7.1}
 \contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.b}}{56}{subsubsection.3.2.7.2}
-\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.c}}{57}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.c}}{58}{subsubsection.3.2.7.3}
+\gdef \the@ipfilectr {@-3}
+\gdef \the@ipfilectr {}
 \contentsline {subsubsection}{\numberline {\filterminitoc {3.}2.7.d}}{60}{subsubsection.3.2.7.4}
 \contentsline {section}{\numberline {\filterminitoc {3.}3}\IeC {\'E}tude exp\IeC {\'e}rimentale}{61}{section.3.3}
 \contentsline {subsection}{\numberline {\filterminitoc {3.}3.1}Outils de d\IeC {\'e}veloppement}{61}{subsection.3.3.1}

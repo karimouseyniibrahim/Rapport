@@ -37,8 +37,8 @@ Les instructions décrivant la procédure ($Send\_ Request$) sont expliquées co
 			}
  		}
 \nl 		\ElseIf{$e \; \in notifier(S)$}{
-\nl			$states\leftarrow getSucc(s)$\;
-			\ForEach {$e' \in e.f$}{
+\nl			$states\leftarrow getSucc(s)\cup getPredecesseur(s)$\;
+\\			\ForEach {$e' \in e.f$}{
 \nl 				\uIf{$type(e) \ne border$}{
 \nl 					$states\leftarrow states \cup \{ duplicate(e)\}$\;
  				}
@@ -46,7 +46,13 @@ Les instructions décrivant la procédure ($Send\_ Request$) sont expliquées co
 \nl 					$states\leftarrow states \cup \{ e\}$\;
  				}
  			}
- 		} 		  		
+ 		\ForEach {$e' \in states$}{
+ 			\nl 				\If{$e'.limit\cap s.f \ne \emptyset$}{
+ 				\nl 					duplicate(e') in this machine\;	
+ 			}
+ 		}
+ 		} 
+\nl \textbf{return}  $states$		  		
 }
 \caption{$element(s:state)$}
 \end{function}

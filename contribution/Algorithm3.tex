@@ -16,7 +16,7 @@
   $ElementSucc	\longleftarrow\emptyset$\;
   \ForEach{$e'\in succ(e)$}{ \label{linef1}
    		\If{$((e'\nexists e.f)and((e'.f\cap e.f)\ne\emptyset)$ }{\label{linef2}
-    		 	$ElementSucc\longleftarrow ElementSucc\cup\{e'\}\cup \printlcs{e'}$\;\label{linef3}
+    		 	$ElementSucc\longleftarrow ElementSucc\cup\{e'\}\cup getSucess\printlcs{e'}$\;\label{linef3}
     		}
     	}
     	
@@ -25,6 +25,20 @@
 
 Les instructions  de la fonction \s{getSucc} permettent de récupérer les successeurs directs et indirects entre un état et les états dont-il dépend. La ligne \ref{linef1} permet de parcourir les successeurs directs de l'état afin de vérifier leur dépendance avec lui. Cela est faite à la ligne \ref{linef2}.  Lorsque le successeur est en dépendance avec l'état encours, il est ajouté à l'ensemble des successeurs suivi de l'appel de la fonction \s{getSucc} pour le traitement transitif de ses successeurs. Le résultat retourné par cette fonction  est ajouté  à l'ensemble des successeurs. Ces instructions sont exécutées à la ligne \ref{linef3}. Ainsi, la fonction retournera touts les successeurs de l'état en cours à la fin de son exécution.  
 \\
+\begin{function}[h]
+	\setcounter{AlgoLine}{0}
+	\caption{getPredecesseur($e:state$): List of State}  
+	
+	\Begin{
+		$ElementPred	\longleftarrow\emptyset$\;
+		\ForEach{$e'\in predecesseur(e)$}{ \label{linef1}
+			\If{$(((e'.limit\cap e.f) \ne\emptyset)OR((e'.f\cap e.f)\ne\emptyset)$ }{\label{linef2}
+				$ElementPred\longleftarrow ElementPred\cup\{e'\}\cup getPredecesseur(e')$\;\label{linef3}
+			}			
+		}
+		
+		\KwRet ElementPred \;\label{linef4}}
+\end{function}
 
 \begin{algorithm}[h]
 \SetAlgoLined
